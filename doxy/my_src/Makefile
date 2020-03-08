@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cryptotrapper/Desktop/Delete-Later/cs202/lab06-static-lib
+CMAKE_SOURCE_DIR = /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cryptotrapper/Desktop/Delete-Later/cs202/lab06-static-lib
+CMAKE_BINARY_DIR = /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/cs202/lab06-static-lib/CMakeFiles /home/cryptotrapper/Desktop/Delete-Later/cs202/lab06-static-lib/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/cs202/lab06-static-lib/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,57 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STATIC
+# Target rules for targets named komodo-doxybook2
 
 # Build rule for target.
-STATIC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 STATIC
-.PHONY : STATIC
+komodo-doxybook2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 komodo-doxybook2
+.PHONY : komodo-doxybook2
 
 # fast build rule for target.
-STATIC/fast:
-	$(MAKE) -f CMakeFiles/STATIC.dir/build.make CMakeFiles/STATIC.dir/build
-.PHONY : STATIC/fast
-
-#=============================================================================
-# Target rules for targets named LabExample
-
-# Build rule for target.
-LabExample: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LabExample
-.PHONY : LabExample
-
-# fast build rule for target.
-LabExample/fast:
-	$(MAKE) -f CMakeFiles/LabExample.dir/build.make CMakeFiles/LabExample.dir/build
-.PHONY : LabExample/fast
-
-LabStaticLibrary.o: LabStaticLibrary.cpp.o
-
-.PHONY : LabStaticLibrary.o
-
-# target to build an object file
-LabStaticLibrary.cpp.o:
-	$(MAKE) -f CMakeFiles/STATIC.dir/build.make CMakeFiles/STATIC.dir/LabStaticLibrary.cpp.o
-.PHONY : LabStaticLibrary.cpp.o
-
-LabStaticLibrary.i: LabStaticLibrary.cpp.i
-
-.PHONY : LabStaticLibrary.i
-
-# target to preprocess a source file
-LabStaticLibrary.cpp.i:
-	$(MAKE) -f CMakeFiles/STATIC.dir/build.make CMakeFiles/STATIC.dir/LabStaticLibrary.cpp.i
-.PHONY : LabStaticLibrary.cpp.i
-
-LabStaticLibrary.s: LabStaticLibrary.cpp.s
-
-.PHONY : LabStaticLibrary.s
-
-# target to generate assembly for a file
-LabStaticLibrary.cpp.s:
-	$(MAKE) -f CMakeFiles/STATIC.dir/build.make CMakeFiles/STATIC.dir/LabStaticLibrary.cpp.s
-.PHONY : LabStaticLibrary.cpp.s
+komodo-doxybook2/fast:
+	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/build
+.PHONY : komodo-doxybook2/fast
 
 main.o: main.cpp.o
 
@@ -169,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/LabExample.dir/build.make CMakeFiles/LabExample.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -178,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/LabExample.dir/build.make CMakeFiles/LabExample.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -187,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/LabExample.dir/build.make CMakeFiles/LabExample.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -197,12 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... komodo-doxybook2"
 	@echo "... edit_cache"
-	@echo "... STATIC"
-	@echo "... LabExample"
-	@echo "... LabStaticLibrary.o"
-	@echo "... LabStaticLibrary.i"
-	@echo "... LabStaticLibrary.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

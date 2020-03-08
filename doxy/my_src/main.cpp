@@ -5,7 +5,7 @@
 #include <map>
 
 #include "../include/nlohmann/json.hpp"
-#include "../include/Doxybook/ExceptionUtils.hpp"
+// #include "../include/Doxybook/ExceptionUtils.hpp"
 #include "../submodules/doxybook2/include/Doxybook/Doxygen.hpp"
 #include "../submodules/doxybook2/include/Doxybook/Exception.hpp"
 #include "../submodules/doxybook2/include/Doxybook/JsonConverter.hpp"
