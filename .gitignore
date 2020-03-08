@@ -27,4 +27,4 @@ yarn-error.log*
 /.project
 
 # Submodule content
-# /doxy/submodules/*
+doxy/submodules/*
