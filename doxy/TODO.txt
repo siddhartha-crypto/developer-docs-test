@@ -7,3 +7,39 @@
 # Create a master CMake file that allows anyone to simply run CMake and update the live documentation
 # Potentially create a repository/website that holds a temporary version, so that developers can test things out, if needed
 # -- This would require that there be some setting somewhere in the documentation -- possibly in the source code itself -- that sets something to private and is not rendered to the live site
+
+# make Doxygen 
+# cmake -DANTARA_BUILD_DOCS=ON ../
+# .github/workflows/docs.yml
+
+# Build process for Antara Gaming SDK
+# Some script to alter the Doxyfile, or download a different Doxyfile
+# This doxyfile builds the documentation to xml, disables html and latex, and may need to change the output directory
+# mkdir build
+# cd build
+# cmake -DANTARA_BUILD_DOCS=ON ../
+# cmake --build . --config Debug
+# make doxygen
+# the output is in build/docs/doxygen/xml
+
+# Build process for doxybook2 (necessary for nodes that want to compile/update code and do not yet have Doxybook2 installed)
+# Download the project and all of the submodules
+# git clone https://github.com/matusnovak/doxybook2.git
+# cd doxybook2
+# git submodule update --init
+# 
+# # Configure the project
+# mkdir build
+# cd build
+# cmake -G "Unix Makefiles" \
+#     -DDOXYBOOK_TESTS=OFF \
+#     -DDOXYBOOK_STATIC_STDLIB=OFF \
+#     -DBUILD_TESTS=OFF \
+#     -DBUILD_TESTING=OFF \
+#     -DBUILD_SHARED_LIBS=OFF \
+#     -DCMAKE_BUILD_TYPE=MinSizeRel \
+#     ..
+# # Build it
+# cmake --build .
+# 
+# # Done!
