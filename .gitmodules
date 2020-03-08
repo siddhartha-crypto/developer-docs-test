@@ -1,0 +1,8 @@
+[submodule "doxy/submodules/antara-gaming-sdk"]
+	path = doxy/submodules/antara-gaming-sdk
+	url = git@github.com:KomodoPlatform/antara-gaming-sdk.git
+    ignore = all
+[submodule "doxy/submodules/doxybook2"]
+	path = doxy/submodules/doxybook2
+	url = git@github.com:siddhartha-crypto/doxybook2.git
+    ignore = all

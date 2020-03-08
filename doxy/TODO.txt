@@ -17,7 +17,7 @@
 # This doxyfile builds the documentation to xml, disables html and latex, and may need to change the output directory
 # mkdir build
 # cd build
-# cmake -DANTARA_BUILD_DOCS=ON ../
+# cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER="$(which clang)" -DANTARA_BUILD_DOCS=ON ../
 # cmake --build . --config Debug
 # make doxygen
 # the output is in build/docs/doxygen/xml
@@ -43,3 +43,11 @@
 # cmake --build .
 # 
 # # Done!
+
+# How to get the git repo to ignore submodules
+# git config submodule.<your module path>.ignore all
+
+# If you already cloned the project and forgot --recurse-submodules, you can combine the git submodule init and git submodule update steps by running git submodule update --init. To also initialize, fetch and checkout any nested submodules, you can use the foolproof git submodule update --init --recursive.
+
+# To ignore submodules in git repo
+# git config submodule.<your module path>.ignore all
