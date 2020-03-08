@@ -26,4 +26,6 @@ yarn-error.log*
 /docs/.vuepress/dist/
 /.project
 
-# Submodule content
+# CMake Ignore
+CMakeCache.txt
+/doxy/my_src/CMakeFiles
