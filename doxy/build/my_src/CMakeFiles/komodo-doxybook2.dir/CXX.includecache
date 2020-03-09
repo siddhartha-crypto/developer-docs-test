@@ -691,6 +691,10 @@ map
 -
 sstream
 -
+fstream
+-
+string
+-
 Doxybook/Doxygen.hpp
 -
 Doxybook/Exception.hpp
