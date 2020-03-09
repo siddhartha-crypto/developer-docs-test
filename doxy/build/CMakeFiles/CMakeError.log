@@ -1,0 +1,35 @@
+Determining if the strtod_l exist failed with the following output:
+Change Dir: /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f12f6/fast && /usr/bin/make -f CMakeFiles/cmTC_f12f6.dir/build.make CMakeFiles/cmTC_f12f6.dir/build
+make[1]: Entering directory '/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f12f6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f12f6.dir/CheckSymbolExists.c.o   -c /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strtod_l’ undeclared (first use in this function); did you mean ‘strtoull’?
+   return ((int*)(&strtod_l))[argc];
+                   ^~~~~~~~
+                   strtoull
+/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_f12f6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f12f6.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f12f6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f12f6/fast' failed
+make: *** [cmTC_f12f6/fast] Error 2
+
+
+File /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod_l
+  return ((int*)(&strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

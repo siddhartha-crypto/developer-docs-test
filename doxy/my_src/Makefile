@@ -48,24 +48,25 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src
+CMAKE_SOURCE_DIR = /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src
+CMAKE_BINARY_DIR = /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,16 +79,61 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"tinyxml2_config\" \"tinyxml2_headers\" \"tinyxml2_libraries\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles 0
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/CMakeFiles /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/my_src/CMakeFiles/progress.marks
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f CMakeFiles/Makefile2 my_src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f CMakeFiles/Makefile2 my_src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,30 +143,32 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f CMakeFiles/Makefile2 my_src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f CMakeFiles/Makefile2 my_src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named komodo-doxybook2
+# Convenience name for target.
+my_src/CMakeFiles/komodo-doxybook2.dir/rule:
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f CMakeFiles/Makefile2 my_src/CMakeFiles/komodo-doxybook2.dir/rule
+.PHONY : my_src/CMakeFiles/komodo-doxybook2.dir/rule
 
-# Build rule for target.
-komodo-doxybook2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 komodo-doxybook2
+# Convenience name for target.
+komodo-doxybook2: my_src/CMakeFiles/komodo-doxybook2.dir/rule
+
 .PHONY : komodo-doxybook2
 
 # fast build rule for target.
 komodo-doxybook2/fast:
-	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/build
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f my_src/CMakeFiles/komodo-doxybook2.dir/build.make my_src/CMakeFiles/komodo-doxybook2.dir/build
 .PHONY : komodo-doxybook2/fast
 
 main.o: main.cpp.o
@@ -129,7 +177,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/main.cpp.o
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f my_src/CMakeFiles/komodo-doxybook2.dir/build.make my_src/CMakeFiles/komodo-doxybook2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +186,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/main.cpp.i
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f my_src/CMakeFiles/komodo-doxybook2.dir/build.make my_src/CMakeFiles/komodo-doxybook2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +195,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/komodo-doxybook2.dir/build.make CMakeFiles/komodo-doxybook2.dir/main.cpp.s
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(MAKE) -f my_src/CMakeFiles/komodo-doxybook2.dir/build.make my_src/CMakeFiles/komodo-doxybook2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +204,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... komodo-doxybook2"
+	@echo "... install/strip"
 	@echo "... edit_cache"
+	@echo "... komodo-doxybook2"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... install"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -173,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

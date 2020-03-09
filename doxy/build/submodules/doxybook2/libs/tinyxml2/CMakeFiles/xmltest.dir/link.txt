@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/xmltest.dir/xmltest.cpp.o  -o xmltest -Wl,-rpath,/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2 libtinyxml2.so.7.1.0 
