@@ -65,9 +65,9 @@ int main()
 
     fout << "# Gaming SDK Intro" << endl;
 
-    fout << "Title: " << mouseButtonPressedTitle << endl;
-    fout << "Summary: " << mouseButtonPressedSummary << endl;
-    fout << "Brief: " << mouseButtonPressedBrief << endl;
+    fout << "Title: " << mouseButtonPressedTitle << endl << endl;
+    fout << "Summary: " << mouseButtonPressedSummary << endl << endl;
+    fout << "Brief: " << mouseButtonPressedBrief << endl << endl;
     //fout << "Type: " << mouseButtonPressedType << endl;
     //fout << "Base Classes: " << mouseButtonPressedBaseClasses << endl; 
     //fout << "Derived Classes: " << mouseButtonPressedDerivedClasses << endl;
