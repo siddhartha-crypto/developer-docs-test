@@ -41,3 +41,4 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 doxy/build/my_src/CMakeFiles/*
+doxy/*.cmake

@@ -1,2 +1,4 @@
 # Gaming SDK Intro
-mouse.button.pressed.hpp
+Title: button
+Summary: Fields for mouse button pressed. 
+Brief: Fields for mouse button pressed. 

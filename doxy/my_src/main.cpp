@@ -45,11 +45,14 @@ int main()
     const Node& index = doxygen.getIndex();
 
     // Recursive find function via refid. The refid is from the XML files.
-    const auto mouseButtonPressed = index.find("mouse_8button_8pressed_8hpp");
+    const auto mouseButtonPressed = index.find("structantara_1_1gaming_1_1event_1_1mouse__button__pressed_1a4496912647bb2a56ed1f2b92b17a240d");
 
-    string mouseButtonPressedConstructor = mouseButtonPressed->getName();
-
-    cout << "name: " << mouseButtonPressedConstructor << endl;
+    string mouseButtonPressedTitle = mouseButtonPressed->getTitle();
+    string mouseButtonPressedSummary = mouseButtonPressed->getSummary();
+    string mouseButtonPressedBrief = mouseButtonPressed->getBrief();
+    //string mouseButtonPressedType = mouseButtonPressed->getType();
+    //string mouseButtonPressedBaseClasses = mouseButtonPressed->getBaseClasses();
+    //string mouseButtonPressedDerivedClasses = mouseButtonPressed->getDerivedClasses();
 
     string outputFilename = "../../../docs/basic-docs/antara/antara-api/gaming.md";
 
@@ -62,7 +65,12 @@ int main()
 
     fout << "# Gaming SDK Intro" << endl;
 
-    fout << mouseButtonPressedConstructor << endl;
+    fout << "Title: " << mouseButtonPressedTitle << endl;
+    fout << "Summary: " << mouseButtonPressedSummary << endl;
+    fout << "Brief: " << mouseButtonPressedBrief << endl;
+    //fout << "Type: " << mouseButtonPressedType << endl;
+    //fout << "Base Classes: " << mouseButtonPressedBaseClasses << endl; 
+    //fout << "Derived Classes: " << mouseButtonPressedDerivedClasses << endl;
 
     return 0;
 }
