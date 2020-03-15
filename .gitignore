@@ -25,6 +25,7 @@ yarn-error.log*
 # Local build files
 /docs/.vuepress/dist/
 /.project
+/doxy/build
 
 # CMake Ignore
 CMakeCache.txt

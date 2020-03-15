@@ -33,7 +33,7 @@ int main()
     Doxygen doxygen(config);
 
     TextPlainPrinter plainPrinter(config, doxygen);
-    TextMarkdownPrinter markdownPrinter(config, inputDir, doxygen);
+    string myMarkdown = TextMarkdownPrinter markdownPrinter(config, inputDir, doxygen);
 
     // Load and parse the XML files, may take few seconds
     doxygen.load(inputDir);
