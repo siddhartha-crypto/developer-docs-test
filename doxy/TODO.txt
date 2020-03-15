@@ -61,3 +61,6 @@
 #     Run rm -rf .git/modules/path_to_submodule (no trailing slash).
 #     Commit git commit -m "Removed submodule "
 #     Delete the now untracked submodule files rm -rf path_to_submodule
+
+# To run a template-driven build from the /doxy directory
+submodules/doxybook2/build/src/DoxybookCli/doxybook2 --input submodules/antara-gaming-sdk/build/docs/doxygen/xml/ --output outputDir/ --templates ./templates/

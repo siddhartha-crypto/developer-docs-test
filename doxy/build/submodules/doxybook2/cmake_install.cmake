@@ -1,4 +1,4 @@
-# Install script for directory: /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2
+# Install script for directory: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/src/Doxybook/cmake_install.cmake")
-  include("/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/src/DoxybookCli/cmake_install.cmake")
+  include("/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/src/Doxybook/cmake_install.cmake")
+  include("/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/src/DoxybookCli/cmake_install.cmake")
 
 endif()
 

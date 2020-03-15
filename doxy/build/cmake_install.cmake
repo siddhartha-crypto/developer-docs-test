@@ -1,4 +1,4 @@
-# Install script for directory: /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy
+# Install script for directory: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/cmake_install.cmake")
-  include("/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/my_src/cmake_install.cmake")
+  include("/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/cmake_install.cmake")
+  include("/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/my_src/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

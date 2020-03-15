@@ -325,7 +325,7 @@ var sidebar = [
                                ], */
           ["/basic-docs/antara/antara-api/dilithium.md", "Dilithium"],
           ["/basic-docs/antara/antara-api/faucet.md", "Faucet"],
-          // ["/basic-docs/antara/antara-api/gaming.md", "Gaming SDK"],
+          ["/basic-docs/antara/antara-api/gaming.md", "Gaming SDK"],
           ["/basic-docs/antara/antara-api/gateways.md", "Gateways"],
           ["/basic-docs/antara/antara-api/heir.md", "Heir"],
           ["/basic-docs/antara/antara-api/musig.md", "MuSig"],

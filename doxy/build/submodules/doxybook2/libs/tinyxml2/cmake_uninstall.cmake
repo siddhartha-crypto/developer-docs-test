@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt")
-endif(NOT EXISTS "/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt")
+if(NOT EXISTS "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt")
+endif(NOT EXISTS "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt")
 
-file(READ "/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt" files)
+file(READ "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

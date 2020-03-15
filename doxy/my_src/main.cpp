@@ -24,7 +24,7 @@ int main()
     using namespace Doxybook2;
 
     // Where the XML files are stored
-    std::string inputDir = "../../submodules/antara-gaming-sdk/build/docs/doxygen/xml/";
+    std::string inputDir = "../../submodules/antara-gaming-sdk/build/docs/doxygen/xml";
 
     Config config;
     config.baseUrl = "/";
@@ -33,7 +33,7 @@ int main()
     Doxygen doxygen(config);
 
     TextPlainPrinter plainPrinter(config, doxygen);
-    string myMarkdown = TextMarkdownPrinter markdownPrinter(config, inputDir, doxygen);
+    TextMarkdownPrinter markdownPrinter(config, inputDir, doxygen);
 
     // Load and parse the XML files, may take few seconds
     doxygen.load(inputDir);
@@ -47,13 +47,7 @@ int main()
     // Recursive find function via refid. The refid is from the XML files.
     const auto mouseButtonPressed = index.find("structantara_1_1gaming_1_1event_1_1mouse__button__pressed_1a4496912647bb2a56ed1f2b92b17a240d");
 
-    string mouseButtonPressedTitle = mouseButtonPressed->getTitle();
-    string mouseButtonPressedSummary = mouseButtonPressed->getSummary();
-    string mouseButtonPressedBrief = mouseButtonPressed->getBrief();
-    //string mouseButtonPressedType = mouseButtonPressed->getType();
-    //string mouseButtonPressedBaseClasses = mouseButtonPressed->getBaseClasses();
-    //string mouseButtonPressedDerivedClasses = mouseButtonPressed->getDerivedClasses();
-
+    string mouseButtonPressedPrint = mouseButtonPressed.print();
     string outputFilename = "../../../docs/basic-docs/antara/antara-api/gaming.md";
 
     ofstream fout(outputFilename);
@@ -65,12 +59,7 @@ int main()
 
     fout << "# Gaming SDK Intro" << endl;
 
-    fout << "Title: " << mouseButtonPressedTitle << endl << endl;
-    fout << "Summary: " << mouseButtonPressedSummary << endl << endl;
-    fout << "Brief: " << mouseButtonPressedBrief << endl << endl;
-    //fout << "Type: " << mouseButtonPressedType << endl;
-    //fout << "Base Classes: " << mouseButtonPressedBaseClasses << endl; 
-    //fout << "Derived Classes: " << mouseButtonPressedDerivedClasses << endl;
+    fout << "Test: " << mouseButtonPressedPrint << endl << endl;
 
     return 0;
 }

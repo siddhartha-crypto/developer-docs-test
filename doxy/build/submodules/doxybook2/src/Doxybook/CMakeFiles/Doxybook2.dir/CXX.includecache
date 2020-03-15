@@ -1060,7 +1060,7 @@ android/log.h
 assert.h
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Config.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Config.cpp
 fstream
 -
 nlohmann/json.hpp
@@ -1068,9 +1068,9 @@ nlohmann/json.hpp
 Doxybook/Config.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Doxygen.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Doxygen.cpp
 set
 -
 tinyxml2.h
@@ -1088,9 +1088,9 @@ Doxybook/Node.hpp
 Doxybook/Config.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Enums.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Enums.cpp
 unordered_map
 -
 Doxybook/Enums.hpp
@@ -1098,9 +1098,9 @@ Doxybook/Enums.hpp
 Doxybook/Config.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 fmt/format.h
 -
 Doxybook/Exception.hpp
@@ -1110,7 +1110,7 @@ Doxybook/Path.hpp
 Doxybook/Log.hpp
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Generator.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Generator.cpp
 fstream
 -
 Doxybook/Generator.hpp
@@ -1128,11 +1128,11 @@ Doxybook/Exception.hpp
 Doxybook/Utils.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/JsonConverter.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/JsonConverter.cpp
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 Doxybook/Doxygen.hpp
 -
 Doxybook/Exception.hpp
@@ -1148,7 +1148,7 @@ unordered_set
 iostream
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Log.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Log.cpp
 iostream
 -
 termcolor/termcolor.hpp
@@ -1156,7 +1156,7 @@ termcolor/termcolor.hpp
 Doxybook/Log.hpp
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Node.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Node.cpp
 unordered_map
 -
 functional
@@ -1178,11 +1178,11 @@ Doxybook/Log.hpp
 Doxybook/Utils.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 iostream
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Renderer.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Renderer.cpp
 chrono
 -
 inja/inja.hpp
@@ -1198,9 +1198,9 @@ Doxybook/Log.hpp
 Doxybook/Utils.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TemplateDefaultLoader.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TemplateDefaultLoader.cpp
 fstream
 -
 Doxybook/TemplateDefaultLoader.hpp
@@ -1208,9 +1208,9 @@ Doxybook/TemplateDefaultLoader.hpp
 Doxybook/Utils.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TemplateFolderLoader.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TemplateFolderLoader.cpp
 fstream
 -
 Doxybook/TemplateFolderLoader.hpp
@@ -1220,11 +1220,11 @@ Doxybook/Utils.hpp
 Doxybook/Log.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 dirent.h
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TextMarkdownPrinter.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TextMarkdownPrinter.cpp
 sstream
 -
 fstream
@@ -1236,7 +1236,7 @@ Doxybook/Utils.hpp
 Doxybook/Doxygen.hpp
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TextPlainPrinter.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TextPlainPrinter.cpp
 sstream
 -
 Doxybook/TextPlainPrinter.hpp
@@ -1244,7 +1244,7 @@ Doxybook/TextPlainPrinter.hpp
 Doxybook/Utils.hpp
 -
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Utils.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Utils.cpp
 Windows.h
 -
 sys/stat.h
@@ -1262,9 +1262,9 @@ dirent.h
 Doxybook/Utils.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Xml.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Xml.cpp
 tinyxml2.h
 -
 Doxybook/Xml.hpp
@@ -1272,9 +1272,9 @@ Doxybook/Xml.hpp
 Doxybook/Exception.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/XmlTextParser.cpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/XmlTextParser.cpp
 functional
 -
 unordered_map
@@ -1286,5 +1286,5 @@ Doxybook/Log.hpp
 Doxybook/Exception.hpp
 -
 ExceptionUtils.hpp
-/home/cryptotrapper/Desktop/Delete-Later/developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
