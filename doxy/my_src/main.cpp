@@ -55,12 +55,10 @@ nlohmann::json createIndex(const Node& parent) {
 // A custom function to recurisvely create a list of refids for the source code
 void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
 
-    indent++;
-
     for (const auto& child : parent.getChildren()) {
         if (child->getKind() == Kind::NAMESPACE) {
             cout << "Processing: " << child->getName() << endl;
-            createMarkdownFile(os, indent , *child);
+            createMarkdownFile(os, indent + 2, *child);
         } else if (child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
                 cout << "Found class: " << child->getName() << endl;
                 os 
