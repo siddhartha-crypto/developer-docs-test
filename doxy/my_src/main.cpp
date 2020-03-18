@@ -56,20 +56,28 @@ nlohmann::json createIndex(const Node& parent) {
 void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
 
     for (const auto& child : parent.getChildren()) {
+        string curr = "";
         if (child->getKind() == Kind::NAMESPACE) {
-            cout << "Processing: " << child->getName() << endl;
-            createMarkdownFile(os, indent + 2, *child);
-        } else if (child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
-                cout << "Found class: " << child->getName() << endl;
-                os 
-                    << string(indent*2, ' ') << "[\n" << string(indent*2 + 2, ' ') << "\"" << child->getRefid() << "\",\n" 
-                    << string(indent*2 + 2, ' ') 
-                    << "\"" << child->getName() 
-                    << "\",\n" 
-                    << string(indent*2, ' ') 
-                    << "]," 
-                    << endl; 
+            curr += "Namespace: ";
+        } else if (child->getKind() == Kind::CLASS) {
+            curr += "Class:     "; 
+        } else if (child->getKind() == Kind::STRUCT) {
+            curr += "Struct:    "; 
         }
+
+        if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
+            os << string(indent*2, ' ') << "// " << curr << endl;
+            os 
+                << string(indent*2, ' ') << "[\n" << string(indent*2 + 2, ' ') << "\"" << child->getRefid() << "\",\n" 
+                << string(indent*2 + 2, ' ') 
+                << "\"" << child->getName() 
+                << "\",\n" 
+                << string(indent*2, ' ') 
+                << "]," 
+                << endl; 
+        }
+
+        createMarkdownFile(os, indent + 2, *child);
     }
 } 
 
