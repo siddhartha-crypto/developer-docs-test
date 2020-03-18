@@ -1018,18 +1018,6 @@ stdint.h
 
 ../submodules/doxybook2/libs/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
-../submodules/doxybook2/libs/termcolor/include/termcolor/termcolor.hpp
-unistd.h
--
-io.h
--
-windows.h
--
-iostream
--
-cstdio
--
-
 ../submodules/doxybook2/libs/tinyxml2/tinyxml2.h
 ctype.h
 -
@@ -1148,38 +1136,30 @@ unordered_set
 iostream
 -
 
-/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Log.cpp
-iostream
--
-termcolor/termcolor.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Node.cpp
+ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+Doxybook/Exception.hpp
 -
 Doxybook/Log.hpp
 -
-
-/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Node.cpp
-unordered_map
+Doxybook/Node.hpp
 -
-functional
+Doxybook/TextPrinter.hpp
+-
+Doxybook/Utils.hpp
+-
+Doxybook/XmlTextParser.hpp
 -
 cassert
 -
 fmt/format.h
 -
-Doxybook/Node.hpp
+functional
 -
-Doxybook/Exception.hpp
--
-Doxybook/XmlTextParser.hpp
--
-Doxybook/TextPrinter.hpp
--
-Doxybook/Log.hpp
--
-Doxybook/Utils.hpp
--
-ExceptionUtils.hpp
-/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 iostream
+-
+unordered_map
 -
 
 /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/Renderer.cpp
@@ -1225,15 +1205,15 @@ dirent.h
 -
 
 /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TextMarkdownPrinter.cpp
-sstream
--
-fstream
+Doxybook/Doxygen.hpp
 -
 Doxybook/TextMarkdownPrinter.hpp
 -
 Doxybook/Utils.hpp
 -
-Doxybook/Doxygen.hpp
+fstream
+-
+sstream
 -
 
 /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/TextPlainPrinter.cpp
@@ -1275,16 +1255,16 @@ ExceptionUtils.hpp
 /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 
 /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/XmlTextParser.cpp
+ExceptionUtils.hpp
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
+Doxybook/Exception.hpp
+-
+Doxybook/Log.hpp
+-
+Doxybook/XmlTextParser.hpp
+-
 functional
 -
 unordered_map
 -
-Doxybook/XmlTextParser.hpp
--
-Doxybook/Log.hpp
--
-Doxybook/Exception.hpp
--
-ExceptionUtils.hpp
-/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/src/Doxybook/ExceptionUtils.hpp
 

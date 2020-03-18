@@ -1,181 +1,372 @@
----
-title: antara::gaming::sfml::audio_system
-summary: This class allows the customization and play of audio.  
-
----
-
-# antara::gaming::sfml::audio_system
-
-
-
-
-This class allows the customization and play of audio. 
-
-`#include <audio.system.hpp>`
-
-
-Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_1_1gaming_1_1ecs_1_1system.md), [antara::gaming::ecs::base_system](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md)
-
-
-
-
-
-
-
-## Public Functions
-
-|                | Name           |
-| -------------- | -------------- |
-| virtual void | **[update](Classes/classantara_1_1gaming_1_1sfml_1_1audio__system.md#function-update)**() <br>This function destroys and cleans up the sounds which are completed playing.  |
-|  | **[audio_system](Classes/classantara_1_1gaming_1_1sfml_1_1audio__system.md#function-audio_system)**(entt::registry & registry)  |
-
-
-
-
-
-
-## Additional inherited members
-
-
-
-
-
-
-**Public Functions inherited from [antara::gaming::ecs::system< audio_system >](Classes/classantara_1_1gaming_1_1ecs_1_1system.md)**
-
-|                | Name           |
-| -------------- | -------------- |
-| constexpr [system_type](Namespaces/namespaceantara_1_1gaming_1_1ecs.md#enum-system_type) | **[get_system_type](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-get_system_type)**()  |
-| std::string | **[get_class_name](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-get_class_name)**() <br>Public static functions.  |
-| virtual std::string | **[get_name](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-get_name)**() const  |
-| virtual [system_type](Namespaces/namespaceantara_1_1gaming_1_1ecs.md#enum-system_type) | **[get_system_type_rtti](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-get_system_type_rtti)**() const <br>Public member functions.  |
-|  | **[~system](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-~system)**() override <br>Destructor.  |
-|  | **[system](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-system)**(TArgs &&... args) <br>Constructor.  |
-
-
-
-
-
-
-
-
-
-**Public Functions inherited from [antara::gaming::ecs::base_system](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md)**
-
-|                | Name           |
-| -------------- | -------------- |
-| void | **[set_user_data](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-set_user_data)**(void * data)  |
-| void * | **[get_user_data](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-get_user_data)**()  |
-| bool | **[is_a_plugin](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-is_a_plugin)**() const  |
-| void | **[im_a_plugin](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-im_a_plugin)**()  |
-| bool | **[is_enabled](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-is_enabled)**() const  |
-| void | **[disable](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-disable)**()  |
-| void | **[enable](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-enable)**()  |
-| bool | **[is_marked](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-is_marked)**() const  |
-| void | **[unmark](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-unmark)**()  |
-| void | **[mark](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-mark)**()  |
-| virtual [system_type](Namespaces/namespaceantara_1_1gaming_1_1ecs.md#enum-system_type) | **[get_system_type_rtti](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-get_system_type_rtti)**() const =0  |
-| virtual std::string | **[get_name](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-get_name)**() const =0  |
-| virtual void | **[post_update](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-post_update)**()  |
-| virtual  | **[~base_system](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-~base_system)**() =default <br>Destructor.  |
-|  | **[base_system](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#function-base_system)**(entt::registry & entity_registry, bool im_a_plugin_system =false) <br>Constructors.  |
-
-
-
-**Protected Attributes inherited from [antara::gaming::ecs::base_system](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md)**
-
-|                | Name           |
-| -------------- | -------------- |
-| void * | **[user_data_](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#variable-user_data_)**  |
-| entt::dispatcher & | **[dispatcher_](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#variable-dispatcher_)**  |
-| entt::registry & | **[entity_registry_](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md#variable-entity_registry_)** <br>Protected data members.  |
-
-
-
-
-
-
-
-
-## Public Functions Documentation
-
-### function update
-
-```cpp
-virtual void update()
-```
-
-This function destroys and cleans up the sounds which are completed playing. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Reimplements**: [antara::gaming::ecs::system::update](Classes/classantara_1_1gaming_1_1ecs_1_1system.md#function-update)
-
-
-
-
-### function audio_system
-
-```cpp
-audio_system(
-    entt::registry & registry
-)
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--------------------------------
-
-Updated on 14 March 2020 at 22:59:51 AKDT
+  [
+    "structstbi__io__callbacks",
+    "stbi_io_callbacks",
+  ],
+    [
+      "structstd_1_1tuple__element_3_01_i_00_01antara_1_1gaming_1_1math_1_1basic__vector_3_01_unit_00_079edae933b82d84d6807eb250507c42e",
+      "std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mixins... > >",
+    ],
+    [
+      "structstd_1_1tuple__size_3_01antara_1_1gaming_1_1math_1_1basic__vector_3_01_unit_00_01_size_00_01_mixins_8_8_8_01_4_01_4",
+      "std::tuple_size< antara::gaming::math::basic_vector< Unit, Size, Mixins... > >",
+    ],
+        [
+          "structantara_1_1gaming_1_1animation2d_1_1anim__component",
+          "antara::gaming::animation2d::anim_component",
+        ],
+        [
+          "classantara_1_1gaming_1_1animation2d_1_1anim__system",
+          "antara::gaming::animation2d::anim_system",
+        ],
+        [
+          "structantara_1_1gaming_1_1audio_1_1music",
+          "antara::gaming::audio::music",
+        ],
+        [
+          "structantara_1_1gaming_1_1audio_1_1sound__effect",
+          "antara::gaming::audio::sound_effect",
+        ],
+        [
+          "classantara_1_1gaming_1_1blockchain_1_1nspv",
+          "antara::gaming::blockchain::nspv",
+        ],
+        [
+          "structantara_1_1gaming_1_1blockchain_1_1nspv__api",
+          "antara::gaming::blockchain::nspv_api",
+        ],
+        [
+          "structantara_1_1gaming_1_1blockchain_1_1nspv__tx__answer",
+          "antara::gaming::blockchain::nspv_tx_answer",
+        ],
+        [
+          "classantara_1_1gaming_1_1box2d_1_1box2d__system",
+          "antara::gaming::box2d::box2d_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1collisions_1_1basic__collision__system",
+          "antara::gaming::collisions::basic_collision_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1ecs_1_1base__system",
+          "antara::gaming::ecs::base_system",
+        ],
+        [
+          "structantara_1_1gaming_1_1ecs_1_1ftor",
+          "antara::gaming::ecs::ftor",
+        ],
+        [
+          "structantara_1_1gaming_1_1ecs_1_1interpolation__system",
+          "antara::gaming::ecs::interpolation_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1ecs_1_1lambda__system",
+          "antara::gaming::ecs::lambda_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1ecs_1_1system",
+          "antara::gaming::ecs::system",
+        ],
+        [
+          "classantara_1_1gaming_1_1ecs_1_1system__manager",
+          "antara::gaming::ecs::system_manager",
+        ],
+        [
+          "structantara_1_1gaming_1_1ecs_1_1virtual__input__system",
+          "antara::gaming::ecs::virtual_input_system",
+        ],
+          [
+            "structantara_1_1gaming_1_1ecs_1_1event_1_1add__base__system",
+            "antara::gaming::ecs::event::add_base_system",
+          ],
+        [
+          "structantara_1_1gaming_1_1event_1_1canvas__resized",
+          "antara::gaming::event::canvas_resized",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1change__scene",
+          "antara::gaming::event::change_scene",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1fatal__error",
+          "antara::gaming::event::fatal_error",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1fill__image__properties",
+          "antara::gaming::event::fill_image_properties",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1get__mouse__position",
+          "antara::gaming::event::get_mouse_position",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1invoker__dispatcher",
+          "antara::gaming::event::invoker_dispatcher",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1key__pressed",
+          "antara::gaming::event::key_pressed",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1key__released",
+          "antara::gaming::event::key_released",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1load__textures",
+          "antara::gaming::event::load_textures",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1loading__settings",
+          "antara::gaming::event::loading_settings",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1mouse__button__pressed",
+          "antara::gaming::event::mouse_button_pressed",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1mouse__button__released",
+          "antara::gaming::event::mouse_button_released",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1mouse__moved",
+          "antara::gaming::event::mouse_moved",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1quit__game",
+          "antara::gaming::event::quit_game",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1set__mouse__position",
+          "antara::gaming::event::set_mouse_position",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1start__game",
+          "antara::gaming::event::start_game",
+        ],
+        [
+          "structantara_1_1gaming_1_1event_1_1window__resized",
+          "antara::gaming::event::window_resized",
+        ],
+        [
+          "structantara_1_1gaming_1_1geometry_1_1circle",
+          "antara::gaming::geometry::circle",
+        ],
+        [
+          "structantara_1_1gaming_1_1geometry_1_1circle__texture",
+          "antara::gaming::geometry::circle_texture",
+        ],
+        [
+          "structantara_1_1gaming_1_1geometry_1_1rectangle",
+          "antara::gaming::geometry::rectangle",
+        ],
+        [
+          "structantara_1_1gaming_1_1geometry_1_1vertex",
+          "antara::gaming::geometry::vertex",
+        ],
+        [
+          "structantara_1_1gaming_1_1geometry_1_1vertex__array",
+          "antara::gaming::geometry::vertex_array",
+        ],
+        [
+          "classantara_1_1gaming_1_1glfw_1_1graphic__system",
+          "antara::gaming::glfw::graphic_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1glfw_1_1input__system",
+          "antara::gaming::glfw::input_system",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1canvas__2d",
+          "antara::gaming::graphics::canvas_2d",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1color",
+          "antara::gaming::graphics::color",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1drawable__info",
+          "antara::gaming::graphics::drawable_info",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1fill__color",
+          "antara::gaming::graphics::fill_color",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1layer",
+          "antara::gaming::graphics::layer",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1outline__color",
+          "antara::gaming::graphics::outline_color",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1rect",
+          "antara::gaming::graphics::rect",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1rectangle",
+          "antara::gaming::graphics::rectangle",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1render__texture__2d",
+          "antara::gaming::graphics::render_texture_2d",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1sprite",
+          "antara::gaming::graphics::sprite",
+        ],
+        [
+          "structantara_1_1gaming_1_1graphics_1_1text",
+          "antara::gaming::graphics::text",
+        ],
+        [
+          "classantara_1_1gaming_1_1input_1_1virtual__input",
+          "antara::gaming::input::virtual_input",
+        ],
+        [
+          "structantara_1_1gaming_1_1lua_1_1component__script",
+          "antara::gaming::lua::component_script",
+        ],
+        [
+          "classantara_1_1gaming_1_1lua_1_1scripting__system",
+          "antara::gaming::lua::scripting_system",
+        ],
+          [
+            "classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system",
+            "antara::gaming::lua::details::scripted_system",
+          ],
+        [
+          "classantara_1_1gaming_1_1math_1_1basic__vector",
+          "antara::gaming::math::basic_vector",
+        ],
+          [
+            "classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__units",
+            "antara::gaming::math::vector_mixins::access_units",
+          ],
+          [
+            "classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy",
+            "antara::gaming::math::vector_mixins::access_xy",
+          ],
+          [
+            "classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__z",
+            "antara::gaming::math::vector_mixins::access_z",
+          ],
+        [
+          "classantara_1_1gaming_1_1resources_1_1system",
+          "antara::gaming::resources::system",
+        ],
+        [
+          "classantara_1_1gaming_1_1scenes_1_1base__scene",
+          "antara::gaming::scenes::base_scene",
+        ],
+        [
+          "classantara_1_1gaming_1_1scenes_1_1manager",
+          "antara::gaming::scenes::manager",
+        ],
+        [
+          "classantara_1_1gaming_1_1sdl_1_1graphic__system",
+          "antara::gaming::sdl::graphic_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1sdl_1_1input__system",
+          "antara::gaming::sdl::input_system",
+        ],
+        [
+          "structantara_1_1gaming_1_1sdl_1_1opengl__image",
+          "antara::gaming::sdl::opengl_image",
+        ],
+        [
+          "classantara_1_1gaming_1_1sdl_1_1timer",
+          "antara::gaming::sdl::timer",
+        ],
+        [
+          "classantara_1_1gaming_1_1sfml_1_1audio__system",
+          "antara::gaming::sfml::audio_system",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1circle",
+          "antara::gaming::sfml::circle",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1component__sound",
+          "antara::gaming::sfml::component_sound",
+        ],
+        [
+          "classantara_1_1gaming_1_1sfml_1_1graphic__system",
+          "antara::gaming::sfml::graphic_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1sfml_1_1input__system",
+          "antara::gaming::sfml::input_system",
+        ],
+        [
+          "classantara_1_1gaming_1_1sfml_1_1intro__scene",
+          "antara::gaming::sfml::intro_scene",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1intro__scene__factory",
+          "antara::gaming::sfml::intro_scene_factory",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1loader",
+          "antara::gaming::sfml::loader",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1loader_3_01sf_1_1_music_01_4",
+          "antara::gaming::sfml::loader< sf::Music >",
+        ],
+        [
+          "classantara_1_1gaming_1_1sfml_1_1lua__system",
+          "antara::gaming::sfml::lua_system",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1play__sound__event",
+          "antara::gaming::sfml::play_sound_event",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1rectangle",
+          "antara::gaming::sfml::rectangle",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1render__texture",
+          "antara::gaming::sfml::render_texture",
+        ],
+        [
+          "classantara_1_1gaming_1_1sfml_1_1resources__manager",
+          "antara::gaming::sfml::resources_manager",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1sprite",
+          "antara::gaming::sfml::sprite",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1text",
+          "antara::gaming::sfml::text",
+        ],
+        [
+          "structantara_1_1gaming_1_1sfml_1_1vertex__array",
+          "antara::gaming::sfml::vertex_array",
+        ],
+        [
+          "classantara_1_1gaming_1_1timer_1_1time__step",
+          "antara::gaming::timer::time_step",
+        ],
+        [
+          "structantara_1_1gaming_1_1transform_1_1position__2d",
+          "antara::gaming::transform::position_2d",
+        ],
+        [
+          "structantara_1_1gaming_1_1transform_1_1previous__position__2d",
+          "antara::gaming::transform::previous_position_2d",
+        ],
+        [
+          "structantara_1_1gaming_1_1transform_1_1properties",
+          "antara::gaming::transform::properties",
+        ],
+        [
+          "structantara_1_1gaming_1_1transform_1_1ts__rect",
+          "antara::gaming::transform::ts_rect",
+        ],
+        [
+          "classantara_1_1gaming_1_1world_1_1app",
+          "antara::gaming::world::app",
+        ],
