@@ -186,8 +186,7 @@ int main()
     fout << "collapsible: true," << endl;
     fout << "children: [" << endl; 
     createMarkdownFile(fout, 2, index);
-    fout << "    ]" << endl;
-    fout << "  }" << endl;
+    fout << " ]" << endl;
     fout << "};" << endl;
     fout << "module.exports = gamingSidebar;";
 

@@ -10025,7 +10025,6 @@ children: [
                                                                 "antara::gaming::world::app",
                                                               ],
                                                             ],
-    ]
-  }
+ ]
 };
 module.exports = gamingSidebar;
