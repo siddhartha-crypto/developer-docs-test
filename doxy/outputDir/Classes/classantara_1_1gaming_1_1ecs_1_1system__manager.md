@@ -30,6 +30,7 @@ This class allows the manipulation of systems, the addition, deletion, update of
 | auto | **[load_systems](Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md#function-load_systems)**(TArgs &&... args) <br>This function load a bunch os systems.  |
 | void | **[create_system_rt](Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md#function-create_system_rt)**(TSystemArgs &&... args) <br>TODO: Document it.  |
 | TSystem & | **[create_system](Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md#function-create_system)**(TSystemArgs &&... args) <br>This function allow you to create a system with the given argument.
+
  This function is a factory.  |
 | std::size_t | **[nb_systems](Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md#function-nb_systems)**([system_type](Namespaces/namespaceantara_1_1gaming_1_1ecs.md#enum-system_type) sys_type) const <br>This function returns the system number of a certain type to register in the system manager.  |
 | std::size_t | **[nb_systems](Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md#function-nb_systems)**() const <br>This function returns the number of systems registered in the system manager.  |
@@ -246,6 +247,7 @@ TSystem & create_system(
 ```
 
 This function allow you to create a system with the given argument.
+
  This function is a factory. 
 
 
@@ -1469,4 +1471,4 @@ int main()
 
 -------------------------------
 
-Updated on 14 March 2020 at 22:59:50 AKDT
+Updated on 18 March 2020 at 16:53:30 AKDT

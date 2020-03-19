@@ -1,3 +1,4 @@
+var gamingSidebarImport = require('./gaming-sdk-sidebar.js');
 var sidebar = [
   {
     title: "Start Here",
@@ -338,7 +339,8 @@ var sidebar = [
           ["/basic-docs/antara/antara-api/sudoku.md", "Sudoku"],
           ["/basic-docs/antara/antara-api/tokens.md", "Tokens"]
         ]
-      }
+      },
+      gamingSidebarImport,
     ]
   },
   {

@@ -54,6 +54,21 @@ nlohmann::json createIndex(const Node& parent) {
 
 // A custom function to recurisvely create a list of refids for the source code
 void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
+    // os << parent.getChildren().size() << endl;
+    int numChildren = (int)parent.getChildren().size();
+    bool childHasValidType = false;
+
+    if (numChildren > 0) {
+        for (const auto& child : parent.getChildren()) {
+            if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::STRUCT || child->getKind() == Kind::CLASS) {
+                childHasValidType = true;
+            }
+        }
+    }
+
+    if (childHasValidType && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT)) {
+        os << string(indent*2, ' ') << "[" << endl;
+    }
 
     for (const auto& child : parent.getChildren()) {
         string curr = "";
@@ -66,19 +81,61 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
         }
 
         if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
-            os << string(indent*2, ' ') << "// " << curr << endl;
+            string childKindStr;
+            switch (child-> getKind()) {
+                case Kind::NAMESPACE:
+                    childKindStr = "Namespaces/";
+                    break;
+                case Kind::CLASS:
+                    childKindStr = "Classes/";
+                    break;
+                case Kind::STRUCT:
+                    childKindStr = "Classes/";
+                    break;
+                default:
+                    "This error should not occur. Please contact the developer.";
+                    exit(0);
+            }
+
+            os << string(indent*2 + 2, ' ') << "// " << curr << endl;
             os 
-                << string(indent*2, ' ') << "[\n" << string(indent*2 + 2, ' ') << "\"" << child->getRefid() << "\",\n" 
-                << string(indent*2 + 2, ' ') 
+                << string(indent*2 + 2, ' ') << "[" << endl;
+            os
+                << string(indent*2 + 4, ' ') 
+                << "\"" << "/basic-docs/antara/antara-gaming-sdk/"
+                << childKindStr
+                << child->getRefid() 
+                << "\"," << endl;
+            os
+                << string(indent*2 + 4, ' ') 
                 << "\"" << child->getName() 
-                << "\",\n" 
-                << string(indent*2, ' ') 
-                << "]," 
-                << endl; 
+                << "\"," << endl;
+            os 
+                << string(indent*2 + 2, ' ') << "]," << endl; 
+        } 
+
+        auto test = createIndex(*child);
+
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT)) { 
+            
+            os << string(indent*2 + 2, ' ') << "{" << endl;
+                os << string(indent*2 + 4, ' ') << "Title: \"" << parent.getName() << "\"," << endl;
+                os << string(indent*2 + 4, ' ') << "collapsible: true," << endl;
+                os << string(indent*2 + 4, ' ') << "children:" << endl; 
         }
 
-        createMarkdownFile(os, indent + 2, *child);
+        createMarkdownFile(os, indent + 4, *child);
+
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT)) { 
+            
+            os << string(indent*2 + 2, ' ') << "}," << endl;
+        }
     }
+
+    if (childHasValidType && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT)) {
+        os << string(indent*2, ' ') << "]," << endl;
+    }
+
 } 
 
 int main()
@@ -115,7 +172,7 @@ int main()
     // const auto mouseButtonPressed = index.find("structantara_1_1gaming_1_1event_1_1mouse__button__pressed_1a4496912647bb2a56ed1f2b92b17a240d");
 
     // string mouseButtonPressedPrint = mouseButtonPressed.print();
-    string outputFilename = "../../../docs/basic-docs/antara/antara-api/gaming.md";
+    string outputFilename = "../../../docs/.vuepress/gaming-sdk-sidebar-test.js";
 
     ofstream fout(outputFilename);
 
@@ -124,7 +181,15 @@ int main()
         exit(0);
     }
 
-    createMarkdownFile(fout, 0, index);
+    fout << "var gamingSidebar = {" << endl;
+    fout << "title: \"Antara Gaming SDK\"," << endl;
+    fout << "collapsible: true," << endl;
+    fout << "children: [" << endl; 
+    createMarkdownFile(fout, 2, index);
+    fout << "    ]" << endl;
+    fout << "  }" << endl;
+    fout << "};" << endl;
+    fout << "module.exports = gamingSidebar;";
 
 
     // fout << "# Gaming SDK Intro" << endl;
