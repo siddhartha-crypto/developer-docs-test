@@ -172,7 +172,7 @@ int main()
     // const auto mouseButtonPressed = index.find("structantara_1_1gaming_1_1event_1_1mouse__button__pressed_1a4496912647bb2a56ed1f2b92b17a240d");
 
     // string mouseButtonPressedPrint = mouseButtonPressed.print();
-    string outputFilename = "../../../docs/.vuepress/gaming-sdk-sidebar-test.js";
+    string outputFilename = "../../../docs/.vuepress/gaming-sdk-sidebar.js";
 
     ofstream fout(outputFilename);
 
