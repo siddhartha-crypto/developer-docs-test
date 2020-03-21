@@ -97,8 +97,8 @@ Doxybook2Cli_EXTERNAL_OBJECTS =
 submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/src/DoxybookCli/CMakeFiles/Doxybook2Cli.dir/main.cpp.o
 submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/src/DoxybookCli/CMakeFiles/Doxybook2Cli.dir/build.make
 submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/src/Doxybook/libdoxybook2.a
-submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/libs/fmt/libfmt.so.6.0.0
-submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/libs/tinyxml2/libtinyxml2.so.7.1.0
+submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/libs/fmt/libfmtd.so.6.0.0
+submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/libs/tinyxml2/libtinyxml2d.so.7.1.0
 submodules/doxybook2/src/DoxybookCli/doxybook2: submodules/doxybook2/src/DoxybookCli/CMakeFiles/Doxybook2Cli.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable doxybook2"
 	cd /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/src/DoxybookCli && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Doxybook2Cli.dir/link.txt --verbose=$(VERBOSE)

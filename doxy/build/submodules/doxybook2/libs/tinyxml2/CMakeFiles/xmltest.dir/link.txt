@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/xmltest.dir/xmltest.cpp.o  -o xmltest  -Wl,-rpath,/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2 libtinyxml2.so.7.1.0 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/xmltest.dir/xmltest.cpp.o  -o xmltest  -Wl,-rpath,/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2 libtinyxml2d.so.7.1.0 

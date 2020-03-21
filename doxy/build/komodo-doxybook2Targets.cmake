@@ -49,11 +49,11 @@ set_target_properties(tinyxml2 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/doxybook2/libs/tinyxml2"
 )
 
-# Import target "tinyxml2" for configuration "Release"
-set_property(TARGET tinyxml2 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+# Import target "tinyxml2" for configuration "Debug"
+set_property(TARGET tinyxml2 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(tinyxml2 PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/libtinyxml2.so.7.1.0"
-  IMPORTED_SONAME_RELEASE "libtinyxml2.so.7"
+  IMPORTED_LOCATION_DEBUG "/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2/libtinyxml2d.so.7.1.0"
+  IMPORTED_SONAME_DEBUG "libtinyxml2d.so.7"
   )
 
 # This file does not depend on other imported targets which have

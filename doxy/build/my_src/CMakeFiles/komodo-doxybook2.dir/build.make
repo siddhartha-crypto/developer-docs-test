@@ -97,8 +97,8 @@ komodo__doxybook2_EXTERNAL_OBJECTS =
 my_src/komodo-doxybook2: my_src/CMakeFiles/komodo-doxybook2.dir/main.cpp.o
 my_src/komodo-doxybook2: my_src/CMakeFiles/komodo-doxybook2.dir/build.make
 my_src/komodo-doxybook2: submodules/doxybook2/src/Doxybook/libdoxybook2.a
-my_src/komodo-doxybook2: submodules/doxybook2/libs/fmt/libfmt.so.6.0.0
-my_src/komodo-doxybook2: submodules/doxybook2/libs/tinyxml2/libtinyxml2.so.7.1.0
+my_src/komodo-doxybook2: submodules/doxybook2/libs/fmt/libfmtd.so.6.0.0
+my_src/komodo-doxybook2: submodules/doxybook2/libs/tinyxml2/libtinyxml2d.so.7.1.0
 my_src/komodo-doxybook2: my_src/CMakeFiles/komodo-doxybook2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable komodo-doxybook2"
 	cd /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/my_src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/komodo-doxybook2.dir/link.txt --verbose=$(VERBOSE)

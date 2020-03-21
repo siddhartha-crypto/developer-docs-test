@@ -96,7 +96,7 @@ xmltest_EXTERNAL_OBJECTS =
 
 submodules/doxybook2/libs/tinyxml2/xmltest: submodules/doxybook2/libs/tinyxml2/CMakeFiles/xmltest.dir/xmltest.cpp.o
 submodules/doxybook2/libs/tinyxml2/xmltest: submodules/doxybook2/libs/tinyxml2/CMakeFiles/xmltest.dir/build.make
-submodules/doxybook2/libs/tinyxml2/xmltest: submodules/doxybook2/libs/tinyxml2/libtinyxml2.so.7.1.0
+submodules/doxybook2/libs/tinyxml2/xmltest: submodules/doxybook2/libs/tinyxml2/libtinyxml2d.so.7.1.0
 submodules/doxybook2/libs/tinyxml2/xmltest: submodules/doxybook2/libs/tinyxml2/CMakeFiles/xmltest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable xmltest"
 	cd /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/build/submodules/doxybook2/libs/tinyxml2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmltest.dir/link.txt --verbose=$(VERBOSE)

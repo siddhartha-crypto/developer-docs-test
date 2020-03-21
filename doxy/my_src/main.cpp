@@ -53,8 +53,20 @@ nlohmann::json createIndex(const Node& parent) {
 }
 
 // A custom function to recurisvely create a list of refids for the source code
-void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
-    // os << parent.getChildren().size() << endl;
+void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int depth) {
+
+    ++depth;
+
+    if (depth > 3) return;
+
+    string parentKind = Doxybook2::toStr(parent.getKind());
+
+    string parentName = parent.getName();
+
+    if (parentName.find('@') != std::string::npos) {
+        return;
+    }
+
     int numChildren = (int)parent.getChildren().size();
     bool childHasValidType = false;
 
@@ -71,6 +83,9 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
     }
 
     for (const auto& child : parent.getChildren()) {
+        string childName = child->getName();
+        if (childName.find('@') != std::string::npos) return;
+
         string curr = "";
         if (child->getKind() == Kind::NAMESPACE) {
             curr += "Namespace: ";
@@ -102,7 +117,7 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
                 << string(indent*2 + 2, ' ') << "[" << endl;
             os
                 << string(indent*2 + 4, ' ') 
-                << "\"" << "/basic-docs/antara/antara-gaming-sdk/"
+                << "\"" << "/basic-docs/antara-gaming-sdk/"
                 << childKindStr
                 << child->getRefid() 
                 << "\"," << endl;
@@ -116,17 +131,30 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent) {
 
         auto test = createIndex(*child);
 
-        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT)) { 
+        // Something is happening in here. This is coming up false, but later
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
             
+            if (parentName == "") {
+                parentName = "Blank Name";
+            }
+
+            if (depth > 2) {
+                os << string(indent*2 + 2, ' ') << "]" << endl;
+                return;
+            }
             os << string(indent*2 + 2, ' ') << "{" << endl;
-                os << string(indent*2 + 4, ' ') << "Title: \"" << parent.getName() << "\"," << endl;
+                os << string(indent*2 + 4, ' ') << "Title: \"" << parentName << "\"," << endl;
                 os << string(indent*2 + 4, ' ') << "collapsible: true," << endl;
                 os << string(indent*2 + 4, ' ') << "children:" << endl; 
         }
 
-        createMarkdownFile(os, indent + 4, *child);
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+            createMarkdownFile(os, indent + 4, *child, depth);
+        } else if (!test.empty()) {
+            os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
+        }
 
-        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT)) { 
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
             
             os << string(indent*2 + 2, ' ') << "}," << endl;
         }
@@ -182,10 +210,10 @@ int main()
     }
 
     fout << "var gamingSidebar = {" << endl;
-    fout << "title: \"Antara Gaming SDK\"," << endl;
-    fout << "collapsible: true," << endl;
-    fout << "children: [" << endl; 
-    createMarkdownFile(fout, 2, index);
+    fout << "  title: \"Antara Gaming SDK\"," << endl;
+    fout << "  collapsible: true," << endl;
+    fout << "  children: [" << endl; 
+    createMarkdownFile(fout, 2, index, 0);
     fout << " ]" << endl;
     fout << "};" << endl;
     fout << "module.exports = gamingSidebar;";

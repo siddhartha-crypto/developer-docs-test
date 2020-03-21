@@ -64,3 +64,5 @@
 
 # To run a template-driven build from the /doxy directory
 submodules/doxybook2/build/src/DoxybookCli/doxybook2 --input submodules/antara-gaming-sdk/build/docs/doxygen/xml/ --output outputDir/ --templates ./templates/
+
+# Create a part of the script that removes the @117 or @### type files in Namespaces

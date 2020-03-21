@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libfmt.so.6 -o libfmt.so.6.0.0 CMakeFiles/fmt.dir/src/format.cc.o CMakeFiles/fmt.dir/src/posix.cc.o  -Wl,--as-needed 
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libfmtd.so.6 -o libfmtd.so.6.0.0 CMakeFiles/fmt.dir/src/format.cc.o CMakeFiles/fmt.dir/src/posix.cc.o  -Wl,--as-needed 
