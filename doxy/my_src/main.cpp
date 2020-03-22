@@ -171,24 +171,6 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int d
 } 
 
 void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent) {
-
-    string parentName = parent.getName();
-
-    if (parentName != "antara::gaming") {
-        for (auto child : parent.getChildren()) {
-            createNamespaceFiles(file, hashCount, *child);
-        }
-        return;
-    } else if (parentName.find("antara::gamin") == std::string::npos) {
-        return;
-    }
-
-    if (parentName.find('@') != std::string::npos) {
-        return;
-    }
-
-    string parentKind = Doxybook2::toStr(parent.getKind()); 
-
     int numChildren = (int)parent.getChildren().size();
     bool childHasValidType = false;
 
@@ -200,15 +182,33 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent) {
         }
     }
 
+    string parentName = parent.getName();
+
+    if (!childHasValidType) {
+        return;
+    } else if (parentName == "antara::gaming" || childHasValidType && parentName.find("antara::gaming") == std::string::npos) {
+        for (auto child : parent.getChildren()) {
+            createNamespaceFiles(file, hashCount, *child);
+        }
+        return;
+    }
+
+
+    if (parentName.find('@') != std::string::npos) {
+        return;
+    }
+
+    string parentKind = Doxybook2::toStr(parent.getKind()); 
+
     for (const auto& child : parent.getChildren()) {
+
         // Determine if we are on the main antara::gaming::CLASS level
         // or if we are on a lower level
         // If on main level, create new file stream and begin saving all values to it
-        // If lower, do not create new file stream, but begin saving all values to existing filestream
-
+        // If lower, do not create new file stream, but begin saving all values to existing filestream 
         if (count(parentName.begin(), parentName.end(), ':') == 4) {
             size_t firstInstance = parentName.find_first_of(':');
-            string filename = parentName.substr((int)firstInstance, (int)(int)(int)(int)(int)(int)(int)(int)parentName.size());
+            string filename = parentName.substr((int)firstInstance, (int)parentName.size());
             string prefix = "../../docs/basic-docs/antara-gaming-sdk";
             filename = prefix + filename + ".md";
         }
