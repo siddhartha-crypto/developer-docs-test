@@ -170,13 +170,16 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int d
 
 } 
 
-void createNamespaceFiles(ostream& file, int hashCount, const Node& parent) {
+void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent) {
 
     string parentName = parent.getName();
 
     if (parentName != "antara::gaming") {
-        createNamespaceFiles(file, hashCount, parent);
-    } else if (parentName.find("antara::gaming") == std::string::npos) {
+        for (auto child : parent.getChildren()) {
+            createNamespaceFiles(file, hashCount, *child);
+        }
+        return;
+    } else if (parentName.find("antara::gamin") == std::string::npos) {
         return;
     }
 
@@ -204,87 +207,87 @@ void createNamespaceFiles(ostream& file, int hashCount, const Node& parent) {
         // If lower, do not create new file stream, but begin saving all values to existing filestream
 
         if (count(parentName.begin(), parentName.end(), ':') == 4) {
-            string::iterator it = parentName.begin();
-            std::size_t pos = parentName.find_last_of(':');
-            it += pos;
+            size_t firstInstance = parentName.find_first_of(':');
+            string filename = parentName.substr((int)firstInstance, (int)(int)(int)(int)(int)(int)(int)(int)parentName.size());
+            string prefix = "../../docs/basic-docs/antara-gaming-sdk";
+            filename = prefix + filename + ".md";
+        }
+
+        // string childName = child->getName();
+        // if (childName.find('@') != std::string::npos) return;
+
+        // string curr = "";
+        // if (child->getKind() == Kind::NAMESPACE) {
+            // curr += "Namespace: ";
+        // } else if (child->getKind() == Kind::CLASS) {
+            // curr += "Class:     "; 
+        // } else if (child->getKind() == Kind::STRUCT) {
+            // curr += "Struct:    "; 
+        // }
+
+        // if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
+            // string childKindStr;
+            // switch (child-> getKind()) {
+                // case Kind::NAMESPACE:
+                    // childKindStr = "Namespaces/";
+                    // break;
+                // case Kind::CLASS:
+                    // childKindStr = "Classes/";
+                    // break;
+                // case Kind::STRUCT:
+                    // childKindStr = "Classes/";
+                    // break;
+                // default:
+                    // "This error should not occur. Please contact the developer.";
+                    // exit(0);
+            // }
+
+            // os << string(indent*2 + 2, ' ') << "// " << curr << endl;
+            // os 
+                // << string(indent*2 + 2, ' ') << "[" << endl;
+            // os
+                // << string(indent*2 + 4, ' ') 
+                // << "\"" << "/basic-docs/antara-gaming-sdk/"
+                // << childKindStr
+                // << child->getRefid() 
+                // << "\"," << endl;
+            // os
+                // << string(indent*2 + 4, ' ') 
+                // << "\"" << child->getName() 
+                // << "\"," << endl;
+            // os 
+                // << string(indent*2 + 2, ' ') << "]," << endl; 
+        // } 
+
+        // auto test = createIndex(*child);
+
+        // // Something is happening in here. This is coming up false, but later
+        // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
             
-        }
+            // if (parentName == "") {
+                // parentName = "Blank Name";
+            // }
 
-        string childName = child->getName();
-        if (childName.find('@') != std::string::npos) return;
+            // if (depth > 2) {
+                // os << string(indent*2 + 2, ' ') << "]" << endl;
+                // return;
+            // }
+            // os << string(indent*2 + 2, ' ') << "{" << endl;
+                // os << string(indent*2 + 4, ' ') << "Title: \"" << parentName << "\"," << endl;
+                // os << string(indent*2 + 4, ' ') << "collapsible: true," << endl;
+                // os << string(indent*2 + 4, ' ') << "children:" << endl; 
+        // }
 
-        string curr = "";
-        if (child->getKind() == Kind::NAMESPACE) {
-            curr += "Namespace: ";
-        } else if (child->getKind() == Kind::CLASS) {
-            curr += "Class:     "; 
-        } else if (child->getKind() == Kind::STRUCT) {
-            curr += "Struct:    "; 
-        }
+        // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+            // createMarkdownFile(os, indent + 4, *child, depth);
+        // } else if (!test.empty()) {
+            // os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
+        // }
 
-        if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
-            string childKindStr;
-            switch (child-> getKind()) {
-                case Kind::NAMESPACE:
-                    childKindStr = "Namespaces/";
-                    break;
-                case Kind::CLASS:
-                    childKindStr = "Classes/";
-                    break;
-                case Kind::STRUCT:
-                    childKindStr = "Classes/";
-                    break;
-                default:
-                    "This error should not occur. Please contact the developer.";
-                    exit(0);
-            }
-
-            os << string(indent*2 + 2, ' ') << "// " << curr << endl;
-            os 
-                << string(indent*2 + 2, ' ') << "[" << endl;
-            os
-                << string(indent*2 + 4, ' ') 
-                << "\"" << "/basic-docs/antara-gaming-sdk/"
-                << childKindStr
-                << child->getRefid() 
-                << "\"," << endl;
-            os
-                << string(indent*2 + 4, ' ') 
-                << "\"" << child->getName() 
-                << "\"," << endl;
-            os 
-                << string(indent*2 + 2, ' ') << "]," << endl; 
-        } 
-
-        auto test = createIndex(*child);
-
-        // Something is happening in here. This is coming up false, but later
-        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+        // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
             
-            if (parentName == "") {
-                parentName = "Blank Name";
-            }
-
-            if (depth > 2) {
-                os << string(indent*2 + 2, ' ') << "]" << endl;
-                return;
-            }
-            os << string(indent*2 + 2, ' ') << "{" << endl;
-                os << string(indent*2 + 4, ' ') << "Title: \"" << parentName << "\"," << endl;
-                os << string(indent*2 + 4, ' ') << "collapsible: true," << endl;
-                os << string(indent*2 + 4, ' ') << "children:" << endl; 
-        }
-
-        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
-            createMarkdownFile(os, indent + 4, *child, depth);
-        } else if (!test.empty()) {
-            os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
-        }
-
-        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
-            
-            os << string(indent*2 + 2, ' ') << "}," << endl;
-        }
+            // os << string(indent*2 + 2, ' ') << "}," << endl;
+        // }
     }
 }
 
@@ -340,6 +343,7 @@ int main()
     fout << "};" << endl;
     fout << "module.exports = gamingSidebar;";
 
+    createNamespaceFiles(fout, 0, index);
 
     // fout << "# Gaming SDK Intro" << endl;
 

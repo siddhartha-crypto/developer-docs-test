@@ -753,6 +753,12 @@ fstream
 -
 string
 -
+algorithm
+-
+iterator
+-
+cstddef
+-
 Doxybook/Doxygen.hpp
 -
 Doxybook/Exception.hpp
