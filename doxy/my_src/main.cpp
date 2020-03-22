@@ -30,6 +30,7 @@
 #include <Doxybook/XmlTextParser.hpp>
 
 using std::string;
+using std::vector;
 using std::cout;
 using std::endl;
 using std::ofstream;
@@ -57,7 +58,7 @@ nlohmann::json createIndex(const Node& parent) {
 }
 
 // A custom function to recurisvely create a list of refids for the source code
-void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int depth) {
+void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int depth, vector<string> fileNames) {
 
     ++depth;
 
@@ -153,7 +154,7 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int d
         }
 
         if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
-            createMarkdownFile(os, indent + 4, *child, depth);
+            createMarkdownFile(os, indent + 4, *child, depth, fileNames);
         } else if (!test.empty()) {
             os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
         }
@@ -170,7 +171,7 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int d
 
 } 
 
-void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent) {
+void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vector<string> fileNames) {
     int numChildren = (int)parent.getChildren().size();
     bool childHasValidType = false;
 
@@ -188,7 +189,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent) {
         return;
     } else if (parentName == "antara::gaming" || childHasValidType && parentName.find("antara::gaming") == std::string::npos) {
         for (auto child : parent.getChildren()) {
-            createNamespaceFiles(file, hashCount, *child);
+            createNamespaceFiles(file, hashCount, *child, fileNames);
         }
         return;
     }
@@ -207,10 +208,11 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent) {
         // If on main level, create new file stream and begin saving all values to it
         // If lower, do not create new file stream, but begin saving all values to existing filestream 
         if (count(parentName.begin(), parentName.end(), ':') == 4) {
-            size_t firstInstance = parentName.find_first_of(':');
-            string filename = parentName.substr((int)firstInstance, (int)parentName.size());
-            string prefix = "../../docs/basic-docs/antara-gaming-sdk";
+            size_t lastInstance = parentName.find_last_of(':');
+            string filename = parentName.substr((int)(++lastInstance), (int)parentName.size());
+            string prefix = "../../docs/basic-docs/antara-gaming-sdk/";
             filename = prefix + filename + ".md";
+            string test;
         }
 
         // string childName = child->getName();
@@ -334,16 +336,20 @@ int main()
         exit(0);
     }
 
+    // Create Namespace Files
+    vector<string> fileNames;
+    createNamespaceFiles(fout, 0, index, fileNames);
+
+    // Create Sidebar Navigation File
     fout << "var gamingSidebar = {" << endl;
     fout << "  title: \"Antara Gaming SDK\"," << endl;
     fout << "  collapsible: true," << endl;
     fout << "  children: [" << endl; 
-    createMarkdownFile(fout, 0, index, -3);
+    createMarkdownFile(fout, 0, index, -3, fileNames);
     fout << " ]" << endl;
     fout << "};" << endl;
     fout << "module.exports = gamingSidebar;";
 
-    createNamespaceFiles(fout, 0, index);
 
     // fout << "# Gaming SDK Intro" << endl;
 
