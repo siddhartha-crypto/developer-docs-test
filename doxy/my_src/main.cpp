@@ -245,50 +245,51 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
             // curr += "Struct:    "; 
         // }
 
-        if (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT){
-            string childKindStr;
-            switch (child-> getKind()) {
-                case Kind::NAMESPACE:
-                    childKindStr = "Namespaces/";
-                    break;
-                case Kind::CLASS:
-                    childKindStr = "Classes/";
-                    break;
-                case Kind::STRUCT:
-                    childKindStr = "Classes/";
-                    break;
-                default:
-                    "This error should not occur. Please contact the developer.";
-                    exit(0);
+        string childKindStr;
+        switch (child->getKind()) {
+            case Kind::NAMESPACE:
+                childKindStr = "Namespaces/";
+                break;
+            case Kind::CLASS:
+                childKindStr = "Classes/";
+                break;
+            case Kind::STRUCT:
+                childKindStr = "Classes/";
+                break;
+            default:
+                // If this is not the type of node we are searching for
+                // End this cycle of the for() loop so as not to print
+                // to the output stream content that is not relevant
+                // TODO: ?
+                continue;
+        }
+
+        // Read in content from existing file
+        // TODO: Need an input directory declared somewhere in a config file...
+        string fileLocation = "../../outputDir/";
+        string fileUrl = child->getRefid();
+        fileLocation = fileLocation + childKindStr + fileUrl;
+        ifstream fin(fileLocation);
+
+        if (!fin) {
+            cout << "Error reading input file: " << fileLocation << endl;
+            exit(0);
+        }
+
+        // TODO: Add hashes to name
+        // TODO: Create initial layout for everything, if the templates can't handle it already
+        string inputLine;
+        while (true) {
+            getline(fin, inputLine);
+
+            file << inputLine << endl;
+
+            if (fin.eof()) {
+                break;
             }
+        }
 
-            // Read in content from existing file
-            // TODO: Need an input directory declared somewhere in a config file...
-            string fileLocation = "../outputDir/";
-            string fileUrl = child->getRefid();
-            fileLocation = fileLocation + childKindStr + fileUrl;
-            ifstream fin(fileLocation);
-
-            if (!fin) {
-                cout << "Error reading input file: " << fileLocation << endl;
-                exit(0);
-            }
-
-            // TODO: Add hashes to name
-            // TODO: Create initial layout for everything, if the templates can't handle it already
-            string inputLine;
-            while (true) {
-                getline(fin, inputLine);
-
-                file << inputLine << endl;
-
-                if (fin.eof()) {
-                    break;
-                }
-            }
-
-            file << "\n" << endl;
-        } 
+        file << "\n" << endl;
 
         auto test = createIndex(*child);
 
