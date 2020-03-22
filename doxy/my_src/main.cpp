@@ -6,6 +6,9 @@
 #include <sstream>
 #include <fstream>
 #include <string> 
+#include <algorithm> // std::count for instances of char in string
+#include <iterator> 
+#include <cstddef>
 
 #include <Doxybook/Doxygen.hpp>
 #include <Doxybook/Exception.hpp>
@@ -31,6 +34,7 @@ using std::cout;
 using std::endl;
 using std::ofstream;
 using std::istringstream;
+using std::count;
 
 using namespace Doxybook2;
 
@@ -166,6 +170,124 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int d
 
 } 
 
+void createNamespaceFiles(ostream& file, int hashCount, const Node& parent) {
+
+    string parentName = parent.getName();
+
+    if (parentName != "antara::gaming") {
+        createNamespaceFiles(file, hashCount, parent);
+    } else if (parentName.find("antara::gaming") == std::string::npos) {
+        return;
+    }
+
+    if (parentName.find('@') != std::string::npos) {
+        return;
+    }
+
+    string parentKind = Doxybook2::toStr(parent.getKind()); 
+
+    int numChildren = (int)parent.getChildren().size();
+    bool childHasValidType = false;
+
+    if (numChildren > 0) {
+        for (const auto& child : parent.getChildren()) {
+            if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::STRUCT || child->getKind() == Kind::CLASS) {
+                childHasValidType = true;
+            }
+        }
+    }
+
+    for (const auto& child : parent.getChildren()) {
+        // Determine if we are on the main antara::gaming::CLASS level
+        // or if we are on a lower level
+        // If on main level, create new file stream and begin saving all values to it
+        // If lower, do not create new file stream, but begin saving all values to existing filestream
+
+        if (count(parentName.begin(), parentName.end(), ':') == 4) {
+            string::iterator it = parentName.begin();
+            std::size_t pos = parentName.find_last_of(':');
+            it += pos;
+            
+        }
+
+        string childName = child->getName();
+        if (childName.find('@') != std::string::npos) return;
+
+        string curr = "";
+        if (child->getKind() == Kind::NAMESPACE) {
+            curr += "Namespace: ";
+        } else if (child->getKind() == Kind::CLASS) {
+            curr += "Class:     "; 
+        } else if (child->getKind() == Kind::STRUCT) {
+            curr += "Struct:    "; 
+        }
+
+        if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
+            string childKindStr;
+            switch (child-> getKind()) {
+                case Kind::NAMESPACE:
+                    childKindStr = "Namespaces/";
+                    break;
+                case Kind::CLASS:
+                    childKindStr = "Classes/";
+                    break;
+                case Kind::STRUCT:
+                    childKindStr = "Classes/";
+                    break;
+                default:
+                    "This error should not occur. Please contact the developer.";
+                    exit(0);
+            }
+
+            os << string(indent*2 + 2, ' ') << "// " << curr << endl;
+            os 
+                << string(indent*2 + 2, ' ') << "[" << endl;
+            os
+                << string(indent*2 + 4, ' ') 
+                << "\"" << "/basic-docs/antara-gaming-sdk/"
+                << childKindStr
+                << child->getRefid() 
+                << "\"," << endl;
+            os
+                << string(indent*2 + 4, ' ') 
+                << "\"" << child->getName() 
+                << "\"," << endl;
+            os 
+                << string(indent*2 + 2, ' ') << "]," << endl; 
+        } 
+
+        auto test = createIndex(*child);
+
+        // Something is happening in here. This is coming up false, but later
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+            
+            if (parentName == "") {
+                parentName = "Blank Name";
+            }
+
+            if (depth > 2) {
+                os << string(indent*2 + 2, ' ') << "]" << endl;
+                return;
+            }
+            os << string(indent*2 + 2, ' ') << "{" << endl;
+                os << string(indent*2 + 4, ' ') << "Title: \"" << parentName << "\"," << endl;
+                os << string(indent*2 + 4, ' ') << "collapsible: true," << endl;
+                os << string(indent*2 + 4, ' ') << "children:" << endl; 
+        }
+
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+            createMarkdownFile(os, indent + 4, *child, depth);
+        } else if (!test.empty()) {
+            os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
+        }
+
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+            
+            os << string(indent*2 + 2, ' ') << "}," << endl;
+        }
+    }
+}
+
 int main()
 {
     using namespace Doxybook2;
@@ -213,7 +335,7 @@ int main()
     fout << "  title: \"Antara Gaming SDK\"," << endl;
     fout << "  collapsible: true," << endl;
     fout << "  children: [" << endl; 
-    createMarkdownFile(fout, 2, index, 0);
+    createMarkdownFile(fout, 0, index, -3);
     fout << " ]" << endl;
     fout << "};" << endl;
     fout << "module.exports = gamingSidebar;";
