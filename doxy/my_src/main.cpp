@@ -34,6 +34,7 @@ using std::vector;
 using std::cout;
 using std::endl;
 using std::ofstream;
+using std::ifstream;
 using std::istringstream;
 using std::count;
 
@@ -58,7 +59,7 @@ nlohmann::json createIndex(const Node& parent) {
 }
 
 // A custom function to recurisvely create a list of refids for the source code
-void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int depth, vector<string> fileNames) {
+void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int depth, vector<string>& fileNames) {
 
     ++depth;
 
@@ -171,7 +172,7 @@ void createMarkdownFile(std::ofstream& os, int indent, const Node& parent, int d
 
 } 
 
-void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vector<string> fileNames) {
+void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vector<string>& fileNames) {
     int numChildren = (int)parent.getChildren().size();
     bool childHasValidType = false;
 
@@ -199,6 +200,8 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
         return;
     }
 
+    // TODO?: Add instructions to add parent content to output stream?
+
     string parentKind = Doxybook2::toStr(parent.getKind()); 
 
     for (const auto& child : parent.getChildren()) {
@@ -208,15 +211,30 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
         // If on main level, create new file stream and begin saving all values to it
         // If lower, do not create new file stream, but begin saving all values to existing filestream 
         if (count(parentName.begin(), parentName.end(), ':') == 4) {
+
+            // Create the filename for the output stream and save it to the fileNames vector
             size_t lastInstance = parentName.find_last_of(':');
             string filename = parentName.substr((int)(++lastInstance), (int)parentName.size());
+            fileNames.push_back(filename);
             string prefix = "../../docs/basic-docs/antara-gaming-sdk/";
             filename = prefix + filename + ".md";
-            string test;
+
+            // Create the new output stream
+            ofstream newFout(filename);
+
+            if (!newFout) {
+                cout << "Error creating output file" << endl;
+                exit(0);
+            }
+
+            // Set the main "file" stream to the new output stream
+            file = std::move(newFout); 
         }
 
-        // string childName = child->getName();
-        // if (childName.find('@') != std::string::npos) return;
+        // Save content from relevant file to the current output stream
+
+        string childName = child->getName();
+        if (childName.find('@') != std::string::npos || childName == "@") continue;
 
         // string curr = "";
         // if (child->getKind() == Kind::NAMESPACE) {
@@ -227,41 +245,52 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
             // curr += "Struct:    "; 
         // }
 
-        // if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
-            // string childKindStr;
-            // switch (child-> getKind()) {
-                // case Kind::NAMESPACE:
-                    // childKindStr = "Namespaces/";
-                    // break;
-                // case Kind::CLASS:
-                    // childKindStr = "Classes/";
-                    // break;
-                // case Kind::STRUCT:
-                    // childKindStr = "Classes/";
-                    // break;
-                // default:
-                    // "This error should not occur. Please contact the developer.";
-                    // exit(0);
-            // }
+        if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
+            string childKindStr;
+            switch (child-> getKind()) {
+                case Kind::NAMESPACE:
+                    childKindStr = "Namespaces/";
+                    break;
+                case Kind::CLASS:
+                    childKindStr = "Classes/";
+                    break;
+                case Kind::STRUCT:
+                    childKindStr = "Classes/";
+                    break;
+                default:
+                    "This error should not occur. Please contact the developer.";
+                    exit(0);
+            }
 
-            // os << string(indent*2 + 2, ' ') << "// " << curr << endl;
-            // os 
-                // << string(indent*2 + 2, ' ') << "[" << endl;
-            // os
-                // << string(indent*2 + 4, ' ') 
-                // << "\"" << "/basic-docs/antara-gaming-sdk/"
-                // << childKindStr
-                // << child->getRefid() 
-                // << "\"," << endl;
-            // os
-                // << string(indent*2 + 4, ' ') 
-                // << "\"" << child->getName() 
-                // << "\"," << endl;
-            // os 
-                // << string(indent*2 + 2, ' ') << "]," << endl; 
-        // } 
+            // Read in content from existing file
+            // TODO: Need an input directory declared somewhere in a config file...
+            string fileLocation = "../../docs/basic-docs/antara-gaming-sdk/";
+            string fileUrl = child->getRefid();
+            fileLocation = fileLocation + childKindStr + fileUrl;
+            ifstream fin(fileLocation);
 
-        // auto test = createIndex(*child);
+            if (!fin) {
+                cout << "Error reading input file: " << fileLocation << endl;
+                exit(0);
+            }
+
+            // TODO: Add hashes to name
+            // TODO: Create initial layout for everything, if the templates can't handle it already
+            string inputLine;
+            while (true) {
+                getline(fin, inputLine);
+
+                file << inputLine << endl;
+
+                if (fin.eof()) {
+                    break;
+                }
+            }
+
+            file << "\n" << endl;
+        } 
+
+        auto test = createIndex(*child);
 
         // // Something is happening in here. This is coming up false, but later
         // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
@@ -280,9 +309,10 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
                 // os << string(indent*2 + 4, ' ') << "children:" << endl; 
         // }
 
-        // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
-            // createMarkdownFile(os, indent + 4, *child, depth);
-        // } else if (!test.empty()) {
+        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+            createNamespaceFiles(file, ++hashCount, *child, fileNames);
+        } 
+        // else if (!test.empty()) {
             // os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
         // }
 
