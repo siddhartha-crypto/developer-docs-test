@@ -216,7 +216,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
             size_t lastInstance = parentName.find_last_of(':');
             string filename = parentName.substr((int)(++lastInstance), (int)parentName.size());
             fileNames.push_back(filename);
-            string prefix = "../../docs/basic-docs/antara-gaming-sdk/";
+            string prefix = "../../../docs/basic-docs/antara-gaming-sdk/";
             filename = prefix + filename + ".md";
 
             // Create the new output stream
@@ -245,7 +245,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
             // curr += "Struct:    "; 
         // }
 
-        if (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT){
+        if (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT){
             string childKindStr;
             switch (child-> getKind()) {
                 case Kind::NAMESPACE:
@@ -264,7 +264,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
 
             // Read in content from existing file
             // TODO: Need an input directory declared somewhere in a config file...
-            string fileLocation = "../../docs/basic-docs/antara-gaming-sdk/";
+            string fileLocation = "../outputDir/";
             string fileUrl = child->getRefid();
             fileLocation = fileLocation + childKindStr + fileUrl;
             ifstream fin(fileLocation);
@@ -309,7 +309,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
                 // os << string(indent*2 + 4, ' ') << "children:" << endl; 
         // }
 
-        if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
+        if (!test.empty() && (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT || child->getKind() == Kind::INDEX)) { 
             createNamespaceFiles(file, ++hashCount, *child, fileNames);
         } 
         // else if (!test.empty()) {
