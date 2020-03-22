@@ -1,3 +1,8 @@
+<!--
+  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1input_1_1virtual__input.md
+  Topic name: antara::gaming::input::virtual_input
+  Hash count: 0
+-->
 ---
 title: antara::gaming::input::virtual_input
 
@@ -667,6 +672,11 @@ static void on_key_pressed(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
+<!--
+  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1input_1_1virtual__input_1_1input__internal__collections.md
+  Topic name: antara::gaming::input::virtual_input::input_internal_collections
+  Hash count: 1
+-->
 ---
 title: antara::gaming::input::virtual_input::input_internal_collections
 

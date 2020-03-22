@@ -1,3 +1,8 @@
+<!--
+  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1timer_1_1time__step.md
+  Topic name: antara::gaming::timer::time_step
+  Hash count: 0
+-->
 ---
 title: antara::gaming::timer::time_step
 

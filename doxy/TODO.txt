@@ -66,3 +66,5 @@
 submodules/doxybook2/build/src/DoxybookCli/doxybook2 --input submodules/antara-gaming-sdk/build/docs/doxygen/xml/ --output outputDir/ --templates ./templates/
 
 # Create a part of the script that removes the @117 or @### type files in Namespaces
+
+# Create a Test that tests whether the number of times the words "New File" or something similar (maybe something more coded to avoid ambiguity between developer descriptions and the actual concept) appears in the output in the antara-gaming-sdk folder, and the number of files in the outpuDir

@@ -203,6 +203,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
     // TODO?: Add instructions to add parent content to output stream?
 
     string parentKind = Doxybook2::toStr(parent.getKind()); 
+    string filename = "";
 
     for (const auto& child : parent.getChildren()) {
 
@@ -214,21 +215,27 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
 
             // Create the filename for the output stream and save it to the fileNames vector
             size_t lastInstance = parentName.find_last_of(':');
-            string filename = parentName.substr((int)(++lastInstance), (int)parentName.size());
+
+            string tempFilename = "";
+            tempFilename = parentName.substr((int)(++lastInstance), (int)parentName.size());
             fileNames.push_back(filename);
             string prefix = "../../../docs/basic-docs/antara-gaming-sdk/";
-            filename = prefix + filename + ".md";
+            tempFilename = prefix + tempFilename + ".md";
 
-            // Create the new output stream
-            ofstream newFout(filename);
+            if (tempFilename != filename) {
 
-            if (!newFout) {
-                cout << "Error creating output file" << endl;
-                exit(0);
+                filename = tempFilename;
+                // Create the new output stream
+                ofstream newFout(filename);
+
+                if (!newFout) {
+                    cout << "Error creating output file" << endl;
+                    exit(0);
+                }
+
+                // Set the main "file" stream to the new output stream
+                file = std::move(newFout); 
             }
-
-            // Set the main "file" stream to the new output stream
-            file = std::move(newFout); 
         }
 
         // Save content from relevant file to the current output stream
@@ -278,9 +285,10 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
 
         // Note the name of the file from which everything is drawn
         file << "<!--" << endl;
-        file << "New File: " << fileLocation << endl;
-        file << "Topic name: " << child->getName() << endl;
-        file << "Hash count: " << hashCount << endl;
+        file << "  New File: " << fileLocation << endl;
+        file << "  Topic name: " << child->getName() << endl;
+        file << "  Hash count: " << hashCount << endl;
+        file << "-->" << endl;
 
         // TODO: Add hashes to name
         // TODO: Create initial layout for everything, if the templates can't handle it already
