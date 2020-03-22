@@ -268,13 +268,19 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
         // TODO: Need an input directory declared somewhere in a config file...
         string fileLocation = "../../outputDir/";
         string fileUrl = child->getRefid();
-        fileLocation = fileLocation + childKindStr + fileUrl;
-        ifstream fin(fileLocation);
+        fileLocation = fileLocation + childKindStr + fileUrl + ".md";
+        ifstream fin(fileLocation); 
 
         if (!fin) {
             cout << "Error reading input file: " << fileLocation << endl;
             exit(0);
         }
+
+        // Note the name of the file from which everything is drawn
+        file << "<!--" << endl;
+        file << "New File: " << fileLocation << endl;
+        file << "Topic name: " << child->getName() << endl;
+        file << "Hash count: " << hashCount << endl;
 
         // TODO: Add hashes to name
         // TODO: Create initial layout for everything, if the templates can't handle it already
