@@ -149,8 +149,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
                 string someName = "";
                 lastInstance = filename.find_last_of('/');
                 size_t mdLocation = filename.find(".md");
-                someName = filename.substr(lastInstance + 1, mdLocation - 1);
-                someName = someName.substr(0, someName.size() - 4);
+                someName = filename.substr(lastInstance + 1, mdLocation - lastInstance - 1);
                 fileNames.push_back(someName);
             }
 
