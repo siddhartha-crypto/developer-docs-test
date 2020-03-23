@@ -59,25 +59,27 @@ nlohmann::json createIndex(const Node& parent) {
 }
 
 // A custom function to recurisvely create a list of refids for the source code
-void createMarkdownFile(std::ofstream& file, int indent, const Node& parent, vector<string>& fileNames) {
+void createMarkdownFile(std::ofstream& file, const vector<string> fileNames) {
 
-    for (const auto& name : fileNames) {
+    string test;
 
-        file << string(indent*2 + 2, ' ') << "[" << endl;
+    for (auto name : fileNames) {
+
+        file << string(4, ' ') << "[" << endl;
         file
-            << string(indent*2 + 4, ' ') 
+            << string(6, ' ') 
             << "\"" 
             << "/basic-docs/antara-gaming-sdk/"
             << name
             << ".md"
             << "\"," << endl;
         file
-            << string(indent*2 + 4, ' ') 
+            << string(6, ' ') 
             << "\"" 
             << name
             << "\"," << endl;
         file 
-            << string(indent*2 + 2, ' ') << "]," << endl; 
+            << string(4, ' ') << "]," << endl; 
     }
 
 } 
@@ -110,8 +112,7 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
         return;
     }
 
-    // TODO?: Add instructions to add parent content to output stream?
-
+    // TODO?: Add instructions to add parent content to output stream?  
     string parentKind = Doxybook2::toStr(parent.getKind()); 
     string filename = "";
 
@@ -144,24 +145,20 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
 
                 // Set the main "file" stream to the new output stream
                 file = std::move(newFout); 
+
+                string someName = "";
+                lastInstance = filename.find_last_of('/');
+                size_t mdLocation = filename.find(".md");
+                someName = filename.substr(lastInstance + 1, mdLocation - 1);
+                someName = someName.substr(0, someName.size() - 4);
+                fileNames.push_back(someName);
             }
 
-            fileNames.push_back(filename);
         }
 
-        // Save content from relevant file to the current output stream
-
+        // Save content from relevant file to the current output stream 
         string childName = child->getName();
         if (childName.find('@') != std::string::npos || childName == "@") continue;
-
-        // string curr = "";
-        // if (child->getKind() == Kind::NAMESPACE) {
-            // curr += "Namespace: ";
-        // } else if (child->getKind() == Kind::CLASS) {
-            // curr += "Class:     "; 
-        // } else if (child->getKind() == Kind::STRUCT) {
-            // curr += "Struct:    "; 
-        // }
 
         string childKindStr;
         switch (child->getKind()) {
@@ -218,34 +215,9 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
 
         auto test = createIndex(*child);
 
-        // // Something is happening in here. This is coming up false, but later
-        // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
-            
-            // if (parentName == "") {
-                // parentName = "Blank Name";
-            // }
-
-            // if (depth > 2) {
-                // os << string(indent*2 + 2, ' ') << "]" << endl;
-                // return;
-            // }
-            // os << string(indent*2 + 2, ' ') << "{" << endl;
-                // os << string(indent*2 + 4, ' ') << "Title: \"" << parentName << "\"," << endl;
-                // os << string(indent*2 + 4, ' ') << "collapsible: true," << endl;
-                // os << string(indent*2 + 4, ' ') << "children:" << endl; 
-        // }
-
         if (!test.empty() && (child->getKind() == Kind::NAMESPACE || child->getKind() == Kind::CLASS || child->getKind() == Kind::STRUCT || child->getKind() == Kind::INDEX)) { 
             createNamespaceFiles(file, ++hashCount, *child, fileNames);
         } 
-        // else if (!test.empty()) {
-            // os << string(indent*2 + 4, ' ') << "// Parent Kind is: " << parentKind << endl;
-        // }
-
-        // if (!test.empty() && (parent.getKind() == Kind::NAMESPACE || parent.getKind() == Kind::CLASS || parent.getKind() == Kind::STRUCT || parent.getKind() == Kind::INDEX)) { 
-            
-            // os << string(indent*2 + 2, ' ') << "}," << endl;
-        // }
     }
 }
 
@@ -298,27 +270,25 @@ int main()
 
     fout.close();
 
-    fout.open(outputFilename);
+    ofstream fout2(outputFilename);
 
-    if (!fout) {
+    if (!fout2) {
         cout << "Error opening file" << endl;
         exit(0);
     }
 
     // Create Sidebar Navigation File
-    fout << "var gamingSidebar = {" << endl;
-    fout << "  title: \"Antara Gaming SDK\"," << endl;
-    fout << "  collapsible: true," << endl;
-    fout << "  children: [" << endl; 
-    createMarkdownFile(fout, 0, index, fileNames);
-    fout << " ]" << endl;
-    fout << "};" << endl;
-    fout << "module.exports = gamingSidebar;";
+    fout2 << "var gamingSidebar = {" << endl;
+    fout2 << "  title: \"Antara Gaming SDK\"," << endl;
+    fout2 << "  collapsible: true," << endl;
+    fout2 << "  children: [" << endl; 
 
+    createMarkdownFile(fout2, fileNames);
 
-    // fout << "# Gaming SDK Intro" << endl;
+    fout2 << " ]" << endl;
+    fout2 << "};" << endl;
+    fout2 << "module.exports = gamingSidebar;";
 
-    // fout << "Test: " << mouseButtonPressedPrint << endl << endl;
 
     return 0;
 }
