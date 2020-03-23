@@ -191,11 +191,11 @@ void createNamespaceFiles(ofstream& file, int hashCount, const Node& parent, vec
         }
 
         // Note the name of the file from which everything is drawn
-        file << "<!--" << endl;
+        file << "/*" << endl;
         file << "  New File: " << fileLocation << endl;
         file << "  Topic name: " << child->getName() << endl;
         file << "  Hash count: " << hashCount << endl;
-        file << "-->" << endl;
+        file << "*/" << endl;
 
         // TODO: Add hashes to name
         // TODO: Create initial layout for everything, if the templates can't handle it already
