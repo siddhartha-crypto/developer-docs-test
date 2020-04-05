@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1core_1_1details.md
   Topic name: antara::gaming::core::details
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::core::details
 summary: getpid()  

@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1blockchain_1_1nspv.md
   Topic name: antara::gaming::blockchain::nspv
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv
 
@@ -561,11 +561,11 @@ Constructors.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv_1_1nspv__process.md
   Topic name: antara::gaming::blockchain::nspv::nspv_process
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv::nspv_process
 summary: Private data structure.  
@@ -834,11 +834,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api.md
   Topic name: antara::gaming::blockchain::nspv_api
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api
 
@@ -1454,11 +1454,11 @@ static void from_json(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1broadcast__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::broadcast_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::broadcast_answer
 
@@ -1714,11 +1714,11 @@ std::string result;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1get__newaddress__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::get_newaddress_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
 
@@ -1804,11 +1804,11 @@ std::string wif;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1listunspent__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::listunspent_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::listunspent_answer
 
@@ -1996,11 +1996,11 @@ std::string result;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1login__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::login_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::login_answer
 
@@ -2290,11 +2290,11 @@ std::string result;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1mempool__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::mempool_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::mempool_answer
 
@@ -2482,11 +2482,11 @@ std::string result;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1mempool__request.md
   Topic name: antara::gaming::blockchain::nspv_api::mempool_request
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::mempool_request
 
@@ -2572,11 +2572,11 @@ std::optional< std::string > address;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1spend__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::spend_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::spend_answer
 
@@ -2798,11 +2798,11 @@ std::string result;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1txproof__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::txproof_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::txproof_answer
 
@@ -2990,11 +2990,11 @@ std::string result;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1txproof__request.md
   Topic name: antara::gaming::blockchain::nspv_api::txproof_request
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_api::txproof_request
 
@@ -3114,11 +3114,11 @@ std::string txid;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__tx__answer.md
   Topic name: antara::gaming::blockchain::nspv_tx_answer
   Hash count: 2
--->
+*/
 ---
 title: antara::gaming::blockchain::nspv_tx_answer
 

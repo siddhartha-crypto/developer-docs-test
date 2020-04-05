@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1canvas__resized.md
   Topic name: antara::gaming::event::canvas_resized
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::canvas_resized
 
@@ -88,11 +88,11 @@ canvas_resized() =default
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1change__scene.md
   Topic name: antara::gaming::event::change_scene
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::change_scene
 
@@ -212,11 +212,11 @@ std::unique_ptr< scenes::base_scene > scene_ptr;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1fatal__error.md
   Topic name: antara::gaming::event::fatal_error
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::fatal_error
 
@@ -346,11 +346,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1fill__image__properties.md
   Topic name: antara::gaming::event::fill_image_properties
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::fill_image_properties
 
@@ -590,11 +590,11 @@ Texture id
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1get__mouse__position.md
   Topic name: antara::gaming::event::get_mouse_position
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::get_mouse_position
 
@@ -832,11 +832,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1invoker__dispatcher.md
   Topic name: antara::gaming::event::invoker_dispatcher
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::invoker_dispatcher
 
@@ -994,11 +994,11 @@ constexpr invoker_dispatcher() =default
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1key__pressed.md
   Topic name: antara::gaming::event::key_pressed
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::key_pressed
 summary: triggered when pressing a key on the keyboard.  
@@ -1372,11 +1372,11 @@ key pressed
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1key__released.md
   Topic name: antara::gaming::event::key_released
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::key_released
 summary: triggered when releasing a key on the keyboard.  
@@ -1750,11 +1750,11 @@ key released
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1load__textures.md
   Topic name: antara::gaming::event::load_textures
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::load_textures
 
@@ -1841,11 +1841,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1loading__settings.md
   Topic name: antara::gaming::event::loading_settings
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::loading_settings
 
@@ -1966,11 +1966,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1mouse__button__pressed.md
   Topic name: antara::gaming::event::mouse_button_pressed
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::mouse_button_pressed
 
@@ -2274,11 +2274,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1mouse__button__released.md
   Topic name: antara::gaming::event::mouse_button_released
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::mouse_button_released
 
@@ -2582,11 +2582,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1mouse__moved.md
   Topic name: antara::gaming::event::mouse_moved
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::mouse_moved
 
@@ -2855,11 +2855,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1quit__game.md
   Topic name: antara::gaming::event::quit_game
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::quit_game
 summary: Event that allows us to leave a game with a return value.  
@@ -3124,11 +3124,11 @@ Static fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1set__mouse__position.md
   Topic name: antara::gaming::event::set_mouse_position
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::set_mouse_position
 
@@ -3249,11 +3249,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1start__game.md
   Topic name: antara::gaming::event::start_game
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::start_game
 
@@ -3339,11 +3339,11 @@ start_game() =default
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1window__resized.md
   Topic name: antara::gaming::event::window_resized
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::event::window_resized
 

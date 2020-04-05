@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md
   Topic name: antara::gaming::ecs::base_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::base_system
 
@@ -751,11 +751,11 @@ Protected data members.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1ftor.md
   Topic name: antara::gaming::ecs::ftor
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::ftor
 
@@ -944,11 +944,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1interpolation__system.md
   Topic name: antara::gaming::ecs::interpolation_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::interpolation_system
 
@@ -1173,11 +1173,11 @@ Constructor.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1lambda__system.md
   Topic name: antara::gaming::ecs::lambda_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::lambda_system
 
@@ -1467,11 +1467,11 @@ Constructor.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1system.md
   Topic name: antara::gaming::ecs::system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::system
 
@@ -1855,11 +1855,11 @@ Constructor.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md
   Topic name: antara::gaming::ecs::system_manager
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::system_manager
 summary: This class allows the manipulation of systems, the addition, deletion, update of systems, deactivation of a system, etc.  
@@ -3336,11 +3336,11 @@ int main()
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1virtual__input__system.md
   Topic name: antara::gaming::ecs::virtual_input_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::virtual_input_system
 
@@ -3523,11 +3523,11 @@ virtual_input_system(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1ecs_1_1component.md
   Topic name: antara::gaming::ecs::component
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::component
 summary: < doom::meta::list  
@@ -3668,11 +3668,11 @@ typedef doom::meta::list< math::vector_type_list, transform::components_list, ge
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1ecs_1_1event.md
   Topic name: antara::gaming::ecs::event
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::ecs::event
 summary: < std::unique_ptr  
@@ -3744,11 +3744,11 @@ C++ System HeadersSDK Headers < [ecs::base_system](Classes/classantara_1_1gaming
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1event_1_1add__base__system.md
   Topic name: antara::gaming::ecs::event::add_base_system
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::ecs::event::add_base_system
 

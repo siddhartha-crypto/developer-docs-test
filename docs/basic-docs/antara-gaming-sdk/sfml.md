@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1audio__system.md
   Topic name: antara::gaming::sfml::audio_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sfml::audio_system
 summary: This class allows the customization and play of audio.  
@@ -186,11 +186,11 @@ audio_system(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1circle.md
   Topic name: antara::gaming::sfml::circle
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sfml::circle
 
@@ -352,11 +352,11 @@ sf::CircleShape drawable;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1component__sound.md
   Topic name: antara::gaming::sfml::component_sound
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sfml::component_sound
 summary: This struct contains the sound and attributes of it such as volume.  
@@ -444,11 +444,11 @@ This object is SFML's Sound instance which contains the sound data.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1graphic__system.md
   Topic name: antara::gaming::sfml::graphic_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sfml::graphic_system
 
@@ -1688,11 +1688,11 @@ graphic_system(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1input__system.md
   Topic name: antara::gaming::sfml::input_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sfml::input_system
 
@@ -1949,11 +1949,11 @@ Constructors.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1intro__scene.md
   Topic name: antara::gaming::sfml::intro_scene
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sfml::intro_scene
 
@@ -2256,11 +2256,11 @@ intro_scene(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene_1_1animation.md
   Topic name: antara::gaming::sfml::intro_scene::animation
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::intro_scene::animation
 
@@ -2493,11 +2493,11 @@ const float start_time;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene__factory.md
   Topic name: antara::gaming::sfml::intro_scene_factory
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::intro_scene_factory
 
@@ -2745,11 +2745,11 @@ Give the fresh entity
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1loader.md
   Topic name: antara::gaming::sfml::loader
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::loader
 
@@ -2872,11 +2872,11 @@ inline std::shared_ptr< ResourceType > load(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1loader_3_01sf_1_1_music_01_4.md
   Topic name: antara::gaming::sfml::loader< sf::Music >
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::loader< sf::Music >
 
@@ -2965,11 +2965,11 @@ inline std::shared_ptr< sf::Music > load(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1lua__system.md
   Topic name: antara::gaming::sfml::lua_system
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::lua_system
 
@@ -3153,11 +3153,11 @@ lua_system(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1play__sound__event.md
   Topic name: antara::gaming::sfml::play_sound_event
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::play_sound_event
 
@@ -3425,11 +3425,11 @@ const char * sound_id {nullptr};
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1rectangle.md
   Topic name: antara::gaming::sfml::rectangle
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::rectangle
 
@@ -3555,11 +3555,11 @@ sf::RectangleShape drawable {};
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1render__texture.md
   Topic name: antara::gaming::sfml::render_texture
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::render_texture
 
@@ -3685,11 +3685,11 @@ std::unique_ptr< sf::RenderTexture > drawable {std::make_unique<sf::RenderTextur
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1resources__manager.md
   Topic name: antara::gaming::sfml::resources_manager
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::resources_manager
 
@@ -3998,11 +3998,11 @@ static inline auto load(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1sprite.md
   Topic name: antara::gaming::sfml::sprite
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::sprite
 
@@ -4128,11 +4128,11 @@ sf::Sprite drawable;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1text.md
   Topic name: antara::gaming::sfml::text
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::text
 
@@ -4258,11 +4258,11 @@ sf::Text drawable;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1vertex__array.md
   Topic name: antara::gaming::sfml::vertex_array
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::sfml::vertex_array
 

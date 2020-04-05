@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1lua_1_1component__script.md
   Topic name: antara::gaming::lua::component_script
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::lua::component_script
 
@@ -199,11 +199,11 @@ std::string script;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1lua_1_1scripting__system.md
   Topic name: antara::gaming::lua::scripting_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::lua::scripting_system
 
@@ -892,11 +892,11 @@ Constructor.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1lua_1_1details.md
   Topic name: antara::gaming::lua::details
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::lua::details
 summary: < std::move, std::forward  
@@ -1076,11 +1076,11 @@ typedef scripted_system< ecs::st_system_post_update > lua_post_scripted_system;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md
   Topic name: antara::gaming::lua::details::scripted_system
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::lua::details::scripted_system
 

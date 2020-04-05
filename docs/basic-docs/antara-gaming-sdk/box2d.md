@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1box2d_1_1box2d__system.md
   Topic name: antara::gaming::box2d::box2d_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::box2d::box2d_system
 

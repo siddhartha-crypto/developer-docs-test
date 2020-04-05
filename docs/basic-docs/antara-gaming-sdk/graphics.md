@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md
   Topic name: antara::gaming::graphics::canvas_2d
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::canvas_2d
 
@@ -904,11 +904,11 @@ friend std::ostream & operator<<(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1color.md
   Topic name: antara::gaming::graphics::color
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::color
 
@@ -1472,11 +1472,11 @@ friend std::ostream & operator<<(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1drawable__info.md
   Topic name: antara::gaming::graphics::drawable_info
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::drawable_info
 
@@ -1596,11 +1596,11 @@ entt::registry::entity_type entity;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1fill__color.md
   Topic name: antara::gaming::graphics::fill_color
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::fill_color
 
@@ -1727,11 +1727,11 @@ inline constexpr fill_color(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1layer.md
   Topic name: antara::gaming::graphics::layer
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::layer
 
@@ -1811,11 +1811,11 @@ struct antara::gaming::graphics::layer;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1outline__color.md
   Topic name: antara::gaming::graphics::outline_color
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::outline_color
 
@@ -2124,11 +2124,11 @@ float thickness {0.f};
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1rect.md
   Topic name: antara::gaming::graphics::rect
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::rect
 
@@ -2248,11 +2248,11 @@ math::vec2f pos;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md
   Topic name: antara::gaming::graphics::rectangle
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::rectangle
 
@@ -2495,11 +2495,11 @@ pos of the rectangle
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1render__texture__2d.md
   Topic name: antara::gaming::graphics::render_texture_2d
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::render_texture_2d
 
@@ -2755,11 +2755,11 @@ std::string id;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1sprite.md
   Topic name: antara::gaming::graphics::sprite
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::sprite
 
@@ -2915,11 +2915,11 @@ std::string appearance;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1text.md
   Topic name: antara::gaming::graphics::text
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::text
 
@@ -3180,11 +3180,11 @@ std::string contents;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1graphics_1_1tests.md
   Topic name: antara::gaming::graphics::tests
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::graphics::tests
 

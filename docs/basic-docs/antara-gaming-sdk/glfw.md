@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1glfw_1_1graphic__system.md
   Topic name: antara::gaming::glfw::graphic_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::glfw::graphic_system
 
@@ -255,11 +255,11 @@ VSync
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1glfw_1_1input__system.md
   Topic name: antara::gaming::glfw::input_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::glfw::input_system
 

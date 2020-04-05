@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1resources_1_1system.md
   Topic name: antara::gaming::resources::system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::resources::system
 

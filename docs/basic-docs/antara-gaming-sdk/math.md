@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md
   Topic name: antara::gaming::math::basic_vector
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::math::basic_vector
 
@@ -1726,11 +1726,11 @@ friend class basic_vector;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1math_1_1vector__mixins.md
   Topic name: antara::gaming::math::vector_mixins
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::math::vector_mixins
 
@@ -1773,11 +1773,11 @@ title: antara::gaming::math::vector_mixins
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__units.md
   Topic name: antara::gaming::math::vector_mixins::access_units
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::math::vector_mixins::access_units
 
@@ -2282,11 +2282,11 @@ static inline constexpr auto unit_up()
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy.md
   Topic name: antara::gaming::math::vector_mixins::access_xy
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::math::vector_mixins::access_xy
 
@@ -2695,11 +2695,11 @@ inline constexpr auto x() const
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__z.md
   Topic name: antara::gaming::math::vector_mixins::access_z
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::math::vector_mixins::access_z
 

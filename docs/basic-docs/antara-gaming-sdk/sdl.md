@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1graphic__system.md
   Topic name: antara::gaming::sdl::graphic_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sdl::graphic_system
 
@@ -323,11 +323,11 @@ explicit graphic_system(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1input__system.md
   Topic name: antara::gaming::sdl::input_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sdl::input_system
 
@@ -545,11 +545,11 @@ explicit input_system(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sdl_1_1opengl__image.md
   Topic name: antara::gaming::sdl::opengl_image
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sdl::opengl_image
 
@@ -703,11 +703,11 @@ unsigned int id;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1timer.md
   Topic name: antara::gaming::sdl::timer
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::sdl::timer
 

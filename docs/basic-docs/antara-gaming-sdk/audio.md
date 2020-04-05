@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1audio_1_1music.md
   Topic name: antara::gaming::audio::music
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::audio::music
 
@@ -361,11 +361,11 @@ std::string music_id;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1audio_1_1sound__effect.md
   Topic name: antara::gaming::audio::sound_effect
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::audio::sound_effect
 

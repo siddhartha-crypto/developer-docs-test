@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1position__2d.md
   Topic name: antara::gaming::transform::position_2d
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::transform::position_2d
 
@@ -349,11 +349,11 @@ inline position_2d(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1previous__position__2d.md
   Topic name: antara::gaming::transform::previous_position_2d
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::transform::previous_position_2d
 
@@ -700,11 +700,11 @@ inline previous_position_2d(
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1properties.md
   Topic name: antara::gaming::transform::properties
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::transform::properties
 
@@ -1006,11 +1006,11 @@ math::vec2f scale {math::vec2f::scalar(1.f)};
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1ts__rect.md
   Topic name: antara::gaming::transform::ts_rect
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::transform::ts_rect
 

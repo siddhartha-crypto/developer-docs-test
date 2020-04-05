@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1scenes_1_1base__scene.md
   Topic name: antara::gaming::scenes::base_scene
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::scenes::base_scene
 
@@ -487,11 +487,11 @@ entt::registry & entity_registry_;
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1scenes_1_1manager.md
   Topic name: antara::gaming::scenes::manager
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::scenes::manager
 

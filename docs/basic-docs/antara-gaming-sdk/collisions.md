@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1collisions_1_1basic__collision__system.md
   Topic name: antara::gaming::collisions::basic_collision_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::collisions::basic_collision_system
 

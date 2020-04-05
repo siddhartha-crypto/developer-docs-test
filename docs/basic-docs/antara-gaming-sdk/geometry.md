@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1circle.md
   Topic name: antara::gaming::geometry::circle
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::geometry::circle
 
@@ -345,11 +345,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1circle__texture.md
   Topic name: antara::gaming::geometry::circle_texture
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::geometry::circle_texture
 
@@ -471,11 +471,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1rectangle.md
   Topic name: antara::gaming::geometry::rectangle
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::geometry::rectangle
 
@@ -712,11 +712,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1vertex.md
   Topic name: antara::gaming::geometry::vertex
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::geometry::vertex
 
@@ -870,11 +870,11 @@ transform::position_2d pos {transform::position_2d::scalar(0.f)};
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1vertex__array.md
   Topic name: antara::gaming::geometry::vertex_array
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::geometry::vertex_array
 

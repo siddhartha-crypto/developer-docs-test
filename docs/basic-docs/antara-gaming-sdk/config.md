@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1config_1_1details.md
   Topic name: antara::gaming::config::details
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::config::details
 

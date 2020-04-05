@@ -1,8 +1,8 @@
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1animation2d_1_1anim__component.md
   Topic name: antara::gaming::animation2d::anim_component
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::animation2d::anim_component
 
@@ -373,11 +373,11 @@ Fields.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1animation2d_1_1anim__system.md
   Topic name: antara::gaming::animation2d::anim_system
   Hash count: 0
--->
+*/
 ---
 title: antara::gaming::animation2d::anim_system
 
@@ -686,11 +686,11 @@ Constructors.
 Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-<!--
+/*
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1animation2d_1_1anim__system_1_1anim__internal.md
   Topic name: antara::gaming::animation2d::anim_system::anim_internal
   Hash count: 1
--->
+*/
 ---
 title: antara::gaming::animation2d::anim_system::anim_internal
 summary: Private data structure.  
