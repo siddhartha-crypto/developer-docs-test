@@ -1,10 +1,11 @@
----
-title: antara::gaming::input
-summary: < math::vec2i  
 
----
 
-# antara::gaming::input
+## input
+
+#### Full Title:
+```
+antara::gaming::input
+```
 
 
 
@@ -16,13 +17,13 @@ summary: < math::vec2i
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::input::virtual_input](Classes/classantara_1_1gaming_1_1input_1_1virtual__input.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -30,7 +31,7 @@ summary: < math::vec2i
 | enum | **[mouse_button](Namespaces/namespaceantara_1_1gaming_1_1input.md#enum-mouse_button)** { left, right, middle, x_button_1, x_button_2, x_button_count } |
 | enum | **[key](Namespaces/namespaceantara_1_1gaming_1_1input.md#enum-key)** { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, num_0, num_1, num_2, num_3, num_4, num_5, num_6, num_7, num_8, num_9, escape, left_control, left_shift, left_alt, left_system, right_control, right_shift, right_alt, right_system, menu, left_bracket, right_bracket, semi_colon, comma, period, quote, slash, back_slash, tilde, equal, dash, space, return_, back_space, tab, page_up, page_down, end, home, insert, delete_, add, subtract, multiply, divide, left, right, up, down, numpad_0, numpad_1, numpad_2, numpad_3, numpad_4, numpad_5, numpad_6, numpad_7, numpad_8, numpad_9, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, pause } |
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,7 +42,8 @@ summary: < math::vec2i
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < math::vec2i 
 
@@ -81,7 +83,7 @@ C++ System Headers < std::string < std::unordered_map std::unordered_setDependen
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### enum mouse_wheel
 
@@ -295,7 +297,7 @@ enum key {
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function get_mouse_position
 
@@ -406,6 +408,6 @@ bool is_key_pressed(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

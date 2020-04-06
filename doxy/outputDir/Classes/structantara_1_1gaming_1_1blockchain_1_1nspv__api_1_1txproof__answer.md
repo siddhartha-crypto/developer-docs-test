@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_api::txproof_answer
 
 
----
+## txproof_answer
 
-# antara::gaming::blockchain::nspv_api::txproof_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::txproof_answer
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::blockchain::nspv_api::txproof_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::blockchain::nspv_api::txproof_answer
 
 
 
-## Public Attributes Documentation
 
-### variable txid
+### Public Attributes Documentation
+
+#### variable txid
 
 ```cpp
 std::string txid;
@@ -77,7 +79,7 @@ std::string txid;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -110,7 +112,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -143,7 +145,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -180,6 +182,6 @@ std::string result;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

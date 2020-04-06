@@ -1,10 +1,11 @@
----
-title: antara::gaming::graphics::color
 
 
----
+## color
 
-# antara::gaming::graphics::color
+#### Full Title:
+```
+antara::gaming::graphics::color
+```
 
 
 
@@ -21,7 +22,7 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,7 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 | constexpr | **[color](Classes/structantara_1_1gaming_1_1graphics_1_1color.md#function-color)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -46,7 +47,7 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 | std::uint8_t | **[r](Classes/structantara_1_1gaming_1_1graphics_1_1color.md#variable-r)**  |
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -59,9 +60,10 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 
 
 
-## Public Functions Documentation
 
-### function operator!=
+### Public Functions Documentation
+
+#### function operator!=
 
 ```cpp
 inline constexpr bool operator!=(
@@ -96,7 +98,7 @@ inline constexpr bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline constexpr bool operator==(
@@ -131,7 +133,7 @@ inline constexpr bool operator==(
 
 
 
-### function color
+#### function color
 
 ```cpp
 constexpr color(
@@ -166,7 +168,7 @@ constexpr color(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 constexpr color & operator=(
@@ -201,7 +203,7 @@ constexpr color & operator=(
 
 
 
-### function set_unique_color
+#### function set_unique_color
 
 ```cpp
 inline void set_unique_color(
@@ -237,7 +239,7 @@ inline void set_unique_color(
 
 
 
-### function set_unique_color
+#### function set_unique_color
 
 ```cpp
 inline void set_unique_color(
@@ -272,7 +274,7 @@ inline void set_unique_color(
 
 
 
-### function set_color
+#### function set_color
 
 ```cpp
 inline void set_color(
@@ -307,7 +309,7 @@ inline void set_color(
 
 
 
-### function color
+#### function color
 
 ```cpp
 inline constexpr color(
@@ -345,7 +347,7 @@ inline constexpr color(
 
 
 
-### function color
+#### function color
 
 ```cpp
 inline constexpr color()
@@ -380,9 +382,9 @@ inline constexpr color()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable a
+#### variable a
 
 ```cpp
 std::uint8_t a {255};
@@ -415,7 +417,7 @@ std::uint8_t a {255};
 
 
 
-### variable b
+#### variable b
 
 ```cpp
 std::uint8_t b {0};
@@ -448,7 +450,7 @@ std::uint8_t b {0};
 
 
 
-### variable g
+#### variable g
 
 ```cpp
 std::uint8_t g {0};
@@ -481,7 +483,7 @@ std::uint8_t g {0};
 
 
 
-### variable r
+#### variable r
 
 ```cpp
 std::uint8_t r {0};
@@ -516,9 +518,9 @@ std::uint8_t r {0};
 
 
 
-## Friends
+### Friends
 
-### friend operator<<
+#### friend operator<<
 
 ```cpp
 friend std::ostream & operator<<(
@@ -556,6 +558,6 @@ friend std::ostream & operator<<(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

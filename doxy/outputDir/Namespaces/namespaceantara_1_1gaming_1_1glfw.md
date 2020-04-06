@@ -1,28 +1,29 @@
----
-title: antara::gaming::glfw
 
 
----
+## glfw
 
-# antara::gaming::glfw
-
-
-
-
+#### Full Title:
+```
+antara::gaming::glfw
+```
 
 
 
 
 
 
-## Classes
+
+
+
+
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::glfw::input_system](Classes/classantara_1_1gaming_1_1glfw_1_1input__system.md)**  |
 | class | **[antara::gaming::glfw::graphic_system](Classes/classantara_1_1gaming_1_1glfw_1_1graphic__system.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,7 +35,8 @@ title: antara::gaming::glfw
 
 
 
-## Types Documentation
+
+### Types Documentation
 
 ### typedef st_high_dpi_factor
 
@@ -74,6 +76,6 @@ typedef st::type< float, struct high_dpi_factor > st_high_dpi_factor;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

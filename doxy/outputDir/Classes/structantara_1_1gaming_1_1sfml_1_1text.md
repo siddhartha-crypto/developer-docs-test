@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::text
 
 
----
+## text
 
-# antara::gaming::sfml::text
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::text
+```
 
 
 
@@ -20,14 +17,18 @@ title: antara::gaming::sfml::text
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[text](Classes/structantara_1_1gaming_1_1sfml_1_1text.md#function-text)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::sfml::text
 
 
 
-## Public Functions Documentation
 
-### function text
+### Public Functions Documentation
+
+#### function text
 
 ```cpp
 text() =default
@@ -79,9 +81,9 @@ text() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::Text drawable;
@@ -118,6 +120,6 @@ sf::Text drawable;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

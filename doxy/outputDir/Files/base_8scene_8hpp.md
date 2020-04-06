@@ -1,24 +1,25 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/scenes/antara/gaming/scenes/base.scene.hpp
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/scenes/antara/gaming/scenes/base.scene.hpp
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/scenes/antara/gaming/scenes/base.scene.hpp
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/scenes/antara/gaming/scenes/base.scene.hpp
+```
 
 
 
-## Namespaces
+
+
+
+
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::scenes](Namespaces/namespaceantara_1_1gaming_1_1scenes.md)** <br>SDK Headers.  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,9 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Source code
+
+
+### Source code
 
 ```cpp
 /******************************************************************************
@@ -119,6 +122,5 @@ namespace antara::gaming::scenes
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

@@ -1,10 +1,11 @@
----
-title: antara::gaming::graphics
-summary: SDK Headers.  
 
----
 
-# antara::gaming::graphics
+## graphics
+
+#### Full Title:
+```
+antara::gaming::graphics
+```
 
 
 
@@ -15,13 +16,13 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Namespaces
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::graphics::tests](Namespaces/namespaceantara_1_1gaming_1_1graphics_1_1tests.md)**  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +38,7 @@ SDK Headers.  [More...](#detailed-description)
 | struct | **[antara::gaming::graphics::color](Classes/structantara_1_1gaming_1_1graphics_1_1color.md)**  |
 | struct | **[antara::gaming::graphics::canvas_2d](Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -58,7 +59,7 @@ SDK Headers.  [More...](#detailed-description)
 | enum | **[text_style](Namespaces/namespaceantara_1_1gaming_1_1graphics.md#enum-text_style)** { regular, bold, italic, underlined, strike_through } |
 | enum | **[drawable_type](Namespaces/namespaceantara_1_1gaming_1_1graphics.md#enum-drawable_type)** { d_sprite, d_vertex_array, d_circle, d_rectangle } |
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -68,7 +69,7 @@ SDK Headers.  [More...](#detailed-description)
 | void | **[to_json](Namespaces/namespaceantara_1_1gaming_1_1graphics.md#function-to_json)**(nlohmann::json & json_data, const [graphics::canvas_2d](Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md) & game_maker_cfg)  |
 | void | **[from_json](Namespaces/namespaceantara_1_1gaming_1_1graphics.md#function-from_json)**(const nlohmann::json & json_data, [graphics::canvas_2d](Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md) & game_maker_cfg)  |
 
-## Attributes
+### Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -85,7 +86,8 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 SDK Headers. 
 
@@ -143,7 +145,7 @@ C System HeadersC++ System Headers < std::string Dependencies Headers < entt::re
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef layer_11
 
@@ -685,7 +687,7 @@ enum drawable_type {
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function blueprint_text
 
@@ -877,7 +879,7 @@ void from_json(
 
 
 
-## Attributes Documentation
+### Attributes Documentation
 
 ### variable max_layer
 
@@ -1212,6 +1214,6 @@ constexpr color black {0, 0, 0};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

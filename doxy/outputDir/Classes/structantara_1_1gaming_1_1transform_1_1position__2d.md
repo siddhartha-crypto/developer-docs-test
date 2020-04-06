@@ -1,10 +1,11 @@
----
-title: antara::gaming::transform::position_2d
 
 
----
+## position_2d
 
-# antara::gaming::transform::position_2d
+#### Full Title:
+```
+antara::gaming::transform::position_2d
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +38,8 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -122,9 +124,9 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 inline position_2d(
@@ -160,7 +162,7 @@ inline position_2d(
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 inline position_2d(
@@ -195,7 +197,7 @@ inline position_2d(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 position_2d & operator=(
@@ -230,7 +232,7 @@ position_2d & operator=(
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 position_2d(
@@ -265,7 +267,7 @@ position_2d(
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 position_2d() =default
@@ -298,7 +300,7 @@ position_2d() =default
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 inline position_2d(
@@ -339,6 +341,6 @@ inline position_2d(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

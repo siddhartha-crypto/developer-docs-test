@@ -1,10 +1,11 @@
----
-title: antara::gaming::math::vector_mixins::access_xy
 
 
----
+## access_xy
 
-# antara::gaming::math::vector_mixins::access_xy
+#### Full Title:
+```
+antara::gaming::math::vector_mixins::access_xy
+```
 
 
 
@@ -19,14 +20,14 @@ title: antara::gaming::math::vector_mixins::access_xy
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -46,7 +47,8 @@ title: antara::gaming::math::vector_mixins::access_xy
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Derived ,
@@ -82,9 +84,9 @@ class antara::gaming::math::vector_mixins::access_xy;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -119,9 +121,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function make_xy
+#### function make_xy
 
 ```cpp
 inline constexpr auto make_xy(
@@ -157,7 +159,7 @@ inline constexpr auto make_xy(
 
 
 
-### function set_xy
+#### function set_xy
 
 ```cpp
 inline constexpr Derived & set_xy(
@@ -193,7 +195,7 @@ inline constexpr Derived & set_xy(
 
 
 
-### function set_y
+#### function set_y
 
 ```cpp
 inline constexpr Derived & set_y(
@@ -228,7 +230,7 @@ inline constexpr Derived & set_y(
 
 
 
-### function set_x
+#### function set_x
 
 ```cpp
 inline constexpr Derived & set_x(
@@ -263,7 +265,7 @@ inline constexpr Derived & set_x(
 
 
 
-### function y_ref
+#### function y_ref
 
 ```cpp
 inline constexpr auto & y_ref()
@@ -296,7 +298,7 @@ inline constexpr auto & y_ref()
 
 
 
-### function y
+#### function y
 
 ```cpp
 inline constexpr auto y() const
@@ -329,7 +331,7 @@ inline constexpr auto y() const
 
 
 
-### function x_ref
+#### function x_ref
 
 ```cpp
 inline constexpr auto & x_ref()
@@ -362,7 +364,7 @@ inline constexpr auto & x_ref()
 
 
 
-### function x
+#### function x
 
 ```cpp
 inline constexpr auto x() const
@@ -401,6 +403,6 @@ inline constexpr auto x() const
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1audio__system.md
-  Topic name: antara::gaming::sfml::audio_system
-  Hash count: 0
-*/
----
-title: antara::gaming::sfml::audio_system
-summary: This class allows the customization and play of audio.  
 
----
 
-# antara::gaming::sfml::audio_system
+## audio_system
+
+#### Full Title:
+```
+antara::gaming::sfml::audio_system
+```
 
 
 
@@ -27,7 +23,7 @@ Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -39,7 +35,8 @@ Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -102,9 +99,9 @@ Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -140,7 +137,7 @@ This function destroys and cleans up the sounds which are completed playing.
 
 
 
-### function audio_system
+#### function audio_system
 
 ```cpp
 audio_system(
@@ -181,27 +178,25 @@ audio_system(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1circle.md
   Topic name: antara::gaming::sfml::circle
   Hash count: 0
-*/
----
-title: antara::gaming::sfml::circle
+-->
 
 
----
+## circle
 
-# antara::gaming::sfml::circle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::circle
+```
 
 
 
@@ -213,7 +208,11 @@ title: antara::gaming::sfml::circle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -221,7 +220,7 @@ title: antara::gaming::sfml::circle
 |  | **[circle](Classes/structantara_1_1gaming_1_1sfml_1_1circle.md#function-circle)**(sf::CircleShape drawable_)  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -236,9 +235,10 @@ title: antara::gaming::sfml::circle
 
 
 
-## Public Functions Documentation
 
-### function circle
+### Public Functions Documentation
+
+#### function circle
 
 ```cpp
 inline circle()
@@ -271,7 +271,7 @@ inline circle()
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 inline circle(
@@ -308,9 +308,9 @@ inline circle(
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::CircleShape drawable;
@@ -347,23 +347,25 @@ sf::CircleShape drawable;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1component__sound.md
   Topic name: antara::gaming::sfml::component_sound
   Hash count: 0
-*/
----
-title: antara::gaming::sfml::component_sound
-summary: This struct contains the sound and attributes of it such as volume.  
+-->
 
----
 
-# antara::gaming::sfml::component_sound
+## component_sound
+
+#### Full Title:
+```
+antara::gaming::sfml::component_sound
+```
 
 
 
@@ -382,7 +384,7 @@ This struct contains the sound and attributes of it such as volume.
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -399,9 +401,10 @@ This struct contains the sound and attributes of it such as volume.
 
 
 
-## Public Attributes Documentation
 
-### variable sound
+### Public Attributes Documentation
+
+#### variable sound
 
 ```cpp
 sf::Sound sound;
@@ -439,23 +442,25 @@ This object is SFML's Sound instance which contains the sound data.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1graphic__system.md
   Topic name: antara::gaming::sfml::graphic_system
   Hash count: 0
-*/
----
-title: antara::gaming::sfml::graphic_system
+-->
 
 
----
+## graphic_system
 
-# antara::gaming::sfml::graphic_system
+#### Full Title:
+```
+antara::gaming::sfml::graphic_system
+```
 
 
 
@@ -472,7 +477,7 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -513,7 +518,8 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -576,9 +582,9 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function on_properties_replaced
+#### function on_properties_replaced
 
 ```cpp
 void on_properties_replaced(
@@ -614,7 +620,7 @@ void on_properties_replaced(
 
 
 
-### function on_vertex_array_construct
+#### function on_vertex_array_construct
 
 ```cpp
 void on_vertex_array_construct(
@@ -650,7 +656,7 @@ void on_vertex_array_construct(
 
 
 
-### function on_vertex_array_replace
+#### function on_vertex_array_replace
 
 ```cpp
 void on_vertex_array_replace(
@@ -686,7 +692,7 @@ void on_vertex_array_replace(
 
 
 
-### function on_rt_construct
+#### function on_rt_construct
 
 ```cpp
 void on_rt_construct(
@@ -722,7 +728,7 @@ void on_rt_construct(
 
 
 
-### function on_rt_replace
+#### function on_rt_replace
 
 ```cpp
 void on_rt_replace(
@@ -758,7 +764,7 @@ void on_rt_replace(
 
 
 
-### function on_sprite_construct
+#### function on_sprite_construct
 
 ```cpp
 void on_sprite_construct(
@@ -794,7 +800,7 @@ void on_sprite_construct(
 
 
 
-### function on_sprite_replace
+#### function on_sprite_replace
 
 ```cpp
 void on_sprite_replace(
@@ -830,7 +836,7 @@ void on_sprite_replace(
 
 
 
-### function on_text_construct
+#### function on_text_construct
 
 ```cpp
 void on_text_construct(
@@ -866,7 +872,7 @@ void on_text_construct(
 
 
 
-### function on_text_replace
+#### function on_text_replace
 
 ```cpp
 void on_text_replace(
@@ -902,7 +908,7 @@ void on_text_replace(
 
 
 
-### function on_position_2d_construct
+#### function on_position_2d_construct
 
 ```cpp
 void on_position_2d_construct(
@@ -938,7 +944,7 @@ void on_position_2d_construct(
 
 
 
-### function on_position_2d_replace
+#### function on_position_2d_replace
 
 ```cpp
 void on_position_2d_replace(
@@ -974,7 +980,7 @@ void on_position_2d_replace(
 
 
 
-### function on_rectangle_construct
+#### function on_rectangle_construct
 
 ```cpp
 void on_rectangle_construct(
@@ -1010,7 +1016,7 @@ void on_rectangle_construct(
 
 
 
-### function on_rectangle_replace
+#### function on_rectangle_replace
 
 ```cpp
 void on_rectangle_replace(
@@ -1046,7 +1052,7 @@ void on_rectangle_replace(
 
 
 
-### function on_circle_construct
+#### function on_circle_construct
 
 ```cpp
 void on_circle_construct(
@@ -1082,7 +1088,7 @@ void on_circle_construct(
 
 
 
-### function on_circle_replace
+#### function on_circle_replace
 
 ```cpp
 void on_circle_replace(
@@ -1118,7 +1124,7 @@ void on_circle_replace(
 
 
 
-### function on_window_resized_event
+#### function on_window_resized_event
 
 ```cpp
 void on_window_resized_event(
@@ -1153,7 +1159,7 @@ void on_window_resized_event(
 
 
 
-### function on_fill_image_properties
+#### function on_fill_image_properties
 
 ```cpp
 void on_fill_image_properties(
@@ -1188,7 +1194,7 @@ void on_fill_image_properties(
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 void on_key_pressed(
@@ -1224,7 +1230,7 @@ Callback.
 
 
 
-### function get_window
+#### function get_window
 
 ```cpp
 sf::RenderWindow & get_window()
@@ -1258,7 +1264,7 @@ Public getter.
 
 
 
-### function draw_all_layers
+#### function draw_all_layers
 
 ```cpp
 void draw_all_layers()
@@ -1291,7 +1297,7 @@ void draw_all_layers()
 
 
 
-### function draw_all_layers
+#### function draw_all_layers
 
 ```cpp
 void draw_all_layers(
@@ -1326,7 +1332,7 @@ void draw_all_layers(
 
 
 
-### function draw
+#### function draw
 
 ```cpp
 void draw(
@@ -1361,7 +1367,7 @@ void draw(
 
 
 
-### function draw
+#### function draw
 
 ```cpp
 void draw()
@@ -1394,7 +1400,7 @@ void draw()
 
 
 
-### function set_properties
+#### function set_properties
 
 ```cpp
 void set_properties(
@@ -1431,7 +1437,7 @@ void set_properties(
 
 
 
-### function set_properties
+#### function set_properties
 
 ```cpp
 bool set_properties(
@@ -1467,7 +1473,7 @@ bool set_properties(
 
 
 
-### function set_position
+#### function set_position
 
 ```cpp
 void set_position(
@@ -1504,7 +1510,7 @@ void set_position(
 
 
 
-### function set_position
+#### function set_position
 
 ```cpp
 bool set_position(
@@ -1540,7 +1546,7 @@ bool set_position(
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -1576,7 +1582,7 @@ Pure virtual functions.
 
 
 
-### function refresh_render_texture
+#### function refresh_render_texture
 
 ```cpp
 void refresh_render_texture()
@@ -1609,7 +1615,7 @@ void refresh_render_texture()
 
 
 
-### function ~graphic_system
+#### function ~graphic_system
 
 ```cpp
 ~graphic_system()
@@ -1642,7 +1648,7 @@ void refresh_render_texture()
 
 
 
-### function graphic_system
+#### function graphic_system
 
 ```cpp
 graphic_system(
@@ -1683,23 +1689,25 @@ graphic_system(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1input__system.md
   Topic name: antara::gaming::sfml::input_system
   Hash count: 0
-*/
----
-title: antara::gaming::sfml::input_system
+-->
 
 
----
+## input_system
 
-# antara::gaming::sfml::input_system
+#### Full Title:
+```
+antara::gaming::sfml::input_system
+```
 
 
 
@@ -1716,7 +1724,7 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1730,7 +1738,8 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -1793,9 +1802,9 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function on_set_mouse_position
+#### function on_set_mouse_position
 
 ```cpp
 void on_set_mouse_position(
@@ -1830,7 +1839,7 @@ void on_set_mouse_position(
 
 
 
-### function on_fill_mouse_position
+#### function on_fill_mouse_position
 
 ```cpp
 void on_fill_mouse_position(
@@ -1865,7 +1874,7 @@ void on_fill_mouse_position(
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -1901,7 +1910,7 @@ Pure virtual functions.
 
 
 
-### function input_system
+#### function input_system
 
 ```cpp
 input_system(
@@ -1944,23 +1953,25 @@ Constructors.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1intro__scene.md
   Topic name: antara::gaming::sfml::intro_scene
   Hash count: 0
-*/
----
-title: antara::gaming::sfml::intro_scene
+-->
 
 
----
+## intro_scene
 
-# antara::gaming::sfml::intro_scene
+#### Full Title:
+```
+antara::gaming::sfml::intro_scene
+```
 
 
 
@@ -1975,14 +1986,14 @@ Inherits from [antara::gaming::scenes::base_scene](Classes/classantara_1_1gaming
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef std::function< void()> | **[on_finish_functor](Classes/classantara_1_1gaming_1_1sfml_1_1intro__scene.md#typedef-on_finish_functor)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1997,7 +2008,8 @@ Inherits from [antara::gaming::scenes::base_scene](Classes/classantara_1_1gaming
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -2030,9 +2042,9 @@ Inherits from [antara::gaming::scenes::base_scene](Classes/classantara_1_1gaming
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef on_finish_functor
+#### typedef on_finish_functor
 
 ```cpp
 typedef std::function< void()> on_finish_functor;
@@ -2067,9 +2079,9 @@ typedef std::function< void()> on_finish_functor;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function ~intro_scene
+#### function ~intro_scene
 
 ```cpp
 ~intro_scene()
@@ -2102,7 +2114,7 @@ typedef std::function< void()> on_finish_functor;
 
 
 
-### function scene_name
+#### function scene_name
 
 ```cpp
 virtual std::string scene_name()
@@ -2137,7 +2149,7 @@ virtual std::string scene_name()
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 virtual bool on_key_pressed(
@@ -2174,7 +2186,7 @@ virtual bool on_key_pressed(
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -2209,7 +2221,7 @@ virtual void update()
 
 
 
-### function intro_scene
+#### function intro_scene
 
 ```cpp
 intro_scene(
@@ -2251,23 +2263,20 @@ intro_scene(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene_1_1animation.md
-  Topic name: antara::gaming::sfml::intro_scene::animation
-  Hash count: 1
-*/
----
-title: antara::gaming::sfml::intro_scene::animation
 
 
----
 
-# antara::gaming::sfml::intro_scene::animation
+
+
+
+## animation
+
+#### Full Title:
+```
+antara::gaming::sfml::intro_scene::animation
+```
 
 
 
@@ -2283,7 +2292,7 @@ title: antara::gaming::sfml::intro_scene::animation
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2293,7 +2302,7 @@ title: antara::gaming::sfml::intro_scene::animation
 |  | **[animation](Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene_1_1animation.md#function-animation)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2308,9 +2317,10 @@ title: antara::gaming::sfml::intro_scene::animation
 
 
 
-## Public Functions Documentation
 
-### function is_done
+### Public Functions Documentation
+
+#### function is_done
 
 ```cpp
 bool is_done()
@@ -2343,7 +2353,7 @@ bool is_done()
 
 
 
-### function update
+#### function update
 
 ```cpp
 void update(
@@ -2378,7 +2388,7 @@ void update(
 
 
 
-### function animation
+#### function animation
 
 ```cpp
 explicit animation(
@@ -2414,7 +2424,7 @@ explicit animation(
 
 
 
-### function animation
+#### function animation
 
 ```cpp
 animation()
@@ -2449,9 +2459,9 @@ animation()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable start_time
+#### variable start_time
 
 ```cpp
 const float start_time;
@@ -2488,27 +2498,25 @@ const float start_time;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene__factory.md
   Topic name: antara::gaming::sfml::intro_scene_factory
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::intro_scene_factory
+-->
 
 
----
+## intro_scene_factory
 
-# antara::gaming::sfml::intro_scene_factory
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::intro_scene_factory
+```
 
 
 
@@ -2520,7 +2528,11 @@ title: antara::gaming::sfml::intro_scene_factory
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2541,9 +2553,10 @@ title: antara::gaming::sfml::intro_scene_factory
 
 
 
-## Public Functions Documentation
 
-### function create_name
+### Public Functions Documentation
+
+#### function create_name
 
 ```cpp
 static auto create_name(
@@ -2580,7 +2593,7 @@ static auto create_name(
 
 
 
-### function create_logo
+#### function create_logo
 
 ```cpp
 static auto create_logo(
@@ -2615,7 +2628,7 @@ static auto create_logo(
 
 
 
-### function create_background
+#### function create_background
 
 ```cpp
 static entt::entity create_background(
@@ -2655,7 +2668,7 @@ Entity creation
 
 Give the fresh entity 
 
-### function create_foreground
+#### function create_foreground
 
 ```cpp
 static entt::entity create_foreground(
@@ -2695,7 +2708,7 @@ Entity components
 
 Give the fresh entity 
 
-### function create_sound
+#### function create_sound
 
 ```cpp
 static entt::entity create_sound(
@@ -2740,23 +2753,25 @@ Give the fresh entity
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1loader.md
   Topic name: antara::gaming::sfml::loader
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::loader
+-->
 
 
----
+## loader
 
-# antara::gaming::sfml::loader
+#### Full Title:
+```
+antara::gaming::sfml::loader
+```
 
 
 
@@ -2774,7 +2789,7 @@ Inherits from entt::loader< loader< ResourceType >, ResourceType >
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2787,7 +2802,8 @@ Inherits from entt::loader< loader< ResourceType >, ResourceType >
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <typename ResourceType >
@@ -2824,9 +2840,9 @@ struct antara::gaming::sfml::loader;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function load
+#### function load
 
 ```cpp
 inline std::shared_ptr< ResourceType > load(
@@ -2867,23 +2883,25 @@ inline std::shared_ptr< ResourceType > load(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1loader_3_01sf_1_1_music_01_4.md
   Topic name: antara::gaming::sfml::loader< sf::Music >
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::loader< sf::Music >
+-->
 
 
----
+## loader< sf::Music >
 
-# antara::gaming::sfml::loader< sf::Music >
+#### Full Title:
+```
+antara::gaming::sfml::loader< sf::Music >
+```
 
 
 
@@ -2900,7 +2918,7 @@ Inherits from entt::loader< loader< sf::Music >, sf::Music >
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2917,9 +2935,10 @@ Inherits from entt::loader< loader< sf::Music >, sf::Music >
 
 
 
-## Public Functions Documentation
 
-### function load
+### Public Functions Documentation
+
+#### function load
 
 ```cpp
 inline std::shared_ptr< sf::Music > load(
@@ -2960,23 +2979,25 @@ inline std::shared_ptr< sf::Music > load(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1lua__system.md
   Topic name: antara::gaming::sfml::lua_system
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::lua_system
+-->
 
 
----
+## lua_system
 
-# antara::gaming::sfml::lua_system
+#### Full Title:
+```
+antara::gaming::sfml::lua_system
+```
 
 
 
@@ -2993,7 +3014,7 @@ Inherits from [antara::gaming::ecs::system< lua_system >](Classes/classantara_1_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3005,7 +3026,8 @@ Inherits from [antara::gaming::ecs::system< lua_system >](Classes/classantara_1_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -3068,9 +3090,9 @@ Inherits from [antara::gaming::ecs::system< lua_system >](Classes/classantara_1_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -3106,7 +3128,7 @@ Pure virtual functions.
 
 
 
-### function lua_system
+#### function lua_system
 
 ```cpp
 lua_system(
@@ -3148,27 +3170,25 @@ lua_system(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1play__sound__event.md
   Topic name: antara::gaming::sfml::play_sound_event
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::play_sound_event
+-->
 
 
----
+## play_sound_event
 
-# antara::gaming::sfml::play_sound_event
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::play_sound_event
+```
 
 
 
@@ -3180,7 +3200,11 @@ title: antara::gaming::sfml::play_sound_event
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3188,7 +3212,7 @@ title: antara::gaming::sfml::play_sound_event
 |  | **[play_sound_event](Classes/structantara_1_1gaming_1_1sfml_1_1play__sound__event.md#function-play_sound_event)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3206,9 +3230,10 @@ title: antara::gaming::sfml::play_sound_event
 
 
 
-## Public Functions Documentation
 
-### function play_sound_event
+### Public Functions Documentation
+
+#### function play_sound_event
 
 ```cpp
 play_sound_event(
@@ -3246,7 +3271,7 @@ play_sound_event(
 
 
 
-### function play_sound_event
+#### function play_sound_event
 
 ```cpp
 play_sound_event()
@@ -3281,9 +3306,9 @@ play_sound_event()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable volume
+#### variable volume
 
 ```cpp
 float volume {100.f};
@@ -3316,7 +3341,7 @@ float volume {100.f};
 
 
 
-### variable on_finish
+#### variable on_finish
 
 ```cpp
 std::function< void()> on_finish {[]() {
@@ -3350,7 +3375,7 @@ std::function< void()> on_finish {[]() {
 
 
 
-### variable resource_mgr
+#### variable resource_mgr
 
 ```cpp
 resources_manager * resource_mgr {nullptr};
@@ -3383,7 +3408,7 @@ resources_manager * resource_mgr {nullptr};
 
 
 
-### variable sound_id
+#### variable sound_id
 
 ```cpp
 const char * sound_id {nullptr};
@@ -3420,27 +3445,25 @@ const char * sound_id {nullptr};
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1rectangle.md
   Topic name: antara::gaming::sfml::rectangle
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::rectangle
+-->
 
 
----
+## rectangle
 
-# antara::gaming::sfml::rectangle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::rectangle
+```
 
 
 
@@ -3452,14 +3475,18 @@ title: antara::gaming::sfml::rectangle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[rectangle](Classes/structantara_1_1gaming_1_1sfml_1_1rectangle.md#function-rectangle)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3474,9 +3501,10 @@ title: antara::gaming::sfml::rectangle
 
 
 
-## Public Functions Documentation
 
-### function rectangle
+### Public Functions Documentation
+
+#### function rectangle
 
 ```cpp
 rectangle() =default
@@ -3511,9 +3539,9 @@ rectangle() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::RectangleShape drawable {};
@@ -3550,27 +3578,25 @@ sf::RectangleShape drawable {};
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1render__texture.md
   Topic name: antara::gaming::sfml::render_texture
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::render_texture
+-->
 
 
----
+## render_texture
 
-# antara::gaming::sfml::render_texture
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::render_texture
+```
 
 
 
@@ -3582,14 +3608,18 @@ title: antara::gaming::sfml::render_texture
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[render_texture](Classes/structantara_1_1gaming_1_1sfml_1_1render__texture.md#function-render_texture)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3604,9 +3634,10 @@ title: antara::gaming::sfml::render_texture
 
 
 
-## Public Functions Documentation
 
-### function render_texture
+### Public Functions Documentation
+
+#### function render_texture
 
 ```cpp
 render_texture() =default
@@ -3641,9 +3672,9 @@ render_texture() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 std::unique_ptr< sf::RenderTexture > drawable {std::make_unique<sf::RenderTexture>()};
@@ -3680,27 +3711,25 @@ std::unique_ptr< sf::RenderTexture > drawable {std::make_unique<sf::RenderTextur
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1resources__manager.md
   Topic name: antara::gaming::sfml::resources_manager
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::resources_manager
+-->
 
 
----
+## resources_manager
 
-# antara::gaming::sfml::resources_manager
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::resources_manager
+```
 
 
 
@@ -3712,7 +3741,11 @@ title: antara::gaming::sfml::resources_manager
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3735,9 +3768,10 @@ title: antara::gaming::sfml::resources_manager
 
 
 
-## Public Functions Documentation
 
-### function load_music
+### Public Functions Documentation
+
+#### function load_music
 
 ```cpp
 music_handle load_music(
@@ -3772,7 +3806,7 @@ music_handle load_music(
 
 
 
-### function load_sound
+#### function load_sound
 
 ```cpp
 sound_handle load_sound(
@@ -3807,7 +3841,7 @@ sound_handle load_sound(
 
 
 
-### function load_font
+#### function load_font
 
 ```cpp
 font_handle load_font(
@@ -3842,7 +3876,7 @@ font_handle load_font(
 
 
 
-### function load_texture
+#### function load_texture
 
 ```cpp
 texture_handle load_texture(
@@ -3878,7 +3912,7 @@ texture_handle load_texture(
 
 
 
-### function contains
+#### function contains
 
 ```cpp
 static inline auto contains(
@@ -3914,7 +3948,7 @@ static inline auto contains(
 
 
 
-### function get
+#### function get
 
 ```cpp
 static inline auto get(
@@ -3950,7 +3984,7 @@ static inline auto get(
 
 
 
-### function load
+#### function load
 
 ```cpp
 static inline auto load(
@@ -3993,27 +4027,25 @@ static inline auto load(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1sprite.md
   Topic name: antara::gaming::sfml::sprite
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::sprite
+-->
 
 
----
+## sprite
 
-# antara::gaming::sfml::sprite
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::sprite
+```
 
 
 
@@ -4025,14 +4057,18 @@ title: antara::gaming::sfml::sprite
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[sprite](Classes/structantara_1_1gaming_1_1sfml_1_1sprite.md#function-sprite)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -4047,9 +4083,10 @@ title: antara::gaming::sfml::sprite
 
 
 
-## Public Functions Documentation
 
-### function sprite
+### Public Functions Documentation
+
+#### function sprite
 
 ```cpp
 sprite() =default
@@ -4084,9 +4121,9 @@ sprite() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::Sprite drawable;
@@ -4123,27 +4160,25 @@ sf::Sprite drawable;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1text.md
   Topic name: antara::gaming::sfml::text
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::text
+-->
 
 
----
+## text
 
-# antara::gaming::sfml::text
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::text
+```
 
 
 
@@ -4155,14 +4190,18 @@ title: antara::gaming::sfml::text
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[text](Classes/structantara_1_1gaming_1_1sfml_1_1text.md#function-text)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -4177,9 +4216,10 @@ title: antara::gaming::sfml::text
 
 
 
-## Public Functions Documentation
 
-### function text
+### Public Functions Documentation
+
+#### function text
 
 ```cpp
 text() =default
@@ -4214,9 +4254,9 @@ text() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::Text drawable;
@@ -4253,27 +4293,25 @@ sf::Text drawable;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1vertex__array.md
   Topic name: antara::gaming::sfml::vertex_array
   Hash count: 1
-*/
----
-title: antara::gaming::sfml::vertex_array
+-->
 
 
----
+## vertex_array
 
-# antara::gaming::sfml::vertex_array
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::vertex_array
+```
 
 
 
@@ -4285,14 +4323,18 @@ title: antara::gaming::sfml::vertex_array
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[vertex_array](Classes/structantara_1_1gaming_1_1sfml_1_1vertex__array.md#function-vertex_array)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -4307,9 +4349,10 @@ title: antara::gaming::sfml::vertex_array
 
 
 
-## Public Functions Documentation
 
-### function vertex_array
+### Public Functions Documentation
+
+#### function vertex_array
 
 ```cpp
 vertex_array() =default
@@ -4344,9 +4387,9 @@ vertex_array() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::VertexArray drawable;
@@ -4383,8 +4426,9 @@ sf::VertexArray drawable;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

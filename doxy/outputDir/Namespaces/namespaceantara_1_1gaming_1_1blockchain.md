@@ -1,10 +1,11 @@
----
-title: antara::gaming::blockchain
-summary: < std::exception  
 
----
 
-# antara::gaming::blockchain
+## blockchain
+
+#### Full Title:
+```
+antara::gaming::blockchain
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < std::exception
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -29,7 +30,8 @@ summary: < std::exception
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::exception 
 
@@ -76,6 +78,6 @@ C System HeadersC++ System Headers < std::filesystem::path < std::optional < std
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

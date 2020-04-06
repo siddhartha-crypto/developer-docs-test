@@ -1,10 +1,11 @@
----
-title: std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mixins... > >
 
 
----
+## tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mixins... > >
 
-# std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mixins... > >
+#### Full Title:
+```
+std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mixins... > >
+```
 
 
 
@@ -19,7 +20,7 @@ title: std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mi
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,7 +35,8 @@ title: std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mi
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <size_t I,
@@ -72,9 +74,9 @@ struct std::tuple_element< I, antara::gaming::math::basic_vector< Unit, Size, Mi
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef type
+#### typedef type
 
 ```cpp
 typedef Unit type;
@@ -115,6 +117,6 @@ typedef Unit type;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

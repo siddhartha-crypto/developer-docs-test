@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::start_game
 
 
----
+## start_game
 
-# antara::gaming::event::start_game
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::start_game
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::start_game
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,9 +38,10 @@ title: antara::gaming::event::start_game
 
 
 
-## Public Functions Documentation
 
-### function start_game
+### Public Functions Documentation
+
+#### function start_game
 
 ```cpp
 start_game() =default
@@ -78,6 +80,6 @@ start_game() =default
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

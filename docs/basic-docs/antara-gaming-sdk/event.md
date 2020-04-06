@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1canvas__resized.md
-  Topic name: antara::gaming::event::canvas_resized
-  Hash count: 0
-*/
----
-title: antara::gaming::event::canvas_resized
 
 
----
+## canvas_resized
 
-# antara::gaming::event::canvas_resized
+#### Full Title:
+```
+antara::gaming::event::canvas_resized
+```
 
 
 
@@ -25,7 +21,7 @@ title: antara::gaming::event::canvas_resized
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +38,10 @@ title: antara::gaming::event::canvas_resized
 
 
 
-## Public Functions Documentation
 
-### function canvas_resized
+### Public Functions Documentation
+
+#### function canvas_resized
 
 ```cpp
 canvas_resized() =default
@@ -83,27 +80,25 @@ canvas_resized() =default
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1change__scene.md
   Topic name: antara::gaming::event::change_scene
   Hash count: 0
-*/
----
-title: antara::gaming::event::change_scene
+-->
 
 
----
+## change_scene
 
-# antara::gaming::event::change_scene
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::change_scene
+```
 
 
 
@@ -117,7 +112,11 @@ title: antara::gaming::event::change_scene
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -135,9 +134,10 @@ title: antara::gaming::event::change_scene
 
 
 
-## Public Attributes Documentation
 
-### variable just_push_scene
+### Public Attributes Documentation
+
+#### variable just_push_scene
 
 ```cpp
 bool just_push_scene {false};
@@ -170,7 +170,7 @@ bool just_push_scene {false};
 
 
 
-### variable scene_ptr
+#### variable scene_ptr
 
 ```cpp
 std::unique_ptr< scenes::base_scene > scene_ptr;
@@ -207,27 +207,25 @@ std::unique_ptr< scenes::base_scene > scene_ptr;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1fatal__error.md
   Topic name: antara::gaming::event::fatal_error
   Hash count: 0
-*/
----
-title: antara::gaming::event::fatal_error
+-->
 
 
----
+## fatal_error
 
-# antara::gaming::event::fatal_error
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::fatal_error
+```
 
 
 
@@ -239,14 +237,18 @@ title: antara::gaming::event::fatal_error
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[fatal_error](Classes/structantara_1_1gaming_1_1event_1_1fatal__error.md#function-fatal_error)**(std::error_code ec) <br>Constructor.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -261,9 +263,10 @@ title: antara::gaming::event::fatal_error
 
 
 
-## Public Functions Documentation
 
-### function fatal_error
+### Public Functions Documentation
+
+#### function fatal_error
 
 ```cpp
 fatal_error(
@@ -301,9 +304,9 @@ Constructor.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable ec_
+#### variable ec_
 
 ```cpp
 std::error_code ec_;
@@ -341,27 +344,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1fill__image__properties.md
   Topic name: antara::gaming::event::fill_image_properties
   Hash count: 0
-*/
----
-title: antara::gaming::event::fill_image_properties
+-->
 
 
----
+## fill_image_properties
 
-# antara::gaming::event::fill_image_properties
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::fill_image_properties
+```
 
 
 
@@ -373,7 +374,11 @@ title: antara::gaming::event::fill_image_properties
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -382,7 +387,7 @@ title: antara::gaming::event::fill_image_properties
 |  | **[fill_image_properties](Classes/structantara_1_1gaming_1_1event_1_1fill__image__properties.md#function-fill_image_properties)**(std::string appeareance_, [math::vec2u](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md) & size) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -398,9 +403,10 @@ title: antara::gaming::event::fill_image_properties
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 inline fill_image_properties & operator=(
@@ -436,7 +442,7 @@ Operators.
 
 
 
-### function fill_image_properties
+#### function fill_image_properties
 
 ```cpp
 fill_image_properties(
@@ -471,7 +477,7 @@ fill_image_properties(
 
 
 
-### function fill_image_properties
+#### function fill_image_properties
 
 ```cpp
 inline fill_image_properties(
@@ -510,9 +516,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable image_size
+#### variable image_size
 
 ```cpp
 math::vec2u & image_size;
@@ -546,7 +552,7 @@ To fill.
 
 
 
-### variable appearance
+#### variable appearance
 
 ```cpp
 std::string appearance;
@@ -585,27 +591,25 @@ Texture id
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1get__mouse__position.md
   Topic name: antara::gaming::event::get_mouse_position
   Hash count: 0
-*/
----
-title: antara::gaming::event::get_mouse_position
+-->
 
 
----
+## get_mouse_position
 
-# antara::gaming::event::get_mouse_position
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::get_mouse_position
+```
 
 
 
@@ -617,7 +621,11 @@ title: antara::gaming::event::get_mouse_position
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -626,7 +634,7 @@ title: antara::gaming::event::get_mouse_position
 |  | **[get_mouse_position](Classes/structantara_1_1gaming_1_1event_1_1get__mouse__position.md#function-get_mouse_position)**([math::vec2i](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md) & in, bool relative_to_the_window_ =false) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -642,9 +650,10 @@ title: antara::gaming::event::get_mouse_position
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 inline get_mouse_position & operator=(
@@ -680,7 +689,7 @@ Operators.
 
 
 
-### function get_mouse_position
+#### function get_mouse_position
 
 ```cpp
 get_mouse_position(
@@ -715,7 +724,7 @@ get_mouse_position(
 
 
 
-### function get_mouse_position
+#### function get_mouse_position
 
 ```cpp
 inline get_mouse_position(
@@ -754,9 +763,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable relative_to_the_window
+#### variable relative_to_the_window
 
 ```cpp
 bool relative_to_the_window {false};
@@ -789,7 +798,7 @@ bool relative_to_the_window {false};
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 math::vec2i & pos;
@@ -827,23 +836,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1invoker__dispatcher.md
   Topic name: antara::gaming::event::invoker_dispatcher
   Hash count: 0
-*/
----
-title: antara::gaming::event::invoker_dispatcher
+-->
 
 
----
+## invoker_dispatcher
 
-# antara::gaming::event::invoker_dispatcher
+#### Full Title:
+```
+antara::gaming::event::invoker_dispatcher
+```
 
 
 
@@ -860,7 +871,7 @@ title: antara::gaming::event::invoker_dispatcher
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -874,7 +885,8 @@ title: antara::gaming::event::invoker_dispatcher
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <typename Event,
@@ -912,9 +924,9 @@ struct antara::gaming::event::invoker_dispatcher;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function operator()
+#### function operator()
 
 ```cpp
 inline void operator()(
@@ -950,7 +962,7 @@ inline void operator()(
 
 
 
-### function invoker_dispatcher
+#### function invoker_dispatcher
 
 ```cpp
 constexpr invoker_dispatcher() =default
@@ -989,23 +1001,25 @@ constexpr invoker_dispatcher() =default
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1key__pressed.md
   Topic name: antara::gaming::event::key_pressed
   Hash count: 0
-*/
----
-title: antara::gaming::event::key_pressed
-summary: triggered when pressing a key on the keyboard.  
+-->
 
----
 
-# antara::gaming::event::key_pressed
+## key_pressed
+
+#### Full Title:
+```
+antara::gaming::event::key_pressed
+```
 
 
 
@@ -1023,7 +1037,7 @@ triggered when pressing a key on the keyboard.  [More...](#detailed-description)
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1031,7 +1045,7 @@ triggered when pressing a key on the keyboard.  [More...](#detailed-description)
 |  | **[key_pressed](Classes/structantara_1_1gaming_1_1event_1_1key__pressed.md#function-key_pressed)**(input::key key_, bool alt_, bool control_, bool shift_, bool system_) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1046,7 +1060,8 @@ triggered when pressing a key on the keyboard.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 struct antara::gaming::event::key_pressed;
@@ -1090,9 +1105,9 @@ embed:rst:leading-asterisk
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function key_pressed
+#### function key_pressed
 
 ```cpp
 key_pressed()
@@ -1126,7 +1141,7 @@ key_pressed()
 default constructor (for scripting systems convenience) 
 
 
-### function key_pressed
+#### function key_pressed
 
 ```cpp
 key_pressed(
@@ -1190,9 +1205,9 @@ int main()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable system
+#### variable system
 
 ```cpp
 bool system {false};
@@ -1226,7 +1241,7 @@ is system pressed at the same time.
 
 
 
-### variable shift
+#### variable shift
 
 ```cpp
 bool shift {false};
@@ -1260,7 +1275,7 @@ is shift pressed at the same time.
 
 
 
-### variable control
+#### variable control
 
 ```cpp
 bool control {false};
@@ -1294,7 +1309,7 @@ is ctrl pressed at the same time.
 
 
 
-### variable alt
+#### variable alt
 
 ```cpp
 bool alt {false};
@@ -1328,7 +1343,7 @@ is alt pressed at the same time.
 
 
 
-### variable key
+#### variable key
 
 ```cpp
 antara::gaming::input::key key;
@@ -1367,23 +1382,25 @@ key pressed
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1key__released.md
   Topic name: antara::gaming::event::key_released
   Hash count: 0
-*/
----
-title: antara::gaming::event::key_released
-summary: triggered when releasing a key on the keyboard.  
+-->
 
----
 
-# antara::gaming::event::key_released
+## key_released
+
+#### Full Title:
+```
+antara::gaming::event::key_released
+```
 
 
 
@@ -1401,7 +1418,7 @@ triggered when releasing a key on the keyboard.  [More...](#detailed-description
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1409,7 +1426,7 @@ triggered when releasing a key on the keyboard.  [More...](#detailed-description
 |  | **[key_released](Classes/structantara_1_1gaming_1_1event_1_1key__released.md#function-key_released)**(input::key key_, bool alt_, bool control_, bool shift_, bool system_) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1424,7 +1441,8 @@ triggered when releasing a key on the keyboard.  [More...](#detailed-description
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 struct antara::gaming::event::key_released;
@@ -1468,9 +1486,9 @@ embed:rst:leading-asterisk
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function key_released
+#### function key_released
 
 ```cpp
 key_released()
@@ -1504,7 +1522,7 @@ key_released()
 default constructor (for scripting systems convenience) 
 
 
-### function key_released
+#### function key_released
 
 ```cpp
 key_released(
@@ -1568,9 +1586,9 @@ int main()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable system
+#### variable system
 
 ```cpp
 bool system {false};
@@ -1604,7 +1622,7 @@ is system released at the same time.
 
 
 
-### variable shift
+#### variable shift
 
 ```cpp
 bool shift {false};
@@ -1638,7 +1656,7 @@ is shift released at the same time.
 
 
 
-### variable control
+#### variable control
 
 ```cpp
 bool control {false};
@@ -1672,7 +1690,7 @@ is ctrl released at the same time.
 
 
 
-### variable alt
+#### variable alt
 
 ```cpp
 bool alt {false};
@@ -1706,7 +1724,7 @@ is alt released at the same time.
 
 
 
-### variable key
+#### variable key
 
 ```cpp
 input::key key;
@@ -1745,27 +1763,25 @@ key released
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1load__textures.md
   Topic name: antara::gaming::event::load_textures
   Hash count: 0
-*/
----
-title: antara::gaming::event::load_textures
+-->
 
 
----
+## load_textures
 
-# antara::gaming::event::load_textures
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::load_textures
+```
 
 
 
@@ -1779,7 +1795,11 @@ title: antara::gaming::event::load_textures
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1796,9 +1816,10 @@ title: antara::gaming::event::load_textures
 
 
 
-## Public Attributes Documentation
 
-### variable textures_settings
+### Public Attributes Documentation
+
+#### variable textures_settings
 
 ```cpp
 std::vector< loading_settings > textures_settings;
@@ -1836,27 +1857,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1loading__settings.md
   Topic name: antara::gaming::event::loading_settings
   Hash count: 0
-*/
----
-title: antara::gaming::event::loading_settings
+-->
 
 
----
+## loading_settings
 
-# antara::gaming::event::loading_settings
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::loading_settings
+```
 
 
 
@@ -1870,7 +1889,11 @@ title: antara::gaming::event::loading_settings
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1888,9 +1911,10 @@ title: antara::gaming::event::loading_settings
 
 
 
-## Public Attributes Documentation
 
-### variable smooth
+### Public Attributes Documentation
+
+#### variable smooth
 
 ```cpp
 bool smooth {true};
@@ -1923,7 +1947,7 @@ bool smooth {true};
 
 
 
-### variable texture_id
+#### variable texture_id
 
 ```cpp
 std::string texture_id;
@@ -1961,27 +1985,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1mouse__button__pressed.md
   Topic name: antara::gaming::event::mouse_button_pressed
   Hash count: 0
-*/
----
-title: antara::gaming::event::mouse_button_pressed
+-->
 
 
----
+## mouse_button_pressed
 
-# antara::gaming::event::mouse_button_pressed
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::mouse_button_pressed
+```
 
 
 
@@ -1993,7 +2015,11 @@ title: antara::gaming::event::mouse_button_pressed
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2001,7 +2027,7 @@ title: antara::gaming::event::mouse_button_pressed
 |  | **[mouse_button_pressed](Classes/structantara_1_1gaming_1_1event_1_1mouse__button__pressed.md#function-mouse_button_pressed)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2020,9 +2046,10 @@ title: antara::gaming::event::mouse_button_pressed
 
 
 
-## Public Functions Documentation
 
-### function mouse_button_pressed
+### Public Functions Documentation
+
+#### function mouse_button_pressed
 
 ```cpp
 mouse_button_pressed(
@@ -2061,7 +2088,7 @@ mouse_button_pressed(
 
 
 
-### function mouse_button_pressed
+#### function mouse_button_pressed
 
 ```cpp
 mouse_button_pressed() =default
@@ -2097,9 +2124,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable window_y
+#### variable window_y
 
 ```cpp
 float window_y;
@@ -2132,7 +2159,7 @@ float window_y;
 
 
 
-### variable window_x
+#### variable window_x
 
 ```cpp
 float window_x;
@@ -2165,7 +2192,7 @@ float window_x;
 
 
 
-### variable y
+#### variable y
 
 ```cpp
 float y;
@@ -2198,7 +2225,7 @@ float y;
 
 
 
-### variable x
+#### variable x
 
 ```cpp
 float x;
@@ -2231,7 +2258,7 @@ float x;
 
 
 
-### variable button
+#### variable button
 
 ```cpp
 input::mouse_button button;
@@ -2269,27 +2296,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1mouse__button__released.md
   Topic name: antara::gaming::event::mouse_button_released
   Hash count: 0
-*/
----
-title: antara::gaming::event::mouse_button_released
+-->
 
 
----
+## mouse_button_released
 
-# antara::gaming::event::mouse_button_released
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::mouse_button_released
+```
 
 
 
@@ -2301,7 +2326,11 @@ title: antara::gaming::event::mouse_button_released
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2309,7 +2338,7 @@ title: antara::gaming::event::mouse_button_released
 |  | **[mouse_button_released](Classes/structantara_1_1gaming_1_1event_1_1mouse__button__released.md#function-mouse_button_released)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2328,9 +2357,10 @@ title: antara::gaming::event::mouse_button_released
 
 
 
-## Public Functions Documentation
 
-### function mouse_button_released
+### Public Functions Documentation
+
+#### function mouse_button_released
 
 ```cpp
 mouse_button_released(
@@ -2369,7 +2399,7 @@ mouse_button_released(
 
 
 
-### function mouse_button_released
+#### function mouse_button_released
 
 ```cpp
 mouse_button_released() =default
@@ -2405,9 +2435,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable window_y
+#### variable window_y
 
 ```cpp
 float window_y;
@@ -2440,7 +2470,7 @@ float window_y;
 
 
 
-### variable window_x
+#### variable window_x
 
 ```cpp
 float window_x;
@@ -2473,7 +2503,7 @@ float window_x;
 
 
 
-### variable y
+#### variable y
 
 ```cpp
 float y;
@@ -2506,7 +2536,7 @@ float y;
 
 
 
-### variable x
+#### variable x
 
 ```cpp
 float x;
@@ -2539,7 +2569,7 @@ float x;
 
 
 
-### variable button
+#### variable button
 
 ```cpp
 input::mouse_button button;
@@ -2577,27 +2607,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1mouse__moved.md
   Topic name: antara::gaming::event::mouse_moved
   Hash count: 0
-*/
----
-title: antara::gaming::event::mouse_moved
+-->
 
 
----
+## mouse_moved
 
-# antara::gaming::event::mouse_moved
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::mouse_moved
+```
 
 
 
@@ -2609,7 +2637,11 @@ title: antara::gaming::event::mouse_moved
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2617,7 +2649,7 @@ title: antara::gaming::event::mouse_moved
 |  | **[mouse_moved](Classes/structantara_1_1gaming_1_1event_1_1mouse__moved.md#function-mouse_moved)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2635,9 +2667,10 @@ title: antara::gaming::event::mouse_moved
 
 
 
-## Public Functions Documentation
 
-### function mouse_moved
+### Public Functions Documentation
+
+#### function mouse_moved
 
 ```cpp
 mouse_moved(
@@ -2675,7 +2708,7 @@ mouse_moved(
 
 
 
-### function mouse_moved
+#### function mouse_moved
 
 ```cpp
 mouse_moved() =default
@@ -2711,9 +2744,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable window_y
+#### variable window_y
 
 ```cpp
 float window_y;
@@ -2746,7 +2779,7 @@ float window_y;
 
 
 
-### variable window_x
+#### variable window_x
 
 ```cpp
 float window_x;
@@ -2779,7 +2812,7 @@ float window_x;
 
 
 
-### variable y
+#### variable y
 
 ```cpp
 float y;
@@ -2812,7 +2845,7 @@ float y;
 
 
 
-### variable x
+#### variable x
 
 ```cpp
 float x;
@@ -2850,23 +2883,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1quit__game.md
   Topic name: antara::gaming::event::quit_game
   Hash count: 0
-*/
----
-title: antara::gaming::event::quit_game
-summary: Event that allows us to leave a game with a return value.  
+-->
 
----
 
-# antara::gaming::event::quit_game
+## quit_game
+
+#### Full Title:
+```
+antara::gaming::event::quit_game
+```
 
 
 
@@ -2884,7 +2919,7 @@ Event that allows us to leave a game with a return value.  [More...](#detailed-d
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2892,7 +2927,7 @@ Event that allows us to leave a game with a return value.  [More...](#detailed-d
 |  | **[quit_game](Classes/structantara_1_1gaming_1_1event_1_1quit__game.md#function-quit_game)**(int return_value) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2904,7 +2939,8 @@ Event that allows us to leave a game with a return value.  [More...](#detailed-d
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 struct antara::gaming::event::quit_game;
@@ -2948,9 +2984,9 @@ embed:rst:leading-asterisk
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function quit_game
+#### function quit_game
 
 ```cpp
 quit_game()
@@ -2984,7 +3020,7 @@ quit_game()
 default constructor (for scripting systems convenience) 
 
 
-### function quit_game
+#### function quit_game
 
 ```cpp
 quit_game(
@@ -3044,9 +3080,9 @@ int main()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable return_value_
+#### variable return_value_
 
 ```cpp
 int return_value_;
@@ -3081,7 +3117,7 @@ Fields.
 the return value of the program when leaving the game 
 
 
-### variable invoker
+#### variable invoker
 
 ```cpp
 static constexpr const event::invoker_dispatcher< quit_game, int > invoker {};
@@ -3119,27 +3155,25 @@ Static fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1set__mouse__position.md
   Topic name: antara::gaming::event::set_mouse_position
   Hash count: 0
-*/
----
-title: antara::gaming::event::set_mouse_position
+-->
 
 
----
+## set_mouse_position
 
-# antara::gaming::event::set_mouse_position
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::set_mouse_position
+```
 
 
 
@@ -3153,7 +3187,11 @@ title: antara::gaming::event::set_mouse_position
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3171,9 +3209,10 @@ title: antara::gaming::event::set_mouse_position
 
 
 
-## Public Attributes Documentation
 
-### variable relative_to_the_window
+### Public Attributes Documentation
+
+#### variable relative_to_the_window
 
 ```cpp
 bool relative_to_the_window {false};
@@ -3206,7 +3245,7 @@ bool relative_to_the_window {false};
 
 
 
-### variable to
+#### variable to
 
 ```cpp
 math::vec2i to;
@@ -3244,27 +3283,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1start__game.md
   Topic name: antara::gaming::event::start_game
   Hash count: 0
-*/
----
-title: antara::gaming::event::start_game
+-->
 
 
----
+## start_game
 
-# antara::gaming::event::start_game
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::start_game
+```
 
 
 
@@ -3276,7 +3313,11 @@ title: antara::gaming::event::start_game
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3293,9 +3334,10 @@ title: antara::gaming::event::start_game
 
 
 
-## Public Functions Documentation
 
-### function start_game
+### Public Functions Documentation
+
+#### function start_game
 
 ```cpp
 start_game() =default
@@ -3334,27 +3376,25 @@ start_game() =default
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1event_1_1window__resized.md
   Topic name: antara::gaming::event::window_resized
   Hash count: 0
-*/
----
-title: antara::gaming::event::window_resized
+-->
 
 
----
+## window_resized
 
-# antara::gaming::event::window_resized
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::window_resized
+```
 
 
 
@@ -3366,7 +3406,11 @@ title: antara::gaming::event::window_resized
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3383,9 +3427,10 @@ title: antara::gaming::event::window_resized
 
 
 
-## Public Functions Documentation
 
-### function window_resized
+### Public Functions Documentation
+
+#### function window_resized
 
 ```cpp
 window_resized() =default
@@ -3425,8 +3470,9 @@ Constructors.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

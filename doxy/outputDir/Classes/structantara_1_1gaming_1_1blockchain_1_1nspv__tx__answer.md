@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_tx_answer
 
 
----
+## nspv_tx_answer
 
-# antara::gaming::blockchain::nspv_tx_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_tx_answer
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::blockchain::nspv_tx_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::blockchain::nspv_tx_answer
 
 
 
-## Public Attributes Documentation
 
-### variable broadcast_answer
+### Public Attributes Documentation
+
+#### variable broadcast_answer
 
 ```cpp
 std::optional< nspv_api::broadcast_answer > broadcast_answer {std::nullopt};
@@ -75,7 +77,7 @@ std::optional< nspv_api::broadcast_answer > broadcast_answer {std::nullopt};
 
 
 
-### variable send_answer
+#### variable send_answer
 
 ```cpp
 nspv_api::spend_answer send_answer;
@@ -112,6 +114,6 @@ nspv_api::spend_answer send_answer;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

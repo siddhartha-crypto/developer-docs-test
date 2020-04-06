@@ -1,10 +1,11 @@
----
-title: antara::gaming::lua::details::scripted_system
 
 
----
+## scripted_system
 
-# antara::gaming::lua::details::scripted_system
+#### Full Title:
+```
+antara::gaming::lua::details::scripted_system
+```
 
 
 
@@ -20,14 +21,14 @@ Inherits from [antara::gaming::ecs::system< scripted_system< SystemType >, Syste
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef [ecs::system](Classes/classantara_1_1gaming_1_1ecs_1_1system.md)< [scripted_system](Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md)< SystemType >, SystemType > | **[TSystem](Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md#typedef-tsystem)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,7 +42,8 @@ Inherits from [antara::gaming::ecs::system< scripted_system< SystemType >, Syste
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -100,7 +102,7 @@ Inherits from [antara::gaming::ecs::system< scripted_system< SystemType >, Syste
 
 
 
-## Detailed Description
+### Detailed Description
 
 ```cpp
 template <typename SystemType >
@@ -135,9 +137,9 @@ class antara::gaming::lua::details::scripted_system;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef TSystem
+#### typedef TSystem
 
 ```cpp
 typedef ecs::system< scripted_system< SystemType >, SystemType > TSystem;
@@ -172,9 +174,9 @@ typedef ecs::system< scripted_system< SystemType >, SystemType > TSystem;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function receive
+#### function receive
 
 ```cpp
 inline void receive(
@@ -210,7 +212,7 @@ Callbacks.
 
 
 
-### function update
+#### function update
 
 ```cpp
 inline virtual void update()
@@ -246,7 +248,7 @@ Pure virtual functions.
 
 
 
-### function ~scripted_system
+#### function ~scripted_system
 
 ```cpp
 inline ~scripted_system()
@@ -279,7 +281,7 @@ inline ~scripted_system()
 
 
 
-### function scripted_system
+#### function scripted_system
 
 ```cpp
 inline scripted_system(
@@ -322,6 +324,6 @@ inline scripted_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

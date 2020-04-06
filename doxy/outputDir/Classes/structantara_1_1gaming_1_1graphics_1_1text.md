@@ -1,14 +1,11 @@
----
-title: antara::gaming::graphics::text
 
 
----
+## text
 
-# antara::gaming::graphics::text
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::text
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::graphics::text
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,9 +45,10 @@ title: antara::gaming::graphics::text
 
 
 
-## Public Attributes Documentation
 
-### variable appearance
+### Public Attributes Documentation
+
+#### variable appearance
 
 ```cpp
 const char * appearance {"sansation.ttf"};
@@ -80,7 +82,7 @@ spacing between letters
 
 
 
-### variable spacing_letters
+#### variable spacing_letters
 
 ```cpp
 float spacing_letters {1.0f};
@@ -114,7 +116,7 @@ spacing between lines
 
 
 
-### variable spacing_lines
+#### variable spacing_lines
 
 ```cpp
 float spacing_lines {1.0f};
@@ -148,7 +150,7 @@ style of the text
 
 
 
-### variable style
+#### variable style
 
 ```cpp
 text_style style {regular};
@@ -182,7 +184,7 @@ size of each characters
 
 
 
-### variable character_size
+#### variable character_size
 
 ```cpp
 std::size_t character_size {30ull};
@@ -216,7 +218,7 @@ text contents
 
 
 
-### variable contents
+#### variable contents
 
 ```cpp
 std::string contents;
@@ -253,6 +255,6 @@ std::string contents;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,31 +1,32 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/event/antara/gaming/event/mouse.button.released.hpp
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/event/antara/gaming/event/mouse.button.released.hpp
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/event/antara/gaming/event/mouse.button.released.hpp
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/event/antara/gaming/event/mouse.button.released.hpp
+```
 
 
 
-## Namespaces
+
+
+
+
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::event](Namespaces/namespaceantara_1_1gaming_1_1event.md)** <br>< doom::meta::list  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | struct | **[antara::gaming::event::mouse_button_released](Classes/structantara_1_1gaming_1_1event_1_1mouse__button__released.md)**  |
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +38,8 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function REFL_AUTO
 
@@ -81,7 +83,8 @@ REFL_AUTO(
 
 
 
-## Source code
+
+### Source code
 
 ```cpp
 /******************************************************************************
@@ -125,6 +128,5 @@ REFL_AUTO(type(antara::gaming::event::mouse_button_released), field(button), fie
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

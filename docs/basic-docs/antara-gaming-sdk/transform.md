@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1position__2d.md
-  Topic name: antara::gaming::transform::position_2d
-  Hash count: 0
-*/
----
-title: antara::gaming::transform::position_2d
 
 
----
+## position_2d
 
-# antara::gaming::transform::position_2d
+#### Full Title:
+```
+antara::gaming::transform::position_2d
+```
 
 
 
@@ -26,7 +22,7 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,7 +38,8 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -127,9 +124,9 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 inline position_2d(
@@ -165,7 +162,7 @@ inline position_2d(
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 inline position_2d(
@@ -200,7 +197,7 @@ inline position_2d(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 position_2d & operator=(
@@ -235,7 +232,7 @@ position_2d & operator=(
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 position_2d(
@@ -270,7 +267,7 @@ position_2d(
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 position_2d() =default
@@ -303,7 +300,7 @@ position_2d() =default
 
 
 
-### function position_2d
+#### function position_2d
 
 ```cpp
 inline position_2d(
@@ -344,23 +341,25 @@ inline position_2d(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1previous__position__2d.md
   Topic name: antara::gaming::transform::previous_position_2d
   Hash count: 0
-*/
----
-title: antara::gaming::transform::previous_position_2d
+-->
 
 
----
+## previous_position_2d
 
-# antara::gaming::transform::previous_position_2d
+#### Full Title:
+```
+antara::gaming::transform::previous_position_2d
+```
 
 
 
@@ -377,7 +376,7 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -393,7 +392,8 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -478,9 +478,9 @@ Inherits from [antara::gaming::math::basic_vector< float >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function previous_position_2d
+#### function previous_position_2d
 
 ```cpp
 inline previous_position_2d(
@@ -516,7 +516,7 @@ inline previous_position_2d(
 
 
 
-### function previous_position_2d
+#### function previous_position_2d
 
 ```cpp
 inline previous_position_2d(
@@ -551,7 +551,7 @@ inline previous_position_2d(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 previous_position_2d & operator=(
@@ -586,7 +586,7 @@ previous_position_2d & operator=(
 
 
 
-### function previous_position_2d
+#### function previous_position_2d
 
 ```cpp
 previous_position_2d(
@@ -621,7 +621,7 @@ previous_position_2d(
 
 
 
-### function previous_position_2d
+#### function previous_position_2d
 
 ```cpp
 previous_position_2d() =default
@@ -654,7 +654,7 @@ previous_position_2d() =default
 
 
 
-### function previous_position_2d
+#### function previous_position_2d
 
 ```cpp
 inline previous_position_2d(
@@ -695,27 +695,25 @@ inline previous_position_2d(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1properties.md
   Topic name: antara::gaming::transform::properties
   Hash count: 0
-*/
----
-title: antara::gaming::transform::properties
+-->
 
 
----
+## properties
 
-# antara::gaming::transform::properties
-
-
-
-
+#### Full Title:
+```
+antara::gaming::transform::properties
+```
 
 
 
@@ -727,7 +725,11 @@ title: antara::gaming::transform::properties
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -736,7 +738,7 @@ title: antara::gaming::transform::properties
 |  | **[properties](Classes/structantara_1_1gaming_1_1transform_1_1properties.md#function-properties)**() =default <br>Will be modified internally but not from the user.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -754,9 +756,10 @@ title: antara::gaming::transform::properties
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 properties & operator=(
@@ -791,7 +794,7 @@ properties & operator=(
 
 
 
-### function properties
+#### function properties
 
 ```cpp
 properties(
@@ -826,7 +829,7 @@ properties(
 
 
 
-### function properties
+#### function properties
 
 ```cpp
 properties() =default
@@ -862,9 +865,9 @@ Will be modified internally but not from the user.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable global_bounds
+#### variable global_bounds
 
 ```cpp
 ts_rect global_bounds {};
@@ -898,7 +901,7 @@ Will be modified internally but not from the user.
 
 
 
-### variable local_bounds
+#### variable local_bounds
 
 ```cpp
 ts_rect local_bounds {};
@@ -931,7 +934,7 @@ ts_rect local_bounds {};
 
 
 
-### variable rotation
+#### variable rotation
 
 ```cpp
 float rotation {0.f};
@@ -964,7 +967,7 @@ float rotation {0.f};
 
 
 
-### variable scale
+#### variable scale
 
 ```cpp
 math::vec2f scale {math::vec2f::scalar(1.f)};
@@ -1001,27 +1004,25 @@ math::vec2f scale {math::vec2f::scalar(1.f)};
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1ts__rect.md
   Topic name: antara::gaming::transform::ts_rect
   Hash count: 0
-*/
----
-title: antara::gaming::transform::ts_rect
+-->
 
 
----
+## ts_rect
 
-# antara::gaming::transform::ts_rect
-
-
-
-
+#### Full Title:
+```
+antara::gaming::transform::ts_rect
+```
 
 
 
@@ -1035,7 +1036,11 @@ title: antara::gaming::transform::ts_rect
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1053,9 +1058,10 @@ title: antara::gaming::transform::ts_rect
 
 
 
-## Public Attributes Documentation
 
-### variable size
+### Public Attributes Documentation
+
+#### variable size
 
 ```cpp
 math::vec2f size;
@@ -1088,7 +1094,7 @@ math::vec2f size;
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 math::vec2f pos;
@@ -1125,8 +1131,9 @@ math::vec2f pos;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::system_manager
-summary: This class allows the manipulation of systems, the addition, deletion, update of systems, deactivation of a system, etc.  
 
----
 
-# antara::gaming::ecs::system_manager
+## system_manager
+
+#### Full Title:
+```
+antara::gaming::ecs::system_manager
+```
 
 
 
@@ -21,7 +22,7 @@ This class allows the manipulation of systems, the addition, deletion, update of
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -64,9 +65,10 @@ This class allows the manipulation of systems, the addition, deletion, update of
 
 
 
-## Public Functions Documentation
 
-### function operator+=
+### Public Functions Documentation
+
+#### function operator+=
 
 ```cpp
 system_manager & operator+=(
@@ -101,7 +103,7 @@ system_manager & operator+=(
 
 
 
-### function prioritize_system
+#### function prioritize_system
 
 ```cpp
 bool prioritize_system()
@@ -134,7 +136,7 @@ bool prioritize_system()
 
 
 
-### function load_systems
+#### function load_systems
 
 ```cpp
 auto load_systems(
@@ -202,7 +204,7 @@ int main()
 ```
 
 
-### function create_system_rt
+#### function create_system_rt
 
 ```cpp
 void create_system_rt(
@@ -238,7 +240,7 @@ TODO: Document it.
 
 
 
-### function create_system
+#### function create_system
 
 ```cpp
 TSystem & create_system(
@@ -299,7 +301,7 @@ int main()
 ```
 
 
-### function nb_systems
+#### function nb_systems
 
 ```cpp
 std::size_t nb_systems(
@@ -356,7 +358,7 @@ int main()
 ```
 
 
-### function nb_systems
+#### function nb_systems
 
 ```cpp
 std::size_t nb_systems() const
@@ -411,7 +413,7 @@ int main()
 ```
 
 
-### function disable_systems
+#### function disable_systems
 
 ```cpp
 bool disable_systems()
@@ -478,7 +480,7 @@ int main()
 ```
 
 
-### function disable_system
+#### function disable_system
 
 ```cpp
 bool disable_system()
@@ -545,7 +547,7 @@ int main()
 ```
 
 
-### function enable_systems
+#### function enable_systems
 
 ```cpp
 bool enable_systems()
@@ -613,7 +615,7 @@ int main()
 ```
 
 
-### function enable_system
+#### function enable_system
 
 ```cpp
 bool enable_system()
@@ -673,7 +675,7 @@ int main()
 ```
 
 
-### function mark_systems
+#### function mark_systems
 
 ```cpp
 bool mark_systems()
@@ -747,7 +749,7 @@ int main()
 ```
 
 
-### function mark_system
+#### function mark_system
 
 ```cpp
 bool mark_system()
@@ -807,7 +809,7 @@ int main()
 ```
 
 
-### function has_systems
+#### function has_systems
 
 ```cpp
 bool has_systems() const
@@ -878,7 +880,7 @@ int main()
 ```
 
 
-### function has_system
+#### function has_system
 
 ```cpp
 bool has_system() const
@@ -944,7 +946,7 @@ int main()
 ```
 
 
-### function get_systems
+#### function get_systems
 
 ```cpp
 std::tuple< std::add_lvalue_reference_t< std::add_const_t< TSystems > >... > get_systems() const
@@ -1012,7 +1014,7 @@ int main()
 ```
 
 
-### function get_systems
+#### function get_systems
 
 ```cpp
 std::tuple< std::add_lvalue_reference_t< TSystems >... > get_systems()
@@ -1062,7 +1064,7 @@ embed:rst:leading-asterisk
 * ```
 
 
-### function get_system
+#### function get_system
 
 ```cpp
 TSystem & get_system()
@@ -1117,7 +1119,7 @@ int main()
 ```
 
 
-### function get_system
+#### function get_system
 
 ```cpp
 const TSystem & get_system() const
@@ -1156,7 +1158,7 @@ This function allows you to get a system through a template parameter.
 
 
 
-### function update_systems
+#### function update_systems
 
 ```cpp
 std::size_t update_systems(
@@ -1203,7 +1205,7 @@ embed:rst:leading-asterisk
 * ```
 
 
-### function update
+#### function update
 
 ```cpp
 std::size_t update()
@@ -1282,7 +1284,7 @@ int main()
 ```
 
 
-### function start
+#### function start
 
 ```cpp
 void start()
@@ -1341,7 +1343,7 @@ int main()
 ```
 
 
-### function receive_add_base_system
+#### function receive_add_base_system
 
 ```cpp
 void receive_add_base_system(
@@ -1377,7 +1379,7 @@ Public member functions.
 
 
 
-### function ~system_manager
+#### function ~system_manager
 
 ```cpp
 ~system_manager()
@@ -1411,7 +1413,7 @@ Destructor.
 
 
 
-### function system_manager
+#### function system_manager
 
 ```cpp
 explicit system_manager(
@@ -1469,6 +1471,6 @@ int main()
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

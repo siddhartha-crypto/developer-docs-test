@@ -1,10 +1,11 @@
----
-title: antara::gaming::transform
-summary: < doom::meta::list  
 
----
 
-# antara::gaming::transform
+## transform
+
+#### Full Title:
+```
+antara::gaming::transform
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < doom::meta::list
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -25,7 +26,7 @@ summary: < doom::meta::list
 | struct | **[antara::gaming::transform::previous_position_2d](Classes/structantara_1_1gaming_1_1transform_1_1previous__position__2d.md)**  |
 | struct | **[antara::gaming::transform::position_2d](Classes/structantara_1_1gaming_1_1transform_1_1position__2d.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,7 +36,8 @@ summary: < doom::meta::list
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < doom::meta::list 
 
@@ -75,7 +77,7 @@ SDK Headers < REFL_AUTO
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef components_list
 
@@ -115,6 +117,6 @@ typedef doom::meta::list< position_2d, properties > components_list;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

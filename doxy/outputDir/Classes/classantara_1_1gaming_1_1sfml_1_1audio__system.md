@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::audio_system
-summary: This class allows the customization and play of audio.  
 
----
 
-# antara::gaming::sfml::audio_system
+## audio_system
+
+#### Full Title:
+```
+antara::gaming::sfml::audio_system
+```
 
 
 
@@ -22,7 +23,7 @@ Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,7 +35,8 @@ Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -97,9 +99,9 @@ Inherits from [antara::gaming::ecs::system< audio_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -135,7 +137,7 @@ This function destroys and cleans up the sounds which are completed playing.
 
 
 
-### function audio_system
+#### function audio_system
 
 ```cpp
 audio_system(
@@ -176,6 +178,6 @@ audio_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::sprite
 
 
----
+## sprite
 
-# antara::gaming::sfml::sprite
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::sprite
+```
 
 
 
@@ -20,14 +17,18 @@ title: antara::gaming::sfml::sprite
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[sprite](Classes/structantara_1_1gaming_1_1sfml_1_1sprite.md#function-sprite)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::sfml::sprite
 
 
 
-## Public Functions Documentation
 
-### function sprite
+### Public Functions Documentation
+
+#### function sprite
 
 ```cpp
 sprite() =default
@@ -79,9 +81,9 @@ sprite() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::Sprite drawable;
@@ -118,6 +120,6 @@ sf::Sprite drawable;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

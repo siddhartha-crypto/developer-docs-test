@@ -1,10 +1,11 @@
----
-title: antara::gaming::event::quit_game
-summary: Event that allows us to leave a game with a return value.  
 
----
 
-# antara::gaming::event::quit_game
+## quit_game
+
+#### Full Title:
+```
+antara::gaming::event::quit_game
+```
 
 
 
@@ -22,7 +23,7 @@ Event that allows us to leave a game with a return value.  [More...](#detailed-d
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -30,7 +31,7 @@ Event that allows us to leave a game with a return value.  [More...](#detailed-d
 |  | **[quit_game](Classes/structantara_1_1gaming_1_1event_1_1quit__game.md#function-quit_game)**(int return_value) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,7 +43,8 @@ Event that allows us to leave a game with a return value.  [More...](#detailed-d
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 struct antara::gaming::event::quit_game;
@@ -86,9 +88,9 @@ embed:rst:leading-asterisk
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function quit_game
+#### function quit_game
 
 ```cpp
 quit_game()
@@ -122,7 +124,7 @@ quit_game()
 default constructor (for scripting systems convenience) 
 
 
-### function quit_game
+#### function quit_game
 
 ```cpp
 quit_game(
@@ -182,9 +184,9 @@ int main()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable return_value_
+#### variable return_value_
 
 ```cpp
 int return_value_;
@@ -219,7 +221,7 @@ Fields.
 the return value of the program when leaving the game 
 
 
-### variable invoker
+#### variable invoker
 
 ```cpp
 static constexpr const event::invoker_dispatcher< quit_game, int > invoker {};
@@ -257,6 +259,6 @@ Static fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1collisions_1_1basic__collision__system.md
-  Topic name: antara::gaming::collisions::basic_collision_system
-  Hash count: 0
-*/
----
-title: antara::gaming::collisions::basic_collision_system
 
 
----
+## basic_collision_system
 
-# antara::gaming::collisions::basic_collision_system
+#### Full Title:
+```
+antara::gaming::collisions::basic_collision_system
+```
 
 
 
@@ -26,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< basic_collision_system >](Classes/cl
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -43,7 +39,8 @@ Inherits from [antara::gaming::ecs::system< basic_collision_system >](Classes/cl
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -106,9 +103,9 @@ Inherits from [antara::gaming::ecs::system< basic_collision_system >](Classes/cl
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function query_point
+#### function query_point
 
 ```cpp
 static bool query_point(
@@ -145,7 +142,7 @@ static bool query_point(
 
 
 
-### function query_point
+#### function query_point
 
 ```cpp
 static bool query_point(
@@ -181,7 +178,7 @@ static bool query_point(
 
 
 
-### function query_rect
+#### function query_rect
 
 ```cpp
 static bool query_rect(
@@ -218,7 +215,7 @@ static bool query_rect(
 
 
 
-### function query_rect
+#### function query_rect
 
 ```cpp
 static bool query_rect(
@@ -255,7 +252,7 @@ Public static functions.
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -291,7 +288,7 @@ Public member functions.
 
 
 
-### function ~basic_collision_system
+#### function ~basic_collision_system
 
 ```cpp
 ~basic_collision_system() =default
@@ -325,7 +322,7 @@ Destructor.
 
 
 
-### function basic_collision_system
+#### function basic_collision_system
 
 ```cpp
 basic_collision_system(
@@ -367,8 +364,9 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

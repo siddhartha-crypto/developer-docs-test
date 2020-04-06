@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::window_resized
 
 
----
+## window_resized
 
-# antara::gaming::event::window_resized
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::window_resized
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::window_resized
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,9 +38,10 @@ title: antara::gaming::event::window_resized
 
 
 
-## Public Functions Documentation
 
-### function window_resized
+### Public Functions Documentation
+
+#### function window_resized
 
 ```cpp
 window_resized() =default
@@ -79,6 +81,6 @@ Constructors.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

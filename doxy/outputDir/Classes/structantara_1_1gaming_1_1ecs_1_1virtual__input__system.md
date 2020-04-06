@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::virtual_input_system
 
 
----
+## virtual_input_system
 
-# antara::gaming::ecs::virtual_input_system
+#### Full Title:
+```
+antara::gaming::ecs::virtual_input_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< virtual_input_system >](Classes/clas
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +34,8 @@ Inherits from [antara::gaming::ecs::system< virtual_input_system >](Classes/clas
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -96,9 +98,9 @@ Inherits from [antara::gaming::ecs::system< virtual_input_system >](Classes/clas
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -134,7 +136,7 @@ Pure virtual functions.
 
 
 
-### function virtual_input_system
+#### function virtual_input_system
 
 ```cpp
 virtual_input_system(
@@ -175,6 +177,6 @@ virtual_input_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::mouse_moved
 
 
----
+## mouse_moved
 
-# antara::gaming::event::mouse_moved
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::mouse_moved
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::mouse_moved
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::event::mouse_moved
 |  | **[mouse_moved](Classes/structantara_1_1gaming_1_1event_1_1mouse__moved.md#function-mouse_moved)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -46,9 +47,10 @@ title: antara::gaming::event::mouse_moved
 
 
 
-## Public Functions Documentation
 
-### function mouse_moved
+### Public Functions Documentation
+
+#### function mouse_moved
 
 ```cpp
 mouse_moved(
@@ -86,7 +88,7 @@ mouse_moved(
 
 
 
-### function mouse_moved
+#### function mouse_moved
 
 ```cpp
 mouse_moved() =default
@@ -122,9 +124,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable window_y
+#### variable window_y
 
 ```cpp
 float window_y;
@@ -157,7 +159,7 @@ float window_y;
 
 
 
-### variable window_x
+#### variable window_x
 
 ```cpp
 float window_x;
@@ -190,7 +192,7 @@ float window_x;
 
 
 
-### variable y
+#### variable y
 
 ```cpp
 float y;
@@ -223,7 +225,7 @@ float y;
 
 
 
-### variable x
+#### variable x
 
 ```cpp
 float x;
@@ -261,6 +263,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

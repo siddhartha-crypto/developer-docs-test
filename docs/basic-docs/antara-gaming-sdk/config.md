@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1config_1_1details.md
-  Topic name: antara::gaming::config::details
-  Hash count: 0
-*/
----
-title: antara::gaming::config::details
 
 
----
+## details
 
-# antara::gaming::config::details
+#### Full Title:
+```
+antara::gaming::config::details
+```
 
 
 
@@ -22,7 +18,7 @@ title: antara::gaming::config::details
 
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,7 +31,8 @@ title: antara::gaming::config::details
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function load_config
 
@@ -112,8 +109,9 @@ TConfig create_configuration(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

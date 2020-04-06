@@ -1,10 +1,11 @@
----
-title: antara::gaming::audio
-summary: < std::string  
 
----
 
-# antara::gaming::audio
+## audio
+
+#### Full Title:
+```
+antara::gaming::audio
+```
 
 
 
@@ -16,14 +17,14 @@ summary: < std::string
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | struct | **[antara::gaming::audio::sound_effect](Classes/structantara_1_1gaming_1_1audio_1_1sound__effect.md)**  |
 | struct | **[antara::gaming::audio::music](Classes/structantara_1_1gaming_1_1audio_1_1music.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +34,8 @@ summary: < std::string
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::string 
 
@@ -69,7 +71,7 @@ SDK Headers
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### enum status
 
@@ -114,6 +116,6 @@ enum status {
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,21 +1,22 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/core/antara/gaming/core/reflection.entity.registry.hpp
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/core/antara/gaming/core/reflection.entity.registry.hpp
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/core/antara/gaming/core/reflection.entity.registry.hpp
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/core/antara/gaming/core/reflection.entity.registry.hpp
+```
 
 
 
 
 
 
-## Functions
+
+
+
+
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,8 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function REFL_AUTO
 
@@ -68,7 +70,8 @@ REFL_AUTO(
 
 
 
-## Source code
+
+### Source code
 
 ```cpp
 /******************************************************************************
@@ -102,6 +105,5 @@ REFL_AUTO(type(entt::registry));
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

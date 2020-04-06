@@ -5,13 +5,13 @@
 
 {% include "nonclass_members_tables" %}
 
-{% if hasDetails %}## Detailed Description
+{% if hasDetails %}### Detailed Description
 
 {% include "details" %}{% endif %}
 
 {% include "nonclass_members_details" %}
 
-{% if exists("programlisting")%}## Source code
+{% if exists("programlisting")%}### Source code
 
 ```cpp
 {{programlisting}}

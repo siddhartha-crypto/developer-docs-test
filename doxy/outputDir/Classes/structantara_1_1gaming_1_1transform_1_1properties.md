@@ -1,14 +1,11 @@
----
-title: antara::gaming::transform::properties
 
 
----
+## properties
 
-# antara::gaming::transform::properties
-
-
-
-
+#### Full Title:
+```
+antara::gaming::transform::properties
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::transform::properties
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -29,7 +30,7 @@ title: antara::gaming::transform::properties
 |  | **[properties](Classes/structantara_1_1gaming_1_1transform_1_1properties.md#function-properties)**() =default <br>Will be modified internally but not from the user.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -47,9 +48,10 @@ title: antara::gaming::transform::properties
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 properties & operator=(
@@ -84,7 +86,7 @@ properties & operator=(
 
 
 
-### function properties
+#### function properties
 
 ```cpp
 properties(
@@ -119,7 +121,7 @@ properties(
 
 
 
-### function properties
+#### function properties
 
 ```cpp
 properties() =default
@@ -155,9 +157,9 @@ Will be modified internally but not from the user.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable global_bounds
+#### variable global_bounds
 
 ```cpp
 ts_rect global_bounds {};
@@ -191,7 +193,7 @@ Will be modified internally but not from the user.
 
 
 
-### variable local_bounds
+#### variable local_bounds
 
 ```cpp
 ts_rect local_bounds {};
@@ -224,7 +226,7 @@ ts_rect local_bounds {};
 
 
 
-### variable rotation
+#### variable rotation
 
 ```cpp
 float rotation {0.f};
@@ -257,7 +259,7 @@ float rotation {0.f};
 
 
 
-### variable scale
+#### variable scale
 
 ```cpp
 math::vec2f scale {math::vec2f::scalar(1.f)};
@@ -294,6 +296,6 @@ math::vec2f scale {math::vec2f::scalar(1.f)};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

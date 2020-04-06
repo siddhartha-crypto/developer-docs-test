@@ -1,10 +1,11 @@
----
-title: antara::gaming::world
-summary: < std::string  
 
----
 
-# antara::gaming::world
+## world
+
+#### Full Title:
+```
+antara::gaming::world
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < std::string
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,8 @@ summary: < std::string
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::string 
 
@@ -64,6 +66,6 @@ C++ System HeadersDependencies Headers < entt::registry < entt::dispatcher SDK H
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md
-  Topic name: antara::gaming::graphics::canvas_2d
-  Hash count: 0
-*/
----
-title: antara::gaming::graphics::canvas_2d
 
 
----
+## canvas_2d
 
-# antara::gaming::graphics::canvas_2d
+#### Full Title:
+```
+antara::gaming::graphics::canvas_2d
+```
 
 
 
@@ -23,14 +19,14 @@ title: antara::gaming::graphics::canvas_2d
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | enum | **[scale_mode](Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md#enum-scale_mode)** { none, stretch, crop, fit } |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,7 +38,7 @@ title: antara::gaming::graphics::canvas_2d
 | void | **[reset_canvas](Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md#function-reset_canvas)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -64,7 +60,7 @@ title: antara::gaming::graphics::canvas_2d
 | [rectangle](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md) | **[window](Classes/structantara_1_1gaming_1_1graphics_1_1canvas__2d.md#variable-window)**  |
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -75,9 +71,10 @@ title: antara::gaming::graphics::canvas_2d
 
 
 
-## Public Types Documentation
 
-### enum scale_mode
+### Public Types Documentation
+
+#### enum scale_mode
 
 ```cpp
 enum scale_mode {
@@ -117,9 +114,9 @@ enum scale_mode {
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function operator=
+#### function operator=
 
 ```cpp
 canvas_2d & operator=(
@@ -154,7 +151,7 @@ canvas_2d & operator=(
 
 
 
-### function canvas_2d
+#### function canvas_2d
 
 ```cpp
 canvas_2d(
@@ -189,7 +186,7 @@ canvas_2d(
 
 
 
-### function canvas_2d
+#### function canvas_2d
 
 ```cpp
 canvas_2d() =default
@@ -222,7 +219,7 @@ canvas_2d() =default
 
 
 
-### function operator!=
+#### function operator!=
 
 ```cpp
 inline bool operator!=(
@@ -257,7 +254,7 @@ inline bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline bool operator==(
@@ -292,7 +289,7 @@ inline bool operator==(
 
 
 
-### function reset_canvas
+#### function reset_canvas
 
 ```cpp
 inline void reset_canvas()
@@ -327,9 +324,9 @@ inline void reset_canvas()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable canvas_texture_scaling
+#### variable canvas_texture_scaling
 
 ```cpp
 math::vec2f canvas_texture_scaling {1.0f, 1.0f};
@@ -362,7 +359,7 @@ math::vec2f canvas_texture_scaling {1.0f, 1.0f};
 
 
 
-### variable background_color
+#### variable background_color
 
 ```cpp
 fill_color background_color {graphics::black};
@@ -395,7 +392,7 @@ fill_color background_color {graphics::black};
 
 
 
-### variable window_title
+#### variable window_title
 
 ```cpp
 std::string window_title {"Antara Gaming SDK"};
@@ -428,7 +425,7 @@ std::string window_title {"Antara Gaming SDK"};
 
 
 
-### variable view_port
+#### variable view_port
 
 ```cpp
 rectangle view_port;
@@ -461,7 +458,7 @@ rectangle view_port;
 
 
 
-### variable current_scaling_mode
+#### variable current_scaling_mode
 
 ```cpp
 scale_mode current_scaling_mode {fit};
@@ -494,7 +491,7 @@ scale_mode current_scaling_mode {fit};
 
 
 
-### variable no_style
+#### variable no_style
 
 ```cpp
 bool no_style {false};
@@ -527,7 +524,7 @@ bool no_style {false};
 
 
 
-### variable mouse_grabbed
+#### variable mouse_grabbed
 
 ```cpp
 bool mouse_grabbed {false};
@@ -560,7 +557,7 @@ bool mouse_grabbed {false};
 
 
 
-### variable mouse_visible
+#### variable mouse_visible
 
 ```cpp
 bool mouse_visible {true};
@@ -593,7 +590,7 @@ bool mouse_visible {true};
 
 
 
-### variable vsync
+#### variable vsync
 
 ```cpp
 bool vsync {false};
@@ -626,7 +623,7 @@ bool vsync {false};
 
 
 
-### variable is_fullscreen
+#### variable is_fullscreen
 
 ```cpp
 bool is_fullscreen {false};
@@ -659,7 +656,7 @@ bool is_fullscreen {false};
 
 
 
-### variable native_desktop_mode
+#### variable native_desktop_mode
 
 ```cpp
 bool native_desktop_mode {false};
@@ -692,7 +689,7 @@ bool native_desktop_mode {false};
 
 
 
-### variable custom_canvas_height
+#### variable custom_canvas_height
 
 ```cpp
 bool custom_canvas_height {true};
@@ -725,7 +722,7 @@ bool custom_canvas_height {true};
 
 
 
-### variable custom_canvas_width
+#### variable custom_canvas_width
 
 ```cpp
 bool custom_canvas_width {true};
@@ -758,7 +755,7 @@ bool custom_canvas_width {true};
 
 
 
-### variable canvas_texture
+#### variable canvas_texture
 
 ```cpp
 rectangle canvas_texture;
@@ -791,7 +788,7 @@ rectangle canvas_texture;
 
 
 
-### variable canvas
+#### variable canvas
 
 ```cpp
 rectangle canvas {.size = [math::vec2f](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md){1920.f, 1080.f}, .position = math::vec2f::scalar(0.f)};
@@ -824,7 +821,7 @@ rectangle canvas {.size = [math::vec2f](Classes/classantara_1_1gaming_1_1math_1_
 
 
 
-### variable window
+#### variable window
 
 ```cpp
 rectangle window {.size = [math::vec2f](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md){1920.f, 1080.f}, .position = math::vec2f::scalar(0.f)};
@@ -859,9 +856,9 @@ rectangle window {.size = [math::vec2f](Classes/classantara_1_1gaming_1_1math_1_
 
 
 
-## Friends
+### Friends
 
-### friend operator<<
+#### friend operator<<
 
 ```cpp
 friend std::ostream & operator<<(
@@ -899,23 +896,25 @@ friend std::ostream & operator<<(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1color.md
   Topic name: antara::gaming::graphics::color
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::color
+-->
 
 
----
+## color
 
-# antara::gaming::graphics::color
+#### Full Title:
+```
+antara::gaming::graphics::color
+```
 
 
 
@@ -932,7 +931,7 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -947,7 +946,7 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 | constexpr | **[color](Classes/structantara_1_1gaming_1_1graphics_1_1color.md#function-color)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -957,7 +956,7 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 | std::uint8_t | **[r](Classes/structantara_1_1gaming_1_1graphics_1_1color.md#variable-r)**  |
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -970,9 +969,10 @@ Inherited by [antara::gaming::graphics::fill_color](Classes/structantara_1_1gami
 
 
 
-## Public Functions Documentation
 
-### function operator!=
+### Public Functions Documentation
+
+#### function operator!=
 
 ```cpp
 inline constexpr bool operator!=(
@@ -1007,7 +1007,7 @@ inline constexpr bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline constexpr bool operator==(
@@ -1042,7 +1042,7 @@ inline constexpr bool operator==(
 
 
 
-### function color
+#### function color
 
 ```cpp
 constexpr color(
@@ -1077,7 +1077,7 @@ constexpr color(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 constexpr color & operator=(
@@ -1112,7 +1112,7 @@ constexpr color & operator=(
 
 
 
-### function set_unique_color
+#### function set_unique_color
 
 ```cpp
 inline void set_unique_color(
@@ -1148,7 +1148,7 @@ inline void set_unique_color(
 
 
 
-### function set_unique_color
+#### function set_unique_color
 
 ```cpp
 inline void set_unique_color(
@@ -1183,7 +1183,7 @@ inline void set_unique_color(
 
 
 
-### function set_color
+#### function set_color
 
 ```cpp
 inline void set_color(
@@ -1218,7 +1218,7 @@ inline void set_color(
 
 
 
-### function color
+#### function color
 
 ```cpp
 inline constexpr color(
@@ -1256,7 +1256,7 @@ inline constexpr color(
 
 
 
-### function color
+#### function color
 
 ```cpp
 inline constexpr color()
@@ -1291,9 +1291,9 @@ inline constexpr color()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable a
+#### variable a
 
 ```cpp
 std::uint8_t a {255};
@@ -1326,7 +1326,7 @@ std::uint8_t a {255};
 
 
 
-### variable b
+#### variable b
 
 ```cpp
 std::uint8_t b {0};
@@ -1359,7 +1359,7 @@ std::uint8_t b {0};
 
 
 
-### variable g
+#### variable g
 
 ```cpp
 std::uint8_t g {0};
@@ -1392,7 +1392,7 @@ std::uint8_t g {0};
 
 
 
-### variable r
+#### variable r
 
 ```cpp
 std::uint8_t r {0};
@@ -1427,9 +1427,9 @@ std::uint8_t r {0};
 
 
 
-## Friends
+### Friends
 
-### friend operator<<
+#### friend operator<<
 
 ```cpp
 friend std::ostream & operator<<(
@@ -1467,27 +1467,25 @@ friend std::ostream & operator<<(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1drawable__info.md
   Topic name: antara::gaming::graphics::drawable_info
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::drawable_info
+-->
 
 
----
+## drawable_info
 
-# antara::gaming::graphics::drawable_info
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::drawable_info
+```
 
 
 
@@ -1501,7 +1499,11 @@ title: antara::gaming::graphics::drawable_info
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1519,9 +1521,10 @@ title: antara::gaming::graphics::drawable_info
 
 
 
-## Public Attributes Documentation
 
-### variable dt
+### Public Attributes Documentation
+
+#### variable dt
 
 ```cpp
 drawable_type dt;
@@ -1554,7 +1557,7 @@ drawable_type dt;
 
 
 
-### variable entity
+#### variable entity
 
 ```cpp
 entt::registry::entity_type entity;
@@ -1591,23 +1594,25 @@ entt::registry::entity_type entity;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1fill__color.md
   Topic name: antara::gaming::graphics::fill_color
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::fill_color
+-->
 
 
----
+## fill_color
 
-# antara::gaming::graphics::fill_color
+#### Full Title:
+```
+antara::gaming::graphics::fill_color
+```
 
 
 
@@ -1624,7 +1629,7 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1635,7 +1640,8 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -1679,9 +1685,9 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function fill_color
+#### function fill_color
 
 ```cpp
 inline constexpr fill_color(
@@ -1722,23 +1728,25 @@ inline constexpr fill_color(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1layer.md
   Topic name: antara::gaming::graphics::layer
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::layer
+-->
 
 
----
+## layer
 
-# antara::gaming::graphics::layer
+#### Full Title:
+```
+antara::gaming::graphics::layer
+```
 
 
 
@@ -1763,7 +1771,8 @@ title: antara::gaming::graphics::layer
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <std::size_t N>
@@ -1806,23 +1815,25 @@ struct antara::gaming::graphics::layer;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1outline__color.md
   Topic name: antara::gaming::graphics::outline_color
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::outline_color
+-->
 
 
----
+## outline_color
 
-# antara::gaming::graphics::outline_color
+#### Full Title:
+```
+antara::gaming::graphics::outline_color
+```
 
 
 
@@ -1839,7 +1850,7 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1850,7 +1861,7 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 | constexpr | **[outline_color](Classes/structantara_1_1gaming_1_1graphics_1_1outline__color.md#function-outline_color)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1859,7 +1870,8 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -1902,9 +1914,9 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 constexpr outline_color(
@@ -1939,7 +1951,7 @@ constexpr outline_color(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 constexpr outline_color & operator=(
@@ -1974,7 +1986,7 @@ constexpr outline_color & operator=(
 
 
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 inline constexpr outline_color(
@@ -2010,7 +2022,7 @@ inline constexpr outline_color(
 
 
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 inline constexpr outline_color(
@@ -2045,7 +2057,7 @@ inline constexpr outline_color(
 
 
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 constexpr outline_color() =default
@@ -2080,9 +2092,9 @@ constexpr outline_color() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable thickness
+#### variable thickness
 
 ```cpp
 float thickness {0.f};
@@ -2119,27 +2131,25 @@ float thickness {0.f};
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1rect.md
   Topic name: antara::gaming::graphics::rect
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::rect
+-->
 
 
----
+## rect
 
-# antara::gaming::graphics::rect
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::rect
+```
 
 
 
@@ -2153,7 +2163,11 @@ title: antara::gaming::graphics::rect
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2171,9 +2185,10 @@ title: antara::gaming::graphics::rect
 
 
 
-## Public Attributes Documentation
 
-### variable size
+### Public Attributes Documentation
+
+#### variable size
 
 ```cpp
 math::vec2f size;
@@ -2206,7 +2221,7 @@ math::vec2f size;
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 math::vec2f pos;
@@ -2243,27 +2258,25 @@ math::vec2f pos;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md
   Topic name: antara::gaming::graphics::rectangle
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::rectangle
+-->
 
 
----
+## rectangle
 
-# antara::gaming::graphics::rectangle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::rectangle
+```
 
 
 
@@ -2275,7 +2288,11 @@ title: antara::gaming::graphics::rectangle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2283,7 +2300,7 @@ title: antara::gaming::graphics::rectangle
 | bool | **[operator==](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md#function-operator==)**(const [rectangle](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md) & rhs) const  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2291,7 +2308,7 @@ title: antara::gaming::graphics::rectangle
 | [math::vec2f](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md) | **[size](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md#variable-size)**  |
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2304,9 +2321,10 @@ title: antara::gaming::graphics::rectangle
 
 
 
-## Public Functions Documentation
 
-### function operator!=
+### Public Functions Documentation
+
+#### function operator!=
 
 ```cpp
 inline bool operator!=(
@@ -2341,7 +2359,7 @@ inline bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline bool operator==(
@@ -2378,9 +2396,9 @@ inline bool operator==(
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable position
+#### variable position
 
 ```cpp
 math::vec2f position;
@@ -2414,7 +2432,7 @@ width/height
 
 
 
-### variable size
+#### variable size
 
 ```cpp
 math::vec2f size;
@@ -2449,9 +2467,9 @@ math::vec2f size;
 
 
 
-## Friends
+### Friends
 
-### friend operator<<
+#### friend operator<<
 
 ```cpp
 friend std::ostream & operator<<(
@@ -2490,27 +2508,25 @@ pos of the rectangle
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1render__texture__2d.md
   Topic name: antara::gaming::graphics::render_texture_2d
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::render_texture_2d
+-->
 
 
----
+## render_texture_2d
 
-# antara::gaming::graphics::render_texture_2d
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::render_texture_2d
+```
 
 
 
@@ -2524,7 +2540,11 @@ title: antara::gaming::graphics::render_texture_2d
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2546,9 +2566,10 @@ title: antara::gaming::graphics::render_texture_2d
 
 
 
-## Public Attributes Documentation
 
-### variable repeated
+### Public Attributes Documentation
+
+#### variable repeated
 
 ```cpp
 bool repeated {false};
@@ -2581,7 +2602,7 @@ bool repeated {false};
 
 
 
-### variable smooth
+#### variable smooth
 
 ```cpp
 bool smooth {true};
@@ -2614,7 +2635,7 @@ bool smooth {true};
 
 
 
-### variable clear_color
+#### variable clear_color
 
 ```cpp
 graphics::color clear_color {graphics::black};
@@ -2647,7 +2668,7 @@ graphics::color clear_color {graphics::black};
 
 
 
-### variable to_draw
+#### variable to_draw
 
 ```cpp
 drawable_registry to_draw;
@@ -2680,7 +2701,7 @@ drawable_registry to_draw;
 
 
 
-### variable size
+#### variable size
 
 ```cpp
 math::vec2u size;
@@ -2713,7 +2734,7 @@ math::vec2u size;
 
 
 
-### variable id
+#### variable id
 
 ```cpp
 std::string id;
@@ -2750,27 +2771,25 @@ std::string id;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1sprite.md
   Topic name: antara::gaming::graphics::sprite
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::sprite
+-->
 
 
----
+## sprite
 
-# antara::gaming::graphics::sprite
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::sprite
+```
 
 
 
@@ -2784,7 +2803,11 @@ title: antara::gaming::graphics::sprite
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2803,9 +2826,10 @@ title: antara::gaming::graphics::sprite
 
 
 
-## Public Attributes Documentation
 
-### variable texture_rec
+### Public Attributes Documentation
+
+#### variable texture_rec
 
 ```cpp
 rect texture_rec {};
@@ -2839,7 +2863,7 @@ take the whole size by default
 
 
 
-### variable native_size
+#### variable native_size
 
 ```cpp
 bool native_size {true};
@@ -2873,7 +2897,7 @@ texture id
 
 
 
-### variable appearance
+#### variable appearance
 
 ```cpp
 std::string appearance;
@@ -2910,27 +2934,25 @@ std::string appearance;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1text.md
   Topic name: antara::gaming::graphics::text
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::text
+-->
 
 
----
+## text
 
-# antara::gaming::graphics::text
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::text
+```
 
 
 
@@ -2944,7 +2966,11 @@ title: antara::gaming::graphics::text
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2966,9 +2992,10 @@ title: antara::gaming::graphics::text
 
 
 
-## Public Attributes Documentation
 
-### variable appearance
+### Public Attributes Documentation
+
+#### variable appearance
 
 ```cpp
 const char * appearance {"sansation.ttf"};
@@ -3002,7 +3029,7 @@ spacing between letters
 
 
 
-### variable spacing_letters
+#### variable spacing_letters
 
 ```cpp
 float spacing_letters {1.0f};
@@ -3036,7 +3063,7 @@ spacing between lines
 
 
 
-### variable spacing_lines
+#### variable spacing_lines
 
 ```cpp
 float spacing_lines {1.0f};
@@ -3070,7 +3097,7 @@ style of the text
 
 
 
-### variable style
+#### variable style
 
 ```cpp
 text_style style {regular};
@@ -3104,7 +3131,7 @@ size of each characters
 
 
 
-### variable character_size
+#### variable character_size
 
 ```cpp
 std::size_t character_size {30ull};
@@ -3138,7 +3165,7 @@ text contents
 
 
 
-### variable contents
+#### variable contents
 
 ```cpp
 std::string contents;
@@ -3175,27 +3202,25 @@ std::string contents;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1graphics_1_1tests.md
   Topic name: antara::gaming::graphics::tests
   Hash count: 0
-*/
----
-title: antara::gaming::graphics::tests
+-->
 
 
----
+## tests
 
-# antara::gaming::graphics::tests
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::tests
+```
 
 
 
@@ -3204,7 +3229,11 @@ title: antara::gaming::graphics::tests
 
 
 
-## Functions
+
+
+
+
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3216,7 +3245,8 @@ title: antara::gaming::graphics::tests
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function TEST_CASE
 
@@ -3257,8 +3287,9 @@ TEST_CASE(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

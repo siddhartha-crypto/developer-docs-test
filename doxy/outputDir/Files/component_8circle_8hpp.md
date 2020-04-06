@@ -1,24 +1,25 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/geometry/antara/gaming/geometry/component.circle.hpp
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/geometry/antara/gaming/geometry/component.circle.hpp
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/geometry/antara/gaming/geometry/component.circle.hpp
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/geometry/antara/gaming/geometry/component.circle.hpp
+```
 
 
 
-## Namespaces
+
+
+
+
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::geometry](Namespaces/namespaceantara_1_1gaming_1_1geometry.md)** <br>< doom::meta::list  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -26,7 +27,7 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 | struct | **[antara::gaming::geometry::circle_texture](Classes/structantara_1_1gaming_1_1geometry_1_1circle__texture.md)**  |
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -38,7 +39,8 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function REFL_AUTO
 
@@ -80,7 +82,8 @@ REFL_AUTO(
 
 
 
-## Source code
+
+### Source code
 
 ```cpp
 /******************************************************************************
@@ -160,6 +163,5 @@ REFL_AUTO(type(antara::gaming::geometry::circle), field(radius));
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

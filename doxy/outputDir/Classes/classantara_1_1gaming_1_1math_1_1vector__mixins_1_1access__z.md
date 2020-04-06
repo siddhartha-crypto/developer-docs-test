@@ -1,10 +1,11 @@
----
-title: antara::gaming::math::vector_mixins::access_z
 
 
----
+## access_z
 
-# antara::gaming::math::vector_mixins::access_z
+#### Full Title:
+```
+antara::gaming::math::vector_mixins::access_z
+```
 
 
 
@@ -19,14 +20,14 @@ title: antara::gaming::math::vector_mixins::access_z
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__z.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,7 +43,8 @@ title: antara::gaming::math::vector_mixins::access_z
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Derived ,
@@ -78,9 +80,9 @@ class antara::gaming::math::vector_mixins::access_z;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -115,9 +117,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function set_xyz
+#### function set_xyz
 
 ```cpp
 inline constexpr void set_xyz(
@@ -154,7 +156,7 @@ inline constexpr void set_xyz(
 
 
 
-### function set_z
+#### function set_z
 
 ```cpp
 inline constexpr void set_z(
@@ -189,7 +191,7 @@ inline constexpr void set_z(
 
 
 
-### function z_ref
+#### function z_ref
 
 ```cpp
 inline constexpr auto & z_ref()
@@ -222,7 +224,7 @@ inline constexpr auto & z_ref()
 
 
 
-### function z
+#### function z
 
 ```cpp
 inline constexpr auto z() const
@@ -261,6 +263,6 @@ inline constexpr auto z() const
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,10 +1,11 @@
----
-title: antara::gaming::scenes::base_scene
 
 
----
+## base_scene
 
-# antara::gaming::scenes::base_scene
+#### Full Title:
+```
+antara::gaming::scenes::base_scene
+```
 
 
 
@@ -21,7 +22,7 @@ Inherited by [antara::gaming::sfml::intro_scene](Classes/classantara_1_1gaming_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -38,7 +39,7 @@ Inherited by [antara::gaming::sfml::intro_scene](Classes/classantara_1_1gaming_1
 
 
 
-## Protected Attributes
+### Protected Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -53,9 +54,10 @@ Inherited by [antara::gaming::sfml::intro_scene](Classes/classantara_1_1gaming_1
 
 
 
-## Public Functions Documentation
 
-### function ~base_scene
+### Public Functions Documentation
+
+#### function ~base_scene
 
 ```cpp
 virtual ~base_scene() =default
@@ -88,7 +90,7 @@ virtual ~base_scene() =default
 
 
 
-### function scene_name
+#### function scene_name
 
 ```cpp
 virtual std::string scene_name() =0
@@ -123,7 +125,7 @@ virtual std::string scene_name() =0
 
 
 
-### function on_mouse_button_released
+#### function on_mouse_button_released
 
 ```cpp
 inline virtual bool on_mouse_button_released(
@@ -158,7 +160,7 @@ inline virtual bool on_mouse_button_released(
 
 
 
-### function on_mouse_button_pressed
+#### function on_mouse_button_pressed
 
 ```cpp
 inline virtual bool on_mouse_button_pressed(
@@ -193,7 +195,7 @@ inline virtual bool on_mouse_button_pressed(
 
 
 
-### function on_mouse_moved
+#### function on_mouse_moved
 
 ```cpp
 inline virtual bool on_mouse_moved(
@@ -228,7 +230,7 @@ inline virtual bool on_mouse_moved(
 
 
 
-### function on_key_released
+#### function on_key_released
 
 ```cpp
 inline virtual bool on_key_released(
@@ -263,7 +265,7 @@ inline virtual bool on_key_released(
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 inline virtual bool on_key_pressed(
@@ -300,7 +302,7 @@ inline virtual bool on_key_pressed(
 
 
 
-### function post_update
+#### function post_update
 
 ```cpp
 inline virtual void post_update()
@@ -333,7 +335,7 @@ inline virtual void post_update()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update() =0
@@ -368,7 +370,7 @@ virtual void update() =0
 
 
 
-### function base_scene
+#### function base_scene
 
 ```cpp
 base_scene(
@@ -406,9 +408,9 @@ base_scene(
 
 
 
-## Protected Attributes Documentation
+### Protected Attributes Documentation
 
-### variable dispatcher_
+#### variable dispatcher_
 
 ```cpp
 entt::dispatcher & dispatcher_;
@@ -441,7 +443,7 @@ entt::dispatcher & dispatcher_;
 
 
 
-### variable entity_registry_
+#### variable entity_registry_
 
 ```cpp
 entt::registry & entity_registry_;
@@ -477,6 +479,6 @@ entt::registry & entity_registry_;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

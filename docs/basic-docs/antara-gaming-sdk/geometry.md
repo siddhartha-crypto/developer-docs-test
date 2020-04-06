@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1circle.md
-  Topic name: antara::gaming::geometry::circle
-  Hash count: 0
-*/
----
-title: antara::gaming::geometry::circle
 
 
----
+## circle
 
-# antara::gaming::geometry::circle
+#### Full Title:
+```
+antara::gaming::geometry::circle
+```
 
 
 
@@ -25,7 +21,7 @@ title: antara::gaming::geometry::circle
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +32,7 @@ title: antara::gaming::geometry::circle
 |  | **[circle](Classes/structantara_1_1gaming_1_1geometry_1_1circle.md#function-circle)**(float radius_) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -53,9 +49,10 @@ title: antara::gaming::geometry::circle
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 circle & operator=(
@@ -91,7 +88,7 @@ Operators.
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle()
@@ -124,7 +121,7 @@ circle()
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle(
@@ -159,7 +156,7 @@ circle(
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle(
@@ -196,7 +193,7 @@ circle(
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle(
@@ -234,9 +231,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable circle_texture_props
+#### variable circle_texture_props
 
 ```cpp
 std::optional< circle_texture > circle_texture_props {std::nullopt};
@@ -269,7 +266,7 @@ std::optional< circle_texture > circle_texture_props {std::nullopt};
 
 
 
-### variable try_to_apply_rt
+#### variable try_to_apply_rt
 
 ```cpp
 bool try_to_apply_rt {false};
@@ -302,7 +299,7 @@ bool try_to_apply_rt {false};
 
 
 
-### variable radius
+#### variable radius
 
 ```cpp
 float radius {0.f};
@@ -340,27 +337,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1circle__texture.md
   Topic name: antara::gaming::geometry::circle_texture
   Hash count: 0
-*/
----
-title: antara::gaming::geometry::circle_texture
+-->
 
 
----
+## circle_texture
 
-# antara::gaming::geometry::circle_texture
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::circle_texture
+```
 
 
 
@@ -374,7 +369,11 @@ title: antara::gaming::geometry::circle_texture
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -392,9 +391,10 @@ title: antara::gaming::geometry::circle_texture
 
 
 
-## Public Attributes Documentation
 
-### variable texture_rec
+### Public Attributes Documentation
+
+#### variable texture_rec
 
 ```cpp
 graphics::rect texture_rec {};
@@ -428,7 +428,7 @@ take the whole size by default
 
 
 
-### variable native_size
+#### variable native_size
 
 ```cpp
 bool native_size {true};
@@ -466,27 +466,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1rectangle.md
   Topic name: antara::gaming::geometry::rectangle
   Hash count: 0
-*/
----
-title: antara::gaming::geometry::rectangle
+-->
 
 
----
+## rectangle
 
-# antara::gaming::geometry::rectangle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::rectangle
+```
 
 
 
@@ -498,7 +496,11 @@ title: antara::gaming::geometry::rectangle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -508,7 +510,7 @@ title: antara::gaming::geometry::rectangle
 |  | **[rectangle](Classes/structantara_1_1gaming_1_1geometry_1_1rectangle.md#function-rectangle)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -523,9 +525,10 @@ title: antara::gaming::geometry::rectangle
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 rectangle & operator=(
@@ -561,7 +564,7 @@ Operators.
 
 
 
-### function rectangle
+#### function rectangle
 
 ```cpp
 rectangle(
@@ -596,7 +599,7 @@ rectangle(
 
 
 
-### function rectangle
+#### function rectangle
 
 ```cpp
 rectangle(
@@ -631,7 +634,7 @@ rectangle(
 
 
 
-### function rectangle
+#### function rectangle
 
 ```cpp
 rectangle() =default
@@ -667,9 +670,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable size
+#### variable size
 
 ```cpp
 math::vec2f size {math::vec2f::scalar(50.f)};
@@ -707,27 +710,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1vertex.md
   Topic name: antara::gaming::geometry::vertex
   Hash count: 0
-*/
----
-title: antara::gaming::geometry::vertex
+-->
 
 
----
+## vertex
 
-# antara::gaming::geometry::vertex
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::vertex
+```
 
 
 
@@ -741,7 +742,11 @@ title: antara::gaming::geometry::vertex
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -760,9 +765,10 @@ title: antara::gaming::geometry::vertex
 
 
 
-## Public Attributes Documentation
 
-### variable pixel_color
+### Public Attributes Documentation
+
+#### variable pixel_color
 
 ```cpp
 graphics::color pixel_color {graphics::white};
@@ -795,7 +801,7 @@ graphics::color pixel_color {graphics::white};
 
 
 
-### variable texture_pos
+#### variable texture_pos
 
 ```cpp
 transform::position_2d texture_pos {transform::position_2d::scalar(0.f)};
@@ -828,7 +834,7 @@ transform::position_2d texture_pos {transform::position_2d::scalar(0.f)};
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 transform::position_2d pos {transform::position_2d::scalar(0.f)};
@@ -865,27 +871,25 @@ transform::position_2d pos {transform::position_2d::scalar(0.f)};
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1vertex__array.md
   Topic name: antara::gaming::geometry::vertex_array
   Hash count: 0
-*/
----
-title: antara::gaming::geometry::vertex_array
+-->
 
 
----
+## vertex_array
 
-# antara::gaming::geometry::vertex_array
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::vertex_array
+```
 
 
 
@@ -897,7 +901,11 @@ title: antara::gaming::geometry::vertex_array
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -909,7 +917,7 @@ title: antara::gaming::geometry::vertex_array
 |  | **[vertex_array](Classes/structantara_1_1gaming_1_1geometry_1_1vertex__array.md#function-vertex_array)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -927,9 +935,10 @@ title: antara::gaming::geometry::vertex_array
 
 
 
-## Public Functions Documentation
 
-### function vertex_array
+### Public Functions Documentation
+
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -965,7 +974,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -1002,7 +1011,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -1038,7 +1047,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -1075,7 +1084,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -1110,7 +1119,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 vertex_array() =default
@@ -1145,9 +1154,9 @@ vertex_array() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable entity_that_own_render_texture
+#### variable entity_that_own_render_texture
 
 ```cpp
 std::optional< entt::entity > entity_that_own_render_texture {std::nullopt};
@@ -1181,7 +1190,7 @@ std::optional< entt::entity > entity_that_own_render_texture {std::nullopt};
 
 
 
-### variable texture_id
+#### variable texture_id
 
 ```cpp
 std::optional< std::string > texture_id {std::nullopt};
@@ -1215,7 +1224,7 @@ std::optional< std::string > texture_id {std::nullopt};
 
 
 
-### variable geometry_type
+#### variable geometry_type
 
 ```cpp
 vertex_geometry_type geometry_type;
@@ -1248,7 +1257,7 @@ vertex_geometry_type geometry_type;
 
 
 
-### variable vertices
+#### variable vertices
 
 ```cpp
 std::vector< vertex > vertices;
@@ -1285,8 +1294,9 @@ std::vector< vertex > vertices;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::event
-summary: < std::unique_ptr  
 
----
 
-# antara::gaming::ecs::event
+## event
+
+#### Full Title:
+```
+antara::gaming::ecs::event
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < std::unique_ptr
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,8 @@ summary: < std::unique_ptr
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::unique_ptr 
 
@@ -64,6 +66,6 @@ C++ System HeadersSDK Headers < [ecs::base_system](Classes/classantara_1_1gaming
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

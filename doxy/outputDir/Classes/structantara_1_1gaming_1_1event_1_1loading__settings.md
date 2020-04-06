@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::loading_settings
 
 
----
+## loading_settings
 
-# antara::gaming::event::loading_settings
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::loading_settings
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::event::loading_settings
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::event::loading_settings
 
 
 
-## Public Attributes Documentation
 
-### variable smooth
+### Public Attributes Documentation
+
+#### variable smooth
 
 ```cpp
 bool smooth {true};
@@ -75,7 +77,7 @@ bool smooth {true};
 
 
 
-### variable texture_id
+#### variable texture_id
 
 ```cpp
 std::string texture_id;
@@ -113,6 +115,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

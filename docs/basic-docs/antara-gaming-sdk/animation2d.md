@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1animation2d_1_1anim__component.md
-  Topic name: antara::gaming::animation2d::anim_component
-  Hash count: 0
-*/
----
-title: antara::gaming::animation2d::anim_component
 
 
----
+## anim_component
 
-# antara::gaming::animation2d::anim_component
+#### Full Title:
+```
+antara::gaming::animation2d::anim_component
+```
 
 
 
@@ -23,7 +19,7 @@ title: antara::gaming::animation2d::anim_component
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +29,7 @@ title: antara::gaming::animation2d::anim_component
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -52,9 +48,10 @@ title: antara::gaming::animation2d::anim_component
 
 
 
-## Public Types Documentation
 
-### typedef seconds
+### Public Types Documentation
+
+#### typedef seconds
 
 ```cpp
 typedef std::chrono::duration< float, std::ratio< 1 > > seconds;
@@ -88,7 +85,7 @@ Typedefs.
 
 
 
-### enum status
+#### enum status
 
 ```cpp
 enum status {
@@ -130,9 +127,9 @@ Enums.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable elapsed
+#### variable elapsed
 
 ```cpp
 seconds elapsed {0};
@@ -165,7 +162,7 @@ seconds elapsed {0};
 
 
 
-### variable current_frame
+#### variable current_frame
 
 ```cpp
 std::size_t current_frame {0};
@@ -198,7 +195,7 @@ std::size_t current_frame {0};
 
 
 
-### variable loop
+#### variable loop
 
 ```cpp
 bool loop {false};
@@ -231,7 +228,7 @@ bool loop {false};
 
 
 
-### variable repeat
+#### variable repeat
 
 ```cpp
 std::size_t repeat {0};
@@ -264,7 +261,7 @@ std::size_t repeat {0};
 
 
 
-### variable speed
+#### variable speed
 
 ```cpp
 seconds speed {0.9f};
@@ -297,7 +294,7 @@ seconds speed {0.9f};
 
 
 
-### variable current_status
+#### variable current_status
 
 ```cpp
 status current_status {stopped};
@@ -330,7 +327,7 @@ status current_status {stopped};
 
 
 
-### variable animation_id
+#### variable animation_id
 
 ```cpp
 std::string animation_id;
@@ -368,23 +365,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1animation2d_1_1anim__system.md
   Topic name: antara::gaming::animation2d::anim_system
   Hash count: 0
-*/
----
-title: antara::gaming::animation2d::anim_system
+-->
 
 
----
+## anim_system
 
-# antara::gaming::animation2d::anim_system
+#### Full Title:
+```
+antara::gaming::animation2d::anim_system
+```
 
 
 
@@ -401,7 +400,7 @@ Inherits from [antara::gaming::ecs::system< anim_system >](Classes/classantara_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -416,7 +415,8 @@ Inherits from [antara::gaming::ecs::system< anim_system >](Classes/classantara_1
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -479,9 +479,9 @@ Inherits from [antara::gaming::ecs::system< anim_system >](Classes/classantara_1
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -517,7 +517,7 @@ Pure virtual functions.
 
 
 
-### function add_animations
+#### function add_animations
 
 ```cpp
 void add_animations(
@@ -555,7 +555,7 @@ void add_animations(
 
 
 
-### function add_animation
+#### function add_animation
 
 ```cpp
 void add_animation(
@@ -594,7 +594,7 @@ void add_animation(
 
 retrieve the texture size to determine the frame size. 
 
-### function add_animation
+#### function add_animation
 
 ```cpp
 void add_animation(
@@ -639,7 +639,7 @@ I have the size of the texture now
 
 Add whole ? 
 
-### function anim_system
+#### function anim_system
 
 ```cpp
 explicit anim_system(
@@ -681,23 +681,20 @@ Constructors.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1animation2d_1_1anim__system_1_1anim__internal.md
-  Topic name: antara::gaming::animation2d::anim_system::anim_internal
-  Hash count: 1
-*/
----
-title: antara::gaming::animation2d::anim_system::anim_internal
-summary: Private data structure.  
 
----
 
-# antara::gaming::animation2d::anim_system::anim_internal
+
+
+
+
+## anim_internal
+
+#### Full Title:
+```
+antara::gaming::animation2d::anim_system::anim_internal
+```
 
 
 
@@ -715,7 +712,7 @@ Private data structure.
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -733,9 +730,10 @@ Private data structure.
 
 
 
-## Public Attributes Documentation
 
-### variable texture_appearance
+### Public Attributes Documentation
+
+#### variable texture_appearance
 
 ```cpp
 std::string texture_appearance;
@@ -768,7 +766,7 @@ std::string texture_appearance;
 
 
 
-### variable frames
+#### variable frames
 
 ```cpp
 frame_array frames;
@@ -805,8 +803,9 @@ frame_array frames;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

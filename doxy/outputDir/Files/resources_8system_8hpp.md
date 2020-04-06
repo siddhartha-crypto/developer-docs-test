@@ -1,24 +1,25 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/resources/antara/gaming/resources/resources.system.hpp
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/resources/antara/gaming/resources/resources.system.hpp
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/resources/antara/gaming/resources/resources.system.hpp
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/resources/antara/gaming/resources/resources.system.hpp
+```
 
 
 
-## Namespaces
+
+
+
+
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::resources](Namespaces/namespaceantara_1_1gaming_1_1resources.md)** <br>< [event::load_textures](Classes/structantara_1_1gaming_1_1event_1_1load__textures.md) |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,9 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Source code
+
+
+### Source code
 
 ```cpp
 /******************************************************************************
@@ -126,6 +129,5 @@ REFL_AUTO(template((typename UnderlyingResourceManager), (antara::gaming::resour
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

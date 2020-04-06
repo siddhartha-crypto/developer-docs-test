@@ -1,10 +1,11 @@
----
-title: antara::gaming::core
-summary: SDK Headers.  
 
----
 
-# antara::gaming::core
+## core
+
+#### Full Title:
+```
+antara::gaming::core
+```
 
 
 
@@ -15,7 +16,7 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Namespaces
+### Namespaces
 
 | Name           |
 | -------------- |
@@ -23,7 +24,7 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,8 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 SDK Headers. 
 
@@ -71,7 +73,7 @@ C++ System Headers
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function assets_real_path
 
@@ -244,6 +246,6 @@ bool is_high_dpi_capable()
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

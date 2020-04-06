@@ -1,10 +1,11 @@
----
-title: Examples
 
 
----
+## Examples
 
-# Examples
+#### Full Title:
+```
+Examples
+```
 
 
 
@@ -12,6 +13,5 @@ title: Examples
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:31 AKDT
+

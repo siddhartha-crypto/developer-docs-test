@@ -1,14 +1,11 @@
----
-title: antara::gaming::timer::time_step
 
 
----
+## time_step
 
-# antara::gaming::timer::time_step
-
-
-
-
+#### Full Title:
+```
+antara::gaming::timer::time_step
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::timer::time_step
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,7 +35,7 @@ title: antara::gaming::timer::time_step
 | void | **[start](Classes/classantara_1_1gaming_1_1timer_1_1time__step.md#function-start)**() <br>Public static functions.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -49,9 +50,10 @@ title: antara::gaming::timer::time_step
 
 
 
-## Public Functions Documentation
 
-### function get_interpolation
+### Public Functions Documentation
+
+#### function get_interpolation
 
 ```cpp
 float get_interpolation() const
@@ -84,7 +86,7 @@ float get_interpolation() const
 
 
 
-### function is_update_required
+#### function is_update_required
 
 ```cpp
 bool is_update_required() const
@@ -118,7 +120,7 @@ Public member functions.
 
 
 
-### function reset_lag
+#### function reset_lag
 
 ```cpp
 static void reset_lag()
@@ -151,7 +153,7 @@ static void reset_lag()
 
 
 
-### function get_fixed_delta_time
+#### function get_fixed_delta_time
 
 ```cpp
 static float get_fixed_delta_time()
@@ -184,7 +186,7 @@ static float get_fixed_delta_time()
 
 
 
-### function change_tps
+#### function change_tps
 
 ```cpp
 static void change_tps(
@@ -219,7 +221,7 @@ static void change_tps(
 
 
 
-### function perform_update
+#### function perform_update
 
 ```cpp
 static void perform_update()
@@ -252,7 +254,7 @@ static void perform_update()
 
 
 
-### function start_frame
+#### function start_frame
 
 ```cpp
 static void start_frame()
@@ -285,7 +287,7 @@ static void start_frame()
 
 
 
-### function start
+#### function start
 
 ```cpp
 static void start()
@@ -321,9 +323,9 @@ Public static functions.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable fps_str_
+#### variable fps_str_
 
 ```cpp
 static std::string fps_str_ = "";
@@ -361,6 +363,6 @@ Public Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

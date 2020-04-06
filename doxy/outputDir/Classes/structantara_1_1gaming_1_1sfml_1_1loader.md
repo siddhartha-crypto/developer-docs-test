@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::loader
 
 
----
+## loader
 
-# antara::gaming::sfml::loader
+#### Full Title:
+```
+antara::gaming::sfml::loader
+```
 
 
 
@@ -22,7 +23,7 @@ Inherits from entt::loader< loader< ResourceType >, ResourceType >
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,7 +36,8 @@ Inherits from entt::loader< loader< ResourceType >, ResourceType >
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <typename ResourceType >
@@ -72,9 +74,9 @@ struct antara::gaming::sfml::loader;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function load
+#### function load
 
 ```cpp
 inline std::shared_ptr< ResourceType > load(
@@ -115,6 +117,6 @@ inline std::shared_ptr< ResourceType > load(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

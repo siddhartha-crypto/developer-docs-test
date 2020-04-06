@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::change_scene
 
 
----
+## change_scene
 
-# antara::gaming::event::change_scene
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::change_scene
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::event::change_scene
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::event::change_scene
 
 
 
-## Public Attributes Documentation
 
-### variable just_push_scene
+### Public Attributes Documentation
+
+#### variable just_push_scene
 
 ```cpp
 bool just_push_scene {false};
@@ -75,7 +77,7 @@ bool just_push_scene {false};
 
 
 
-### variable scene_ptr
+#### variable scene_ptr
 
 ```cpp
 std::unique_ptr< scenes::base_scene > scene_ptr;
@@ -112,6 +114,6 @@ std::unique_ptr< scenes::base_scene > scene_ptr;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

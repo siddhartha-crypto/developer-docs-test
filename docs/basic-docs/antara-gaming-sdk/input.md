@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1input_1_1virtual__input.md
-  Topic name: antara::gaming::input::virtual_input
-  Hash count: 0
-*/
----
-title: antara::gaming::input::virtual_input
 
 
----
+## virtual_input
 
-# antara::gaming::input::virtual_input
+#### Full Title:
+```
+antara::gaming::input::virtual_input
+```
 
 
 
@@ -23,14 +19,14 @@ title: antara::gaming::input::virtual_input
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef std::unordered_set< T > | **[bunch_of](Classes/classantara_1_1gaming_1_1input_1_1virtual__input.md#typedef-bunch_of)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -60,9 +56,10 @@ title: antara::gaming::input::virtual_input
 
 
 
-## Public Types Documentation
 
-### typedef bunch_of
+### Public Types Documentation
+
+#### typedef bunch_of
 
 ```cpp
 typedef std::unordered_set< T > bunch_of;
@@ -97,9 +94,9 @@ typedef std::unordered_set< T > bunch_of;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function remove
+#### function remove
 
 ```cpp
 static void remove(
@@ -134,7 +131,7 @@ static void remove(
 
 
 
-### function remove
+#### function remove
 
 ```cpp
 static void remove(
@@ -169,7 +166,7 @@ static void remove(
 
 
 
-### function create
+#### function create
 
 ```cpp
 static void create(
@@ -206,7 +203,7 @@ static void create(
 
 
 
-### function create
+#### function create
 
 ```cpp
 static void create(
@@ -243,7 +240,7 @@ static void create(
 
 
 
-### function is_released
+#### function is_released
 
 ```cpp
 static bool is_released(
@@ -278,7 +275,7 @@ static bool is_released(
 
 
 
-### function is_released
+#### function is_released
 
 ```cpp
 static bool is_released(
@@ -313,7 +310,7 @@ static bool is_released(
 
 
 
-### function is_tapped
+#### function is_tapped
 
 ```cpp
 static bool is_tapped(
@@ -348,7 +345,7 @@ static bool is_tapped(
 
 
 
-### function is_tapped
+#### function is_tapped
 
 ```cpp
 static bool is_tapped(
@@ -383,7 +380,7 @@ static bool is_tapped(
 
 
 
-### function is_held
+#### function is_held
 
 ```cpp
 static bool is_held(
@@ -418,7 +415,7 @@ static bool is_held(
 
 
 
-### function is_held
+#### function is_held
 
 ```cpp
 static bool is_held(
@@ -453,7 +450,7 @@ static bool is_held(
 
 
 
-### function update
+#### function update
 
 ```cpp
 static void update()
@@ -486,7 +483,7 @@ static void update()
 
 
 
-### function init
+#### function init
 
 ```cpp
 static void init(
@@ -521,7 +518,7 @@ static void init(
 
 
 
-### function on_mouse_button_released
+#### function on_mouse_button_released
 
 ```cpp
 static void on_mouse_button_released(
@@ -556,7 +553,7 @@ static void on_mouse_button_released(
 
 
 
-### function on_mouse_button_pressed
+#### function on_mouse_button_pressed
 
 ```cpp
 static void on_mouse_button_pressed(
@@ -591,7 +588,7 @@ static void on_mouse_button_pressed(
 
 
 
-### function on_key_released
+#### function on_key_released
 
 ```cpp
 static void on_key_released(
@@ -626,7 +623,7 @@ static void on_key_released(
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 static void on_key_pressed(
@@ -667,23 +664,20 @@ static void on_key_pressed(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1input_1_1virtual__input_1_1input__internal__collections.md
-  Topic name: antara::gaming::input::virtual_input::input_internal_collections
-  Hash count: 1
-*/
----
-title: antara::gaming::input::virtual_input::input_internal_collections
 
 
----
 
-# antara::gaming::input::virtual_input::input_internal_collections
+
+
+
+## input_internal_collections
+
+#### Full Title:
+```
+antara::gaming::input::virtual_input::input_internal_collections
+```
 
 
 
@@ -701,7 +695,7 @@ title: antara::gaming::input::virtual_input::input_internal_collections
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -723,9 +717,10 @@ title: antara::gaming::input::virtual_input::input_internal_collections
 
 
 
-## Public Attributes Documentation
 
-### variable released
+### Public Attributes Documentation
+
+#### variable released
 
 ```cpp
 bool released {false};
@@ -758,7 +753,7 @@ bool released {false};
 
 
 
-### variable tapped
+#### variable tapped
 
 ```cpp
 bool tapped {false};
@@ -791,7 +786,7 @@ bool tapped {false};
 
 
 
-### variable held_last_tick
+#### variable held_last_tick
 
 ```cpp
 bool held_last_tick {false};
@@ -824,7 +819,7 @@ bool held_last_tick {false};
 
 
 
-### variable held
+#### variable held
 
 ```cpp
 std::vector< bool > held {false};
@@ -857,7 +852,7 @@ std::vector< bool > held {false};
 
 
 
-### variable buttons
+#### variable buttons
 
 ```cpp
 bunch_of< input::mouse_button > buttons;
@@ -890,7 +885,7 @@ bunch_of< input::mouse_button > buttons;
 
 
 
-### variable keys
+#### variable keys
 
 ```cpp
 bunch_of< input::key > keys;
@@ -927,8 +922,9 @@ bunch_of< input::key > keys;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

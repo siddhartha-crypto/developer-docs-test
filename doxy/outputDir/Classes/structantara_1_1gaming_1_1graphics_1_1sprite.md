@@ -1,14 +1,11 @@
----
-title: antara::gaming::graphics::sprite
 
 
----
+## sprite
 
-# antara::gaming::graphics::sprite
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::sprite
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::graphics::sprite
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,9 +42,10 @@ title: antara::gaming::graphics::sprite
 
 
 
-## Public Attributes Documentation
 
-### variable texture_rec
+### Public Attributes Documentation
+
+#### variable texture_rec
 
 ```cpp
 rect texture_rec {};
@@ -77,7 +79,7 @@ take the whole size by default
 
 
 
-### variable native_size
+#### variable native_size
 
 ```cpp
 bool native_size {true};
@@ -111,7 +113,7 @@ texture id
 
 
 
-### variable appearance
+#### variable appearance
 
 ```cpp
 std::string appearance;
@@ -148,6 +150,6 @@ std::string appearance;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs
-summary: SDK Headers.  
 
----
 
-# antara::gaming::ecs
+## ecs
+
+#### Full Title:
+```
+antara::gaming::ecs
+```
 
 
 
@@ -15,14 +16,14 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Namespaces
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::ecs::event](Namespaces/namespaceantara_1_1gaming_1_1ecs_1_1event.md)** <br>< std::unique_ptr  |
 | **[antara::gaming::ecs::component](Namespaces/namespaceantara_1_1gaming_1_1ecs_1_1component.md)** <br>< doom::meta::list  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,7 +35,7 @@ SDK Headers.  [More...](#detailed-description)
 | struct | **[antara::gaming::ecs::ftor](Classes/structantara_1_1gaming_1_1ecs_1_1ftor.md)**  |
 | class | **[antara::gaming::ecs::base_system](Classes/classantara_1_1gaming_1_1ecs_1_1base__system.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -53,7 +54,8 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 SDK Headers. 
 
@@ -125,7 +127,7 @@ Dependencies HeadersSDK Headers < REFL_AUTO < [ecs::system](Classes/classantara_
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef st_system_post_update
 
@@ -489,6 +491,6 @@ Enumeration that represents all possible system types in sdk gaming.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

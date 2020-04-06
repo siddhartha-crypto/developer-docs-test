@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::intro_scene
 
 
----
+## intro_scene
 
-# antara::gaming::sfml::intro_scene
+#### Full Title:
+```
+antara::gaming::sfml::intro_scene
+```
 
 
 
@@ -19,14 +20,14 @@ Inherits from [antara::gaming::scenes::base_scene](Classes/classantara_1_1gaming
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef std::function< void()> | **[on_finish_functor](Classes/classantara_1_1gaming_1_1sfml_1_1intro__scene.md#typedef-on_finish_functor)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,7 +42,8 @@ Inherits from [antara::gaming::scenes::base_scene](Classes/classantara_1_1gaming
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -74,9 +76,9 @@ Inherits from [antara::gaming::scenes::base_scene](Classes/classantara_1_1gaming
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef on_finish_functor
+#### typedef on_finish_functor
 
 ```cpp
 typedef std::function< void()> on_finish_functor;
@@ -111,9 +113,9 @@ typedef std::function< void()> on_finish_functor;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function ~intro_scene
+#### function ~intro_scene
 
 ```cpp
 ~intro_scene()
@@ -146,7 +148,7 @@ typedef std::function< void()> on_finish_functor;
 
 
 
-### function scene_name
+#### function scene_name
 
 ```cpp
 virtual std::string scene_name()
@@ -181,7 +183,7 @@ virtual std::string scene_name()
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 virtual bool on_key_pressed(
@@ -218,7 +220,7 @@ virtual bool on_key_pressed(
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -253,7 +255,7 @@ virtual void update()
 
 
 
-### function intro_scene
+#### function intro_scene
 
 ```cpp
 intro_scene(
@@ -295,6 +297,6 @@ intro_scene(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

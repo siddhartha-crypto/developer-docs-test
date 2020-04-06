@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_api::mempool_request
 
 
----
+## mempool_request
 
-# antara::gaming::blockchain::nspv_api::mempool_request
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::mempool_request
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::blockchain::nspv_api::mempool_request
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -39,9 +40,10 @@ title: antara::gaming::blockchain::nspv_api::mempool_request
 
 
 
-## Public Attributes Documentation
 
-### variable address
+### Public Attributes Documentation
+
+#### variable address
 
 ```cpp
 std::optional< std::string > address;
@@ -78,6 +80,6 @@ std::optional< std::string > address;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

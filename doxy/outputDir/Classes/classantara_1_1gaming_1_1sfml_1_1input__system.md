@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::input_system
 
 
----
+## input_system
 
-# antara::gaming::sfml::input_system
+#### Full Title:
+```
+antara::gaming::sfml::input_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,7 +36,8 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -98,9 +100,9 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function on_set_mouse_position
+#### function on_set_mouse_position
 
 ```cpp
 void on_set_mouse_position(
@@ -135,7 +137,7 @@ void on_set_mouse_position(
 
 
 
-### function on_fill_mouse_position
+#### function on_fill_mouse_position
 
 ```cpp
 void on_fill_mouse_position(
@@ -170,7 +172,7 @@ void on_fill_mouse_position(
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -206,7 +208,7 @@ Pure virtual functions.
 
 
 
-### function input_system
+#### function input_system
 
 ```cpp
 input_system(
@@ -249,6 +251,6 @@ Constructors.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

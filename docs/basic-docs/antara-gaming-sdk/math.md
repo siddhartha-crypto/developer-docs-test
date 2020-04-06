@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md
-  Topic name: antara::gaming::math::basic_vector
-  Hash count: 0
-*/
----
-title: antara::gaming::math::basic_vector
 
 
----
+## basic_vector
 
-# antara::gaming::math::basic_vector
+#### Full Title:
+```
+antara::gaming::math::basic_vector
+```
 
 
 
@@ -26,14 +22,14 @@ Inherited by [antara::gaming::transform::position_2d](Classes/structantara_1_1ga
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -85,7 +81,7 @@ Inherited by [antara::gaming::transform::position_2d](Classes/structantara_1_1ga
 
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -94,7 +90,8 @@ Inherited by [antara::gaming::transform::position_2d](Classes/structantara_1_1ga
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Unit,
@@ -131,9 +128,9 @@ class antara::gaming::math::basic_vector;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -168,9 +165,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function scalar
+#### function scalar
 
 ```cpp
 static inline constexpr auto scalar(
@@ -205,7 +202,7 @@ static inline constexpr auto scalar(
 
 
 
-### function create
+#### function create
 
 ```cpp
 static inline constexpr basic_vector create(
@@ -240,7 +237,7 @@ static inline constexpr basic_vector create(
 
 
 
-### function operator<=
+#### function operator<=
 
 ```cpp
 inline constexpr bool operator<=(
@@ -275,7 +272,7 @@ inline constexpr bool operator<=(
 
 
 
-### function operator>
+#### function operator>
 
 ```cpp
 inline constexpr bool operator>(
@@ -310,7 +307,7 @@ inline constexpr bool operator>(
 
 
 
-### function operator>=
+#### function operator>=
 
 ```cpp
 inline constexpr bool operator>=(
@@ -345,7 +342,7 @@ inline constexpr bool operator>=(
 
 
 
-### function operator<
+#### function operator<
 
 ```cpp
 inline constexpr bool operator<(
@@ -380,7 +377,7 @@ inline constexpr bool operator<(
 
 
 
-### function operator!=
+#### function operator!=
 
 ```cpp
 inline constexpr bool operator!=(
@@ -415,7 +412,7 @@ inline constexpr bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline constexpr bool operator==(
@@ -450,7 +447,7 @@ inline constexpr bool operator==(
 
 
 
-### function normalized
+#### function normalized
 
 ```cpp
 inline constexpr basic_vector normalized() const
@@ -483,7 +480,7 @@ inline constexpr basic_vector normalized() const
 
 
 
-### function distance
+#### function distance
 
 ```cpp
 inline constexpr Unit distance(
@@ -518,7 +515,7 @@ inline constexpr Unit distance(
 
 
 
-### function length
+#### function length
 
 ```cpp
 inline constexpr Unit length() const
@@ -551,7 +548,7 @@ inline constexpr Unit length() const
 
 
 
-### function square_length
+#### function square_length
 
 ```cpp
 inline constexpr Unit square_length() const
@@ -584,7 +581,7 @@ inline constexpr Unit square_length() const
 
 
 
-### function operator-
+#### function operator-
 
 ```cpp
 inline constexpr basic_vector operator-() const
@@ -617,7 +614,7 @@ inline constexpr basic_vector operator-() const
 
 
 
-### function operator/=
+#### function operator/=
 
 ```cpp
 inline constexpr basic_vector & operator/=(
@@ -652,7 +649,7 @@ inline constexpr basic_vector & operator/=(
 
 
 
-### function operator*=
+#### function operator*=
 
 ```cpp
 inline constexpr basic_vector & operator*=(
@@ -687,7 +684,7 @@ inline constexpr basic_vector & operator*=(
 
 
 
-### function operator-=
+#### function operator-=
 
 ```cpp
 inline constexpr basic_vector & operator-=(
@@ -722,7 +719,7 @@ inline constexpr basic_vector & operator-=(
 
 
 
-### function operator+=
+#### function operator+=
 
 ```cpp
 inline constexpr basic_vector & operator+=(
@@ -757,7 +754,7 @@ inline constexpr basic_vector & operator+=(
 
 
 
-### function operator/=
+#### function operator/=
 
 ```cpp
 inline constexpr basic_vector & operator/=(
@@ -792,7 +789,7 @@ inline constexpr basic_vector & operator/=(
 
 
 
-### function operator*=
+#### function operator*=
 
 ```cpp
 inline constexpr basic_vector & operator*=(
@@ -827,7 +824,7 @@ inline constexpr basic_vector & operator*=(
 
 
 
-### function operator-=
+#### function operator-=
 
 ```cpp
 inline constexpr basic_vector & operator-=(
@@ -862,7 +859,7 @@ inline constexpr basic_vector & operator-=(
 
 
 
-### function operator+=
+#### function operator+=
 
 ```cpp
 inline constexpr basic_vector & operator+=(
@@ -897,7 +894,7 @@ inline constexpr basic_vector & operator+=(
 
 
 
-### function operator/
+#### function operator/
 
 ```cpp
 inline constexpr basic_vector operator/(
@@ -932,7 +929,7 @@ inline constexpr basic_vector operator/(
 
 
 
-### function operator*
+#### function operator*
 
 ```cpp
 inline constexpr basic_vector operator*(
@@ -967,7 +964,7 @@ inline constexpr basic_vector operator*(
 
 
 
-### function operator-
+#### function operator-
 
 ```cpp
 inline constexpr basic_vector operator-(
@@ -1002,7 +999,7 @@ inline constexpr basic_vector operator-(
 
 
 
-### function operator+
+#### function operator+
 
 ```cpp
 inline constexpr basic_vector operator+(
@@ -1037,7 +1034,7 @@ inline constexpr basic_vector operator+(
 
 
 
-### function operator/
+#### function operator/
 
 ```cpp
 inline constexpr basic_vector operator/(
@@ -1072,7 +1069,7 @@ inline constexpr basic_vector operator/(
 
 
 
-### function operator*
+#### function operator*
 
 ```cpp
 inline constexpr basic_vector operator*(
@@ -1107,7 +1104,7 @@ inline constexpr basic_vector operator*(
 
 
 
-### function operator-
+#### function operator-
 
 ```cpp
 inline constexpr basic_vector operator-(
@@ -1142,7 +1139,7 @@ inline constexpr basic_vector operator-(
 
 
 
-### function operator+
+#### function operator+
 
 ```cpp
 inline constexpr basic_vector operator+(
@@ -1177,7 +1174,7 @@ inline constexpr basic_vector operator+(
 
 
 
-### function to
+#### function to
 
 ```cpp
 inline constexpr Vec to() const
@@ -1210,7 +1207,7 @@ inline constexpr Vec to() const
 
 
 
-### function operator basic_vector< NewUnit, Size, NewMixins... >
+#### function operator basic_vector< NewUnit, Size, NewMixins... >
 
 ```cpp
 inline constexpr operator basic_vector< NewUnit, Size, NewMixins... >() const
@@ -1243,7 +1240,7 @@ inline constexpr operator basic_vector< NewUnit, Size, NewMixins... >() const
 
 
 
-### function end
+#### function end
 
 ```cpp
 inline constexpr auto end() const
@@ -1276,7 +1273,7 @@ inline constexpr auto end() const
 
 
 
-### function end
+#### function end
 
 ```cpp
 inline constexpr auto end()
@@ -1309,7 +1306,7 @@ inline constexpr auto end()
 
 
 
-### function begin
+#### function begin
 
 ```cpp
 inline constexpr auto begin() const
@@ -1342,7 +1339,7 @@ inline constexpr auto begin() const
 
 
 
-### function begin
+#### function begin
 
 ```cpp
 inline constexpr auto begin()
@@ -1375,7 +1372,7 @@ inline constexpr auto begin()
 
 
 
-### function size
+#### function size
 
 ```cpp
 inline constexpr int size() const
@@ -1408,7 +1405,7 @@ inline constexpr int size() const
 
 
 
-### function data
+#### function data
 
 ```cpp
 inline constexpr Unit const  * data() const
@@ -1441,7 +1438,7 @@ inline constexpr Unit const  * data() const
 
 
 
-### function data
+#### function data
 
 ```cpp
 inline constexpr Unit * data()
@@ -1474,7 +1471,7 @@ inline constexpr Unit * data()
 
 
 
-### function get
+#### function get
 
 ```cpp
 inline constexpr Unit & get()
@@ -1507,7 +1504,7 @@ inline constexpr Unit & get()
 
 
 
-### function get
+#### function get
 
 ```cpp
 inline constexpr Unit get() const
@@ -1540,7 +1537,7 @@ inline constexpr Unit get() const
 
 
 
-### function operator[]
+#### function operator[]
 
 ```cpp
 inline constexpr Unit & operator[](
@@ -1575,7 +1572,7 @@ inline constexpr Unit & operator[](
 
 
 
-### function operator[]
+#### function operator[]
 
 ```cpp
 inline constexpr Unit operator[](
@@ -1610,7 +1607,7 @@ inline constexpr Unit operator[](
 
 
 
-### function basic_vector
+#### function basic_vector
 
 ```cpp
 inline constexpr basic_vector(
@@ -1645,7 +1642,7 @@ inline constexpr basic_vector(
 
 
 
-### function basic_vector
+#### function basic_vector
 
 ```cpp
 inline constexpr basic_vector(
@@ -1684,9 +1681,9 @@ inline constexpr basic_vector(
 
 
 
-## Friends
+### Friends
 
-### friend basic_vector
+#### friend basic_vector
 
 ```cpp
 friend class basic_vector;
@@ -1721,34 +1718,36 @@ friend class basic_vector;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1math_1_1vector__mixins.md
   Topic name: antara::gaming::math::vector_mixins
   Hash count: 0
-*/
----
-title: antara::gaming::math::vector_mixins
+-->
 
 
----
+## vector_mixins
 
-# antara::gaming::math::vector_mixins
-
-
-
-
+#### Full Title:
+```
+antara::gaming::math::vector_mixins
+```
 
 
 
 
 
 
-## Classes
+
+
+
+
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1768,23 +1767,21 @@ title: antara::gaming::math::vector_mixins
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__units.md
-  Topic name: antara::gaming::math::vector_mixins::access_units
-  Hash count: 1
-*/
----
-title: antara::gaming::math::vector_mixins::access_units
 
 
----
 
-# antara::gaming::math::vector_mixins::access_units
+
+
+
+
+## access_units
+
+#### Full Title:
+```
+antara::gaming::math::vector_mixins::access_units
+```
 
 
 
@@ -1799,14 +1796,14 @@ title: antara::gaming::math::vector_mixins::access_units
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__units.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1829,7 +1826,8 @@ title: antara::gaming::math::vector_mixins::access_units
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Derived ,
@@ -1865,9 +1863,9 @@ class antara::gaming::math::vector_mixins::access_units;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -1902,9 +1900,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function magnitude
+#### function magnitude
 
 ```cpp
 inline constexpr Unit magnitude()
@@ -1937,7 +1935,7 @@ inline constexpr Unit magnitude()
 
 
 
-### function vec_to_angle
+#### function vec_to_angle
 
 ```cpp
 static inline constexpr Unit vec_to_angle(
@@ -1972,7 +1970,7 @@ static inline constexpr Unit vec_to_angle(
 
 
 
-### function angle_to_vec
+#### function angle_to_vec
 
 ```cpp
 static inline constexpr auto angle_to_vec(
@@ -2007,7 +2005,7 @@ static inline constexpr auto angle_to_vec(
 
 
 
-### function unit_left
+#### function unit_left
 
 ```cpp
 static inline constexpr auto unit_left()
@@ -2040,7 +2038,7 @@ static inline constexpr auto unit_left()
 
 
 
-### function unit_right
+#### function unit_right
 
 ```cpp
 static inline constexpr auto unit_right()
@@ -2073,7 +2071,7 @@ static inline constexpr auto unit_right()
 
 
 
-### function unit_down_left
+#### function unit_down_left
 
 ```cpp
 static inline constexpr auto unit_down_left()
@@ -2106,7 +2104,7 @@ static inline constexpr auto unit_down_left()
 
 
 
-### function unit_down_right
+#### function unit_down_right
 
 ```cpp
 static inline constexpr auto unit_down_right()
@@ -2139,7 +2137,7 @@ static inline constexpr auto unit_down_right()
 
 
 
-### function unit_down
+#### function unit_down
 
 ```cpp
 static inline constexpr auto unit_down()
@@ -2172,7 +2170,7 @@ static inline constexpr auto unit_down()
 
 
 
-### function unit_up_left
+#### function unit_up_left
 
 ```cpp
 static inline constexpr auto unit_up_left()
@@ -2205,7 +2203,7 @@ static inline constexpr auto unit_up_left()
 
 
 
-### function unit_up_right
+#### function unit_up_right
 
 ```cpp
 static inline constexpr auto unit_up_right()
@@ -2238,7 +2236,7 @@ static inline constexpr auto unit_up_right()
 
 
 
-### function unit_up
+#### function unit_up
 
 ```cpp
 static inline constexpr auto unit_up()
@@ -2277,23 +2275,25 @@ static inline constexpr auto unit_up()
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy.md
   Topic name: antara::gaming::math::vector_mixins::access_xy
   Hash count: 1
-*/
----
-title: antara::gaming::math::vector_mixins::access_xy
+-->
 
 
----
+## access_xy
 
-# antara::gaming::math::vector_mixins::access_xy
+#### Full Title:
+```
+antara::gaming::math::vector_mixins::access_xy
+```
 
 
 
@@ -2308,14 +2308,14 @@ title: antara::gaming::math::vector_mixins::access_xy
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2335,7 +2335,8 @@ title: antara::gaming::math::vector_mixins::access_xy
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Derived ,
@@ -2371,9 +2372,9 @@ class antara::gaming::math::vector_mixins::access_xy;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -2408,9 +2409,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function make_xy
+#### function make_xy
 
 ```cpp
 inline constexpr auto make_xy(
@@ -2446,7 +2447,7 @@ inline constexpr auto make_xy(
 
 
 
-### function set_xy
+#### function set_xy
 
 ```cpp
 inline constexpr Derived & set_xy(
@@ -2482,7 +2483,7 @@ inline constexpr Derived & set_xy(
 
 
 
-### function set_y
+#### function set_y
 
 ```cpp
 inline constexpr Derived & set_y(
@@ -2517,7 +2518,7 @@ inline constexpr Derived & set_y(
 
 
 
-### function set_x
+#### function set_x
 
 ```cpp
 inline constexpr Derived & set_x(
@@ -2552,7 +2553,7 @@ inline constexpr Derived & set_x(
 
 
 
-### function y_ref
+#### function y_ref
 
 ```cpp
 inline constexpr auto & y_ref()
@@ -2585,7 +2586,7 @@ inline constexpr auto & y_ref()
 
 
 
-### function y
+#### function y
 
 ```cpp
 inline constexpr auto y() const
@@ -2618,7 +2619,7 @@ inline constexpr auto y() const
 
 
 
-### function x_ref
+#### function x_ref
 
 ```cpp
 inline constexpr auto & x_ref()
@@ -2651,7 +2652,7 @@ inline constexpr auto & x_ref()
 
 
 
-### function x
+#### function x
 
 ```cpp
 inline constexpr auto x() const
@@ -2690,23 +2691,25 @@ inline constexpr auto x() const
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__z.md
   Topic name: antara::gaming::math::vector_mixins::access_z
   Hash count: 1
-*/
----
-title: antara::gaming::math::vector_mixins::access_z
+-->
 
 
----
+## access_z
 
-# antara::gaming::math::vector_mixins::access_z
+#### Full Title:
+```
+antara::gaming::math::vector_mixins::access_z
+```
 
 
 
@@ -2721,14 +2724,14 @@ title: antara::gaming::math::vector_mixins::access_z
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__z.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2744,7 +2747,8 @@ title: antara::gaming::math::vector_mixins::access_z
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Derived ,
@@ -2780,9 +2784,9 @@ class antara::gaming::math::vector_mixins::access_z;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -2817,9 +2821,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function set_xyz
+#### function set_xyz
 
 ```cpp
 inline constexpr void set_xyz(
@@ -2856,7 +2860,7 @@ inline constexpr void set_xyz(
 
 
 
-### function set_z
+#### function set_z
 
 ```cpp
 inline constexpr void set_z(
@@ -2891,7 +2895,7 @@ inline constexpr void set_z(
 
 
 
-### function z_ref
+#### function z_ref
 
 ```cpp
 inline constexpr auto & z_ref()
@@ -2924,7 +2928,7 @@ inline constexpr auto & z_ref()
 
 
 
-### function z
+#### function z
 
 ```cpp
 inline constexpr auto z() const
@@ -2963,8 +2967,9 @@ inline constexpr auto z() const
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

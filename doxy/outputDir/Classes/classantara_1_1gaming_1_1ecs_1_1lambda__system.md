@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::lambda_system
 
 
----
+## lambda_system
 
-# antara::gaming::ecs::lambda_system
+#### Full Title:
+```
+antara::gaming::ecs::lambda_system
+```
 
 
 
@@ -22,7 +23,7 @@ Inherits from [antara::gaming::ecs::system< lambda_system< SystemType >, SystemT
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,8 @@ Inherits from [antara::gaming::ecs::system< lambda_system< SystemType >, SystemT
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -94,7 +96,7 @@ Inherits from [antara::gaming::ecs::system< lambda_system< SystemType >, SystemT
 
 
 
-## Detailed Description
+### Detailed Description
 
 ```cpp
 template <typename SystemType >
@@ -131,9 +133,9 @@ class antara::gaming::ecs::lambda_system;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function post_update
+#### function post_update
 
 ```cpp
 virtual void post_update()
@@ -168,7 +170,7 @@ virtual void post_update()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -204,7 +206,7 @@ Public member functions.
 
 
 
-### function ~lambda_system
+#### function ~lambda_system
 
 ```cpp
 ~lambda_system()
@@ -238,7 +240,7 @@ Destructor.
 
 
 
-### function lambda_system
+#### function lambda_system
 
 ```cpp
 lambda_system(
@@ -282,6 +284,6 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

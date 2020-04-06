@@ -1,14 +1,11 @@
----
-title: antara::gaming::geometry::vertex_array
 
 
----
+## vertex_array
 
-# antara::gaming::geometry::vertex_array
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::vertex_array
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::geometry::vertex_array
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -32,7 +33,7 @@ title: antara::gaming::geometry::vertex_array
 |  | **[vertex_array](Classes/structantara_1_1gaming_1_1geometry_1_1vertex__array.md#function-vertex_array)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -50,9 +51,10 @@ title: antara::gaming::geometry::vertex_array
 
 
 
-## Public Functions Documentation
 
-### function vertex_array
+### Public Functions Documentation
+
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -88,7 +90,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -125,7 +127,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -161,7 +163,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -198,7 +200,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 inline vertex_array(
@@ -233,7 +235,7 @@ inline vertex_array(
 
 
 
-### function vertex_array
+#### function vertex_array
 
 ```cpp
 vertex_array() =default
@@ -268,9 +270,9 @@ vertex_array() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable entity_that_own_render_texture
+#### variable entity_that_own_render_texture
 
 ```cpp
 std::optional< entt::entity > entity_that_own_render_texture {std::nullopt};
@@ -304,7 +306,7 @@ std::optional< entt::entity > entity_that_own_render_texture {std::nullopt};
 
 
 
-### variable texture_id
+#### variable texture_id
 
 ```cpp
 std::optional< std::string > texture_id {std::nullopt};
@@ -338,7 +340,7 @@ std::optional< std::string > texture_id {std::nullopt};
 
 
 
-### variable geometry_type
+#### variable geometry_type
 
 ```cpp
 vertex_geometry_type geometry_type;
@@ -371,7 +373,7 @@ vertex_geometry_type geometry_type;
 
 
 
-### variable vertices
+#### variable vertices
 
 ```cpp
 std::vector< vertex > vertices;
@@ -408,6 +410,6 @@ std::vector< vertex > vertices;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

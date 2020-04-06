@@ -1,10 +1,11 @@
----
-title: antara::gaming::animation2d::anim_system
 
 
----
+## anim_system
 
-# antara::gaming::animation2d::anim_system
+#### Full Title:
+```
+antara::gaming::animation2d::anim_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< anim_system >](Classes/classantara_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,8 @@ Inherits from [antara::gaming::ecs::system< anim_system >](Classes/classantara_1
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -99,9 +101,9 @@ Inherits from [antara::gaming::ecs::system< anim_system >](Classes/classantara_1
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -137,7 +139,7 @@ Pure virtual functions.
 
 
 
-### function add_animations
+#### function add_animations
 
 ```cpp
 void add_animations(
@@ -175,7 +177,7 @@ void add_animations(
 
 
 
-### function add_animation
+#### function add_animation
 
 ```cpp
 void add_animation(
@@ -214,7 +216,7 @@ void add_animation(
 
 retrieve the texture size to determine the frame size. 
 
-### function add_animation
+#### function add_animation
 
 ```cpp
 void add_animation(
@@ -259,7 +261,7 @@ I have the size of the texture now
 
 Add whole ? 
 
-### function anim_system
+#### function anim_system
 
 ```cpp
 explicit anim_system(
@@ -301,6 +303,6 @@ Constructors.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,14 +1,11 @@
----
-title: antara::gaming::audio::music
 
 
----
+## music
 
-# antara::gaming::audio::music
-
-
-
-
+#### Full Title:
+```
+antara::gaming::audio::music
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::audio::music
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -47,9 +48,10 @@ title: antara::gaming::audio::music
 
 
 
-## Public Attributes Documentation
 
-### variable relative_to_listener
+### Public Attributes Documentation
+
+#### variable relative_to_listener
 
 ```cpp
 bool relative_to_listener {false};
@@ -82,7 +84,7 @@ bool relative_to_listener {false};
 
 
 
-### variable attenuation
+#### variable attenuation
 
 ```cpp
 float attenuation {1.f};
@@ -115,7 +117,7 @@ float attenuation {1.f};
 
 
 
-### variable minimum_distance
+#### variable minimum_distance
 
 ```cpp
 float minimum_distance {1.f};
@@ -148,7 +150,7 @@ float minimum_distance {1.f};
 
 
 
-### variable on_finish
+#### variable on_finish
 
 ```cpp
 std::function< void()> on_finish {[]() {
@@ -182,7 +184,7 @@ std::function< void()> on_finish {[]() {
 
 
 
-### variable loop
+#### variable loop
 
 ```cpp
 bool loop {false};
@@ -215,7 +217,7 @@ bool loop {false};
 
 
 
-### variable volume
+#### variable volume
 
 ```cpp
 float volume {100.f};
@@ -248,7 +250,7 @@ float volume {100.f};
 
 
 
-### variable pitch
+#### variable pitch
 
 ```cpp
 float pitch {1.f};
@@ -281,7 +283,7 @@ float pitch {1.f};
 
 
 
-### variable music_status
+#### variable music_status
 
 ```cpp
 status music_status {status::wait_for_first_run};
@@ -314,7 +316,7 @@ status music_status {status::wait_for_first_run};
 
 
 
-### variable music_id
+#### variable music_id
 
 ```cpp
 std::string music_id;
@@ -351,6 +353,6 @@ std::string music_id;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

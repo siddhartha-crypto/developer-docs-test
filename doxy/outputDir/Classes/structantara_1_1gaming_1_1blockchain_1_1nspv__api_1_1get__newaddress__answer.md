@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
 
 
----
+## get_newaddress_answer
 
-# antara::gaming::blockchain::nspv_api::get_newaddress_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::get_newaddress_answer
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -39,9 +40,10 @@ title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
 
 
 
-## Public Attributes Documentation
 
-### variable wif
+### Public Attributes Documentation
+
+#### variable wif
 
 ```cpp
 std::string wif;
@@ -78,6 +80,6 @@ std::string wif;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::resources_manager
 
 
----
+## resources_manager
 
-# antara::gaming::sfml::resources_manager
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::resources_manager
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::sfml::resources_manager
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -43,9 +44,10 @@ title: antara::gaming::sfml::resources_manager
 
 
 
-## Public Functions Documentation
 
-### function load_music
+### Public Functions Documentation
+
+#### function load_music
 
 ```cpp
 music_handle load_music(
@@ -80,7 +82,7 @@ music_handle load_music(
 
 
 
-### function load_sound
+#### function load_sound
 
 ```cpp
 sound_handle load_sound(
@@ -115,7 +117,7 @@ sound_handle load_sound(
 
 
 
-### function load_font
+#### function load_font
 
 ```cpp
 font_handle load_font(
@@ -150,7 +152,7 @@ font_handle load_font(
 
 
 
-### function load_texture
+#### function load_texture
 
 ```cpp
 texture_handle load_texture(
@@ -186,7 +188,7 @@ texture_handle load_texture(
 
 
 
-### function contains
+#### function contains
 
 ```cpp
 static inline auto contains(
@@ -222,7 +224,7 @@ static inline auto contains(
 
 
 
-### function get
+#### function get
 
 ```cpp
 static inline auto get(
@@ -258,7 +260,7 @@ static inline auto get(
 
 
 
-### function load
+#### function load
 
 ```cpp
 static inline auto load(
@@ -301,6 +303,6 @@ static inline auto load(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

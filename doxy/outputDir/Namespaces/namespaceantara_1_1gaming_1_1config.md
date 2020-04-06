@@ -1,10 +1,11 @@
----
-title: antara::gaming::config
-summary: < assert  
 
----
 
-# antara::gaming::config
+## config
+
+#### Full Title:
+```
+antara::gaming::config
+```
 
 
 
@@ -15,7 +16,7 @@ summary: < assert
 
 
 
-## Namespaces
+### Namespaces
 
 | Name           |
 | -------------- |
@@ -23,7 +24,7 @@ summary: < assert
 
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -32,7 +33,8 @@ summary: < assert
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < assert 
 
@@ -65,7 +67,7 @@ C System HeadersC++ System Headers < fs::create_directories, fs::path, fs::exist
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function load_configuration
 
@@ -124,6 +126,6 @@ auto cfg = config::load_configuration<my_game::config>(std::filesystem::current_
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

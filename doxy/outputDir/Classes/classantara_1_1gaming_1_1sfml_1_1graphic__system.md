@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::graphic_system
 
 
----
+## graphic_system
 
-# antara::gaming::sfml::graphic_system
+#### Full Title:
+```
+antara::gaming::sfml::graphic_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -62,7 +63,8 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -125,9 +127,9 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function on_properties_replaced
+#### function on_properties_replaced
 
 ```cpp
 void on_properties_replaced(
@@ -163,7 +165,7 @@ void on_properties_replaced(
 
 
 
-### function on_vertex_array_construct
+#### function on_vertex_array_construct
 
 ```cpp
 void on_vertex_array_construct(
@@ -199,7 +201,7 @@ void on_vertex_array_construct(
 
 
 
-### function on_vertex_array_replace
+#### function on_vertex_array_replace
 
 ```cpp
 void on_vertex_array_replace(
@@ -235,7 +237,7 @@ void on_vertex_array_replace(
 
 
 
-### function on_rt_construct
+#### function on_rt_construct
 
 ```cpp
 void on_rt_construct(
@@ -271,7 +273,7 @@ void on_rt_construct(
 
 
 
-### function on_rt_replace
+#### function on_rt_replace
 
 ```cpp
 void on_rt_replace(
@@ -307,7 +309,7 @@ void on_rt_replace(
 
 
 
-### function on_sprite_construct
+#### function on_sprite_construct
 
 ```cpp
 void on_sprite_construct(
@@ -343,7 +345,7 @@ void on_sprite_construct(
 
 
 
-### function on_sprite_replace
+#### function on_sprite_replace
 
 ```cpp
 void on_sprite_replace(
@@ -379,7 +381,7 @@ void on_sprite_replace(
 
 
 
-### function on_text_construct
+#### function on_text_construct
 
 ```cpp
 void on_text_construct(
@@ -415,7 +417,7 @@ void on_text_construct(
 
 
 
-### function on_text_replace
+#### function on_text_replace
 
 ```cpp
 void on_text_replace(
@@ -451,7 +453,7 @@ void on_text_replace(
 
 
 
-### function on_position_2d_construct
+#### function on_position_2d_construct
 
 ```cpp
 void on_position_2d_construct(
@@ -487,7 +489,7 @@ void on_position_2d_construct(
 
 
 
-### function on_position_2d_replace
+#### function on_position_2d_replace
 
 ```cpp
 void on_position_2d_replace(
@@ -523,7 +525,7 @@ void on_position_2d_replace(
 
 
 
-### function on_rectangle_construct
+#### function on_rectangle_construct
 
 ```cpp
 void on_rectangle_construct(
@@ -559,7 +561,7 @@ void on_rectangle_construct(
 
 
 
-### function on_rectangle_replace
+#### function on_rectangle_replace
 
 ```cpp
 void on_rectangle_replace(
@@ -595,7 +597,7 @@ void on_rectangle_replace(
 
 
 
-### function on_circle_construct
+#### function on_circle_construct
 
 ```cpp
 void on_circle_construct(
@@ -631,7 +633,7 @@ void on_circle_construct(
 
 
 
-### function on_circle_replace
+#### function on_circle_replace
 
 ```cpp
 void on_circle_replace(
@@ -667,7 +669,7 @@ void on_circle_replace(
 
 
 
-### function on_window_resized_event
+#### function on_window_resized_event
 
 ```cpp
 void on_window_resized_event(
@@ -702,7 +704,7 @@ void on_window_resized_event(
 
 
 
-### function on_fill_image_properties
+#### function on_fill_image_properties
 
 ```cpp
 void on_fill_image_properties(
@@ -737,7 +739,7 @@ void on_fill_image_properties(
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 void on_key_pressed(
@@ -773,7 +775,7 @@ Callback.
 
 
 
-### function get_window
+#### function get_window
 
 ```cpp
 sf::RenderWindow & get_window()
@@ -807,7 +809,7 @@ Public getter.
 
 
 
-### function draw_all_layers
+#### function draw_all_layers
 
 ```cpp
 void draw_all_layers()
@@ -840,7 +842,7 @@ void draw_all_layers()
 
 
 
-### function draw_all_layers
+#### function draw_all_layers
 
 ```cpp
 void draw_all_layers(
@@ -875,7 +877,7 @@ void draw_all_layers(
 
 
 
-### function draw
+#### function draw
 
 ```cpp
 void draw(
@@ -910,7 +912,7 @@ void draw(
 
 
 
-### function draw
+#### function draw
 
 ```cpp
 void draw()
@@ -943,7 +945,7 @@ void draw()
 
 
 
-### function set_properties
+#### function set_properties
 
 ```cpp
 void set_properties(
@@ -980,7 +982,7 @@ void set_properties(
 
 
 
-### function set_properties
+#### function set_properties
 
 ```cpp
 bool set_properties(
@@ -1016,7 +1018,7 @@ bool set_properties(
 
 
 
-### function set_position
+#### function set_position
 
 ```cpp
 void set_position(
@@ -1053,7 +1055,7 @@ void set_position(
 
 
 
-### function set_position
+#### function set_position
 
 ```cpp
 bool set_position(
@@ -1089,7 +1091,7 @@ bool set_position(
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -1125,7 +1127,7 @@ Pure virtual functions.
 
 
 
-### function refresh_render_texture
+#### function refresh_render_texture
 
 ```cpp
 void refresh_render_texture()
@@ -1158,7 +1160,7 @@ void refresh_render_texture()
 
 
 
-### function ~graphic_system
+#### function ~graphic_system
 
 ```cpp
 ~graphic_system()
@@ -1191,7 +1193,7 @@ void refresh_render_texture()
 
 
 
-### function graphic_system
+#### function graphic_system
 
 ```cpp
 graphic_system(
@@ -1232,6 +1234,6 @@ graphic_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

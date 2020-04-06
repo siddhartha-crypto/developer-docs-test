@@ -1,31 +1,32 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/lua/antara/gaming/lua/lua.system.hpp
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/lua/antara/gaming/lua/lua.system.hpp
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/lua/antara/gaming/lua/lua.system.hpp
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/lua/antara/gaming/lua/lua.system.hpp
+```
 
 
 
-## Namespaces
+
+
+
+
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::lua](Namespaces/namespaceantara_1_1gaming_1_1lua.md)** <br>< std::move  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::lua::scripting_system](Classes/classantara_1_1gaming_1_1lua_1_1scripting__system.md)**  |
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +38,8 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function REFL_AUTO
 
@@ -80,7 +82,8 @@ Public Template Implementation
 
 
 
-## Source code
+
+### Source code
 
 ```cpp
 /******************************************************************************
@@ -192,6 +195,5 @@ REFL_AUTO(type(antara::gaming::lua::scripting_system));
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

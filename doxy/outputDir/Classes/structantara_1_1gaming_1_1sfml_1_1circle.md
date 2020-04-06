@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::circle
 
 
----
+## circle
 
-# antara::gaming::sfml::circle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::circle
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::sfml::circle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::sfml::circle
 |  | **[circle](Classes/structantara_1_1gaming_1_1sfml_1_1circle.md#function-circle)**(sf::CircleShape drawable_)  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -43,9 +44,10 @@ title: antara::gaming::sfml::circle
 
 
 
-## Public Functions Documentation
 
-### function circle
+### Public Functions Documentation
+
+#### function circle
 
 ```cpp
 inline circle()
@@ -78,7 +80,7 @@ inline circle()
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 inline circle(
@@ -115,9 +117,9 @@ inline circle(
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::CircleShape drawable;
@@ -154,6 +156,6 @@ sf::CircleShape drawable;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

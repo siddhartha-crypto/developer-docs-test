@@ -1,21 +1,22 @@
----
-title: antara::gaming::math::vector_mixins
 
 
----
+## vector_mixins
 
-# antara::gaming::math::vector_mixins
-
-
-
-
+#### Full Title:
+```
+antara::gaming::math::vector_mixins
+```
 
 
 
 
 
 
-## Classes
+
+
+
+
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,6 +36,7 @@ title: antara::gaming::math::vector_mixins
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+

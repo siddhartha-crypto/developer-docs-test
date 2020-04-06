@@ -1,14 +1,11 @@
----
-title: stbi_io_callbacks
 
 
----
+## stbi_io_callbacks
 
-# stbi_io_callbacks
-
-
-
-
+#### Full Title:
+```
+stbi_io_callbacks
+```
 
 
 
@@ -22,7 +19,11 @@ title: stbi_io_callbacks
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,9 +42,10 @@ title: stbi_io_callbacks
 
 
 
-## Public Attributes Documentation
 
-### variable eof
+### Public Attributes Documentation
+
+#### variable eof
 
 ```cpp
 int(* eof;
@@ -76,7 +78,7 @@ int(* eof;
 
 
 
-### variable skip
+#### variable skip
 
 ```cpp
 void(* skip;
@@ -109,7 +111,7 @@ void(* skip;
 
 
 
-### variable read
+#### variable read
 
 ```cpp
 int(* read;
@@ -146,6 +148,6 @@ int(* read;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,10 +1,11 @@
----
-title: antara::gaming::blockchain::nspv
 
 
----
+## nspv
 
-# antara::gaming::blockchain::nspv
+#### Full Title:
+```
+antara::gaming::blockchain::nspv
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< nspv >](Classes/classantara_1_1gamin
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -43,7 +44,8 @@ Inherits from [antara::gaming::ecs::system< nspv >](Classes/classantara_1_1gamin
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -106,9 +108,9 @@ Inherits from [antara::gaming::ecs::system< nspv >](Classes/classantara_1_1gamin
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function is_wif_wallet_exist
+#### function is_wif_wallet_exist
 
 ```cpp
 static bool is_wif_wallet_exist()
@@ -142,7 +144,7 @@ Public static functions.
 
 
 
-### function send
+#### function send
 
 ```cpp
 nspv_tx_answer send(
@@ -181,7 +183,7 @@ this function process a spend + broadcast on the given coin and given amount
 
 assume we are login before call send 
 
-### function get_endpoint
+#### function get_endpoint
 
 ```cpp
 const std::string & get_endpoint(
@@ -216,7 +218,7 @@ const std::string & get_endpoint(
 
 
 
-### function get_balance
+#### function get_balance
 
 ```cpp
 double get_balance(
@@ -251,7 +253,7 @@ double get_balance(
 
 
 
-### function load_from_env
+#### function load_from_env
 
 ```cpp
 bool load_from_env(
@@ -288,7 +290,7 @@ bool load_from_env(
 
 we save address for later usage 
 
-### function spawn_nspv_instance
+#### function spawn_nspv_instance
 
 ```cpp
 bool spawn_nspv_instance(
@@ -325,7 +327,7 @@ bool spawn_nspv_instance(
 
 
 
-### function get_address
+#### function get_address
 
 ```cpp
 const std::string & get_address(
@@ -360,7 +362,7 @@ const std::string & get_address(
 
 
 
-### function set_pin_for_the_session
+#### function set_pin_for_the_session
 
 ```cpp
 void set_pin_for_the_session(
@@ -395,7 +397,7 @@ void set_pin_for_the_session(
 
 
 
-### function is_transaction_pending
+#### function is_transaction_pending
 
 ```cpp
 bool is_transaction_pending(
@@ -437,7 +439,7 @@ We still need to verify with txproof
 
 Transaction is confirmed 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -473,7 +475,7 @@ Public member functions.
 
 
 
-### function ~nspv
+#### function ~nspv
 
 ```cpp
 ~nspv()
@@ -507,7 +509,7 @@ Destructor.
 
 
 
-### function nspv
+#### function nspv
 
 ```cpp
 nspv(
@@ -551,6 +553,6 @@ Constructors.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

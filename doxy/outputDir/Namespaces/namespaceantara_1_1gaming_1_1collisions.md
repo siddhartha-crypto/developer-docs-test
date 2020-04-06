@@ -1,10 +1,11 @@
----
-title: antara::gaming::collisions
-summary: < std::min, std::max  
 
----
 
-# antara::gaming::collisions
+## collisions
+
+#### Full Title:
+```
+antara::gaming::collisions
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < std::min, std::max
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,8 @@ summary: < std::min, std::max
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::min, std::max 
 
@@ -70,6 +72,6 @@ Dependencies Headers < entt::entitySDK Headers < [ecs::system](Classes/classanta
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

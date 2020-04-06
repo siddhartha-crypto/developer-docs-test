@@ -1,21 +1,22 @@
----
-title: antara::gaming::sfml
 
 
----
+## sfml
 
-# antara::gaming::sfml
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml
+```
 
 
 
 
 
 
-## Classes
+
+
+
+
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +38,7 @@ title: antara::gaming::sfml
 | struct | **[antara::gaming::sfml::circle](Classes/structantara_1_1gaming_1_1sfml_1_1circle.md)**  |
 | class | **[antara::gaming::sfml::audio_system](Classes/classantara_1_1gaming_1_1sfml_1_1audio__system.md)** <br>This class allows the customization and play of audio.  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -65,7 +66,8 @@ title: antara::gaming::sfml
 
 
 
-## Types Documentation
+
+### Types Documentation
 
 ### typedef resources_system
 
@@ -634,6 +636,6 @@ typedef doom::meta::list< sprite, circle, text, vertex_array, rectangle, render_
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

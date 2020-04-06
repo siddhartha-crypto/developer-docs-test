@@ -1,14 +1,11 @@
----
-title: antara::gaming::sdl::opengl_image
 
 
----
+## opengl_image
 
-# antara::gaming::sdl::opengl_image
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sdl::opengl_image
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::sdl::opengl_image
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,9 +42,10 @@ title: antara::gaming::sdl::opengl_image
 
 
 
-## Public Attributes Documentation
 
-### variable height
+### Public Attributes Documentation
+
+#### variable height
 
 ```cpp
 int height;
@@ -76,7 +78,7 @@ int height;
 
 
 
-### variable width
+#### variable width
 
 ```cpp
 int width;
@@ -109,7 +111,7 @@ int width;
 
 
 
-### variable id
+#### variable id
 
 ```cpp
 unsigned int id;
@@ -146,6 +148,6 @@ unsigned int id;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

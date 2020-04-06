@@ -1,14 +1,11 @@
----
-title: antara::gaming::geometry::circle
 
 
----
+## circle
 
-# antara::gaming::geometry::circle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::circle
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::geometry::circle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -31,7 +32,7 @@ title: antara::gaming::geometry::circle
 |  | **[circle](Classes/structantara_1_1gaming_1_1geometry_1_1circle.md#function-circle)**(float radius_) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -48,9 +49,10 @@ title: antara::gaming::geometry::circle
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 circle & operator=(
@@ -86,7 +88,7 @@ Operators.
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle()
@@ -119,7 +121,7 @@ circle()
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle(
@@ -154,7 +156,7 @@ circle(
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle(
@@ -191,7 +193,7 @@ circle(
 
 
 
-### function circle
+#### function circle
 
 ```cpp
 circle(
@@ -229,9 +231,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable circle_texture_props
+#### variable circle_texture_props
 
 ```cpp
 std::optional< circle_texture > circle_texture_props {std::nullopt};
@@ -264,7 +266,7 @@ std::optional< circle_texture > circle_texture_props {std::nullopt};
 
 
 
-### variable try_to_apply_rt
+#### variable try_to_apply_rt
 
 ```cpp
 bool try_to_apply_rt {false};
@@ -297,7 +299,7 @@ bool try_to_apply_rt {false};
 
 
 
-### variable radius
+#### variable radius
 
 ```cpp
 float radius {0.f};
@@ -335,6 +337,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

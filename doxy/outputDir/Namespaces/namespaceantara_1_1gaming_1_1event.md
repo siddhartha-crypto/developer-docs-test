@@ -1,10 +1,11 @@
----
-title: antara::gaming::event
-summary: < doom::meta::list  
 
----
 
-# antara::gaming::event
+## event
+
+#### Full Title:
+```
+antara::gaming::event
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < doom::meta::list
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -38,7 +39,7 @@ summary: < doom::meta::list
 | struct | **[antara::gaming::event::change_scene](Classes/structantara_1_1gaming_1_1event_1_1change__scene.md)**  |
 | struct | **[antara::gaming::event::canvas_resized](Classes/structantara_1_1gaming_1_1event_1_1canvas__resized.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -46,7 +47,7 @@ summary: < doom::meta::list
 | typedef doom::meta::list< [quit_game](Classes/structantara_1_1gaming_1_1event_1_1quit__game.md), [key_pressed](Classes/structantara_1_1gaming_1_1event_1_1key__pressed.md), [key_released](Classes/structantara_1_1gaming_1_1event_1_1key__released.md), [start_game](Classes/structantara_1_1gaming_1_1event_1_1start__game.md), [mouse_moved](Classes/structantara_1_1gaming_1_1event_1_1mouse__moved.md), [mouse_button_pressed](Classes/structantara_1_1gaming_1_1event_1_1mouse__button__pressed.md), [mouse_button_released](Classes/structantara_1_1gaming_1_1event_1_1mouse__button__released.md) > | **[events_list](Namespaces/namespaceantara_1_1gaming_1_1event.md#typedef-events_list)**  |
 
 
-## Attributes
+### Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -54,7 +55,8 @@ summary: < doom::meta::list
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < doom::meta::list 
 
@@ -120,7 +122,7 @@ C++ System HeadersDependencies Headers < doom::meta::is_detected
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef constructor_arg_t
 
@@ -191,7 +193,7 @@ typedef doom::meta::list< quit_game, key_pressed, key_released, start_game, mous
 
 
 
-## Attributes Documentation
+### Attributes Documentation
 
 ### variable has_constructor_arg_type_v
 
@@ -230,6 +232,6 @@ Meta-functions.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

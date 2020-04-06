@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1resources_1_1system.md
-  Topic name: antara::gaming::resources::system
-  Hash count: 0
-*/
----
-title: antara::gaming::resources::system
 
 
----
+## system
 
-# antara::gaming::resources::system
+#### Full Title:
+```
+antara::gaming::resources::system
+```
 
 
 
@@ -25,7 +21,7 @@ Inherits from [antara::gaming::ecs::system< system< UnderlyingResourceManager > 
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +29,7 @@ Inherits from [antara::gaming::ecs::system< system< UnderlyingResourceManager > 
 | typedef const char * | **[resources_identifier](Classes/classantara_1_1gaming_1_1resources_1_1system.md#typedef-resources_identifier)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -51,7 +47,8 @@ Inherits from [antara::gaming::ecs::system< system< UnderlyingResourceManager > 
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -108,7 +105,7 @@ Inherits from [antara::gaming::ecs::system< system< UnderlyingResourceManager > 
 
 
 
-## Detailed Description
+### Detailed Description
 
 ```cpp
 template <typename UnderlyingResourceManager >
@@ -143,9 +140,9 @@ class antara::gaming::resources::system;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef TSystem
+#### typedef TSystem
 
 ```cpp
 typedef ecs::logic_update_system< system< UnderlyingResourceManager > > TSystem;
@@ -178,7 +175,7 @@ typedef ecs::logic_update_system< system< UnderlyingResourceManager > > TSystem;
 
 
 
-### typedef resources_identifier
+#### typedef resources_identifier
 
 ```cpp
 typedef const char * resources_identifier;
@@ -213,9 +210,9 @@ typedef const char * resources_identifier;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function load_music
+#### function load_music
 
 ```cpp
 inline auto load_music(
@@ -250,7 +247,7 @@ inline auto load_music(
 
 
 
-### function load_sound
+#### function load_sound
 
 ```cpp
 inline auto load_sound(
@@ -285,7 +282,7 @@ inline auto load_sound(
 
 
 
-### function load_font
+#### function load_font
 
 ```cpp
 inline auto load_font(
@@ -320,7 +317,7 @@ inline auto load_font(
 
 
 
-### function load_texture
+#### function load_texture
 
 ```cpp
 inline auto load_texture(
@@ -355,7 +352,7 @@ inline auto load_texture(
 
 
 
-### function ~system
+#### function ~system
 
 ```cpp
 ~system() =default
@@ -388,7 +385,7 @@ inline auto load_texture(
 
 
 
-### function update
+#### function update
 
 ```cpp
 inline virtual void update()
@@ -424,7 +421,7 @@ Pure virtual functions.
 
 
 
-### function system
+#### function system
 
 ```cpp
 inline system(
@@ -459,7 +456,7 @@ inline system(
 
 
 
-### function on_load_textures
+#### function on_load_textures
 
 ```cpp
 inline void on_load_textures(
@@ -500,8 +497,9 @@ inline void on_load_textures(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

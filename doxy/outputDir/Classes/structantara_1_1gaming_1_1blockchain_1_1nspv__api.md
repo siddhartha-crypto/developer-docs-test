@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_api
 
 
----
+## nspv_api
 
-# antara::gaming::blockchain::nspv_api
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api
+```
 
 
 
@@ -16,7 +13,11 @@ title: antara::gaming::blockchain::nspv_api
 
 
 
-## Public Classes
+
+
+
+
+### Public Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +34,7 @@ title: antara::gaming::blockchain::nspv_api
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -64,9 +65,10 @@ title: antara::gaming::blockchain::nspv_api
 
 
 
-## Public Functions Documentation
 
-### function rpc_process_answer
+### Public Functions Documentation
+
+#### function rpc_process_answer
 
 ```cpp
 static RpcReturnType rpc_process_answer(
@@ -101,7 +103,7 @@ static RpcReturnType rpc_process_answer(
 
 
 
-### function template_request
+#### function template_request
 
 ```cpp
 static nlohmann::json template_request(
@@ -136,7 +138,7 @@ static nlohmann::json template_request(
 
 
 
-### function broadcast
+#### function broadcast
 
 ```cpp
 static broadcast_answer broadcast(
@@ -172,7 +174,7 @@ static broadcast_answer broadcast(
 
 
 
-### function txproof
+#### function txproof
 
 ```cpp
 static txproof_answer txproof(
@@ -208,7 +210,7 @@ static txproof_answer txproof(
 
 
 
-### function mempool
+#### function mempool
 
 ```cpp
 static mempool_answer mempool(
@@ -244,7 +246,7 @@ static mempool_answer mempool(
 
 
 
-### function spend
+#### function spend
 
 ```cpp
 static spend_answer spend(
@@ -281,7 +283,7 @@ static spend_answer spend(
 
 
 
-### function listunspent
+#### function listunspent
 
 ```cpp
 static listunspent_answer listunspent(
@@ -317,7 +319,7 @@ static listunspent_answer listunspent(
 
 
 
-### function login
+#### function login
 
 ```cpp
 static login_answer login(
@@ -353,7 +355,7 @@ static login_answer login(
 
 
 
-### function get_newaddress
+#### function get_newaddress
 
 ```cpp
 static get_newaddress_answer get_newaddress()
@@ -386,7 +388,7 @@ static get_newaddress_answer get_newaddress()
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -422,7 +424,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -458,7 +460,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -494,7 +496,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -530,7 +532,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -566,7 +568,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -608,6 +610,6 @@ static void from_json(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

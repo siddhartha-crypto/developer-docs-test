@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1scenes_1_1base__scene.md
-  Topic name: antara::gaming::scenes::base_scene
-  Hash count: 0
-*/
----
-title: antara::gaming::scenes::base_scene
 
 
----
+## base_scene
 
-# antara::gaming::scenes::base_scene
+#### Full Title:
+```
+antara::gaming::scenes::base_scene
+```
 
 
 
@@ -26,7 +22,7 @@ Inherited by [antara::gaming::sfml::intro_scene](Classes/classantara_1_1gaming_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -43,7 +39,7 @@ Inherited by [antara::gaming::sfml::intro_scene](Classes/classantara_1_1gaming_1
 
 
 
-## Protected Attributes
+### Protected Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -58,9 +54,10 @@ Inherited by [antara::gaming::sfml::intro_scene](Classes/classantara_1_1gaming_1
 
 
 
-## Public Functions Documentation
 
-### function ~base_scene
+### Public Functions Documentation
+
+#### function ~base_scene
 
 ```cpp
 virtual ~base_scene() =default
@@ -93,7 +90,7 @@ virtual ~base_scene() =default
 
 
 
-### function scene_name
+#### function scene_name
 
 ```cpp
 virtual std::string scene_name() =0
@@ -128,7 +125,7 @@ virtual std::string scene_name() =0
 
 
 
-### function on_mouse_button_released
+#### function on_mouse_button_released
 
 ```cpp
 inline virtual bool on_mouse_button_released(
@@ -163,7 +160,7 @@ inline virtual bool on_mouse_button_released(
 
 
 
-### function on_mouse_button_pressed
+#### function on_mouse_button_pressed
 
 ```cpp
 inline virtual bool on_mouse_button_pressed(
@@ -198,7 +195,7 @@ inline virtual bool on_mouse_button_pressed(
 
 
 
-### function on_mouse_moved
+#### function on_mouse_moved
 
 ```cpp
 inline virtual bool on_mouse_moved(
@@ -233,7 +230,7 @@ inline virtual bool on_mouse_moved(
 
 
 
-### function on_key_released
+#### function on_key_released
 
 ```cpp
 inline virtual bool on_key_released(
@@ -268,7 +265,7 @@ inline virtual bool on_key_released(
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 inline virtual bool on_key_pressed(
@@ -305,7 +302,7 @@ inline virtual bool on_key_pressed(
 
 
 
-### function post_update
+#### function post_update
 
 ```cpp
 inline virtual void post_update()
@@ -338,7 +335,7 @@ inline virtual void post_update()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update() =0
@@ -373,7 +370,7 @@ virtual void update() =0
 
 
 
-### function base_scene
+#### function base_scene
 
 ```cpp
 base_scene(
@@ -411,9 +408,9 @@ base_scene(
 
 
 
-## Protected Attributes Documentation
+### Protected Attributes Documentation
 
-### variable dispatcher_
+#### variable dispatcher_
 
 ```cpp
 entt::dispatcher & dispatcher_;
@@ -446,7 +443,7 @@ entt::dispatcher & dispatcher_;
 
 
 
-### variable entity_registry_
+#### variable entity_registry_
 
 ```cpp
 entt::registry & entity_registry_;
@@ -482,23 +479,25 @@ entt::registry & entity_registry_;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1scenes_1_1manager.md
   Topic name: antara::gaming::scenes::manager
   Hash count: 0
-*/
----
-title: antara::gaming::scenes::manager
+-->
 
 
----
+## manager
 
-# antara::gaming::scenes::manager
+#### Full Title:
+```
+antara::gaming::scenes::manager
+```
 
 
 
@@ -515,7 +514,7 @@ Inherits from [antara::gaming::ecs::system< manager >](Classes/classantara_1_1ga
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -539,7 +538,8 @@ Inherits from [antara::gaming::ecs::system< manager >](Classes/classantara_1_1ga
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -601,9 +601,9 @@ Inherits from [antara::gaming::ecs::system< manager >](Classes/classantara_1_1ga
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function current_scene
+#### function current_scene
 
 ```cpp
 base_scene & current_scene()
@@ -636,7 +636,7 @@ base_scene & current_scene()
 
 
 
-### function clear
+#### function clear
 
 ```cpp
 void clear()
@@ -669,7 +669,7 @@ void clear()
 
 
 
-### function previous_scene
+#### function previous_scene
 
 ```cpp
 bool previous_scene()
@@ -702,7 +702,7 @@ bool previous_scene()
 
 
 
-### function change_scene
+#### function change_scene
 
 ```cpp
 void change_scene(
@@ -738,7 +738,7 @@ void change_scene(
 
 
 
-### function post_update
+#### function post_update
 
 ```cpp
 virtual void post_update()
@@ -773,7 +773,7 @@ virtual void post_update()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -809,7 +809,7 @@ Public member function.
 
 
 
-### function receive_change_scene
+#### function receive_change_scene
 
 ```cpp
 void receive_change_scene(
@@ -844,7 +844,7 @@ void receive_change_scene(
 
 
 
-### function receive_mouse_button_released
+#### function receive_mouse_button_released
 
 ```cpp
 void receive_mouse_button_released(
@@ -879,7 +879,7 @@ void receive_mouse_button_released(
 
 
 
-### function receive_mouse_button_pressed
+#### function receive_mouse_button_pressed
 
 ```cpp
 void receive_mouse_button_pressed(
@@ -914,7 +914,7 @@ void receive_mouse_button_pressed(
 
 
 
-### function receive_mouse_moved
+#### function receive_mouse_moved
 
 ```cpp
 void receive_mouse_moved(
@@ -949,7 +949,7 @@ void receive_mouse_moved(
 
 
 
-### function receive_key_released
+#### function receive_key_released
 
 ```cpp
 void receive_key_released(
@@ -984,7 +984,7 @@ void receive_key_released(
 
 
 
-### function receive_key_pressed
+#### function receive_key_pressed
 
 ```cpp
 void receive_key_pressed(
@@ -1020,7 +1020,7 @@ Public callbacks.
 
 
 
-### function ~manager
+#### function ~manager
 
 ```cpp
 ~manager()
@@ -1054,7 +1054,7 @@ Destructor.
 
 
 
-### function manager
+#### function manager
 
 ```cpp
 manager(
@@ -1096,8 +1096,9 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

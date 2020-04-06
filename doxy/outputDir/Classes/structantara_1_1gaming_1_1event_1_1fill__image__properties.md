@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::fill_image_properties
 
 
----
+## fill_image_properties
 
-# antara::gaming::event::fill_image_properties
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::fill_image_properties
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::fill_image_properties
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -29,7 +30,7 @@ title: antara::gaming::event::fill_image_properties
 |  | **[fill_image_properties](Classes/structantara_1_1gaming_1_1event_1_1fill__image__properties.md#function-fill_image_properties)**(std::string appeareance_, [math::vec2u](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md) & size) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -45,9 +46,10 @@ title: antara::gaming::event::fill_image_properties
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 inline fill_image_properties & operator=(
@@ -83,7 +85,7 @@ Operators.
 
 
 
-### function fill_image_properties
+#### function fill_image_properties
 
 ```cpp
 fill_image_properties(
@@ -118,7 +120,7 @@ fill_image_properties(
 
 
 
-### function fill_image_properties
+#### function fill_image_properties
 
 ```cpp
 inline fill_image_properties(
@@ -157,9 +159,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable image_size
+#### variable image_size
 
 ```cpp
 math::vec2u & image_size;
@@ -193,7 +195,7 @@ To fill.
 
 
 
-### variable appearance
+#### variable appearance
 
 ```cpp
 std::string appearance;
@@ -232,6 +234,6 @@ Texture id
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

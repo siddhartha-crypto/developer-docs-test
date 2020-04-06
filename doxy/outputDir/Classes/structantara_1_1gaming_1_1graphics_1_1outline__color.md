@@ -1,10 +1,11 @@
----
-title: antara::gaming::graphics::outline_color
 
 
----
+## outline_color
 
-# antara::gaming::graphics::outline_color
+#### Full Title:
+```
+antara::gaming::graphics::outline_color
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -32,7 +33,7 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 | constexpr | **[outline_color](Classes/structantara_1_1gaming_1_1graphics_1_1outline__color.md#function-outline_color)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,7 +42,8 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -84,9 +86,9 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 constexpr outline_color(
@@ -121,7 +123,7 @@ constexpr outline_color(
 
 
 
-### function operator=
+#### function operator=
 
 ```cpp
 constexpr outline_color & operator=(
@@ -156,7 +158,7 @@ constexpr outline_color & operator=(
 
 
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 inline constexpr outline_color(
@@ -192,7 +194,7 @@ inline constexpr outline_color(
 
 
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 inline constexpr outline_color(
@@ -227,7 +229,7 @@ inline constexpr outline_color(
 
 
 
-### function outline_color
+#### function outline_color
 
 ```cpp
 constexpr outline_color() =default
@@ -262,9 +264,9 @@ constexpr outline_color() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable thickness
+#### variable thickness
 
 ```cpp
 float thickness {0.f};
@@ -301,6 +303,6 @@ float thickness {0.f};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

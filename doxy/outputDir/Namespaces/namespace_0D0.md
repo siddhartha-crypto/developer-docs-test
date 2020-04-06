@@ -1,10 +1,11 @@
----
-title: @0
-summary: < timer::time_step  
 
----
 
-# @0
+## @0
+
+#### Full Title:
+```
+@0
+```
 
 
 
@@ -28,6 +29,7 @@ summary: < timer::time_step
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+

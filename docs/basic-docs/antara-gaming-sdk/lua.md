@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1lua_1_1component__script.md
-  Topic name: antara::gaming::lua::component_script
-  Hash count: 0
-*/
----
-title: antara::gaming::lua::component_script
 
 
----
+## component_script
 
-# antara::gaming::lua::component_script
+#### Full Title:
+```
+antara::gaming::lua::component_script
+```
 
 
 
@@ -25,7 +21,7 @@ title: antara::gaming::lua::component_script
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +29,7 @@ title: antara::gaming::lua::component_script
 |  | **[component_script](Classes/structantara_1_1gaming_1_1lua_1_1component__script.md#function-component_script)**(std::string script_, std::string table_name_)  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -49,9 +45,10 @@ title: antara::gaming::lua::component_script
 
 
 
-## Public Functions Documentation
 
-### function component_script
+### Public Functions Documentation
+
+#### function component_script
 
 ```cpp
 component_script()
@@ -84,7 +81,7 @@ component_script()
 
 
 
-### function component_script
+#### function component_script
 
 ```cpp
 component_script(
@@ -122,9 +119,9 @@ component_script(
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable table_name
+#### variable table_name
 
 ```cpp
 std::string table_name;
@@ -157,7 +154,7 @@ std::string table_name;
 
 
 
-### variable script
+#### variable script
 
 ```cpp
 std::string script;
@@ -194,23 +191,25 @@ std::string script;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1lua_1_1scripting__system.md
   Topic name: antara::gaming::lua::scripting_system
   Hash count: 0
-*/
----
-title: antara::gaming::lua::scripting_system
+-->
 
 
----
+## scripting_system
 
-# antara::gaming::lua::scripting_system
+#### Full Title:
+```
+antara::gaming::lua::scripting_system
+```
 
 
 
@@ -227,7 +226,7 @@ Inherits from [antara::gaming::ecs::system< lua::scripting_system >](Classes/cla
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -253,7 +252,8 @@ Inherits from [antara::gaming::ecs::system< lua::scripting_system >](Classes/cla
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -316,9 +316,9 @@ Inherits from [antara::gaming::ecs::system< lua::scripting_system >](Classes/cla
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function load_scripted_system
+#### function load_scripted_system
 
 ```cpp
 bool load_scripted_system(
@@ -353,7 +353,7 @@ bool load_scripted_system(
 
 
 
-### function load_script_from_entities
+#### function load_script_from_entities
 
 ```cpp
 bool load_script_from_entities()
@@ -386,7 +386,7 @@ bool load_script_from_entities()
 
 
 
-### function register_events_list
+#### function register_events_list
 
 ```cpp
 void register_events_list(
@@ -421,7 +421,7 @@ void register_events_list(
 
 
 
-### function register_components_list
+#### function register_components_list
 
 ```cpp
 void register_components_list(
@@ -456,7 +456,7 @@ void register_components_list(
 
 
 
-### function register_component
+#### function register_component
 
 ```cpp
 void register_component()
@@ -489,7 +489,7 @@ void register_component()
 
 
 
-### function register_event
+#### function register_event
 
 ```cpp
 void register_event()
@@ -522,7 +522,7 @@ void register_event()
 
 
 
-### function execute_safe_function
+#### function execute_safe_function
 
 ```cpp
 std::optional< sol::unsafe_function_result > execute_safe_function(
@@ -564,7 +564,7 @@ global call
 
 LCOV_EXCL_LINE 
 
-### function register_type
+#### function register_type
 
 ```cpp
 void register_type(
@@ -599,7 +599,7 @@ void register_type(
 
 
 
-### function load_scripts
+#### function load_scripts
 
 ```cpp
 bool load_scripts(
@@ -634,7 +634,7 @@ bool load_scripts(
 
 
 
-### function load_script
+#### function load_script
 
 ```cpp
 bool load_script(
@@ -669,7 +669,7 @@ bool load_script(
 
 
 
-### function load_script
+#### function load_script
 
 ```cpp
 bool load_script(
@@ -705,7 +705,7 @@ bool load_script(
 
 
 
-### function get_state_ptr
+#### function get_state_ptr
 
 ```cpp
 std::shared_ptr< sol::state > get_state_ptr()
@@ -738,7 +738,7 @@ std::shared_ptr< sol::state > get_state_ptr()
 
 
 
-### function get_state
+#### function get_state
 
 ```cpp
 sol::state & get_state()
@@ -771,7 +771,7 @@ sol::state & get_state()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -807,7 +807,7 @@ Public member functions.
 
 
 
-### function ~scripting_system
+#### function ~scripting_system
 
 ```cpp
 ~scripting_system() =default
@@ -841,7 +841,7 @@ Destructor.
 
 
 
-### function scripting_system
+#### function scripting_system
 
 ```cpp
 scripting_system(
@@ -887,23 +887,25 @@ Constructor.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1lua_1_1details.md
   Topic name: antara::gaming::lua::details
   Hash count: 0
-*/
----
-title: antara::gaming::lua::details
-summary: < std::move, std::forward  
+-->
 
----
 
-# antara::gaming::lua::details
+## details
+
+#### Full Title:
+```
+antara::gaming::lua::details
+```
 
 
 
@@ -915,13 +917,13 @@ summary: < std::move, std::forward
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::lua::details::scripted_system](Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -933,7 +935,8 @@ summary: < std::move, std::forward
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::move, std::forward 
 
@@ -965,7 +968,7 @@ C++ System Headers < std::exception < std::shared_ptrDependencies Headers < VLOG
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef lua_logic_scripted_system
 
@@ -1071,23 +1074,20 @@ typedef scripted_system< ecs::st_system_post_update > lua_post_scripted_system;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md
-  Topic name: antara::gaming::lua::details::scripted_system
-  Hash count: 1
-*/
----
-title: antara::gaming::lua::details::scripted_system
 
 
----
 
-# antara::gaming::lua::details::scripted_system
+
+
+
+## scripted_system
+
+#### Full Title:
+```
+antara::gaming::lua::details::scripted_system
+```
 
 
 
@@ -1103,14 +1103,14 @@ Inherits from [antara::gaming::ecs::system< scripted_system< SystemType >, Syste
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef [ecs::system](Classes/classantara_1_1gaming_1_1ecs_1_1system.md)< [scripted_system](Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md)< SystemType >, SystemType > | **[TSystem](Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md#typedef-tsystem)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1124,7 +1124,8 @@ Inherits from [antara::gaming::ecs::system< scripted_system< SystemType >, Syste
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -1183,7 +1184,7 @@ Inherits from [antara::gaming::ecs::system< scripted_system< SystemType >, Syste
 
 
 
-## Detailed Description
+### Detailed Description
 
 ```cpp
 template <typename SystemType >
@@ -1218,9 +1219,9 @@ class antara::gaming::lua::details::scripted_system;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef TSystem
+#### typedef TSystem
 
 ```cpp
 typedef ecs::system< scripted_system< SystemType >, SystemType > TSystem;
@@ -1255,9 +1256,9 @@ typedef ecs::system< scripted_system< SystemType >, SystemType > TSystem;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function receive
+#### function receive
 
 ```cpp
 inline void receive(
@@ -1293,7 +1294,7 @@ Callbacks.
 
 
 
-### function update
+#### function update
 
 ```cpp
 inline virtual void update()
@@ -1329,7 +1330,7 @@ Pure virtual functions.
 
 
 
-### function ~scripted_system
+#### function ~scripted_system
 
 ```cpp
 inline ~scripted_system()
@@ -1362,7 +1363,7 @@ inline ~scripted_system()
 
 
 
-### function scripted_system
+#### function scripted_system
 
 ```cpp
 inline scripted_system(
@@ -1405,8 +1406,9 @@ inline scripted_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

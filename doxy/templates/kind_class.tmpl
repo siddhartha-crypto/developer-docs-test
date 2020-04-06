@@ -15,12 +15,12 @@
 
 {% include "class_members_tables" %}
 
-{% if hasAdditionalMembers %}## Additional inherited members
+{% if hasAdditionalMembers %}### Additional inherited members
 
 {% include "class_members_inherited_tables" %}
 {% endif %}
 
-{% if hasDetails %}## Detailed Description
+{% if hasDetails %}### Detailed Description
 
 ```cpp{% if exists("templateParams") %}
 template <{% for param in templateParams %}{{param.typePlain}} {{param.name}}{% if existsIn(param, "defvalPlain") %} ={{param.defvalPlain}}{% endif %}{% if not loop.is_last %},

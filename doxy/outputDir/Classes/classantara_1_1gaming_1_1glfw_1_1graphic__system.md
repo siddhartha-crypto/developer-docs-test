@@ -1,10 +1,11 @@
----
-title: antara::gaming::glfw::graphic_system
 
 
----
+## graphic_system
 
-# antara::gaming::glfw::graphic_system
+#### Full Title:
+```
+antara::gaming::glfw::graphic_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,7 +36,8 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -98,9 +100,9 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function get_window
+#### function get_window
 
 ```cpp
 inline GLFWwindow * get_window() const
@@ -133,7 +135,7 @@ inline GLFWwindow * get_window() const
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -170,7 +172,7 @@ Pure virtual functions.
 
 Draw here 
 
-### function ~graphic_system
+#### function ~graphic_system
 
 ```cpp
 ~graphic_system()
@@ -203,7 +205,7 @@ Draw here
 
 
 
-### function graphic_system
+#### function graphic_system
 
 ```cpp
 explicit graphic_system(
@@ -245,6 +247,6 @@ VSync
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

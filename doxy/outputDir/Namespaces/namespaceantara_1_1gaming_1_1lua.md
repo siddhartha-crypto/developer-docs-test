@@ -1,10 +1,11 @@
----
-title: antara::gaming::lua
-summary: < std::move  
 
----
 
-# antara::gaming::lua
+## lua
+
+#### Full Title:
+```
+antara::gaming::lua
+```
 
 
 
@@ -15,13 +16,13 @@ summary: < std::move
 
 
 
-## Namespaces
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::lua::details](Namespaces/namespaceantara_1_1gaming_1_1lua_1_1details.md)** <br>< std::move, std::forward  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +34,8 @@ summary: < std::move
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::move 
 
@@ -82,6 +84,6 @@ C++ System Headers < std::exception < std::filesystem::path std::ref < std::shar
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

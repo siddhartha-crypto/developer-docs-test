@@ -1,14 +1,11 @@
----
-title: antara::gaming::lua::component_script
 
 
----
+## component_script
 
-# antara::gaming::lua::component_script
-
-
-
-
+#### Full Title:
+```
+antara::gaming::lua::component_script
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::lua::component_script
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::lua::component_script
 |  | **[component_script](Classes/structantara_1_1gaming_1_1lua_1_1component__script.md#function-component_script)**(std::string script_, std::string table_name_)  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,9 +45,10 @@ title: antara::gaming::lua::component_script
 
 
 
-## Public Functions Documentation
 
-### function component_script
+### Public Functions Documentation
+
+#### function component_script
 
 ```cpp
 component_script()
@@ -79,7 +81,7 @@ component_script()
 
 
 
-### function component_script
+#### function component_script
 
 ```cpp
 component_script(
@@ -117,9 +119,9 @@ component_script(
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable table_name
+#### variable table_name
 
 ```cpp
 std::string table_name;
@@ -152,7 +154,7 @@ std::string table_name;
 
 
 
-### variable script
+#### variable script
 
 ```cpp
 std::string script;
@@ -189,6 +191,6 @@ std::string script;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

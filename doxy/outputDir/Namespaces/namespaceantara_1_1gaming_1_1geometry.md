@@ -1,10 +1,11 @@
----
-title: antara::gaming::geometry
-summary: < doom::meta::list  
 
----
 
-# antara::gaming::geometry
+## geometry
+
+#### Full Title:
+```
+antara::gaming::geometry
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < doom::meta::list
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -26,14 +27,14 @@ summary: < doom::meta::list
 | struct | **[antara::gaming::geometry::circle_texture](Classes/structantara_1_1gaming_1_1geometry_1_1circle__texture.md)**  |
 | struct | **[antara::gaming::geometry::circle](Classes/structantara_1_1gaming_1_1geometry_1_1circle.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef doom::meta::list< [circle](Classes/structantara_1_1gaming_1_1geometry_1_1circle.md), [vertex](Classes/structantara_1_1gaming_1_1geometry_1_1vertex.md), [vertex_array](Classes/structantara_1_1gaming_1_1geometry_1_1vertex__array.md), [rectangle](Classes/structantara_1_1gaming_1_1geometry_1_1rectangle.md) > | **[components_list](Namespaces/namespaceantara_1_1gaming_1_1geometry.md#typedef-components_list)**  |
 | enum | **[vertex_geometry_type](Namespaces/namespaceantara_1_1gaming_1_1geometry.md#enum-vertex_geometry_type)** { points, lines, line_strip, triangles, triangle_strip, triangle_fan, quads } |
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,7 +45,8 @@ summary: < doom::meta::list
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < doom::meta::list 
 
@@ -90,7 +92,7 @@ C++ System Headers < std::optional < std::string < std::moveDependencies Headers
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef components_list
 
@@ -167,7 +169,7 @@ enum vertex_geometry_type {
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function blueprint_rectangle
 
@@ -296,6 +298,6 @@ entt::entity blueprint_circle(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

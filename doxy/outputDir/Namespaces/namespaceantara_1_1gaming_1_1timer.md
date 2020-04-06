@@ -1,10 +1,11 @@
----
-title: antara::gaming::timer
-summary: < std::chrono::nanoseconds, std::chrono_literals  
 
----
 
-# antara::gaming::timer
+## timer
+
+#### Full Title:
+```
+antara::gaming::timer
+```
 
 
 
@@ -16,20 +17,20 @@ summary: < std::chrono::nanoseconds, std::chrono_literals
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::timer::time_step](Classes/classantara_1_1gaming_1_1timer_1_1time__step.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef std::chrono::steady_clock | **[clock](Namespaces/namespaceantara_1_1gaming_1_1timer.md#typedef-clock)**  |
 
 
-## Attributes
+### Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -39,7 +40,8 @@ summary: < std::chrono::nanoseconds, std::chrono_literals
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::chrono::nanoseconds, std::chrono_literals 
 
@@ -79,7 +81,7 @@ C++ System Headers < std::chrono::nanoseconds|steady_clock|duration|duration_cas
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef clock
 
@@ -116,7 +118,7 @@ typedef std::chrono::steady_clock clock;
 
 
 
-## Attributes Documentation
+### Attributes Documentation
 
 ### variable _144tps_dt
 
@@ -220,6 +222,6 @@ constexpr std::chrono::nanoseconds _60tps_dt {16666666ns};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

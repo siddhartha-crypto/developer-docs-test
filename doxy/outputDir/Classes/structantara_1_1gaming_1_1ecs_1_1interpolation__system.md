@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::interpolation_system
 
 
----
+## interpolation_system
 
-# antara::gaming::ecs::interpolation_system
+#### Full Title:
+```
+antara::gaming::ecs::interpolation_system
+```
 
 
 
@@ -19,14 +20,14 @@ Inherits from [antara::gaming::ecs::system< interpolation_system >](Classes/clas
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef st::type< float, struct interpolation_tag > | **[st_interpolation](Classes/structantara_1_1gaming_1_1ecs_1_1interpolation__system.md#typedef-st_interpolation)** <br>Typedefs.  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -38,7 +39,8 @@ Inherits from [antara::gaming::ecs::system< interpolation_system >](Classes/clas
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -99,9 +101,9 @@ Inherits from [antara::gaming::ecs::system< interpolation_system >](Classes/clas
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef st_interpolation
+#### typedef st_interpolation
 
 ```cpp
 typedef st::type< float, struct interpolation_tag > st_interpolation;
@@ -137,9 +139,9 @@ Typedefs.
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -175,7 +177,7 @@ Public member functions.
 
 
 
-### function interpolation_system
+#### function interpolation_system
 
 ```cpp
 interpolation_system(
@@ -217,6 +219,6 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

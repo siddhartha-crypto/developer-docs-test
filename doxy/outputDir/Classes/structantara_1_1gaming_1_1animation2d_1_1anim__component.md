@@ -1,14 +1,11 @@
----
-title: antara::gaming::animation2d::anim_component
 
 
----
+## anim_component
 
-# antara::gaming::animation2d::anim_component
-
-
-
-
+#### Full Title:
+```
+antara::gaming::animation2d::anim_component
+```
 
 
 
@@ -18,7 +15,11 @@ title: antara::gaming::animation2d::anim_component
 
 
 
-## Public Types
+
+
+
+
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::animation2d::anim_component
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -47,9 +48,10 @@ title: antara::gaming::animation2d::anim_component
 
 
 
-## Public Types Documentation
 
-### typedef seconds
+### Public Types Documentation
+
+#### typedef seconds
 
 ```cpp
 typedef std::chrono::duration< float, std::ratio< 1 > > seconds;
@@ -83,7 +85,7 @@ Typedefs.
 
 
 
-### enum status
+#### enum status
 
 ```cpp
 enum status {
@@ -125,9 +127,9 @@ Enums.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable elapsed
+#### variable elapsed
 
 ```cpp
 seconds elapsed {0};
@@ -160,7 +162,7 @@ seconds elapsed {0};
 
 
 
-### variable current_frame
+#### variable current_frame
 
 ```cpp
 std::size_t current_frame {0};
@@ -193,7 +195,7 @@ std::size_t current_frame {0};
 
 
 
-### variable loop
+#### variable loop
 
 ```cpp
 bool loop {false};
@@ -226,7 +228,7 @@ bool loop {false};
 
 
 
-### variable repeat
+#### variable repeat
 
 ```cpp
 std::size_t repeat {0};
@@ -259,7 +261,7 @@ std::size_t repeat {0};
 
 
 
-### variable speed
+#### variable speed
 
 ```cpp
 seconds speed {0.9f};
@@ -292,7 +294,7 @@ seconds speed {0.9f};
 
 
 
-### variable current_status
+#### variable current_status
 
 ```cpp
 status current_status {stopped};
@@ -325,7 +327,7 @@ status current_status {stopped};
 
 
 
-### variable animation_id
+#### variable animation_id
 
 ```cpp
 std::string animation_id;
@@ -363,6 +365,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

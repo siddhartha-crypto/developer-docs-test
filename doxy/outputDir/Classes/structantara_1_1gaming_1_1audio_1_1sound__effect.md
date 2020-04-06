@@ -1,14 +1,11 @@
----
-title: antara::gaming::audio::sound_effect
 
 
----
+## sound_effect
 
-# antara::gaming::audio::sound_effect
-
-
-
-
+#### Full Title:
+```
+antara::gaming::audio::sound_effect
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::audio::sound_effect
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -48,9 +49,10 @@ title: antara::gaming::audio::sound_effect
 
 
 
-## Public Attributes Documentation
 
-### variable recycling
+### Public Attributes Documentation
+
+#### variable recycling
 
 ```cpp
 bool recycling {false};
@@ -84,7 +86,7 @@ Indicate if the sound will be reused (do not destroy the entity)
 
 
 
-### variable relative_to_listener
+#### variable relative_to_listener
 
 ```cpp
 bool relative_to_listener {false};
@@ -118,7 +120,7 @@ Indicate if the sound is relative to the listener.
 
 
 
-### variable attenuation
+#### variable attenuation
 
 ```cpp
 float attenuation {1.f};
@@ -152,7 +154,7 @@ The attenuation factor of the sound.
 
 
 
-### variable minimum_distance
+#### variable minimum_distance
 
 ```cpp
 float minimum_distance {1.f};
@@ -186,7 +188,7 @@ The minimum distance of the sound.
 
 
 
-### variable on_finish
+#### variable on_finish
 
 ```cpp
 std::function< void()> on_finish {[]() {
@@ -221,7 +223,7 @@ Callback that will be executed once the sound is finished.
 
 
 
-### variable loop
+#### variable loop
 
 ```cpp
 bool loop {false};
@@ -255,7 +257,7 @@ Indicates whether the sound is played in a loop.
 
 
 
-### variable volume
+#### variable volume
 
 ```cpp
 float volume {100.f};
@@ -289,7 +291,7 @@ The sound volume.
 
 
 
-### variable pitch
+#### variable pitch
 
 ```cpp
 float pitch {1.f};
@@ -323,7 +325,7 @@ The sound pitch;.
 
 
 
-### variable sound_status
+#### variable sound_status
 
 ```cpp
 status sound_status {status::wait_for_first_run};
@@ -357,7 +359,7 @@ The sound status.
 
 
 
-### variable sound_id
+#### variable sound_id
 
 ```cpp
 std::string sound_id;
@@ -395,6 +397,6 @@ The id of the sound.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

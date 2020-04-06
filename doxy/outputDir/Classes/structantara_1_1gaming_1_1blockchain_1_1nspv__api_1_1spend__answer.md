@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_api::spend_answer
 
 
----
+## spend_answer
 
-# antara::gaming::blockchain::nspv_api::spend_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::spend_answer
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::blockchain::nspv_api::spend_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -43,9 +44,10 @@ title: antara::gaming::blockchain::nspv_api::spend_answer
 
 
 
-## Public Attributes Documentation
 
-### variable vout
+### Public Attributes Documentation
+
+#### variable vout
 
 ```cpp
 std::size_t vout;
@@ -78,7 +80,7 @@ std::size_t vout;
 
 
 
-### variable hex
+#### variable hex
 
 ```cpp
 std::string hex;
@@ -111,7 +113,7 @@ std::string hex;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -144,7 +146,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -177,7 +179,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -214,6 +216,6 @@ std::string result;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

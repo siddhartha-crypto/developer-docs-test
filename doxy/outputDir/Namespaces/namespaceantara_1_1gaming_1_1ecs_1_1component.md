@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::component
-summary: < doom::meta::list  
 
----
 
-# antara::gaming::ecs::component
+## component
+
+#### Full Title:
+```
+antara::gaming::ecs::component
+```
 
 
 
@@ -17,7 +18,7 @@ summary: < doom::meta::list
 
 
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,8 @@ summary: < doom::meta::list
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < doom::meta::list 
 
@@ -60,7 +62,7 @@ Dependencies Headers < doom::meta::flattenSDK Headers < geometry::components_lis
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef components_list
 
@@ -133,6 +135,6 @@ typedef doom::meta::list< math::vector_type_list, transform::components_list, ge
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

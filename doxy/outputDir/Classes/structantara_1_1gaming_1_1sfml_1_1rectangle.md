@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::rectangle
 
 
----
+## rectangle
 
-# antara::gaming::sfml::rectangle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::rectangle
+```
 
 
 
@@ -20,14 +17,18 @@ title: antara::gaming::sfml::rectangle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[rectangle](Classes/structantara_1_1gaming_1_1sfml_1_1rectangle.md#function-rectangle)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::sfml::rectangle
 
 
 
-## Public Functions Documentation
 
-### function rectangle
+### Public Functions Documentation
+
+#### function rectangle
 
 ```cpp
 rectangle() =default
@@ -79,9 +81,9 @@ rectangle() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::RectangleShape drawable {};
@@ -118,6 +120,6 @@ sf::RectangleShape drawable {};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

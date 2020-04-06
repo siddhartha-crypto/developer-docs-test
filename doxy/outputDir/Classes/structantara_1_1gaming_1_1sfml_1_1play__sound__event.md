@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::play_sound_event
 
 
----
+## play_sound_event
 
-# antara::gaming::sfml::play_sound_event
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::play_sound_event
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::sfml::play_sound_event
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::sfml::play_sound_event
 |  | **[play_sound_event](Classes/structantara_1_1gaming_1_1sfml_1_1play__sound__event.md#function-play_sound_event)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -46,9 +47,10 @@ title: antara::gaming::sfml::play_sound_event
 
 
 
-## Public Functions Documentation
 
-### function play_sound_event
+### Public Functions Documentation
+
+#### function play_sound_event
 
 ```cpp
 play_sound_event(
@@ -86,7 +88,7 @@ play_sound_event(
 
 
 
-### function play_sound_event
+#### function play_sound_event
 
 ```cpp
 play_sound_event()
@@ -121,9 +123,9 @@ play_sound_event()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable volume
+#### variable volume
 
 ```cpp
 float volume {100.f};
@@ -156,7 +158,7 @@ float volume {100.f};
 
 
 
-### variable on_finish
+#### variable on_finish
 
 ```cpp
 std::function< void()> on_finish {[]() {
@@ -190,7 +192,7 @@ std::function< void()> on_finish {[]() {
 
 
 
-### variable resource_mgr
+#### variable resource_mgr
 
 ```cpp
 resources_manager * resource_mgr {nullptr};
@@ -223,7 +225,7 @@ resources_manager * resource_mgr {nullptr};
 
 
 
-### variable sound_id
+#### variable sound_id
 
 ```cpp
 const char * sound_id {nullptr};
@@ -260,6 +262,6 @@ const char * sound_id {nullptr};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

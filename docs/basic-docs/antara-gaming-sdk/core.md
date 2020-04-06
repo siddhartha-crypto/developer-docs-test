@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1core_1_1details.md
-  Topic name: antara::gaming::core::details
-  Hash count: 0
-*/
----
-title: antara::gaming::core::details
-summary: getpid()  
 
----
 
-# antara::gaming::core::details
+## details
+
+#### Full Title:
+```
+antara::gaming::core::details
+```
 
 
 
@@ -23,7 +19,7 @@ getpid()  [More...](#detailed-description)
 
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -38,7 +34,8 @@ getpid()  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 getpid() 
 
@@ -75,7 +72,7 @@ C System HeadersC++ System Headers < std::string
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function open_url_browser
 
@@ -322,8 +319,9 @@ bool is_high_dpi_capable()
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

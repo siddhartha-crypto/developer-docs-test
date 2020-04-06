@@ -1,10 +1,11 @@
----
-title: antara::gaming::lua::scripting_system
 
 
----
+## scripting_system
 
-# antara::gaming::lua::scripting_system
+#### Full Title:
+```
+antara::gaming::lua::scripting_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< lua::scripting_system >](Classes/cla
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -47,7 +48,8 @@ Inherits from [antara::gaming::ecs::system< lua::scripting_system >](Classes/cla
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -110,9 +112,9 @@ Inherits from [antara::gaming::ecs::system< lua::scripting_system >](Classes/cla
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function load_scripted_system
+#### function load_scripted_system
 
 ```cpp
 bool load_scripted_system(
@@ -147,7 +149,7 @@ bool load_scripted_system(
 
 
 
-### function load_script_from_entities
+#### function load_script_from_entities
 
 ```cpp
 bool load_script_from_entities()
@@ -180,7 +182,7 @@ bool load_script_from_entities()
 
 
 
-### function register_events_list
+#### function register_events_list
 
 ```cpp
 void register_events_list(
@@ -215,7 +217,7 @@ void register_events_list(
 
 
 
-### function register_components_list
+#### function register_components_list
 
 ```cpp
 void register_components_list(
@@ -250,7 +252,7 @@ void register_components_list(
 
 
 
-### function register_component
+#### function register_component
 
 ```cpp
 void register_component()
@@ -283,7 +285,7 @@ void register_component()
 
 
 
-### function register_event
+#### function register_event
 
 ```cpp
 void register_event()
@@ -316,7 +318,7 @@ void register_event()
 
 
 
-### function execute_safe_function
+#### function execute_safe_function
 
 ```cpp
 std::optional< sol::unsafe_function_result > execute_safe_function(
@@ -358,7 +360,7 @@ global call
 
 LCOV_EXCL_LINE 
 
-### function register_type
+#### function register_type
 
 ```cpp
 void register_type(
@@ -393,7 +395,7 @@ void register_type(
 
 
 
-### function load_scripts
+#### function load_scripts
 
 ```cpp
 bool load_scripts(
@@ -428,7 +430,7 @@ bool load_scripts(
 
 
 
-### function load_script
+#### function load_script
 
 ```cpp
 bool load_script(
@@ -463,7 +465,7 @@ bool load_script(
 
 
 
-### function load_script
+#### function load_script
 
 ```cpp
 bool load_script(
@@ -499,7 +501,7 @@ bool load_script(
 
 
 
-### function get_state_ptr
+#### function get_state_ptr
 
 ```cpp
 std::shared_ptr< sol::state > get_state_ptr()
@@ -532,7 +534,7 @@ std::shared_ptr< sol::state > get_state_ptr()
 
 
 
-### function get_state
+#### function get_state
 
 ```cpp
 sol::state & get_state()
@@ -565,7 +567,7 @@ sol::state & get_state()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -601,7 +603,7 @@ Public member functions.
 
 
 
-### function ~scripting_system
+#### function ~scripting_system
 
 ```cpp
 ~scripting_system() =default
@@ -635,7 +637,7 @@ Destructor.
 
 
 
-### function scripting_system
+#### function scripting_system
 
 ```cpp
 scripting_system(
@@ -681,6 +683,6 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

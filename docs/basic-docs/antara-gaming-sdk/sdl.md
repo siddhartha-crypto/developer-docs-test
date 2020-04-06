@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1graphic__system.md
-  Topic name: antara::gaming::sdl::graphic_system
-  Hash count: 0
-*/
----
-title: antara::gaming::sdl::graphic_system
 
 
----
+## graphic_system
 
-# antara::gaming::sdl::graphic_system
+#### Full Title:
+```
+antara::gaming::sdl::graphic_system
+```
 
 
 
@@ -26,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,7 +38,8 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -105,9 +102,9 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function get_window
+#### function get_window
 
 ```cpp
 inline SDL_Window * get_window() const
@@ -140,7 +137,7 @@ inline SDL_Window * get_window() const
 
 
 
-### function set_framerate_limit
+#### function set_framerate_limit
 
 ```cpp
 inline void set_framerate_limit(
@@ -175,7 +172,7 @@ inline void set_framerate_limit(
 
 
 
-### function render
+#### function render
 
 ```cpp
 void render()
@@ -208,7 +205,7 @@ void render()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -244,7 +241,7 @@ Pure virtual functions.
 
 
 
-### function ~graphic_system
+#### function ~graphic_system
 
 ```cpp
 ~graphic_system()
@@ -277,7 +274,7 @@ Pure virtual functions.
 
 
 
-### function graphic_system
+#### function graphic_system
 
 ```cpp
 explicit graphic_system(
@@ -318,23 +315,25 @@ explicit graphic_system(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1input__system.md
   Topic name: antara::gaming::sdl::input_system
   Hash count: 0
-*/
----
-title: antara::gaming::sdl::input_system
+-->
 
 
----
+## input_system
 
-# antara::gaming::sdl::input_system
+#### Full Title:
+```
+antara::gaming::sdl::input_system
+```
 
 
 
@@ -351,7 +350,7 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -364,7 +363,8 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -427,9 +427,9 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -465,7 +465,7 @@ Pure virtual functions.
 
 
 
-### function ~input_system
+#### function ~input_system
 
 ```cpp
 ~input_system() =default
@@ -498,7 +498,7 @@ Pure virtual functions.
 
 
 
-### function input_system
+#### function input_system
 
 ```cpp
 explicit input_system(
@@ -540,27 +540,25 @@ explicit input_system(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sdl_1_1opengl__image.md
   Topic name: antara::gaming::sdl::opengl_image
   Hash count: 0
-*/
----
-title: antara::gaming::sdl::opengl_image
+-->
 
 
----
+## opengl_image
 
-# antara::gaming::sdl::opengl_image
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sdl::opengl_image
+```
 
 
 
@@ -574,7 +572,11 @@ title: antara::gaming::sdl::opengl_image
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -593,9 +595,10 @@ title: antara::gaming::sdl::opengl_image
 
 
 
-## Public Attributes Documentation
 
-### variable height
+### Public Attributes Documentation
+
+#### variable height
 
 ```cpp
 int height;
@@ -628,7 +631,7 @@ int height;
 
 
 
-### variable width
+#### variable width
 
 ```cpp
 int width;
@@ -661,7 +664,7 @@ int width;
 
 
 
-### variable id
+#### variable id
 
 ```cpp
 unsigned int id;
@@ -698,27 +701,25 @@ unsigned int id;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1timer.md
   Topic name: antara::gaming::sdl::timer
   Hash count: 0
-*/
----
-title: antara::gaming::sdl::timer
+-->
 
 
----
+## timer
 
-# antara::gaming::sdl::timer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sdl::timer
+```
 
 
 
@@ -730,7 +731,11 @@ title: antara::gaming::sdl::timer
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -754,9 +759,10 @@ title: antara::gaming::sdl::timer
 
 
 
-## Public Functions Documentation
 
-### function isPaused
+### Public Functions Documentation
+
+#### function isPaused
 
 ```cpp
 inline bool isPaused()
@@ -789,7 +795,7 @@ inline bool isPaused()
 
 
 
-### function isStarted
+#### function isStarted
 
 ```cpp
 inline bool isStarted()
@@ -822,7 +828,7 @@ inline bool isStarted()
 
 
 
-### function getTicks
+#### function getTicks
 
 ```cpp
 inline Uint32 getTicks()
@@ -855,7 +861,7 @@ inline Uint32 getTicks()
 
 
 
-### function unpause
+#### function unpause
 
 ```cpp
 inline void unpause()
@@ -888,7 +894,7 @@ inline void unpause()
 
 
 
-### function pause
+#### function pause
 
 ```cpp
 inline void pause()
@@ -921,7 +927,7 @@ inline void pause()
 
 
 
-### function stop
+#### function stop
 
 ```cpp
 inline void stop()
@@ -954,7 +960,7 @@ inline void stop()
 
 
 
-### function start
+#### function start
 
 ```cpp
 inline void start()
@@ -987,7 +993,7 @@ inline void start()
 
 
 
-### function timer
+#### function timer
 
 ```cpp
 inline timer()
@@ -1026,8 +1032,9 @@ inline timer()
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

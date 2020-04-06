@@ -1,10 +1,11 @@
----
-title: antara::gaming::animation2d
-summary: < std::size_t  
 
----
 
-# antara::gaming::animation2d
+## animation2d
+
+#### Full Title:
+```
+antara::gaming::animation2d
+```
 
 
 
@@ -16,21 +17,21 @@ summary: < std::size_t
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::animation2d::anim_system](Classes/classantara_1_1gaming_1_1animation2d_1_1anim__system.md)**  |
 | struct | **[antara::gaming::animation2d::anim_component](Classes/structantara_1_1gaming_1_1animation2d_1_1anim__component.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef std::vector< ranged_anim > | **[ranged_anim_array](Namespaces/namespaceantara_1_1gaming_1_1animation2d.md#typedef-ranged_anim_array)**  |
 | typedef std::tuple< int, int, std::string > | **[ranged_anim](Namespaces/namespaceantara_1_1gaming_1_1animation2d.md#typedef-ranged_anim)**  |
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,7 +41,8 @@ summary: < std::size_t
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::size_t 
 
@@ -76,7 +78,7 @@ C System HeadersC++ System Headers < std::chrono::duration std::string Dependenc
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef ranged_anim_array
 
@@ -145,7 +147,7 @@ typedef std::tuple< int, int, std::string > ranged_anim;
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function blueprint_animation
 
@@ -228,6 +230,6 @@ inline ranged_anim make_ranged_anim(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

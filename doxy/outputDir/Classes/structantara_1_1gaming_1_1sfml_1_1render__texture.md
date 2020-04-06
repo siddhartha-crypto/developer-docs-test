@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::render_texture
 
 
----
+## render_texture
 
-# antara::gaming::sfml::render_texture
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::render_texture
+```
 
 
 
@@ -20,14 +17,18 @@ title: antara::gaming::sfml::render_texture
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[render_texture](Classes/structantara_1_1gaming_1_1sfml_1_1render__texture.md#function-render_texture)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::sfml::render_texture
 
 
 
-## Public Functions Documentation
 
-### function render_texture
+### Public Functions Documentation
+
+#### function render_texture
 
 ```cpp
 render_texture() =default
@@ -79,9 +81,9 @@ render_texture() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 std::unique_ptr< sf::RenderTexture > drawable {std::make_unique<sf::RenderTexture>()};
@@ -118,6 +120,6 @@ std::unique_ptr< sf::RenderTexture > drawable {std::make_unique<sf::RenderTextur
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

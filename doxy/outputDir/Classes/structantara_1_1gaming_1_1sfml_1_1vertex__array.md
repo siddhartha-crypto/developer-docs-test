@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::vertex_array
 
 
----
+## vertex_array
 
-# antara::gaming::sfml::vertex_array
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::vertex_array
+```
 
 
 
@@ -20,14 +17,18 @@ title: antara::gaming::sfml::vertex_array
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[vertex_array](Classes/structantara_1_1gaming_1_1sfml_1_1vertex__array.md#function-vertex_array)**() =default  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::sfml::vertex_array
 
 
 
-## Public Functions Documentation
 
-### function vertex_array
+### Public Functions Documentation
+
+#### function vertex_array
 
 ```cpp
 vertex_array() =default
@@ -79,9 +81,9 @@ vertex_array() =default
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable drawable
+#### variable drawable
 
 ```cpp
 sf::VertexArray drawable;
@@ -118,6 +120,6 @@ sf::VertexArray drawable;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

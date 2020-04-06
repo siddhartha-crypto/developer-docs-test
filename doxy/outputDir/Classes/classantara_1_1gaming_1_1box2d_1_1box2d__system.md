@@ -1,10 +1,11 @@
----
-title: antara::gaming::box2d::box2d_system
 
 
----
+## box2d_system
 
-# antara::gaming::box2d::box2d_system
+#### Full Title:
+```
+antara::gaming::box2d::box2d_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< box2d_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +34,8 @@ Inherits from [antara::gaming::ecs::system< box2d_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -96,9 +98,9 @@ Inherits from [antara::gaming::ecs::system< box2d_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -134,7 +136,7 @@ Public member functions.
 
 
 
-### function box2d_system
+#### function box2d_system
 
 ```cpp
 box2d_system(
@@ -176,6 +178,6 @@ Constructors.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

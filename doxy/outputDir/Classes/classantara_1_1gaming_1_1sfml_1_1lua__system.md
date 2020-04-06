@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::lua_system
 
 
----
+## lua_system
 
-# antara::gaming::sfml::lua_system
+#### Full Title:
+```
+antara::gaming::sfml::lua_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< lua_system >](Classes/classantara_1_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -33,7 +34,8 @@ Inherits from [antara::gaming::ecs::system< lua_system >](Classes/classantara_1_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -96,9 +98,9 @@ Inherits from [antara::gaming::ecs::system< lua_system >](Classes/classantara_1_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -134,7 +136,7 @@ Pure virtual functions.
 
 
 
-### function lua_system
+#### function lua_system
 
 ```cpp
 lua_system(
@@ -176,6 +178,6 @@ lua_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

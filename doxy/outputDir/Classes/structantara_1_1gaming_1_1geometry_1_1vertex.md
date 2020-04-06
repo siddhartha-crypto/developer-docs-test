@@ -1,14 +1,11 @@
----
-title: antara::gaming::geometry::vertex
 
 
----
+## vertex
 
-# antara::gaming::geometry::vertex
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::vertex
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::geometry::vertex
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,9 +42,10 @@ title: antara::gaming::geometry::vertex
 
 
 
-## Public Attributes Documentation
 
-### variable pixel_color
+### Public Attributes Documentation
+
+#### variable pixel_color
 
 ```cpp
 graphics::color pixel_color {graphics::white};
@@ -76,7 +78,7 @@ graphics::color pixel_color {graphics::white};
 
 
 
-### variable texture_pos
+#### variable texture_pos
 
 ```cpp
 transform::position_2d texture_pos {transform::position_2d::scalar(0.f)};
@@ -109,7 +111,7 @@ transform::position_2d texture_pos {transform::position_2d::scalar(0.f)};
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 transform::position_2d pos {transform::position_2d::scalar(0.f)};
@@ -146,6 +148,6 @@ transform::position_2d pos {transform::position_2d::scalar(0.f)};
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

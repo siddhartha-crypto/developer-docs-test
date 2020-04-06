@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::load_textures
 
 
----
+## load_textures
 
-# antara::gaming::event::load_textures
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::load_textures
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::event::load_textures
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -39,9 +40,10 @@ title: antara::gaming::event::load_textures
 
 
 
-## Public Attributes Documentation
 
-### variable textures_settings
+### Public Attributes Documentation
+
+#### variable textures_settings
 
 ```cpp
 std::vector< loading_settings > textures_settings;
@@ -79,6 +81,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

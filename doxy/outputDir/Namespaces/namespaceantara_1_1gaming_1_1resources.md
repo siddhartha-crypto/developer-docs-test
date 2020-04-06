@@ -1,10 +1,11 @@
----
-title: antara::gaming::resources
-summary: < event::load_textures 
 
----
 
-# antara::gaming::resources
+## resources
+
+#### Full Title:
+```
+antara::gaming::resources
+```
 
 
 
@@ -16,7 +17,7 @@ summary: < event::load_textures
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,8 @@ summary: < event::load_textures
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < [event::load_textures](Classes/structantara_1_1gaming_1_1event_1_1load__textures.md)
 
@@ -64,6 +66,6 @@ SDK Headers < [ecs::system](Classes/classantara_1_1gaming_1_1ecs_1_1system.md)
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

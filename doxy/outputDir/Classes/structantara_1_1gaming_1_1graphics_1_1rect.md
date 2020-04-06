@@ -1,14 +1,11 @@
----
-title: antara::gaming::graphics::rect
 
 
----
+## rect
 
-# antara::gaming::graphics::rect
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::rect
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::graphics::rect
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::graphics::rect
 
 
 
-## Public Attributes Documentation
 
-### variable size
+### Public Attributes Documentation
+
+#### variable size
 
 ```cpp
 math::vec2f size;
@@ -75,7 +77,7 @@ math::vec2f size;
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 math::vec2f pos;
@@ -112,6 +114,6 @@ math::vec2f pos;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

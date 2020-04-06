@@ -1,14 +1,11 @@
----
-title: antara::gaming::sdl::timer
 
 
----
+## timer
 
-# antara::gaming::sdl::timer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sdl::timer
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::sdl::timer
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,9 +45,10 @@ title: antara::gaming::sdl::timer
 
 
 
-## Public Functions Documentation
 
-### function isPaused
+### Public Functions Documentation
+
+#### function isPaused
 
 ```cpp
 inline bool isPaused()
@@ -79,7 +81,7 @@ inline bool isPaused()
 
 
 
-### function isStarted
+#### function isStarted
 
 ```cpp
 inline bool isStarted()
@@ -112,7 +114,7 @@ inline bool isStarted()
 
 
 
-### function getTicks
+#### function getTicks
 
 ```cpp
 inline Uint32 getTicks()
@@ -145,7 +147,7 @@ inline Uint32 getTicks()
 
 
 
-### function unpause
+#### function unpause
 
 ```cpp
 inline void unpause()
@@ -178,7 +180,7 @@ inline void unpause()
 
 
 
-### function pause
+#### function pause
 
 ```cpp
 inline void pause()
@@ -211,7 +213,7 @@ inline void pause()
 
 
 
-### function stop
+#### function stop
 
 ```cpp
 inline void stop()
@@ -244,7 +246,7 @@ inline void stop()
 
 
 
-### function start
+#### function start
 
 ```cpp
 inline void start()
@@ -277,7 +279,7 @@ inline void start()
 
 
 
-### function timer
+#### function timer
 
 ```cpp
 inline timer()
@@ -316,6 +318,6 @@ inline timer()
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

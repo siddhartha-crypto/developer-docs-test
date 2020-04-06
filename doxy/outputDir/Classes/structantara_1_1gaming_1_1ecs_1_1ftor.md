@@ -1,14 +1,11 @@
----
-title: antara::gaming::ecs::ftor
 
 
----
+## ftor
 
-# antara::gaming::ecs::ftor
-
-
-
-
+#### Full Title:
+```
+antara::gaming::ecs::ftor
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::ecs::ftor
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::ecs::ftor
 
 
 
-## Public Attributes Documentation
 
-### variable on_post_update
+### Public Attributes Documentation
+
+#### variable on_post_update
 
 ```cpp
 std::function< void()> on_post_update {nullptr};
@@ -77,7 +79,7 @@ std::function< void()> on_post_update {nullptr};
 
 
 
-### variable on_destruct
+#### variable on_destruct
 
 ```cpp
 std::function< void()> on_destruct {nullptr};
@@ -110,7 +112,7 @@ std::function< void()> on_destruct {nullptr};
 
 
 
-### variable on_update
+#### variable on_update
 
 ```cpp
 std::function< void()> on_update {nullptr};
@@ -143,7 +145,7 @@ std::function< void()> on_update {nullptr};
 
 
 
-### variable on_create
+#### variable on_create
 
 ```cpp
 std::function< void()> on_create {nullptr};
@@ -181,6 +183,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

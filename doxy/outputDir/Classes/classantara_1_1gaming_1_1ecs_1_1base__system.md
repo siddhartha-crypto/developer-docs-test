@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::base_system
 
 
----
+## base_system
 
-# antara::gaming::ecs::base_system
+#### Full Title:
+```
+antara::gaming::ecs::base_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherited by [antara::gaming::ecs::system< TSystemDerived, TSystemType >](Classe
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,7 +45,7 @@ Inherited by [antara::gaming::ecs::system< TSystemDerived, TSystemType >](Classe
 
 
 
-## Protected Attributes
+### Protected Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -60,9 +61,10 @@ Inherited by [antara::gaming::ecs::system< TSystemDerived, TSystemType >](Classe
 
 
 
-## Public Functions Documentation
 
-### function set_user_data
+### Public Functions Documentation
+
+#### function set_user_data
 
 ```cpp
 void set_user_data(
@@ -104,7 +106,7 @@ void set_user_data(
 
 
 
-### function get_user_data
+#### function get_user_data
 
 ```cpp
 void * get_user_data()
@@ -143,7 +145,7 @@ void * get_user_data()
 
 
 
-### function is_a_plugin
+#### function is_a_plugin
 
 ```cpp
 bool is_a_plugin() const
@@ -178,7 +180,7 @@ bool is_a_plugin() const
 
 
 
-### function im_a_plugin
+#### function im_a_plugin
 
 ```cpp
 void im_a_plugin()
@@ -212,7 +214,7 @@ void im_a_plugin()
 
 
 
-### function is_enabled
+#### function is_enabled
 
 ```cpp
 bool is_enabled() const
@@ -246,7 +248,7 @@ bool is_enabled() const
 
 
 
-### function disable
+#### function disable
 
 ```cpp
 void disable()
@@ -280,7 +282,7 @@ void disable()
 
 
 
-### function enable
+#### function enable
 
 ```cpp
 void enable()
@@ -318,7 +320,7 @@ void enable()
 
 
 
-### function is_marked
+#### function is_marked
 
 ```cpp
 bool is_marked() const
@@ -353,7 +355,7 @@ bool is_marked() const
 
 
 
-### function unmark
+#### function unmark
 
 ```cpp
 void unmark()
@@ -387,7 +389,7 @@ void unmark()
 
 
 
-### function mark
+#### function mark
 
 ```cpp
 void mark()
@@ -421,7 +423,7 @@ void mark()
 
 
 
-### function get_system_type_rtti
+#### function get_system_type_rtti
 
 ```cpp
 virtual system_type get_system_type_rtti() const =0
@@ -456,7 +458,7 @@ virtual system_type get_system_type_rtti() const =0
 
 
 
-### function get_name
+#### function get_name
 
 ```cpp
 virtual std::string get_name() const =0
@@ -491,7 +493,7 @@ virtual std::string get_name() const =0
 
 
 
-### function post_update
+#### function post_update
 
 ```cpp
 inline virtual void post_update()
@@ -526,7 +528,7 @@ inline virtual void post_update()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update() =0
@@ -562,7 +564,7 @@ Pure virtual functions.
 
 
 
-### function ~base_system
+#### function ~base_system
 
 ```cpp
 virtual ~base_system() =default
@@ -596,7 +598,7 @@ Destructor.
 
 
 
-### function base_system
+#### function base_system
 
 ```cpp
 base_system(
@@ -636,9 +638,9 @@ Constructors.
 
 
 
-## Protected Attributes Documentation
+### Protected Attributes Documentation
 
-### variable user_data_
+#### variable user_data_
 
 ```cpp
 void * user_data_ {nullptr};
@@ -671,7 +673,7 @@ void * user_data_ {nullptr};
 
 
 
-### variable dispatcher_
+#### variable dispatcher_
 
 ```cpp
 entt::dispatcher & dispatcher_;
@@ -704,7 +706,7 @@ entt::dispatcher & dispatcher_;
 
 
 
-### variable entity_registry_
+#### variable entity_registry_
 
 ```cpp
 entt::registry & entity_registry_;
@@ -741,6 +743,6 @@ Protected data members.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

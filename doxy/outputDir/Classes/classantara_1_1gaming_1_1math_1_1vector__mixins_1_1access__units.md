@@ -1,10 +1,11 @@
----
-title: antara::gaming::math::vector_mixins::access_units
 
 
----
+## access_units
 
-# antara::gaming::math::vector_mixins::access_units
+#### Full Title:
+```
+antara::gaming::math::vector_mixins::access_units
+```
 
 
 
@@ -19,14 +20,14 @@ title: antara::gaming::math::vector_mixins::access_units
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__units.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -49,7 +50,8 @@ title: antara::gaming::math::vector_mixins::access_units
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Derived ,
@@ -85,9 +87,9 @@ class antara::gaming::math::vector_mixins::access_units;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -122,9 +124,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function magnitude
+#### function magnitude
 
 ```cpp
 inline constexpr Unit magnitude()
@@ -157,7 +159,7 @@ inline constexpr Unit magnitude()
 
 
 
-### function vec_to_angle
+#### function vec_to_angle
 
 ```cpp
 static inline constexpr Unit vec_to_angle(
@@ -192,7 +194,7 @@ static inline constexpr Unit vec_to_angle(
 
 
 
-### function angle_to_vec
+#### function angle_to_vec
 
 ```cpp
 static inline constexpr auto angle_to_vec(
@@ -227,7 +229,7 @@ static inline constexpr auto angle_to_vec(
 
 
 
-### function unit_left
+#### function unit_left
 
 ```cpp
 static inline constexpr auto unit_left()
@@ -260,7 +262,7 @@ static inline constexpr auto unit_left()
 
 
 
-### function unit_right
+#### function unit_right
 
 ```cpp
 static inline constexpr auto unit_right()
@@ -293,7 +295,7 @@ static inline constexpr auto unit_right()
 
 
 
-### function unit_down_left
+#### function unit_down_left
 
 ```cpp
 static inline constexpr auto unit_down_left()
@@ -326,7 +328,7 @@ static inline constexpr auto unit_down_left()
 
 
 
-### function unit_down_right
+#### function unit_down_right
 
 ```cpp
 static inline constexpr auto unit_down_right()
@@ -359,7 +361,7 @@ static inline constexpr auto unit_down_right()
 
 
 
-### function unit_down
+#### function unit_down
 
 ```cpp
 static inline constexpr auto unit_down()
@@ -392,7 +394,7 @@ static inline constexpr auto unit_down()
 
 
 
-### function unit_up_left
+#### function unit_up_left
 
 ```cpp
 static inline constexpr auto unit_up_left()
@@ -425,7 +427,7 @@ static inline constexpr auto unit_up_left()
 
 
 
-### function unit_up_right
+#### function unit_up_right
 
 ```cpp
 static inline constexpr auto unit_up_right()
@@ -458,7 +460,7 @@ static inline constexpr auto unit_up_right()
 
 
 
-### function unit_up
+#### function unit_up
 
 ```cpp
 static inline constexpr auto unit_up()
@@ -497,6 +499,6 @@ static inline constexpr auto unit_up()
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

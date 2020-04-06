@@ -1,14 +1,11 @@
----
-title: antara::gaming::graphics::rectangle
 
 
----
+## rectangle
 
-# antara::gaming::graphics::rectangle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::rectangle
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::graphics::rectangle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::graphics::rectangle
 | bool | **[operator==](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md#function-operator==)**(const [rectangle](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md) & rhs) const  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -36,7 +37,7 @@ title: antara::gaming::graphics::rectangle
 | [math::vec2f](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md) | **[size](Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md#variable-size)**  |
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -49,9 +50,10 @@ title: antara::gaming::graphics::rectangle
 
 
 
-## Public Functions Documentation
 
-### function operator!=
+### Public Functions Documentation
+
+#### function operator!=
 
 ```cpp
 inline bool operator!=(
@@ -86,7 +88,7 @@ inline bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline bool operator==(
@@ -123,9 +125,9 @@ inline bool operator==(
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable position
+#### variable position
 
 ```cpp
 math::vec2f position;
@@ -159,7 +161,7 @@ width/height
 
 
 
-### variable size
+#### variable size
 
 ```cpp
 math::vec2f size;
@@ -194,9 +196,9 @@ math::vec2f size;
 
 
 
-## Friends
+### Friends
 
-### friend operator<<
+#### friend operator<<
 
 ```cpp
 friend std::ostream & operator<<(
@@ -235,6 +237,6 @@ pos of the rectangle
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

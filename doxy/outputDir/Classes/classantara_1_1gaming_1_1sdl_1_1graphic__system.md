@@ -1,10 +1,11 @@
----
-title: antara::gaming::sdl::graphic_system
 
 
----
+## graphic_system
 
-# antara::gaming::sdl::graphic_system
+#### Full Title:
+```
+antara::gaming::sdl::graphic_system
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +38,8 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -100,9 +102,9 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function get_window
+#### function get_window
 
 ```cpp
 inline SDL_Window * get_window() const
@@ -135,7 +137,7 @@ inline SDL_Window * get_window() const
 
 
 
-### function set_framerate_limit
+#### function set_framerate_limit
 
 ```cpp
 inline void set_framerate_limit(
@@ -170,7 +172,7 @@ inline void set_framerate_limit(
 
 
 
-### function render
+#### function render
 
 ```cpp
 void render()
@@ -203,7 +205,7 @@ void render()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -239,7 +241,7 @@ Pure virtual functions.
 
 
 
-### function ~graphic_system
+#### function ~graphic_system
 
 ```cpp
 ~graphic_system()
@@ -272,7 +274,7 @@ Pure virtual functions.
 
 
 
-### function graphic_system
+#### function graphic_system
 
 ```cpp
 explicit graphic_system(
@@ -313,6 +315,6 @@ explicit graphic_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

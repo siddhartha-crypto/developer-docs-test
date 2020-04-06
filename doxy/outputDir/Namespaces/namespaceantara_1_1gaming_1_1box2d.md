@@ -1,10 +1,11 @@
----
-title: antara::gaming::box2d
-summary: SDK Headers.  
 
----
 
-# antara::gaming::box2d
+## box2d
+
+#### Full Title:
+```
+antara::gaming::box2d
+```
 
 
 
@@ -16,7 +17,7 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,8 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 SDK Headers. 
 
@@ -68,6 +70,6 @@ Dependencies Headers < b2Vec2, b2WorldSDK Headers < REFL_AUTO < [ecs::system](Cl
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

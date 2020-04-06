@@ -1,10 +1,11 @@
----
-title: antara::gaming::scenes::manager
 
 
----
+## manager
 
-# antara::gaming::scenes::manager
+#### Full Title:
+```
+antara::gaming::scenes::manager
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< manager >](Classes/classantara_1_1ga
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -45,7 +46,8 @@ Inherits from [antara::gaming::ecs::system< manager >](Classes/classantara_1_1ga
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -107,9 +109,9 @@ Inherits from [antara::gaming::ecs::system< manager >](Classes/classantara_1_1ga
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function current_scene
+#### function current_scene
 
 ```cpp
 base_scene & current_scene()
@@ -142,7 +144,7 @@ base_scene & current_scene()
 
 
 
-### function clear
+#### function clear
 
 ```cpp
 void clear()
@@ -175,7 +177,7 @@ void clear()
 
 
 
-### function previous_scene
+#### function previous_scene
 
 ```cpp
 bool previous_scene()
@@ -208,7 +210,7 @@ bool previous_scene()
 
 
 
-### function change_scene
+#### function change_scene
 
 ```cpp
 void change_scene(
@@ -244,7 +246,7 @@ void change_scene(
 
 
 
-### function post_update
+#### function post_update
 
 ```cpp
 virtual void post_update()
@@ -279,7 +281,7 @@ virtual void post_update()
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -315,7 +317,7 @@ Public member function.
 
 
 
-### function receive_change_scene
+#### function receive_change_scene
 
 ```cpp
 void receive_change_scene(
@@ -350,7 +352,7 @@ void receive_change_scene(
 
 
 
-### function receive_mouse_button_released
+#### function receive_mouse_button_released
 
 ```cpp
 void receive_mouse_button_released(
@@ -385,7 +387,7 @@ void receive_mouse_button_released(
 
 
 
-### function receive_mouse_button_pressed
+#### function receive_mouse_button_pressed
 
 ```cpp
 void receive_mouse_button_pressed(
@@ -420,7 +422,7 @@ void receive_mouse_button_pressed(
 
 
 
-### function receive_mouse_moved
+#### function receive_mouse_moved
 
 ```cpp
 void receive_mouse_moved(
@@ -455,7 +457,7 @@ void receive_mouse_moved(
 
 
 
-### function receive_key_released
+#### function receive_key_released
 
 ```cpp
 void receive_key_released(
@@ -490,7 +492,7 @@ void receive_key_released(
 
 
 
-### function receive_key_pressed
+#### function receive_key_pressed
 
 ```cpp
 void receive_key_pressed(
@@ -526,7 +528,7 @@ Public callbacks.
 
 
 
-### function ~manager
+#### function ~manager
 
 ```cpp
 ~manager()
@@ -560,7 +562,7 @@ Destructor.
 
 
 
-### function manager
+#### function manager
 
 ```cpp
 manager(
@@ -602,6 +604,6 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

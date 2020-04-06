@@ -6,3 +6,7 @@
 	path = doxy/submodules/doxybook2
 	url = git@github.com:siddhartha-crypto/doxybook2.git
     ignore = all
+[submodule "doxy/submodules/developer-docs"]
+	path = doxy/submodules/developer-docs
+	url = git@github.com:KomodoPlatform/developer-docs.git
+    ignore = all

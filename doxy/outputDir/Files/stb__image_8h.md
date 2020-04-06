@@ -1,25 +1,26 @@
----
-title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/sdl/antara/gaming/sdl/stb_image.h
 
 
----
+## /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/sdl/antara/gaming/sdl/stb_image.h
 
-# /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/sdl/antara/gaming/sdl/stb_image.h
-
-
-
-
+#### Full Title:
+```
+/home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-Clients/01-Komodo/2020-03-14-developer-docs-test/doxy/submodules/antara-gaming-sdk/modules/sdl/antara/gaming/sdl/stb_image.h
+```
 
 
 
 
-## Classes
+
+
+
+
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | struct | **[stbi_io_callbacks](Classes/structstbi__io__callbacks.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -27,7 +28,7 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 | typedef unsigned char | **[stbi_uc](Files/stb__image_8h.md#typedef-stbi_uc)**  |
 | enum | **[@0](Files/stb__image_8h.md#enum-@0)** { STBI_default, STBI_grey, STBI_grey_alpha, STBI_rgb, STBI_rgb_alpha } |
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -73,7 +74,7 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 | STBIDEF stbi_uc * | **[stbi_load_from_memory](Files/stb__image_8h.md#function-stbi_load_from_memory)**(stbi_uc const * buffer, int len, int * x, int * y, int * channels_in_file, int desired_channels)  |
 
 
-## Defines
+### Defines
 
 |                | Name           |
 | -------------- | -------------- |
@@ -83,7 +84,8 @@ title: /home/siddhartha/Documents/01-Studio/01-Commercial-Public/01-Commercial-C
 
 
 
-## Types Documentation
+
+### Types Documentation
 
 ### typedef stbi_us
 
@@ -191,7 +193,7 @@ enum @0 {
 
 
 
-## Functions Documentation
+### Functions Documentation
 
 ### function stbi_zlib_decode_noheader_buffer
 
@@ -1691,7 +1693,7 @@ STBIDEF stbi_uc * stbi_load_from_memory(
 
 
 
-## Macro Documentation
+### Macro Documentation
 
 ### define STBIDEF
 
@@ -1761,7 +1763,8 @@ STBIDEF stbi_uc * stbi_load_from_memory(
 
 
 
-## Source code
+
+### Source code
 
 ```cpp
 /* stb_image - v2.23 - public domain image loader - http://nothings.org/stb
@@ -10871,6 +10874,5 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::mouse_button_pressed
 
 
----
+## mouse_button_pressed
 
-# antara::gaming::event::mouse_button_pressed
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::mouse_button_pressed
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::mouse_button_pressed
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ title: antara::gaming::event::mouse_button_pressed
 |  | **[mouse_button_pressed](Classes/structantara_1_1gaming_1_1event_1_1mouse__button__pressed.md#function-mouse_button_pressed)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -47,9 +48,10 @@ title: antara::gaming::event::mouse_button_pressed
 
 
 
-## Public Functions Documentation
 
-### function mouse_button_pressed
+### Public Functions Documentation
+
+#### function mouse_button_pressed
 
 ```cpp
 mouse_button_pressed(
@@ -88,7 +90,7 @@ mouse_button_pressed(
 
 
 
-### function mouse_button_pressed
+#### function mouse_button_pressed
 
 ```cpp
 mouse_button_pressed() =default
@@ -124,9 +126,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable window_y
+#### variable window_y
 
 ```cpp
 float window_y;
@@ -159,7 +161,7 @@ float window_y;
 
 
 
-### variable window_x
+#### variable window_x
 
 ```cpp
 float window_x;
@@ -192,7 +194,7 @@ float window_x;
 
 
 
-### variable y
+#### variable y
 
 ```cpp
 float y;
@@ -225,7 +227,7 @@ float y;
 
 
 
-### variable x
+#### variable x
 
 ```cpp
 float x;
@@ -258,7 +260,7 @@ float x;
 
 
 
-### variable button
+#### variable button
 
 ```cpp
 input::mouse_button button;
@@ -296,6 +298,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

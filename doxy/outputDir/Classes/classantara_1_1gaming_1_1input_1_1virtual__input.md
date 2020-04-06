@@ -1,14 +1,11 @@
----
-title: antara::gaming::input::virtual_input
 
 
----
+## virtual_input
 
-# antara::gaming::input::virtual_input
-
-
-
-
+#### Full Title:
+```
+antara::gaming::input::virtual_input
+```
 
 
 
@@ -18,14 +15,18 @@ title: antara::gaming::input::virtual_input
 
 
 
-## Public Types
+
+
+
+
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef std::unordered_set< T > | **[bunch_of](Classes/classantara_1_1gaming_1_1input_1_1virtual__input.md#typedef-bunch_of)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -55,9 +56,10 @@ title: antara::gaming::input::virtual_input
 
 
 
-## Public Types Documentation
 
-### typedef bunch_of
+### Public Types Documentation
+
+#### typedef bunch_of
 
 ```cpp
 typedef std::unordered_set< T > bunch_of;
@@ -92,9 +94,9 @@ typedef std::unordered_set< T > bunch_of;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function remove
+#### function remove
 
 ```cpp
 static void remove(
@@ -129,7 +131,7 @@ static void remove(
 
 
 
-### function remove
+#### function remove
 
 ```cpp
 static void remove(
@@ -164,7 +166,7 @@ static void remove(
 
 
 
-### function create
+#### function create
 
 ```cpp
 static void create(
@@ -201,7 +203,7 @@ static void create(
 
 
 
-### function create
+#### function create
 
 ```cpp
 static void create(
@@ -238,7 +240,7 @@ static void create(
 
 
 
-### function is_released
+#### function is_released
 
 ```cpp
 static bool is_released(
@@ -273,7 +275,7 @@ static bool is_released(
 
 
 
-### function is_released
+#### function is_released
 
 ```cpp
 static bool is_released(
@@ -308,7 +310,7 @@ static bool is_released(
 
 
 
-### function is_tapped
+#### function is_tapped
 
 ```cpp
 static bool is_tapped(
@@ -343,7 +345,7 @@ static bool is_tapped(
 
 
 
-### function is_tapped
+#### function is_tapped
 
 ```cpp
 static bool is_tapped(
@@ -378,7 +380,7 @@ static bool is_tapped(
 
 
 
-### function is_held
+#### function is_held
 
 ```cpp
 static bool is_held(
@@ -413,7 +415,7 @@ static bool is_held(
 
 
 
-### function is_held
+#### function is_held
 
 ```cpp
 static bool is_held(
@@ -448,7 +450,7 @@ static bool is_held(
 
 
 
-### function update
+#### function update
 
 ```cpp
 static void update()
@@ -481,7 +483,7 @@ static void update()
 
 
 
-### function init
+#### function init
 
 ```cpp
 static void init(
@@ -516,7 +518,7 @@ static void init(
 
 
 
-### function on_mouse_button_released
+#### function on_mouse_button_released
 
 ```cpp
 static void on_mouse_button_released(
@@ -551,7 +553,7 @@ static void on_mouse_button_released(
 
 
 
-### function on_mouse_button_pressed
+#### function on_mouse_button_pressed
 
 ```cpp
 static void on_mouse_button_pressed(
@@ -586,7 +588,7 @@ static void on_mouse_button_pressed(
 
 
 
-### function on_key_released
+#### function on_key_released
 
 ```cpp
 static void on_key_released(
@@ -621,7 +623,7 @@ static void on_key_released(
 
 
 
-### function on_key_pressed
+#### function on_key_pressed
 
 ```cpp
 static void on_key_pressed(
@@ -662,6 +664,6 @@ static void on_key_pressed(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

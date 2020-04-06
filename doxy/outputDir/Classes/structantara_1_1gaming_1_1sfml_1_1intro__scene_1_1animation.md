@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::intro_scene::animation
 
 
----
+## animation
 
-# antara::gaming::sfml::intro_scene::animation
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::intro_scene::animation
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::sfml::intro_scene::animation
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -30,7 +31,7 @@ title: antara::gaming::sfml::intro_scene::animation
 |  | **[animation](Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene_1_1animation.md#function-animation)**()  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -45,9 +46,10 @@ title: antara::gaming::sfml::intro_scene::animation
 
 
 
-## Public Functions Documentation
 
-### function is_done
+### Public Functions Documentation
+
+#### function is_done
 
 ```cpp
 bool is_done()
@@ -80,7 +82,7 @@ bool is_done()
 
 
 
-### function update
+#### function update
 
 ```cpp
 void update(
@@ -115,7 +117,7 @@ void update(
 
 
 
-### function animation
+#### function animation
 
 ```cpp
 explicit animation(
@@ -151,7 +153,7 @@ explicit animation(
 
 
 
-### function animation
+#### function animation
 
 ```cpp
 animation()
@@ -186,9 +188,9 @@ animation()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable start_time
+#### variable start_time
 
 ```cpp
 const float start_time;
@@ -225,6 +227,6 @@ const float start_time;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

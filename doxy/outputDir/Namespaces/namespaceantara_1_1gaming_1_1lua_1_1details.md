@@ -1,10 +1,11 @@
----
-title: antara::gaming::lua::details
-summary: < std::move, std::forward  
 
----
 
-# antara::gaming::lua::details
+## details
+
+#### Full Title:
+```
+antara::gaming::lua::details
+```
 
 
 
@@ -16,13 +17,13 @@ summary: < std::move, std::forward
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::lua::details::scripted_system](Classes/classantara_1_1gaming_1_1lua_1_1details_1_1scripted__system.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,7 +35,8 @@ summary: < std::move, std::forward
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::move, std::forward 
 
@@ -66,7 +68,7 @@ C++ System Headers < std::exception < std::shared_ptrDependencies Headers < VLOG
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef lua_logic_scripted_system
 
@@ -172,6 +174,6 @@ typedef scripted_system< ecs::st_system_post_update > lua_post_scripted_system;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

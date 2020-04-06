@@ -1,10 +1,11 @@
----
-title: antara::gaming::ecs::system
 
 
----
+## system
 
-# antara::gaming::ecs::system
+#### Full Title:
+```
+antara::gaming::ecs::system
+```
 
 
 
@@ -23,7 +24,7 @@ Inherited by [antara::gaming::animation2d::anim_system](Classes/classantara_1_1g
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,7 +41,8 @@ Inherited by [antara::gaming::animation2d::anim_system](Classes/classantara_1_1g
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -78,7 +80,7 @@ Inherited by [antara::gaming::animation2d::anim_system](Classes/classantara_1_1g
 
 
 
-## Detailed Description
+### Detailed Description
 
 ```cpp
 template <typename TSystemDerived,
@@ -116,9 +118,9 @@ class antara::gaming::ecs::system;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function get_system_type
+#### function get_system_type
 
 ```cpp
 static constexpr system_type get_system_type()
@@ -153,7 +155,7 @@ static constexpr system_type get_system_type()
 
 
 
-### function get_class_name
+#### function get_class_name
 
 ```cpp
 static std::string get_class_name()
@@ -187,7 +189,7 @@ Public static functions.
 
 
 
-### function get_name
+#### function get_name
 
 ```cpp
 virtual std::string get_name() const
@@ -224,7 +226,7 @@ virtual std::string get_name() const
 
 
 
-### function get_system_type_rtti
+#### function get_system_type_rtti
 
 ```cpp
 virtual system_type get_system_type_rtti() const
@@ -262,7 +264,7 @@ Public member functions.
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update() override =0
@@ -300,7 +302,7 @@ Pure virtual functions.
 
 
 
-### function ~system
+#### function ~system
 
 ```cpp
 ~system() override
@@ -334,7 +336,7 @@ Destructor.
 
 
 
-### function system
+#### function system
 
 ```cpp
 explicit system(
@@ -376,6 +378,6 @@ Constructor.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,10 +1,11 @@
----
-title: antara::gaming::graphics::layer
 
 
----
+## layer
 
-# antara::gaming::graphics::layer
+#### Full Title:
+```
+antara::gaming::graphics::layer
+```
 
 
 
@@ -29,7 +30,8 @@ title: antara::gaming::graphics::layer
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <std::size_t N>
@@ -72,6 +74,6 @@ struct antara::gaming::graphics::layer;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

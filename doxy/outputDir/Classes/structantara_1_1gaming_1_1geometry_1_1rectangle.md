@@ -1,14 +1,11 @@
----
-title: antara::gaming::geometry::rectangle
 
 
----
+## rectangle
 
-# antara::gaming::geometry::rectangle
-
-
-
-
+#### Full Title:
+```
+antara::gaming::geometry::rectangle
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::geometry::rectangle
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -30,7 +31,7 @@ title: antara::gaming::geometry::rectangle
 |  | **[rectangle](Classes/structantara_1_1gaming_1_1geometry_1_1rectangle.md#function-rectangle)**() =default <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -45,9 +46,10 @@ title: antara::gaming::geometry::rectangle
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 rectangle & operator=(
@@ -83,7 +85,7 @@ Operators.
 
 
 
-### function rectangle
+#### function rectangle
 
 ```cpp
 rectangle(
@@ -118,7 +120,7 @@ rectangle(
 
 
 
-### function rectangle
+#### function rectangle
 
 ```cpp
 rectangle(
@@ -153,7 +155,7 @@ rectangle(
 
 
 
-### function rectangle
+#### function rectangle
 
 ```cpp
 rectangle() =default
@@ -189,9 +191,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable size
+#### variable size
 
 ```cpp
 math::vec2f size {math::vec2f::scalar(50.f)};
@@ -229,6 +231,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

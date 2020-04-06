@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1world_1_1app.md
-  Topic name: antara::gaming::world::app
-  Hash count: 0
-*/
----
-title: antara::gaming::world::app
 
 
----
+## app
 
-# antara::gaming::world::app
+#### Full Title:
+```
+antara::gaming::world::app
+```
 
 
 
@@ -25,7 +21,7 @@ title: antara::gaming::world::app
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,7 +33,7 @@ title: antara::gaming::world::app
 
 
 
-## Protected Attributes
+### Protected Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -53,9 +49,10 @@ title: antara::gaming::world::app
 
 
 
-## Public Functions Documentation
 
-### function process_one_frame
+### Public Functions Documentation
+
+#### function process_one_frame
 
 ```cpp
 void process_one_frame()
@@ -88,7 +85,7 @@ void process_one_frame()
 
 
 
-### function run
+#### function run
 
 ```cpp
 int run()
@@ -122,7 +119,7 @@ Public member functions.
 
 
 
-### function receive_quit_game
+#### function receive_quit_game
 
 ```cpp
 void receive_quit_game(
@@ -158,7 +155,7 @@ Public callbacks.
 
 
 
-### function ~app
+#### function ~app
 
 ```cpp
 ~app()
@@ -192,7 +189,7 @@ Destructor.
 
 
 
-### function app
+#### function app
 
 ```cpp
 app(
@@ -232,9 +229,9 @@ Constructor.
 
 
 
-## Protected Attributes Documentation
+### Protected Attributes Documentation
 
-### variable system_manager_
+#### variable system_manager_
 
 ```cpp
 ecs::system_manager system_manager_ {[entity_registry_](Classes/classantara_1_1gaming_1_1world_1_1app.md#variable-entity_registry_)};
@@ -267,7 +264,7 @@ ecs::system_manager system_manager_ {[entity_registry_](Classes/classantara_1_1g
 
 
 
-### variable dispatcher_
+#### variable dispatcher_
 
 ```cpp
 entt::dispatcher & dispatcher_ {this->entity_registry_.set<entt::dispatcher>()};
@@ -300,7 +297,7 @@ entt::dispatcher & dispatcher_ {this->entity_registry_.set<entt::dispatcher>()};
 
 
 
-### variable entity_registry_
+#### variable entity_registry_
 
 ```cpp
 entt::registry entity_registry_;
@@ -337,8 +334,9 @@ Protected Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

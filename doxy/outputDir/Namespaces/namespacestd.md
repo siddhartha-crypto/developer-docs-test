@@ -1,21 +1,22 @@
----
-title: std
 
 
----
+## std
 
-# std
-
-
-
-
+#### Full Title:
+```
+std
+```
 
 
 
 
 
 
-## Classes
+
+
+
+
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -34,6 +35,7 @@ title: std
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+

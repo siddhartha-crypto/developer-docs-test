@@ -1,10 +1,11 @@
----
-title: antara::gaming::graphics::fill_color
 
 
----
+## fill_color
 
-# antara::gaming::graphics::fill_color
+#### Full Title:
+```
+antara::gaming::graphics::fill_color
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -32,7 +33,8 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -76,9 +78,9 @@ Inherits from [antara::gaming::graphics::color](Classes/structantara_1_1gaming_1
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function fill_color
+#### function fill_color
 
 ```cpp
 inline constexpr fill_color(
@@ -119,6 +121,6 @@ inline constexpr fill_color(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

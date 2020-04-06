@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::canvas_resized
 
 
----
+## canvas_resized
 
-# antara::gaming::event::canvas_resized
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::canvas_resized
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::canvas_resized
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -37,9 +38,10 @@ title: antara::gaming::event::canvas_resized
 
 
 
-## Public Functions Documentation
 
-### function canvas_resized
+### Public Functions Documentation
+
+#### function canvas_resized
 
 ```cpp
 canvas_resized() =default
@@ -78,6 +80,6 @@ canvas_resized() =default
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

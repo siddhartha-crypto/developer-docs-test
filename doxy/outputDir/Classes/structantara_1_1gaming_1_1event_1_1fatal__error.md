@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::fatal_error
 
 
----
+## fatal_error
 
-# antara::gaming::event::fatal_error
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::fatal_error
+```
 
 
 
@@ -20,14 +17,18 @@ title: antara::gaming::event::fatal_error
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
 |  | **[fatal_error](Classes/structantara_1_1gaming_1_1event_1_1fatal__error.md#function-fatal_error)**(std::error_code ec) <br>Constructor.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -42,9 +43,10 @@ title: antara::gaming::event::fatal_error
 
 
 
-## Public Functions Documentation
 
-### function fatal_error
+### Public Functions Documentation
+
+#### function fatal_error
 
 ```cpp
 fatal_error(
@@ -82,9 +84,9 @@ Constructor.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable ec_
+#### variable ec_
 
 ```cpp
 std::error_code ec_;
@@ -122,6 +124,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

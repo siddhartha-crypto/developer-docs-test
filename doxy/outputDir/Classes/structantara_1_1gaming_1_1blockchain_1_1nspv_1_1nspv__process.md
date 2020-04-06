@@ -1,10 +1,11 @@
----
-title: antara::gaming::blockchain::nspv::nspv_process
-summary: Private data structure.  
 
----
 
-# antara::gaming::blockchain::nspv::nspv_process
+## nspv_process
+
+#### Full Title:
+```
+antara::gaming::blockchain::nspv::nspv_process
+```
 
 
 
@@ -20,7 +21,7 @@ Private data structure.
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,7 @@ Private data structure.
 |  | **[nspv_process](Classes/structantara_1_1gaming_1_1blockchain_1_1nspv_1_1nspv__process.md#function-nspv_process)**(reproc::process background_, std::size_t rpcport_) <br>Constructor.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -46,9 +47,10 @@ Private data structure.
 
 
 
-## Public Functions Documentation
 
-### function ~nspv_process
+### Public Functions Documentation
+
+#### function ~nspv_process
 
 ```cpp
 ~nspv_process()
@@ -82,7 +84,7 @@ Destructor.
 
 
 
-### function nspv_process
+#### function nspv_process
 
 ```cpp
 nspv_process(
@@ -122,9 +124,9 @@ nspv::nspv_process implementation
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable address
+#### variable address
 
 ```cpp
 std::string address {""};
@@ -157,7 +159,7 @@ std::string address {""};
 
 
 
-### variable endpoint
+#### variable endpoint
 
 ```cpp
 std::string endpoint;
@@ -190,7 +192,7 @@ std::string endpoint;
 
 
 
-### variable rpcport
+#### variable rpcport
 
 ```cpp
 std::size_t rpcport;
@@ -223,7 +225,7 @@ std::size_t rpcport;
 
 
 
-### variable background
+#### variable background
 
 ```cpp
 reproc::process background;
@@ -261,6 +263,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,14 +1,11 @@
----
-title: antara::gaming::blockchain::nspv_api::txproof_request
 
 
----
+## txproof_request
 
-# antara::gaming::blockchain::nspv_api::txproof_request
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::txproof_request
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::blockchain::nspv_api::txproof_request
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::blockchain::nspv_api::txproof_request
 
 
 
-## Public Attributes Documentation
 
-### variable vout
+### Public Attributes Documentation
+
+#### variable vout
 
 ```cpp
 std::size_t vout;
@@ -75,7 +77,7 @@ std::size_t vout;
 
 
 
-### variable txid
+#### variable txid
 
 ```cpp
 std::string txid;
@@ -112,6 +114,6 @@ std::string txid;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

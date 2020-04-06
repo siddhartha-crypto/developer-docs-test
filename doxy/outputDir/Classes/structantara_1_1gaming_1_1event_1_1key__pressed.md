@@ -1,10 +1,11 @@
----
-title: antara::gaming::event::key_pressed
-summary: triggered when pressing a key on the keyboard.  
 
----
 
-# antara::gaming::event::key_pressed
+## key_pressed
+
+#### Full Title:
+```
+antara::gaming::event::key_pressed
+```
 
 
 
@@ -22,7 +23,7 @@ triggered when pressing a key on the keyboard.  [More...](#detailed-description)
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -30,7 +31,7 @@ triggered when pressing a key on the keyboard.  [More...](#detailed-description)
 |  | **[key_pressed](Classes/structantara_1_1gaming_1_1event_1_1key__pressed.md#function-key_pressed)**(input::key key_, bool alt_, bool control_, bool shift_, bool system_) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -45,7 +46,8 @@ triggered when pressing a key on the keyboard.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 struct antara::gaming::event::key_pressed;
@@ -89,9 +91,9 @@ embed:rst:leading-asterisk
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function key_pressed
+#### function key_pressed
 
 ```cpp
 key_pressed()
@@ -125,7 +127,7 @@ key_pressed()
 default constructor (for scripting systems convenience) 
 
 
-### function key_pressed
+#### function key_pressed
 
 ```cpp
 key_pressed(
@@ -189,9 +191,9 @@ int main()
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable system
+#### variable system
 
 ```cpp
 bool system {false};
@@ -225,7 +227,7 @@ is system pressed at the same time.
 
 
 
-### variable shift
+#### variable shift
 
 ```cpp
 bool shift {false};
@@ -259,7 +261,7 @@ is shift pressed at the same time.
 
 
 
-### variable control
+#### variable control
 
 ```cpp
 bool control {false};
@@ -293,7 +295,7 @@ is ctrl pressed at the same time.
 
 
 
-### variable alt
+#### variable alt
 
 ```cpp
 bool alt {false};
@@ -327,7 +329,7 @@ is alt pressed at the same time.
 
 
 
-### variable key
+#### variable key
 
 ```cpp
 antara::gaming::input::key key;
@@ -366,6 +368,6 @@ key pressed
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

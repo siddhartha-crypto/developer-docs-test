@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::set_mouse_position
 
 
----
+## set_mouse_position
 
-# antara::gaming::event::set_mouse_position
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::set_mouse_position
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::event::set_mouse_position
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::event::set_mouse_position
 
 
 
-## Public Attributes Documentation
 
-### variable relative_to_the_window
+### Public Attributes Documentation
+
+#### variable relative_to_the_window
 
 ```cpp
 bool relative_to_the_window {false};
@@ -75,7 +77,7 @@ bool relative_to_the_window {false};
 
 
 
-### variable to
+#### variable to
 
 ```cpp
 math::vec2i to;
@@ -113,6 +115,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

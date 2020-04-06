@@ -1,14 +1,11 @@
----
-title: antara::gaming::sfml::intro_scene_factory
 
 
----
+## intro_scene_factory
 
-# antara::gaming::sfml::intro_scene_factory
-
-
-
-
+#### Full Title:
+```
+antara::gaming::sfml::intro_scene_factory
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::sfml::intro_scene_factory
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -41,9 +42,10 @@ title: antara::gaming::sfml::intro_scene_factory
 
 
 
-## Public Functions Documentation
 
-### function create_name
+### Public Functions Documentation
+
+#### function create_name
 
 ```cpp
 static auto create_name(
@@ -80,7 +82,7 @@ static auto create_name(
 
 
 
-### function create_logo
+#### function create_logo
 
 ```cpp
 static auto create_logo(
@@ -115,7 +117,7 @@ static auto create_logo(
 
 
 
-### function create_background
+#### function create_background
 
 ```cpp
 static entt::entity create_background(
@@ -155,7 +157,7 @@ Entity creation
 
 Give the fresh entity 
 
-### function create_foreground
+#### function create_foreground
 
 ```cpp
 static entt::entity create_foreground(
@@ -195,7 +197,7 @@ Entity components
 
 Give the fresh entity 
 
-### function create_sound
+#### function create_sound
 
 ```cpp
 static entt::entity create_sound(
@@ -240,6 +242,6 @@ Give the fresh entity
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

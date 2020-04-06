@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1blockchain_1_1nspv.md
-  Topic name: antara::gaming::blockchain::nspv
-  Hash count: 0
-*/
----
-title: antara::gaming::blockchain::nspv
 
 
----
+## nspv
 
-# antara::gaming::blockchain::nspv
+#### Full Title:
+```
+antara::gaming::blockchain::nspv
+```
 
 
 
@@ -26,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< nspv >](Classes/classantara_1_1gamin
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -48,7 +44,8 @@ Inherits from [antara::gaming::ecs::system< nspv >](Classes/classantara_1_1gamin
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -111,9 +108,9 @@ Inherits from [antara::gaming::ecs::system< nspv >](Classes/classantara_1_1gamin
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function is_wif_wallet_exist
+#### function is_wif_wallet_exist
 
 ```cpp
 static bool is_wif_wallet_exist()
@@ -147,7 +144,7 @@ Public static functions.
 
 
 
-### function send
+#### function send
 
 ```cpp
 nspv_tx_answer send(
@@ -186,7 +183,7 @@ this function process a spend + broadcast on the given coin and given amount
 
 assume we are login before call send 
 
-### function get_endpoint
+#### function get_endpoint
 
 ```cpp
 const std::string & get_endpoint(
@@ -221,7 +218,7 @@ const std::string & get_endpoint(
 
 
 
-### function get_balance
+#### function get_balance
 
 ```cpp
 double get_balance(
@@ -256,7 +253,7 @@ double get_balance(
 
 
 
-### function load_from_env
+#### function load_from_env
 
 ```cpp
 bool load_from_env(
@@ -293,7 +290,7 @@ bool load_from_env(
 
 we save address for later usage 
 
-### function spawn_nspv_instance
+#### function spawn_nspv_instance
 
 ```cpp
 bool spawn_nspv_instance(
@@ -330,7 +327,7 @@ bool spawn_nspv_instance(
 
 
 
-### function get_address
+#### function get_address
 
 ```cpp
 const std::string & get_address(
@@ -365,7 +362,7 @@ const std::string & get_address(
 
 
 
-### function set_pin_for_the_session
+#### function set_pin_for_the_session
 
 ```cpp
 void set_pin_for_the_session(
@@ -400,7 +397,7 @@ void set_pin_for_the_session(
 
 
 
-### function is_transaction_pending
+#### function is_transaction_pending
 
 ```cpp
 bool is_transaction_pending(
@@ -442,7 +439,7 @@ We still need to verify with txproof
 
 Transaction is confirmed 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -478,7 +475,7 @@ Public member functions.
 
 
 
-### function ~nspv
+#### function ~nspv
 
 ```cpp
 ~nspv()
@@ -512,7 +509,7 @@ Destructor.
 
 
 
-### function nspv
+#### function nspv
 
 ```cpp
 nspv(
@@ -556,23 +553,20 @@ Constructors.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv_1_1nspv__process.md
-  Topic name: antara::gaming::blockchain::nspv::nspv_process
-  Hash count: 1
-*/
----
-title: antara::gaming::blockchain::nspv::nspv_process
-summary: Private data structure.  
 
----
 
-# antara::gaming::blockchain::nspv::nspv_process
+
+
+
+
+## nspv_process
+
+#### Full Title:
+```
+antara::gaming::blockchain::nspv::nspv_process
+```
 
 
 
@@ -588,7 +582,7 @@ Private data structure.
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -596,7 +590,7 @@ Private data structure.
 |  | **[nspv_process](Classes/structantara_1_1gaming_1_1blockchain_1_1nspv_1_1nspv__process.md#function-nspv_process)**(reproc::process background_, std::size_t rpcport_) <br>Constructor.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -614,9 +608,10 @@ Private data structure.
 
 
 
-## Public Functions Documentation
 
-### function ~nspv_process
+### Public Functions Documentation
+
+#### function ~nspv_process
 
 ```cpp
 ~nspv_process()
@@ -650,7 +645,7 @@ Destructor.
 
 
 
-### function nspv_process
+#### function nspv_process
 
 ```cpp
 nspv_process(
@@ -690,9 +685,9 @@ nspv::nspv_process implementation
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable address
+#### variable address
 
 ```cpp
 std::string address {""};
@@ -725,7 +720,7 @@ std::string address {""};
 
 
 
-### variable endpoint
+#### variable endpoint
 
 ```cpp
 std::string endpoint;
@@ -758,7 +753,7 @@ std::string endpoint;
 
 
 
-### variable rpcport
+#### variable rpcport
 
 ```cpp
 std::size_t rpcport;
@@ -791,7 +786,7 @@ std::size_t rpcport;
 
 
 
-### variable background
+#### variable background
 
 ```cpp
 reproc::process background;
@@ -829,27 +824,25 @@ Fields.
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api.md
   Topic name: antara::gaming::blockchain::nspv_api
   Hash count: 1
-*/
----
-title: antara::gaming::blockchain::nspv_api
+-->
 
 
----
+## nspv_api
 
-# antara::gaming::blockchain::nspv_api
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api
+```
 
 
 
@@ -857,7 +850,11 @@ title: antara::gaming::blockchain::nspv_api
 
 
 
-## Public Classes
+
+
+
+
+### Public Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -874,7 +871,7 @@ title: antara::gaming::blockchain::nspv_api
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -905,9 +902,10 @@ title: antara::gaming::blockchain::nspv_api
 
 
 
-## Public Functions Documentation
 
-### function rpc_process_answer
+### Public Functions Documentation
+
+#### function rpc_process_answer
 
 ```cpp
 static RpcReturnType rpc_process_answer(
@@ -942,7 +940,7 @@ static RpcReturnType rpc_process_answer(
 
 
 
-### function template_request
+#### function template_request
 
 ```cpp
 static nlohmann::json template_request(
@@ -977,7 +975,7 @@ static nlohmann::json template_request(
 
 
 
-### function broadcast
+#### function broadcast
 
 ```cpp
 static broadcast_answer broadcast(
@@ -1013,7 +1011,7 @@ static broadcast_answer broadcast(
 
 
 
-### function txproof
+#### function txproof
 
 ```cpp
 static txproof_answer txproof(
@@ -1049,7 +1047,7 @@ static txproof_answer txproof(
 
 
 
-### function mempool
+#### function mempool
 
 ```cpp
 static mempool_answer mempool(
@@ -1085,7 +1083,7 @@ static mempool_answer mempool(
 
 
 
-### function spend
+#### function spend
 
 ```cpp
 static spend_answer spend(
@@ -1122,7 +1120,7 @@ static spend_answer spend(
 
 
 
-### function listunspent
+#### function listunspent
 
 ```cpp
 static listunspent_answer listunspent(
@@ -1158,7 +1156,7 @@ static listunspent_answer listunspent(
 
 
 
-### function login
+#### function login
 
 ```cpp
 static login_answer login(
@@ -1194,7 +1192,7 @@ static login_answer login(
 
 
 
-### function get_newaddress
+#### function get_newaddress
 
 ```cpp
 static get_newaddress_answer get_newaddress()
@@ -1227,7 +1225,7 @@ static get_newaddress_answer get_newaddress()
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -1263,7 +1261,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -1299,7 +1297,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -1335,7 +1333,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -1371,7 +1369,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -1407,7 +1405,7 @@ static void from_json(
 
 
 
-### function from_json
+#### function from_json
 
 ```cpp
 static void from_json(
@@ -1449,23 +1447,20 @@ static void from_json(
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1broadcast__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::broadcast_answer
-  Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::broadcast_answer
 
 
----
 
-# antara::gaming::blockchain::nspv_api::broadcast_answer
+
+
+
+## broadcast_answer
+
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::broadcast_answer
+```
 
 
 
@@ -1483,7 +1478,7 @@ title: antara::gaming::blockchain::nspv_api::broadcast_answer
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1505,9 +1500,10 @@ title: antara::gaming::blockchain::nspv_api::broadcast_answer
 
 
 
-## Public Attributes Documentation
 
-### variable broadcast
+### Public Attributes Documentation
+
+#### variable broadcast
 
 ```cpp
 std::string broadcast;
@@ -1540,7 +1536,7 @@ std::string broadcast;
 
 
 
-### variable expected
+#### variable expected
 
 ```cpp
 std::string expected;
@@ -1573,7 +1569,7 @@ std::string expected;
 
 
 
-### variable retcode
+#### variable retcode
 
 ```cpp
 int retcode;
@@ -1606,7 +1602,7 @@ int retcode;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -1639,7 +1635,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -1672,7 +1668,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -1709,27 +1705,25 @@ std::string result;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1get__newaddress__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::get_newaddress_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
+-->
 
 
----
+## get_newaddress_answer
 
-# antara::gaming::blockchain::nspv_api::get_newaddress_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::get_newaddress_answer
+```
 
 
 
@@ -1743,7 +1737,11 @@ title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1760,9 +1758,10 @@ title: antara::gaming::blockchain::nspv_api::get_newaddress_answer
 
 
 
-## Public Attributes Documentation
 
-### variable wif
+### Public Attributes Documentation
+
+#### variable wif
 
 ```cpp
 std::string wif;
@@ -1799,27 +1798,25 @@ std::string wif;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1listunspent__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::listunspent_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::listunspent_answer
+-->
 
 
----
+## listunspent_answer
 
-# antara::gaming::blockchain::nspv_api::listunspent_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::listunspent_answer
+```
 
 
 
@@ -1833,7 +1830,11 @@ title: antara::gaming::blockchain::nspv_api::listunspent_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -1853,9 +1854,10 @@ title: antara::gaming::blockchain::nspv_api::listunspent_answer
 
 
 
-## Public Attributes Documentation
 
-### variable balance
+### Public Attributes Documentation
+
+#### variable balance
 
 ```cpp
 double balance;
@@ -1888,7 +1890,7 @@ double balance;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -1921,7 +1923,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -1954,7 +1956,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -1991,27 +1993,25 @@ std::string result;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1login__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::login_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::login_answer
+-->
 
 
----
+## login_answer
 
-# antara::gaming::blockchain::nspv_api::login_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::login_answer
+```
 
 
 
@@ -2025,7 +2025,11 @@ title: antara::gaming::blockchain::nspv_api::login_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2048,9 +2052,10 @@ title: antara::gaming::blockchain::nspv_api::login_answer
 
 
 
-## Public Attributes Documentation
 
-### variable raw_result
+### Public Attributes Documentation
+
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -2083,7 +2088,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -2116,7 +2121,7 @@ int rpc_result_code;
 
 
 
-### variable wifprefix
+#### variable wifprefix
 
 ```cpp
 std::size_t wifprefix;
@@ -2149,7 +2154,7 @@ std::size_t wifprefix;
 
 
 
-### variable pubkey
+#### variable pubkey
 
 ```cpp
 std::string pubkey;
@@ -2182,7 +2187,7 @@ std::string pubkey;
 
 
 
-### variable address
+#### variable address
 
 ```cpp
 std::string address;
@@ -2215,7 +2220,7 @@ std::string address;
 
 
 
-### variable status
+#### variable status
 
 ```cpp
 std::string status;
@@ -2248,7 +2253,7 @@ std::string status;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -2285,27 +2290,25 @@ std::string result;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1mempool__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::mempool_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::mempool_answer
+-->
 
 
----
+## mempool_answer
 
-# antara::gaming::blockchain::nspv_api::mempool_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::mempool_answer
+```
 
 
 
@@ -2319,7 +2322,11 @@ title: antara::gaming::blockchain::nspv_api::mempool_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2339,9 +2346,10 @@ title: antara::gaming::blockchain::nspv_api::mempool_answer
 
 
 
-## Public Attributes Documentation
 
-### variable txids
+### Public Attributes Documentation
+
+#### variable txids
 
 ```cpp
 std::vector< std::string > txids;
@@ -2374,7 +2382,7 @@ std::vector< std::string > txids;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -2407,7 +2415,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -2440,7 +2448,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -2477,27 +2485,25 @@ std::string result;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1mempool__request.md
   Topic name: antara::gaming::blockchain::nspv_api::mempool_request
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::mempool_request
+-->
 
 
----
+## mempool_request
 
-# antara::gaming::blockchain::nspv_api::mempool_request
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::mempool_request
+```
 
 
 
@@ -2511,7 +2517,11 @@ title: antara::gaming::blockchain::nspv_api::mempool_request
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2528,9 +2538,10 @@ title: antara::gaming::blockchain::nspv_api::mempool_request
 
 
 
-## Public Attributes Documentation
 
-### variable address
+### Public Attributes Documentation
+
+#### variable address
 
 ```cpp
 std::optional< std::string > address;
@@ -2567,27 +2578,25 @@ std::optional< std::string > address;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1spend__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::spend_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::spend_answer
+-->
 
 
----
+## spend_answer
 
-# antara::gaming::blockchain::nspv_api::spend_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::spend_answer
+```
 
 
 
@@ -2601,7 +2610,11 @@ title: antara::gaming::blockchain::nspv_api::spend_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2622,9 +2635,10 @@ title: antara::gaming::blockchain::nspv_api::spend_answer
 
 
 
-## Public Attributes Documentation
 
-### variable vout
+### Public Attributes Documentation
+
+#### variable vout
 
 ```cpp
 std::size_t vout;
@@ -2657,7 +2671,7 @@ std::size_t vout;
 
 
 
-### variable hex
+#### variable hex
 
 ```cpp
 std::string hex;
@@ -2690,7 +2704,7 @@ std::string hex;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -2723,7 +2737,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -2756,7 +2770,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -2793,27 +2807,25 @@ std::string result;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1txproof__answer.md
   Topic name: antara::gaming::blockchain::nspv_api::txproof_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::txproof_answer
+-->
 
 
----
+## txproof_answer
 
-# antara::gaming::blockchain::nspv_api::txproof_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::txproof_answer
+```
 
 
 
@@ -2827,7 +2839,11 @@ title: antara::gaming::blockchain::nspv_api::txproof_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -2847,9 +2863,10 @@ title: antara::gaming::blockchain::nspv_api::txproof_answer
 
 
 
-## Public Attributes Documentation
 
-### variable txid
+### Public Attributes Documentation
+
+#### variable txid
 
 ```cpp
 std::string txid;
@@ -2882,7 +2899,7 @@ std::string txid;
 
 
 
-### variable raw_result
+#### variable raw_result
 
 ```cpp
 std::string raw_result;
@@ -2915,7 +2932,7 @@ std::string raw_result;
 
 
 
-### variable rpc_result_code
+#### variable rpc_result_code
 
 ```cpp
 int rpc_result_code;
@@ -2948,7 +2965,7 @@ int rpc_result_code;
 
 
 
-### variable result
+#### variable result
 
 ```cpp
 std::string result;
@@ -2985,27 +3002,25 @@ std::string result;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1txproof__request.md
   Topic name: antara::gaming::blockchain::nspv_api::txproof_request
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_api::txproof_request
+-->
 
 
----
+## txproof_request
 
-# antara::gaming::blockchain::nspv_api::txproof_request
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_api::txproof_request
+```
 
 
 
@@ -3019,7 +3034,11 @@ title: antara::gaming::blockchain::nspv_api::txproof_request
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3037,9 +3056,10 @@ title: antara::gaming::blockchain::nspv_api::txproof_request
 
 
 
-## Public Attributes Documentation
 
-### variable vout
+### Public Attributes Documentation
+
+#### variable vout
 
 ```cpp
 std::size_t vout;
@@ -3072,7 +3092,7 @@ std::size_t vout;
 
 
 
-### variable txid
+#### variable txid
 
 ```cpp
 std::string txid;
@@ -3109,27 +3129,25 @@ std::string txid;
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__tx__answer.md
   Topic name: antara::gaming::blockchain::nspv_tx_answer
   Hash count: 2
-*/
----
-title: antara::gaming::blockchain::nspv_tx_answer
+-->
 
 
----
+## nspv_tx_answer
 
-# antara::gaming::blockchain::nspv_tx_answer
-
-
-
-
+#### Full Title:
+```
+antara::gaming::blockchain::nspv_tx_answer
+```
 
 
 
@@ -3143,7 +3161,11 @@ title: antara::gaming::blockchain::nspv_tx_answer
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -3161,9 +3183,10 @@ title: antara::gaming::blockchain::nspv_tx_answer
 
 
 
-## Public Attributes Documentation
 
-### variable broadcast_answer
+### Public Attributes Documentation
+
+#### variable broadcast_answer
 
 ```cpp
 std::optional< nspv_api::broadcast_answer > broadcast_answer {std::nullopt};
@@ -3196,7 +3219,7 @@ std::optional< nspv_api::broadcast_answer > broadcast_answer {std::nullopt};
 
 
 
-### variable send_answer
+#### variable send_answer
 
 ```cpp
 nspv_api::spend_answer send_answer;
@@ -3233,8 +3256,9 @@ nspv_api::spend_answer send_answer;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

@@ -1,10 +1,11 @@
----
-title: antara::gaming::math
-summary: < std::sqrt  
 
----
 
-# antara::gaming::math
+## math
+
+#### Full Title:
+```
+antara::gaming::math
+```
 
 
 
@@ -15,19 +16,19 @@ summary: < std::sqrt
 
 
 
-## Namespaces
+### Namespaces
 
 | Name           |
 | -------------- |
 | **[antara::gaming::math::vector_mixins](Namespaces/namespaceantara_1_1gaming_1_1math_1_1vector__mixins.md)**  |
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[antara::gaming::math::basic_vector](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md)**  |
 
-## Types
+### Types
 
 |                | Name           |
 | -------------- | -------------- |
@@ -63,7 +64,7 @@ summary: < std::sqrt
 | typedef [basic_vector](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md)< Unit, 2, [vector_mixins::access_xy](Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy.md) > | **[vec2](Namespaces/namespaceantara_1_1gaming_1_1math.md#typedef-vec2)**  |
 
 
-## Attributes
+### Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -71,7 +72,8 @@ summary: < std::sqrt
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 < std::sqrt 
 
@@ -103,7 +105,7 @@ C System HeadersC++ System Headers < std::array < std::ostream Dependencies Head
 
 
 
-## Types Documentation
+### Types Documentation
 
 ### typedef vector_type_list
 
@@ -1097,7 +1099,7 @@ typedef basic_vector< Unit, 2, vector_mixins::access_xy > vec2;
 
 
 
-## Attributes Documentation
+### Attributes Documentation
 
 ### variable RAD2DEG
 
@@ -1135,6 +1137,6 @@ constexpr float RAD2DEG = 57.295779513082320876798154814105f;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

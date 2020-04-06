@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::component_sound
-summary: This struct contains the sound and attributes of it such as volume.  
 
----
 
-# antara::gaming::sfml::component_sound
+## component_sound
+
+#### Full Title:
+```
+antara::gaming::sfml::component_sound
+```
 
 
 
@@ -23,7 +24,7 @@ This struct contains the sound and attributes of it such as volume.
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ This struct contains the sound and attributes of it such as volume.
 
 
 
-## Public Attributes Documentation
 
-### variable sound
+### Public Attributes Documentation
+
+#### variable sound
 
 ```cpp
 sf::Sound sound;
@@ -80,6 +82,6 @@ This object is SFML's Sound instance which contains the sound data.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

@@ -1,15 +1,11 @@
-/*
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1glfw_1_1graphic__system.md
-  Topic name: antara::gaming::glfw::graphic_system
-  Hash count: 0
-*/
----
-title: antara::gaming::glfw::graphic_system
 
 
----
+## graphic_system
 
-# antara::gaming::glfw::graphic_system
+#### Full Title:
+```
+antara::gaming::glfw::graphic_system
+```
 
 
 
@@ -26,7 +22,7 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,7 +36,8 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -103,9 +100,9 @@ Inherits from [antara::gaming::ecs::system< graphic_system >](Classes/classantar
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function get_window
+#### function get_window
 
 ```cpp
 inline GLFWwindow * get_window() const
@@ -138,7 +135,7 @@ inline GLFWwindow * get_window() const
 
 
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -175,7 +172,7 @@ Pure virtual functions.
 
 Draw here 
 
-### function ~graphic_system
+#### function ~graphic_system
 
 ```cpp
 ~graphic_system()
@@ -208,7 +205,7 @@ Draw here
 
 
 
-### function graphic_system
+#### function graphic_system
 
 ```cpp
 explicit graphic_system(
@@ -250,23 +247,25 @@ VSync
 
 
 
--------------------------------
-
-Updated on 18 March 2020 at 16:53:30 AKDT
 
 
-/*
+
+
+
+
+<!--
   New File: ../../outputDir/Classes/classantara_1_1gaming_1_1glfw_1_1input__system.md
   Topic name: antara::gaming::glfw::input_system
   Hash count: 0
-*/
----
-title: antara::gaming::glfw::input_system
+-->
 
 
----
+## input_system
 
-# antara::gaming::glfw::input_system
+#### Full Title:
+```
+antara::gaming::glfw::input_system
+```
 
 
 
@@ -283,7 +282,7 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -296,7 +295,8 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Additional inherited members
+
+### Additional inherited members
 
 
 
@@ -359,9 +359,9 @@ Inherits from [antara::gaming::ecs::system< input_system >](Classes/classantara_
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function update
+#### function update
 
 ```cpp
 virtual void update()
@@ -397,7 +397,7 @@ Pure virtual functions.
 
 
 
-### function ~input_system
+#### function ~input_system
 
 ```cpp
 ~input_system() =default
@@ -430,7 +430,7 @@ Pure virtual functions.
 
 
 
-### function input_system
+#### function input_system
 
 ```cpp
 explicit input_system(
@@ -472,8 +472,9 @@ explicit input_system(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
+
 
 

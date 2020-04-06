@@ -1,10 +1,11 @@
----
-title: antara::gaming::animation2d::anim_system::anim_internal
-summary: Private data structure.  
 
----
 
-# antara::gaming::animation2d::anim_system::anim_internal
+## anim_internal
+
+#### Full Title:
+```
+antara::gaming::animation2d::anim_system::anim_internal
+```
 
 
 
@@ -22,7 +23,7 @@ Private data structure.
 
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ Private data structure.
 
 
 
-## Public Attributes Documentation
 
-### variable texture_appearance
+### Public Attributes Documentation
+
+#### variable texture_appearance
 
 ```cpp
 std::string texture_appearance;
@@ -75,7 +77,7 @@ std::string texture_appearance;
 
 
 
-### variable frames
+#### variable frames
 
 ```cpp
 frame_array frames;
@@ -112,6 +114,6 @@ frame_array frames;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

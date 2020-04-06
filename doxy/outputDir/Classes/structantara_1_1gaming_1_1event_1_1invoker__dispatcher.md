@@ -1,10 +1,11 @@
----
-title: antara::gaming::event::invoker_dispatcher
 
 
----
+## invoker_dispatcher
 
-# antara::gaming::event::invoker_dispatcher
+#### Full Title:
+```
+antara::gaming::event::invoker_dispatcher
+```
 
 
 
@@ -21,7 +22,7 @@ title: antara::gaming::event::invoker_dispatcher
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -35,7 +36,8 @@ title: antara::gaming::event::invoker_dispatcher
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <typename Event,
@@ -73,9 +75,9 @@ struct antara::gaming::event::invoker_dispatcher;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function operator()
+#### function operator()
 
 ```cpp
 inline void operator()(
@@ -111,7 +113,7 @@ inline void operator()(
 
 
 
-### function invoker_dispatcher
+#### function invoker_dispatcher
 
 ```cpp
 constexpr invoker_dispatcher() =default
@@ -150,6 +152,6 @@ constexpr invoker_dispatcher() =default
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

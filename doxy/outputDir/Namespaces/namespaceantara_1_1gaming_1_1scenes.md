@@ -1,10 +1,11 @@
----
-title: antara::gaming::scenes
-summary: SDK Headers.  
 
----
 
-# antara::gaming::scenes
+## scenes
+
+#### Full Title:
+```
+antara::gaming::scenes
+```
 
 
 
@@ -16,7 +17,7 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Classes
+### Classes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -28,7 +29,8 @@ SDK Headers.  [More...](#detailed-description)
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 SDK Headers. 
 
@@ -71,6 +73,6 @@ C++ System HeadersSDK Headers < REFL_AUTO < [ecs::logic_update_system](Namespace
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

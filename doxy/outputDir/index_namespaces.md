@@ -1,10 +1,11 @@
----
-title: Namespaces
 
 
----
+## Namespaces
 
-# Namespaces
+#### Full Title:
+```
+Namespaces
+```
 
 
 
@@ -53,6 +54,5 @@ title: Namespaces
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+

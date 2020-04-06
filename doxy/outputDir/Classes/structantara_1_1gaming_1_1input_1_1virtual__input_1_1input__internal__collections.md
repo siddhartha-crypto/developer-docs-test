@@ -1,14 +1,11 @@
----
-title: antara::gaming::input::virtual_input::input_internal_collections
 
 
----
+## input_internal_collections
 
-# antara::gaming::input::virtual_input::input_internal_collections
-
-
-
-
+#### Full Title:
+```
+antara::gaming::input::virtual_input::input_internal_collections
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::input::virtual_input::input_internal_collections
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,9 +45,10 @@ title: antara::gaming::input::virtual_input::input_internal_collections
 
 
 
-## Public Attributes Documentation
 
-### variable released
+### Public Attributes Documentation
+
+#### variable released
 
 ```cpp
 bool released {false};
@@ -79,7 +81,7 @@ bool released {false};
 
 
 
-### variable tapped
+#### variable tapped
 
 ```cpp
 bool tapped {false};
@@ -112,7 +114,7 @@ bool tapped {false};
 
 
 
-### variable held_last_tick
+#### variable held_last_tick
 
 ```cpp
 bool held_last_tick {false};
@@ -145,7 +147,7 @@ bool held_last_tick {false};
 
 
 
-### variable held
+#### variable held
 
 ```cpp
 std::vector< bool > held {false};
@@ -178,7 +180,7 @@ std::vector< bool > held {false};
 
 
 
-### variable buttons
+#### variable buttons
 
 ```cpp
 bunch_of< input::mouse_button > buttons;
@@ -211,7 +213,7 @@ bunch_of< input::mouse_button > buttons;
 
 
 
-### variable keys
+#### variable keys
 
 ```cpp
 bunch_of< input::key > keys;
@@ -248,6 +250,6 @@ bunch_of< input::key > keys;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

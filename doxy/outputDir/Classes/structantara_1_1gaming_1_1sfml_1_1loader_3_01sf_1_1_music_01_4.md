@@ -1,10 +1,11 @@
----
-title: antara::gaming::sfml::loader< sf::Music >
 
 
----
+## loader< sf::Music >
 
-# antara::gaming::sfml::loader< sf::Music >
+#### Full Title:
+```
+antara::gaming::sfml::loader< sf::Music >
+```
 
 
 
@@ -21,7 +22,7 @@ Inherits from entt::loader< loader< sf::Music >, sf::Music >
 
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -38,9 +39,10 @@ Inherits from entt::loader< loader< sf::Music >, sf::Music >
 
 
 
-## Public Functions Documentation
 
-### function load
+### Public Functions Documentation
+
+#### function load
 
 ```cpp
 inline std::shared_ptr< sf::Music > load(
@@ -81,6 +83,6 @@ inline std::shared_ptr< sf::Music > load(
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

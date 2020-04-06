@@ -1,14 +1,11 @@
----
-title: antara::gaming::event::get_mouse_position
 
 
----
+## get_mouse_position
 
-# antara::gaming::event::get_mouse_position
-
-
-
-
+#### Full Title:
+```
+antara::gaming::event::get_mouse_position
+```
 
 
 
@@ -20,7 +17,11 @@ title: antara::gaming::event::get_mouse_position
 
 
 
-## Public Functions
+
+
+
+
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -29,7 +30,7 @@ title: antara::gaming::event::get_mouse_position
 |  | **[get_mouse_position](Classes/structantara_1_1gaming_1_1event_1_1get__mouse__position.md#function-get_mouse_position)**([math::vec2i](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md) & in, bool relative_to_the_window_ =false) <br>Constructors.  |
 
 
-## Public Attributes
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -45,9 +46,10 @@ title: antara::gaming::event::get_mouse_position
 
 
 
-## Public Functions Documentation
 
-### function operator=
+### Public Functions Documentation
+
+#### function operator=
 
 ```cpp
 inline get_mouse_position & operator=(
@@ -83,7 +85,7 @@ Operators.
 
 
 
-### function get_mouse_position
+#### function get_mouse_position
 
 ```cpp
 get_mouse_position(
@@ -118,7 +120,7 @@ get_mouse_position(
 
 
 
-### function get_mouse_position
+#### function get_mouse_position
 
 ```cpp
 inline get_mouse_position(
@@ -157,9 +159,9 @@ Constructors.
 
 
 
-## Public Attributes Documentation
+### Public Attributes Documentation
 
-### variable relative_to_the_window
+#### variable relative_to_the_window
 
 ```cpp
 bool relative_to_the_window {false};
@@ -192,7 +194,7 @@ bool relative_to_the_window {false};
 
 
 
-### variable pos
+#### variable pos
 
 ```cpp
 math::vec2i & pos;
@@ -230,6 +232,6 @@ Fields.
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

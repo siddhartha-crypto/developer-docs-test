@@ -1,14 +1,11 @@
----
-title: antara::gaming::graphics::render_texture_2d
 
 
----
+## render_texture_2d
 
-# antara::gaming::graphics::render_texture_2d
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::render_texture_2d
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::graphics::render_texture_2d
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -44,9 +45,10 @@ title: antara::gaming::graphics::render_texture_2d
 
 
 
-## Public Attributes Documentation
 
-### variable repeated
+### Public Attributes Documentation
+
+#### variable repeated
 
 ```cpp
 bool repeated {false};
@@ -79,7 +81,7 @@ bool repeated {false};
 
 
 
-### variable smooth
+#### variable smooth
 
 ```cpp
 bool smooth {true};
@@ -112,7 +114,7 @@ bool smooth {true};
 
 
 
-### variable clear_color
+#### variable clear_color
 
 ```cpp
 graphics::color clear_color {graphics::black};
@@ -145,7 +147,7 @@ graphics::color clear_color {graphics::black};
 
 
 
-### variable to_draw
+#### variable to_draw
 
 ```cpp
 drawable_registry to_draw;
@@ -178,7 +180,7 @@ drawable_registry to_draw;
 
 
 
-### variable size
+#### variable size
 
 ```cpp
 math::vec2u size;
@@ -211,7 +213,7 @@ math::vec2u size;
 
 
 
-### variable id
+#### variable id
 
 ```cpp
 std::string id;
@@ -248,6 +250,6 @@ std::string id;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

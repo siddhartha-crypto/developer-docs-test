@@ -1,10 +1,11 @@
----
-title: antara::gaming::math::basic_vector
 
 
----
+## basic_vector
 
-# antara::gaming::math::basic_vector
+#### Full Title:
+```
+antara::gaming::math::basic_vector
+```
 
 
 
@@ -21,14 +22,14 @@ Inherited by [antara::gaming::transform::position_2d](Classes/structantara_1_1ga
 
 
 
-## Public Types
+### Public Types
 
 |                | Name           |
 | -------------- | -------------- |
 | typedef Unit | **[value_type](Classes/classantara_1_1gaming_1_1math_1_1basic__vector.md#typedef-value_type)**  |
 
 
-## Public Functions
+### Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -80,7 +81,7 @@ Inherited by [antara::gaming::transform::position_2d](Classes/structantara_1_1ga
 
 
 
-## Friends
+### Friends
 
 |                | Name           |
 | -------------- | -------------- |
@@ -89,7 +90,8 @@ Inherited by [antara::gaming::transform::position_2d](Classes/structantara_1_1ga
 
 
 
-## Detailed Description
+
+### Detailed Description
 
 ```cpp
 template <class Unit,
@@ -126,9 +128,9 @@ class antara::gaming::math::basic_vector;
 
 
 
-## Public Types Documentation
+### Public Types Documentation
 
-### typedef value_type
+#### typedef value_type
 
 ```cpp
 typedef Unit value_type;
@@ -163,9 +165,9 @@ typedef Unit value_type;
 
 
 
-## Public Functions Documentation
+### Public Functions Documentation
 
-### function scalar
+#### function scalar
 
 ```cpp
 static inline constexpr auto scalar(
@@ -200,7 +202,7 @@ static inline constexpr auto scalar(
 
 
 
-### function create
+#### function create
 
 ```cpp
 static inline constexpr basic_vector create(
@@ -235,7 +237,7 @@ static inline constexpr basic_vector create(
 
 
 
-### function operator<=
+#### function operator<=
 
 ```cpp
 inline constexpr bool operator<=(
@@ -270,7 +272,7 @@ inline constexpr bool operator<=(
 
 
 
-### function operator>
+#### function operator>
 
 ```cpp
 inline constexpr bool operator>(
@@ -305,7 +307,7 @@ inline constexpr bool operator>(
 
 
 
-### function operator>=
+#### function operator>=
 
 ```cpp
 inline constexpr bool operator>=(
@@ -340,7 +342,7 @@ inline constexpr bool operator>=(
 
 
 
-### function operator<
+#### function operator<
 
 ```cpp
 inline constexpr bool operator<(
@@ -375,7 +377,7 @@ inline constexpr bool operator<(
 
 
 
-### function operator!=
+#### function operator!=
 
 ```cpp
 inline constexpr bool operator!=(
@@ -410,7 +412,7 @@ inline constexpr bool operator!=(
 
 
 
-### function operator==
+#### function operator==
 
 ```cpp
 inline constexpr bool operator==(
@@ -445,7 +447,7 @@ inline constexpr bool operator==(
 
 
 
-### function normalized
+#### function normalized
 
 ```cpp
 inline constexpr basic_vector normalized() const
@@ -478,7 +480,7 @@ inline constexpr basic_vector normalized() const
 
 
 
-### function distance
+#### function distance
 
 ```cpp
 inline constexpr Unit distance(
@@ -513,7 +515,7 @@ inline constexpr Unit distance(
 
 
 
-### function length
+#### function length
 
 ```cpp
 inline constexpr Unit length() const
@@ -546,7 +548,7 @@ inline constexpr Unit length() const
 
 
 
-### function square_length
+#### function square_length
 
 ```cpp
 inline constexpr Unit square_length() const
@@ -579,7 +581,7 @@ inline constexpr Unit square_length() const
 
 
 
-### function operator-
+#### function operator-
 
 ```cpp
 inline constexpr basic_vector operator-() const
@@ -612,7 +614,7 @@ inline constexpr basic_vector operator-() const
 
 
 
-### function operator/=
+#### function operator/=
 
 ```cpp
 inline constexpr basic_vector & operator/=(
@@ -647,7 +649,7 @@ inline constexpr basic_vector & operator/=(
 
 
 
-### function operator*=
+#### function operator*=
 
 ```cpp
 inline constexpr basic_vector & operator*=(
@@ -682,7 +684,7 @@ inline constexpr basic_vector & operator*=(
 
 
 
-### function operator-=
+#### function operator-=
 
 ```cpp
 inline constexpr basic_vector & operator-=(
@@ -717,7 +719,7 @@ inline constexpr basic_vector & operator-=(
 
 
 
-### function operator+=
+#### function operator+=
 
 ```cpp
 inline constexpr basic_vector & operator+=(
@@ -752,7 +754,7 @@ inline constexpr basic_vector & operator+=(
 
 
 
-### function operator/=
+#### function operator/=
 
 ```cpp
 inline constexpr basic_vector & operator/=(
@@ -787,7 +789,7 @@ inline constexpr basic_vector & operator/=(
 
 
 
-### function operator*=
+#### function operator*=
 
 ```cpp
 inline constexpr basic_vector & operator*=(
@@ -822,7 +824,7 @@ inline constexpr basic_vector & operator*=(
 
 
 
-### function operator-=
+#### function operator-=
 
 ```cpp
 inline constexpr basic_vector & operator-=(
@@ -857,7 +859,7 @@ inline constexpr basic_vector & operator-=(
 
 
 
-### function operator+=
+#### function operator+=
 
 ```cpp
 inline constexpr basic_vector & operator+=(
@@ -892,7 +894,7 @@ inline constexpr basic_vector & operator+=(
 
 
 
-### function operator/
+#### function operator/
 
 ```cpp
 inline constexpr basic_vector operator/(
@@ -927,7 +929,7 @@ inline constexpr basic_vector operator/(
 
 
 
-### function operator*
+#### function operator*
 
 ```cpp
 inline constexpr basic_vector operator*(
@@ -962,7 +964,7 @@ inline constexpr basic_vector operator*(
 
 
 
-### function operator-
+#### function operator-
 
 ```cpp
 inline constexpr basic_vector operator-(
@@ -997,7 +999,7 @@ inline constexpr basic_vector operator-(
 
 
 
-### function operator+
+#### function operator+
 
 ```cpp
 inline constexpr basic_vector operator+(
@@ -1032,7 +1034,7 @@ inline constexpr basic_vector operator+(
 
 
 
-### function operator/
+#### function operator/
 
 ```cpp
 inline constexpr basic_vector operator/(
@@ -1067,7 +1069,7 @@ inline constexpr basic_vector operator/(
 
 
 
-### function operator*
+#### function operator*
 
 ```cpp
 inline constexpr basic_vector operator*(
@@ -1102,7 +1104,7 @@ inline constexpr basic_vector operator*(
 
 
 
-### function operator-
+#### function operator-
 
 ```cpp
 inline constexpr basic_vector operator-(
@@ -1137,7 +1139,7 @@ inline constexpr basic_vector operator-(
 
 
 
-### function operator+
+#### function operator+
 
 ```cpp
 inline constexpr basic_vector operator+(
@@ -1172,7 +1174,7 @@ inline constexpr basic_vector operator+(
 
 
 
-### function to
+#### function to
 
 ```cpp
 inline constexpr Vec to() const
@@ -1205,7 +1207,7 @@ inline constexpr Vec to() const
 
 
 
-### function operator basic_vector< NewUnit, Size, NewMixins... >
+#### function operator basic_vector< NewUnit, Size, NewMixins... >
 
 ```cpp
 inline constexpr operator basic_vector< NewUnit, Size, NewMixins... >() const
@@ -1238,7 +1240,7 @@ inline constexpr operator basic_vector< NewUnit, Size, NewMixins... >() const
 
 
 
-### function end
+#### function end
 
 ```cpp
 inline constexpr auto end() const
@@ -1271,7 +1273,7 @@ inline constexpr auto end() const
 
 
 
-### function end
+#### function end
 
 ```cpp
 inline constexpr auto end()
@@ -1304,7 +1306,7 @@ inline constexpr auto end()
 
 
 
-### function begin
+#### function begin
 
 ```cpp
 inline constexpr auto begin() const
@@ -1337,7 +1339,7 @@ inline constexpr auto begin() const
 
 
 
-### function begin
+#### function begin
 
 ```cpp
 inline constexpr auto begin()
@@ -1370,7 +1372,7 @@ inline constexpr auto begin()
 
 
 
-### function size
+#### function size
 
 ```cpp
 inline constexpr int size() const
@@ -1403,7 +1405,7 @@ inline constexpr int size() const
 
 
 
-### function data
+#### function data
 
 ```cpp
 inline constexpr Unit const  * data() const
@@ -1436,7 +1438,7 @@ inline constexpr Unit const  * data() const
 
 
 
-### function data
+#### function data
 
 ```cpp
 inline constexpr Unit * data()
@@ -1469,7 +1471,7 @@ inline constexpr Unit * data()
 
 
 
-### function get
+#### function get
 
 ```cpp
 inline constexpr Unit & get()
@@ -1502,7 +1504,7 @@ inline constexpr Unit & get()
 
 
 
-### function get
+#### function get
 
 ```cpp
 inline constexpr Unit get() const
@@ -1535,7 +1537,7 @@ inline constexpr Unit get() const
 
 
 
-### function operator[]
+#### function operator[]
 
 ```cpp
 inline constexpr Unit & operator[](
@@ -1570,7 +1572,7 @@ inline constexpr Unit & operator[](
 
 
 
-### function operator[]
+#### function operator[]
 
 ```cpp
 inline constexpr Unit operator[](
@@ -1605,7 +1607,7 @@ inline constexpr Unit operator[](
 
 
 
-### function basic_vector
+#### function basic_vector
 
 ```cpp
 inline constexpr basic_vector(
@@ -1640,7 +1642,7 @@ inline constexpr basic_vector(
 
 
 
-### function basic_vector
+#### function basic_vector
 
 ```cpp
 inline constexpr basic_vector(
@@ -1679,9 +1681,9 @@ inline constexpr basic_vector(
 
 
 
-## Friends
+### Friends
 
-### friend basic_vector
+#### friend basic_vector
 
 ```cpp
 friend class basic_vector;
@@ -1716,6 +1718,6 @@ friend class basic_vector;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

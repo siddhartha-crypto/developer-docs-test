@@ -1,20 +1,21 @@
----
-title: antara::gaming
 
 
----
+## gaming
 
-# antara::gaming
-
-
-
-
+#### Full Title:
+```
+antara::gaming
+```
 
 
 
 
 
-## Namespaces
+
+
+
+
+### Namespaces
 
 | Name           |
 | -------------- |
@@ -43,7 +44,7 @@ title: antara::gaming
 
 
 
-## Functions
+### Functions
 
 |                | Name           |
 | -------------- | -------------- |
@@ -55,7 +56,8 @@ title: antara::gaming
 
 
 
-## Functions Documentation
+
+### Functions Documentation
 
 ### function version
 
@@ -116,6 +118,6 @@ embed:rst
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+

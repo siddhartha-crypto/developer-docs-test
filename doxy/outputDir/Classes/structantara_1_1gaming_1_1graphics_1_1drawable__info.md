@@ -1,14 +1,11 @@
----
-title: antara::gaming::graphics::drawable_info
 
 
----
+## drawable_info
 
-# antara::gaming::graphics::drawable_info
-
-
-
-
+#### Full Title:
+```
+antara::gaming::graphics::drawable_info
+```
 
 
 
@@ -22,7 +19,11 @@ title: antara::gaming::graphics::drawable_info
 
 
 
-## Public Attributes
+
+
+
+
+### Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
@@ -40,9 +41,10 @@ title: antara::gaming::graphics::drawable_info
 
 
 
-## Public Attributes Documentation
 
-### variable dt
+### Public Attributes Documentation
+
+#### variable dt
 
 ```cpp
 drawable_type dt;
@@ -75,7 +77,7 @@ drawable_type dt;
 
 
 
-### variable entity
+#### variable entity
 
 ```cpp
 entt::registry::entity_type entity;
@@ -112,6 +114,6 @@ entt::registry::entity_type entity;
 
 
 
--------------------------------
 
-Updated on 18 March 2020 at 16:53:30 AKDT
+
+
