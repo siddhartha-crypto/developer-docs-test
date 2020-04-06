@@ -485,11 +485,6 @@ entt::registry & entity_registry_;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1scenes_1_1manager.md
-  Topic name: antara::gaming::scenes::manager
-  Hash count: 0
--->
 
 
 ## manager

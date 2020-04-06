@@ -1724,11 +1724,6 @@ friend class basic_vector;
 
 
 
-<!--
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1math_1_1vector__mixins.md
-  Topic name: antara::gaming::math::vector_mixins
-  Hash count: 0
--->
 
 
 ## vector_mixins
@@ -2281,11 +2276,6 @@ static inline constexpr auto unit_up()
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__xy.md
-  Topic name: antara::gaming::math::vector_mixins::access_xy
-  Hash count: 1
--->
 
 
 ## access_xy
@@ -2697,11 +2687,6 @@ inline constexpr auto x() const
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1math_1_1vector__mixins_1_1access__z.md
-  Topic name: antara::gaming::math::vector_mixins::access_z
-  Hash count: 1
--->
 
 
 ## access_z

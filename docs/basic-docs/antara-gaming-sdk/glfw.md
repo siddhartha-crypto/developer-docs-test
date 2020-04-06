@@ -253,11 +253,6 @@ VSync
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1glfw_1_1input__system.md
-  Topic name: antara::gaming::glfw::input_system
-  Hash count: 0
--->
 
 
 ## input_system

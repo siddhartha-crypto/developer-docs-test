@@ -749,11 +749,6 @@ Protected data members.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1ftor.md
-  Topic name: antara::gaming::ecs::ftor
-  Hash count: 0
--->
 
 
 ## ftor
@@ -945,11 +940,6 @@ Fields.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1interpolation__system.md
-  Topic name: antara::gaming::ecs::interpolation_system
-  Hash count: 0
--->
 
 
 ## interpolation_system
@@ -1177,11 +1167,6 @@ Constructor.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1lambda__system.md
-  Topic name: antara::gaming::ecs::lambda_system
-  Hash count: 0
--->
 
 
 ## lambda_system
@@ -1474,11 +1459,6 @@ Constructor.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1system.md
-  Topic name: antara::gaming::ecs::system
-  Hash count: 0
--->
 
 
 ## system
@@ -1865,11 +1845,6 @@ Constructor.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1ecs_1_1system__manager.md
-  Topic name: antara::gaming::ecs::system_manager
-  Hash count: 0
--->
 
 
 ## system_manager
@@ -3349,11 +3324,6 @@ int main()
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1ecs_1_1virtual__input__system.md
-  Topic name: antara::gaming::ecs::virtual_input_system
-  Hash count: 0
--->
 
 
 ## virtual_input_system
@@ -3539,11 +3509,6 @@ virtual_input_system(
 
 
 
-<!--
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1ecs_1_1component.md
-  Topic name: antara::gaming::ecs::component
-  Hash count: 0
--->
 
 
 ## component
@@ -3687,11 +3652,6 @@ typedef doom::meta::list< math::vector_type_list, transform::components_list, ge
 
 
 
-<!--
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1ecs_1_1event.md
-  Topic name: antara::gaming::ecs::event
-  Hash count: 0
--->
 
 
 ## event

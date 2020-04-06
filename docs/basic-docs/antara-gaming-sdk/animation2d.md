@@ -371,11 +371,6 @@ Fields.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1animation2d_1_1anim__system.md
-  Topic name: antara::gaming::animation2d::anim_system
-  Hash count: 0
--->
 
 
 ## anim_system

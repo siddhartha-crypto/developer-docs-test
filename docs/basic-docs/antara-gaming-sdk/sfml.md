@@ -184,11 +184,6 @@ audio_system(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1circle.md
-  Topic name: antara::gaming::sfml::circle
-  Hash count: 0
--->
 
 
 ## circle
@@ -353,11 +348,6 @@ sf::CircleShape drawable;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1component__sound.md
-  Topic name: antara::gaming::sfml::component_sound
-  Hash count: 0
--->
 
 
 ## component_sound
@@ -448,11 +438,6 @@ This object is SFML's Sound instance which contains the sound data.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1graphic__system.md
-  Topic name: antara::gaming::sfml::graphic_system
-  Hash count: 0
--->
 
 
 ## graphic_system
@@ -1695,11 +1680,6 @@ graphic_system(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1input__system.md
-  Topic name: antara::gaming::sfml::input_system
-  Hash count: 0
--->
 
 
 ## input_system
@@ -1959,11 +1939,6 @@ Constructors.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1intro__scene.md
-  Topic name: antara::gaming::sfml::intro_scene
-  Hash count: 0
--->
 
 
 ## intro_scene
@@ -2504,11 +2479,6 @@ const float start_time;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1intro__scene__factory.md
-  Topic name: antara::gaming::sfml::intro_scene_factory
-  Hash count: 1
--->
 
 
 ## intro_scene_factory
@@ -2759,11 +2729,6 @@ Give the fresh entity
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1loader.md
-  Topic name: antara::gaming::sfml::loader
-  Hash count: 1
--->
 
 
 ## loader
@@ -2889,11 +2854,6 @@ inline std::shared_ptr< ResourceType > load(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1loader_3_01sf_1_1_music_01_4.md
-  Topic name: antara::gaming::sfml::loader< sf::Music >
-  Hash count: 1
--->
 
 
 ## loader< sf::Music >
@@ -2985,11 +2945,6 @@ inline std::shared_ptr< sf::Music > load(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1lua__system.md
-  Topic name: antara::gaming::sfml::lua_system
-  Hash count: 1
--->
 
 
 ## lua_system
@@ -3176,11 +3131,6 @@ lua_system(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1play__sound__event.md
-  Topic name: antara::gaming::sfml::play_sound_event
-  Hash count: 1
--->
 
 
 ## play_sound_event
@@ -3451,11 +3401,6 @@ const char * sound_id {nullptr};
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1rectangle.md
-  Topic name: antara::gaming::sfml::rectangle
-  Hash count: 1
--->
 
 
 ## rectangle
@@ -3584,11 +3529,6 @@ sf::RectangleShape drawable {};
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1render__texture.md
-  Topic name: antara::gaming::sfml::render_texture
-  Hash count: 1
--->
 
 
 ## render_texture
@@ -3717,11 +3657,6 @@ std::unique_ptr< sf::RenderTexture > drawable {std::make_unique<sf::RenderTextur
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sfml_1_1resources__manager.md
-  Topic name: antara::gaming::sfml::resources_manager
-  Hash count: 1
--->
 
 
 ## resources_manager
@@ -4033,11 +3968,6 @@ static inline auto load(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1sprite.md
-  Topic name: antara::gaming::sfml::sprite
-  Hash count: 1
--->
 
 
 ## sprite
@@ -4166,11 +4096,6 @@ sf::Sprite drawable;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1text.md
-  Topic name: antara::gaming::sfml::text
-  Hash count: 1
--->
 
 
 ## text
@@ -4299,11 +4224,6 @@ sf::Text drawable;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sfml_1_1vertex__array.md
-  Topic name: antara::gaming::sfml::vertex_array
-  Hash count: 1
--->
 
 
 ## vertex_array

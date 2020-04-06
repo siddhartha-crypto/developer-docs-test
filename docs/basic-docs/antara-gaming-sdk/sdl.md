@@ -321,11 +321,6 @@ explicit graphic_system(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1input__system.md
-  Topic name: antara::gaming::sdl::input_system
-  Hash count: 0
--->
 
 
 ## input_system
@@ -546,11 +541,6 @@ explicit input_system(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1sdl_1_1opengl__image.md
-  Topic name: antara::gaming::sdl::opengl_image
-  Hash count: 0
--->
 
 
 ## opengl_image
@@ -707,11 +697,6 @@ unsigned int id;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1sdl_1_1timer.md
-  Topic name: antara::gaming::sdl::timer
-  Hash count: 0
--->
 
 
 ## timer

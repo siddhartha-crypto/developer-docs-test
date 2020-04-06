@@ -1,0 +1,28 @@
+Clone repo to local dir
+
+`git submodule --init --recursive`
+
+Build the Antara Gaming SDK in submodules dir
+
+Run the Doxygen XML file builder for Gaming SDK
+
+Run the build process for Doxybook2 in the submodules dir
+
+Make sure the /docs root directory has latest version of the recent KomodoPlatform/developer-docs repository version
+
+If needed (optional), make any changes to template files in /doxy/templates directory
+
+Run the command (currently located in TODO.txt file) to make Doxybook2 import xml files and create markdown versions of the files
+
+In the /doxy directory create a build directory
+
+In the /doxy directory execute: `cmake -B ./build .` to build files
+
+cd into /doxy/build/my_src/ directory, run the ./komodo-doxybook2 file
+
+This imports all markdown files from Doxybook2, compacts them into smaller files, saves them into the /docs/... directory,
+and then writes the Gaming SDK sidebar content for the file structure/configuration
+
+Push the resulting changes to master, and this should trigger the rebuild process, allowing the docs to go live.
+
+The idea is for this to be implemented on a test site

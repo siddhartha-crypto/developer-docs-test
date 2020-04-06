@@ -347,11 +347,6 @@ inline position_2d(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1previous__position__2d.md
-  Topic name: antara::gaming::transform::previous_position_2d
-  Hash count: 0
--->
 
 
 ## previous_position_2d
@@ -701,11 +696,6 @@ inline previous_position_2d(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1properties.md
-  Topic name: antara::gaming::transform::properties
-  Hash count: 0
--->
 
 
 ## properties
@@ -1010,11 +1000,6 @@ math::vec2f scale {math::vec2f::scalar(1.f)};
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1transform_1_1ts__rect.md
-  Topic name: antara::gaming::transform::ts_rect
-  Hash count: 0
--->
 
 
 ## ts_rect

@@ -830,11 +830,6 @@ Fields.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api.md
-  Topic name: antara::gaming::blockchain::nspv_api
-  Hash count: 1
--->
 
 
 ## nspv_api
@@ -1711,11 +1706,6 @@ std::string result;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1get__newaddress__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::get_newaddress_answer
-  Hash count: 2
--->
 
 
 ## get_newaddress_answer
@@ -1804,11 +1794,6 @@ std::string wif;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1listunspent__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::listunspent_answer
-  Hash count: 2
--->
 
 
 ## listunspent_answer
@@ -1999,11 +1984,6 @@ std::string result;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1login__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::login_answer
-  Hash count: 2
--->
 
 
 ## login_answer
@@ -2296,11 +2276,6 @@ std::string result;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1mempool__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::mempool_answer
-  Hash count: 2
--->
 
 
 ## mempool_answer
@@ -2491,11 +2466,6 @@ std::string result;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1mempool__request.md
-  Topic name: antara::gaming::blockchain::nspv_api::mempool_request
-  Hash count: 2
--->
 
 
 ## mempool_request
@@ -2584,11 +2554,6 @@ std::optional< std::string > address;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1spend__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::spend_answer
-  Hash count: 2
--->
 
 
 ## spend_answer
@@ -2813,11 +2778,6 @@ std::string result;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1txproof__answer.md
-  Topic name: antara::gaming::blockchain::nspv_api::txproof_answer
-  Hash count: 2
--->
 
 
 ## txproof_answer
@@ -3008,11 +2968,6 @@ std::string result;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__api_1_1txproof__request.md
-  Topic name: antara::gaming::blockchain::nspv_api::txproof_request
-  Hash count: 2
--->
 
 
 ## txproof_request
@@ -3135,11 +3090,6 @@ std::string txid;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1blockchain_1_1nspv__tx__answer.md
-  Topic name: antara::gaming::blockchain::nspv_tx_answer
-  Hash count: 2
--->
 
 
 ## nspv_tx_answer

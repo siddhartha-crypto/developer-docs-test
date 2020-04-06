@@ -359,11 +359,6 @@ std::string music_id;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1audio_1_1sound__effect.md
-  Topic name: antara::gaming::audio::sound_effect
-  Hash count: 0
--->
 
 
 ## sound_effect

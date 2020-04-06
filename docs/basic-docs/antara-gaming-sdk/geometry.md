@@ -343,11 +343,6 @@ Fields.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1circle__texture.md
-  Topic name: antara::gaming::geometry::circle_texture
-  Hash count: 0
--->
 
 
 ## circle_texture
@@ -472,11 +467,6 @@ Fields.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1rectangle.md
-  Topic name: antara::gaming::geometry::rectangle
-  Hash count: 0
--->
 
 
 ## rectangle
@@ -716,11 +706,6 @@ Fields.
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1vertex.md
-  Topic name: antara::gaming::geometry::vertex
-  Hash count: 0
--->
 
 
 ## vertex
@@ -877,11 +862,6 @@ transform::position_2d pos {transform::position_2d::scalar(0.f)};
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1geometry_1_1vertex__array.md
-  Topic name: antara::gaming::geometry::vertex_array
-  Hash count: 0
--->
 
 
 ## vertex_array

@@ -197,11 +197,6 @@ std::string script;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/classantara_1_1gaming_1_1lua_1_1scripting__system.md
-  Topic name: antara::gaming::lua::scripting_system
-  Hash count: 0
--->
 
 
 ## scripting_system
@@ -893,11 +888,6 @@ Constructor.
 
 
 
-<!--
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1lua_1_1details.md
-  Topic name: antara::gaming::lua::details
-  Hash count: 0
--->
 
 
 ## details

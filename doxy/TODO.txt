@@ -1,8 +1,3 @@
-# Complete items in CMakeLists.txt
-# Create .js files that are imported at the top of a .md file, and which can then be inserted later in the document
-# -- this is how I expect we are going to process files from SDK documentation
-# -- for example, doxybook2 would take the xml comments, my parser would take the content and split it into the proper formats in a .js file
-# -- in the .md file, we call the .js file, we have all the introductory content and anything else that's not taken from the source code, and then call the .js file
 # Organize all the Komodo dev-team repositories into the submodules, and organize a Doxyfile and Doxybook flow for each one
 # Create a master CMake file that allows anyone to simply run CMake and update the live documentation
 # Potentially create a repository/website that holds a temporary version, so that developers can test things out, if needed

@@ -902,11 +902,6 @@ friend std::ostream & operator<<(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1color.md
-  Topic name: antara::gaming::graphics::color
-  Hash count: 0
--->
 
 
 ## color
@@ -1473,11 +1468,6 @@ friend std::ostream & operator<<(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1drawable__info.md
-  Topic name: antara::gaming::graphics::drawable_info
-  Hash count: 0
--->
 
 
 ## drawable_info
@@ -1600,11 +1590,6 @@ entt::registry::entity_type entity;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1fill__color.md
-  Topic name: antara::gaming::graphics::fill_color
-  Hash count: 0
--->
 
 
 ## fill_color
@@ -1734,11 +1719,6 @@ inline constexpr fill_color(
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1layer.md
-  Topic name: antara::gaming::graphics::layer
-  Hash count: 0
--->
 
 
 ## layer
@@ -1821,11 +1801,6 @@ struct antara::gaming::graphics::layer;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1outline__color.md
-  Topic name: antara::gaming::graphics::outline_color
-  Hash count: 0
--->
 
 
 ## outline_color
@@ -2137,11 +2112,6 @@ float thickness {0.f};
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1rect.md
-  Topic name: antara::gaming::graphics::rect
-  Hash count: 0
--->
 
 
 ## rect
@@ -2264,11 +2234,6 @@ math::vec2f pos;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1rectangle.md
-  Topic name: antara::gaming::graphics::rectangle
-  Hash count: 0
--->
 
 
 ## rectangle
@@ -2514,11 +2479,6 @@ pos of the rectangle
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1render__texture__2d.md
-  Topic name: antara::gaming::graphics::render_texture_2d
-  Hash count: 0
--->
 
 
 ## render_texture_2d
@@ -2777,11 +2737,6 @@ std::string id;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1sprite.md
-  Topic name: antara::gaming::graphics::sprite
-  Hash count: 0
--->
 
 
 ## sprite
@@ -2940,11 +2895,6 @@ std::string appearance;
 
 
 
-<!--
-  New File: ../../outputDir/Classes/structantara_1_1gaming_1_1graphics_1_1text.md
-  Topic name: antara::gaming::graphics::text
-  Hash count: 0
--->
 
 
 ## text
@@ -3208,11 +3158,6 @@ std::string contents;
 
 
 
-<!--
-  New File: ../../outputDir/Namespaces/namespaceantara_1_1gaming_1_1graphics_1_1tests.md
-  Topic name: antara::gaming::graphics::tests
-  Hash count: 0
--->
 
 
 ## tests
