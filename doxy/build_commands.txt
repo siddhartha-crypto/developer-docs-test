@@ -1,0 +1,25 @@
+git clone https://github.com/gcharang/developer-docs-test.git 2020-04-08-gcharang-test
+cd 2020-04-08-gcharang-test/
+git submodule update --init --recursive
+cd doxy/submodules/
+cd antara-gaming-sdk/
+mkdir build
+cd build/
+cmake -DCMAKE_BUILD_TYPE=Debug -DANTARA_BUILD_DOCS=ON -DCMAKE_CXX_COMPILER="$(which clang)" ../
+cmake --build . --config Debug
+cd docs/doxygen/xml/
+cd ../../../
+cd ../../
+cd doxybook2/
+mkdir build && cd build
+cmake -G "Unix Makefiles"     -DDOXYBOOK_TESTS=OFF     -DDOXYBOOK_STATIC_STDLIB=OFF     -DBUILD_TESTS=OFF     -DBUILD_TESTING=OFF     -DBUILD_SHARED_LIBS=OFF     -DCMAKE_BUILD_TYPE=MinSizeRel     ..
+cmake --build .
+cd ../../
+cd ..
+submodules/doxybook2/build/src/DoxybookCli/doxybook2 --input submodules/antara-gaming-sdk/build/docs/doxygen/xml/ --output outputDir/ --templates ./templates/
+mkdir build
+cmake -B ./build .
+cd build/
+make
+cd my_src/
+./komodo-doxybook2
