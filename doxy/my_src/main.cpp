@@ -35,19 +35,6 @@
 #include <Doxybook/JsonConverter.hpp>
 #include <Doxybook/TextMarkdownPrinter.hpp>
 #include <Doxybook/TextPlainPrinter.hpp>
-#include <Doxybook/Config.hpp>
-#include <Doxybook/Enums.hpp>
-#include <Doxybook/Generator.hpp>
-#include <Doxybook/Log.hpp>
-#include <Doxybook/Node.hpp>
-#include <Doxybook/Path.hpp>
-#include <Doxybook/Renderer.hpp>
-#include <Doxybook/Template.hpp>
-#include <Doxybook/TemplateLoader.hpp>
-#include <Doxybook/TemplateDefaultLoader.hpp>
-#include <Doxybook/Utils.hpp>
-#include <Doxybook/Xml.hpp>
-#include <Doxybook/XmlTextParser.hpp>
 
 using std::string;
 using std::vector;
